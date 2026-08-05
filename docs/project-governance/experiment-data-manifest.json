@@ -101,7 +101,7 @@
       "rawAvailable": true,
       "analysisAvailable": true,
       "archiveAvailable": true,
-      "sha256": "per-RUN rawManifestDigest in docs/research-content-3-implementation/i11/formal-run-index.json",
+      "sha256": "per-RUN rawManifestDigest in crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/formal-run-index.json",
       "formalOrPilot": "FORMAL",
       "includedInThesis": true,
       "authoritative": true,

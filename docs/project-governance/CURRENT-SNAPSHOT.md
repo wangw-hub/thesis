@@ -13,9 +13,16 @@
 | 学位类型 | 计算机技术专业硕士（专业学位） |
 | 学校 | 电子科技大学（UESTC） |
 | 当前分支 | `main` |
-| 当前 HEAD | `ded7b32`（外层归档仓库；子项目历史见 COMMIT-LINEAGE.md） |
+| snapshotBasisHead | `483fc87`（生成本快照时所基于的上一个已确认提交；实时仓库 HEAD 应从 GitHub `main` 分支或本地 git 动态读取，不以静态文档中的 SHA 为准） |
+| liveHead | `DYNAMIC`（github-main-or-local-git） |
 | 快照日期 | 2026-08-05 |
-| 仓库根 | `D:\Research`（公开目标：github.com/wangw-hub/thesis） |
+| 仓库根（本地） | `D:\Research`（PUBLIC_GITHUB_MODE 下不可访问） |
+| 公开仓库 | https://github.com/wangw-hub/thesis |
+
+> 公开模式说明：新 AI 会话若无本地 `D:\Research` 访问权，必须按
+> [AI-CONTEXT-RECOVERY.md](AI-CONTEXT-RECOVERY.md) 的 PUBLIC_GITHUB_MODE 恢复；
+> 本文中标记 LOCAL_ONLY 的 raw 路径对应未上传数据，正式结论以 AUTHORITY-MAP.md
+> 的 Public fallback 为准。
 
 ## 2. Research Architecture
 
@@ -57,7 +64,7 @@ RC3 不依赖 RC2 的 C(P) 或缓存机制。
 | supported claims | `I*` 为唯一语义主表示与 digest 输入；`C(P)` 为可选确定性执行 IR；确定性/冗余不变量成立（E1-B） |
 | negative results | `C(P)` 对区间列表 0/108 更小、36/108 持平、72/108 更大；对枚举 36/108 更小（集中于连续/高覆盖策略）；中位查询成本 interval≈561ns、dyadic≈1984.7ns、enumeration≈350.4ns（Python 实现常数，非渐进证明） |
 | limitations | 不构成普遍压缩/`O(log U)` 结论；实验精度而非形式化证明 |
-| authoritative sources | `crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md`、`E1_experiment_acceptance.md`、`第四章正式修订稿V1.2.md` |
+| authoritative sources | `crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md`、`crypto_thesis/time-policy/E1_experiment_acceptance.md`、`crypto_thesis/time-policy/第四章正式修订稿V1.2.md`（均公开可访问） |
 
 ## 4. Research Content 2 Current State
 
@@ -71,7 +78,7 @@ RC3 不依赖 RC2 的 C(P) 或缓存机制。
 | negative results | 缓存无稳定端到端收益（B1/C1 命中率 0.75/0.625，paired 差异 ~±2%，improved≈44%、degraded≈47%）；`C(P)` 无可用性能/协议优势（`REFUTED_AS_ADVANTAGE`） |
 | limitations | 单次有效复跑边界；不宣称 QBFT 共识性能；不宣称联盟链为可信时间源/秘密执行环境 |
 | invalidated assets | 首个 103,680 记录正式运行 `formal_auth_multihost_20260729_34af4ff` 因协议偏差被判定 `INVALIDATED_PROTOCOL_DEVIATION`（保留审计，不得引用为性能证据） |
-| authoritative sources | `experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795/`（manifest+analysis）、`docs/reviews/research-content-2/v13-final/rc2-interface-manifest.json`、`docs/thesis-drafts/第5章_链上状态驱动的可信授权执行机制_最终定稿.md` |
+| authoritative sources | 本地 raw（LOCAL_ONLY）：`crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795/`；公开：`crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/rc2-interface-manifest.json`、`crypto_thesis/epoch-authorization/docs/thesis-drafts/第5章_链上状态驱动的可信授权执行机制_最终定稿.md` |
 
 > 为什么使用联盟链（RC2 动机）：在真实许可链（Besu QBFT）上锚定授权状态，获得可验证、
 > 防重放、依赖故障下 Fail-Closed 的授权执行，并验证其代价（链读主导时延）。
@@ -89,7 +96,7 @@ RC3 不依赖 RC2 的 C(P) 或缓存机制。
 | negative results | E5：LOCAL vs KUBO 时长差异无清晰效应（median 17.5/-30.9/-48.3 ms，Cliff's delta 0.04）；CORRUPT_RESTORE 下 LOCAL 为 UNRECOVERABLE、KUBO_REPLICA 为 CONSISTENT（trade-off） |
 | limitations | L-01..L-08：单节点 Formal 链（C-07 禁止 QBFT 共识性能结论）、29 配置有界精度、受控隔离环境、4 类故障、仅前瞻性撤销、body 64KiB–8MiB、实验验证非形式化证明 |
 | forbidden claims | C-07：不产生 QBFT 共识吞吐/延迟/多验证节点可扩展性结论 |
-| authoritative sources | `docs/research-content-3-implementation/i10/`（预注册）、`i11/`（formal-run-index.json、formal-config-matrix.json）、`i12/`（负结果/限制/claim 矩阵）、`experiments/r3/formal/` |
+| authoritative sources | 公开：`crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i10/`（预注册）、`i11/`（formal-run-index.json、formal-config-matrix.json）、`i12/`（负结果/限制/claim 矩阵）；本地 raw（LOCAL_ONLY）：`crypto_thesis/epoch-authorization-r3-prep/experiments/r3/formal/` |
 
 > 核心问题：授权状态变化后如何保证链下密文对象的安全释放，且只承诺前瞻性撤销。
 > `HEADER_ONLY` = 仅更新密文头部（密钥版本/状态版本/释放窗口），数据体密文不变；
@@ -102,9 +109,9 @@ RC3 不依赖 RC2 的 C(P) 或缓存机制。
 
 | 实验 | 类型 | 关键证据位置 |
 |---|---|---|
-| RC1 E1 | FORMAL | `crypto_thesis/time-policy/experiments/runs/e1_20260727_ec8b193_r3/`（168 配置、15,120 记录；E1-C 补充 540 记录） |
-| RC2 V13 复跑 | FORMAL | `crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795/`（77,760 请求） |
-| RC3 I11 | FORMAL | `crypto_thesis/epoch-authorization-r3-prep/experiments/r3/formal/`（180 sealed RUNs = 35 warmup + 145 measured） |
+| RC1 E1 | FORMAL | 本地 raw（LOCAL_ONLY）：`crypto_thesis/time-policy/experiments/runs/e1_20260727_ec8b193_r3/`（168 配置、15,120 记录；E1-C 补充 540 记录）；公开摘要：`crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md` |
+| RC2 V13 复跑 | FORMAL | 本地 raw（LOCAL_ONLY）：`crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795/`（77,760 请求）；公开摘要：`crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/` |
+| RC3 I11 | FORMAL | 本地 raw（LOCAL_ONLY）：`crypto_thesis/epoch-authorization-r3-prep/experiments/r3/formal/`（180 sealed RUNs = 35 warmup + 145 measured）；公开摘要：`crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/` + `i12/` |
 
 明确区分：
 
@@ -142,20 +149,20 @@ RC3 不依赖 RC2 的 C(P) 或缓存机制。
 
 | 维度 | 状态 | 权威 |
 |---|---|---|
-| Integrated thesis | I14 集成母本候选稿 `docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md`（含中文摘要、第 1–7 章、参考文献） | I14 冻结（commit 807f788） |
-| Literature | I15 最终文献核验完成：16 篇参考文献全部核验（11 VERIFIED + 5 VERIFIED_WITH_CORRECTION），2 处 DOI 更正，coverage=MINIMALLY_SUFFICIENT | `docs/final-literature-verification/` |
-| Formatting | I16 V1 格式候选 → I17 学术散文重构 + UESTC 官方封面/扉页与撰写规范应用 → `docs/final-manuscript/output/THESIS-FORMAT-CANDIDATE-V2.docx/.pdf`（55 页、16 图/16 表/209 公式/5 算法/16 文献）；**NOT SUBMISSION_READY**（MINOR 3 + 用户确认封面/致谢/成果占位） | `docs/final-manuscript/i17/i17-state.json` |
+| Integrated thesis | I14 集成母本候选稿 `crypto_thesis/epoch-authorization-r3-prep/docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md`（含中文摘要、第 1–7 章、参考文献） | I14 冻结（commit 807f788，见 COMMIT-LINEAGE.md） |
+| Literature | I15 最终文献核验完成：16 篇参考文献全部核验（11 VERIFIED + 5 VERIFIED_WITH_CORRECTION），2 处 DOI 更正，coverage=MINIMALLY_SUFFICIENT | `crypto_thesis/epoch-authorization-r3-prep/docs/final-literature-verification/` |
+| Formatting | I16 V1 格式候选 → I17 学术散文重构 + UESTC 官方封面/扉页与撰写规范应用 → `crypto_thesis/epoch-authorization-r3-prep/docs/final-manuscript/output/THESIS-FORMAT-CANDIDATE-V2.docx/.pdf`（55 页、16 图/16 表/209 公式/5 算法/16 文献）；**NOT SUBMISSION_READY**（MINOR 3 + 用户确认封面/致谢/成果占位） | `crypto_thesis/epoch-authorization-r3-prep/docs/final-manuscript/i17/i17-state.json` |
 
 ## 10. Midterm State
 
 当前最终中期报告为 **FINAL-CLEAN 最终固化版**（`MIDTERM_REPORT_FINAL_FROZEN_READY_FOR_ADVISOR_REVIEW`）：
 
-- 路径：`crypto_thesis/epoch-authorization-r3-prep/docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md`（37 页）
+- 路径：`crypto_thesis/epoch-authorization-r3-prep/docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md`（37 页，公开可访问）
 - 规格：16 显示公式、8 算法、20 图、8 表、34 篇参考文献；FATAL=0、MAJOR=0、MINOR=1、format_only=2
-- 产物：`docs/midterm-report/final/output/王威-专业学位研究生学位论文中期考评表-最终固化版.docx/.pdf`（docx SHA `E2EB7505…`、pdf SHA `4BF4E543…`）
+- 产物：`crypto_thesis/epoch-authorization-r3-prep/docs/midterm-report/final/output/王威-专业学位研究生学位论文中期考评表-最终固化版.docx/.pdf`（docx SHA `E2EB7505…`、pdf SHA `4BF4E543…`）
 - 待用户处理：确认“阶段性论文题目”（当前与本地两篇草稿标题不一致）；随后可提交导师/专家组评审
 
-中期历史版本（M1–M7）保留于 `docs/midterm-report/` 供审计，不代表 CURRENT。
+中期历史版本（M1–M7）保留于 `crypto_thesis/epoch-authorization-r3-prep/docs/midterm-report/` 供审计，不代表 CURRENT。
 
 ## 11. Small Paper State
 

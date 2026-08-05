@@ -27,3 +27,30 @@
 2. 本地 raw 只读；任何会话不得修改。
 3. 敏感材料一律不写入任何清单正文；需要记录时仅写 `SECRET_MATERIAL_NOT_VERSIONED`。
 4. 历史 Git 历史在 `.git-backups\`，需要解析提交谱系时按 COMMIT-LINEAGE.md 的校验方式执行。
+
+## What a public-only GPT can fully understand
+
+仅凭公开仓库（PUBLIC_GITHUB_MODE）可完整理解：
+
+- thesis research architecture（论文研究架构与三项研究内容）；
+- RC1/RC2/RC3 final design（最终方案设计）；
+- formal experiment configurations（正式实验配置：RC1 E1 168 配置、RC2 V13 108/324、RC3 I11 29 配置）；
+- formal reported results（正式报告结论：15,120 记录 / 77,760 请求 / 145 measured RUNs）；
+- negative results（负结果：C(P)、缓存、LOCAL vs KUBO 等）；
+- limitations（限制：L-01..L-08 等）；
+- forbidden claims（禁止主张：C-07 等）；
+- thesis/midterm/small-paper state（论文/中期/小论文状态与唯一 NEXT ACTION）。
+
+## What a public-only GPT cannot independently reproduce
+
+不能做到：
+
+- 逐条重算完整 local raw（RC1/RC2/RC3 原始实验数据未上传）；
+- 访问未上传的大型实验数据、归档包与 VM；
+- 访问 private keys / secrets（一律不公开）；
+- 遍历未上传的完整子项目 Git history（仅 COMMIT-LINEAGE.md 摘要 + 本地 `.git-backups`）；
+- 重新启动全部实验环境（Besu/JDK/Kubo/PostgreSQL 依赖本地部署）。
+
+> **PUBLIC UNDERSTANDING ≠ FULL RAW REPRODUCTION。**
+> 不要让新 GPT 因 raw 未公开误判研究状态：公开治理文件、正式报告与结果包足以恢复
+> 当前研究状态与已报告证据边界，但不等于可以在 GitHub 上独立重算全部实验。

@@ -1,61 +1,114 @@
 # AI CONTEXT RECOVERY — 新会话上下文恢复指南
 
-> 给未来的 Codex / GPT / 其他智能体：当你接到与本论文仓库相关的任务时，先按本指南恢复上下文。
-> 恢复顺序是强制性的；恢复后你应能回答 CURRENT-SNAPSHOT.md 覆盖的全部 20 个核验问题。
+> 给未来的 Codex / GPT / 其他智能体：接到与本论文仓库相关的任务时，先判断你所在模式，
+> 再按对应模式的强制顺序恢复上下文。
+> 恢复完成后，你应能回答 CURRENT-SNAPSHOT.md 覆盖的全部核验问题
+> （本地 20 问见 GOVERNANCE-CONSISTENCY-AUDIT.md；公开 30 问见 PUBLIC-GITHUB-CONTEXT-RECOVERY-TEST.md）。
 
-## Step 1 — 读 CURRENT SNAPSHOT
+## 模式选择
 
-先读 `docs/project-governance/CURRENT-SNAPSHOT.md`（当前状态唯一入口）与 `current-snapshot.json`。
+| 条件 | 模式 |
+|---|---|
+| 本机可访问 `D:\Research`，raw / `.git-backups` / 实验目录可访问 | **MODE A — LOCAL_FULL_MODE** |
+| 只有公开仓库 https://github.com/wangw-hub/thesis，无本地路径 | **MODE B — PUBLIC_GITHUB_MODE** |
 
-## Step 2 — 读 AUTHORITY MAP
+---
 
-读 `docs/project-governance/AUTHORITY-MAP.md`，确定每类事实的权威来源，禁止自行猜测。
+## MODE A — LOCAL_FULL_MODE
 
-## Step 3 — 检查 Git HEAD
+适用于本地 Codex / 有 `D:\Research` 访问权限的会话。允许使用 git、本地 raw、`.git-backups`、
+本地实验目录与完整子项目历史。
 
-```powershell
-git -C D:\Research status
-git -C D:\Research log --oneline -3
+1. 读 `docs/project-governance/CURRENT-SNAPSHOT.md`（当前状态唯一入口）。
+2. 读 `docs/project-governance/AUTHORITY-MAP.md`。
+3. 检查 Git：`git -C D:\Research status` + `git -C D:\Research log --oneline -3`；实时 HEAD 动态读取。
+4. 按任务类型读取对应绝对权威（AUTHORITY-MAP 的 Absolute Authority）。
+5. 冲突按 CURRENT-SNAPSHOT §13 排序裁决；旧结论标记 SUPERSEDED/HISTORICAL，不删除。
+6. 禁止从 SUPERSEDED-DESIGNS.md 恢复旧方案。
+7. 禁止把 Pilot 当 Formal；禁止修改 raw/预注册/结果包。
+8. 新决策记录到 DECISION-LOG 并同步状态 JSON。
+
+---
+
+## MODE B — PUBLIC_GITHUB_MODE
+
+适用于普通 GPT：只有 https://github.com/wangw-hub/thesis，**没有任何本地路径访问**。
+
+### 强制读取顺序
+
+1. `README.md`
+2. `docs/project-governance/CURRENT-SNAPSHOT.md`
+3. `docs/project-governance/AUTHORITY-MAP.md`
+4. `docs/project-governance/current-project-state.json`
+5. `docs/project-governance/SUPERSEDED-DESIGNS.md`
+6. `docs/project-governance/EXPERIMENT-DATA-MANIFEST.md`
+7. 根据具体任务进入相应 RC 权威材料（按 AUTHORITY-MAP 的 Public GitHub Authority 列）。
+
+### 明确禁止
+
+- 假设 `D:\Research` 可访问；
+- 假设 local raw 可访问；
+- 假设 `.git-backups` 可访问；
+- 因为 raw 不公开就认定实验不存在；
+- 根据历史文件覆盖 CURRENT-SNAPSHOT；
+- 把 PILOT 当 FORMAL；
+- 将 SUPERSEDED 方案恢复为当前方案。
+
+### 遇到 LOCAL_ONLY 证据时的规则
+
+1. 查找 AUTHORITY-MAP 的 Public fallback（公开 summary / manifest / final report / index）；
+2. 使用公开冻结摘要得出正式结论；
+3. 明确说明原始 raw 未公开（LOCAL_ONLY）；
+4. 不猜测 raw 内容、不重算未公开数据。
+
+### 实时 HEAD
+
+不要以任何静态治理文件中的 SHA 作为“当前 HEAD”。实时 HEAD 从 GitHub `main` 分支
+（或本地 git）动态读取；静态文件只保留 `snapshotBasisHead`（生成快照时的已确认提交）。
+
+---
+
+## Public GitHub minimal bootstrap prompt
+
+可复制给无本地权限的新会话：
+
+```
+请恢复以下硕士论文研究项目的当前上下文：
+
+https://github.com/wangw-hub/thesis
+
+你没有本地 D:\Research 访问权限，因此必须使用仓库定义的 PUBLIC_GITHUB_MODE。
+
+依次读取：
+
+1. README.md
+2. docs/project-governance/CURRENT-SNAPSHOT.md
+3. docs/project-governance/AUTHORITY-MAP.md
+4. docs/project-governance/current-project-state.json
+5. docs/project-governance/SUPERSEDED-DESIGNS.md
+
+恢复以下信息：
+
+- 论文题目与研究问题；
+- RC1/RC2/RC3 当前最终状态；
+- 各研究内容的正式实验；
+- 负结果；
+- Forbidden Claims；
+- Thesis / Midterm / Small Paper 状态；
+- 唯一 CURRENT NEXT ACTION。
+
+若某权威 raw 为 LOCAL_ONLY，
+使用 AUTHORITY-MAP 定义的 PUBLIC_GITHUB_FALLBACK，
+不得臆造未公开数据。
+
+历史文档不能覆盖 CURRENT-SNAPSHOT。
+
+恢复完成后再处理当前任务。
 ```
 
-确认当前 HEAD 与 `current-project-state.json` 的 `git.head` 一致；如不一致，以更新的提交为准并更新状态文件。
+## 通用纪律（两种模式共同）
 
-## Step 4 — 按任务读取对应权威源
-
-研究内容相关任务 → 按 AUTHORITY-MAP 读取对应项目源码/正式实验/报告；
-写作相关任务 → 读集成母本/文献/格式化状态 JSON；
-中期/小论文 → 读 midterm final 与 small paper 状态。
-
-## Step 5 — 冲突按权威排序裁决
-
-冲突时使用 CURRENT-SNAPSHOT §13 的优先级：代码/raw/冻结索引 > 冻结证据 > 正式报告 > 治理文件 > 历史方案 > README/摘要。
-旧结论若与 CURRENT 冲突：标记 SUPERSEDED/HISTORICAL，**不删除**。
-
-## Step 6 — 禁止从 SUPERSEDED-DESIGNS 恢复旧方案
-
-读 `SUPERSEDED-DESIGNS.md`；不得把 S-01..S-14 中的设计重新引入论文/技术方案。
-
-## Step 7 — 禁止把 Pilot 当 Formal
-
-Pilot/预实验（I9 Pilot、RC2 PILOT_ONLY、E1 pilot）不构成正式结论；只允许引用三组正式实验（RC1 E1、RC2 V13、RC3 I11）。
-
-## Step 8 — 禁止修改 raw
-
-任何正式实验 raw、预注册、结果包为冻结资产：只读。发现内部错误 → 登记 `FROZEN_ASSET_ISSUE`，不得直接修改。
-
-## Step 9 — 记录所有新决策
-
-新决策写入 `docs/project-governance/02-DECISION-LOG.md`（或子项目对应 DECISION-LOG），并同步更新状态 JSON。
-
-## 最小新会话提示词（可复制）
-
-```
-你是本研究仓库的新 AI 会话，没有聊天历史。
-1) 先读 D:\Research\docs\project-governance\CURRENT-SNAPSHOT.md；
-2) 再读 AUTHORITY-MAP.md 与 AI-CONTEXT-RECOVERY.md；
-3) 按任务类型读取对应权威来源（第 4 步）；
-4) 不修改正式实验 raw/预注册/结果包；
-5) 不恢复 SUPERSEDED-DESIGNS.md 中的废弃方案；
-6) 不把 Pilot 当 Formal；
-7) 遇到冲突按权威排序裁决并保留历史。
-```
+1. 不修改正式实验 raw / 预注册 / 结果包（冻结资产；错误登记 `FROZEN_ASSET_ISSUE`）。
+2. 不把 Pilot 当 Formal；三组正式实验 = RC1 E1、RC2 V13、RC3 I11。
+3. 不恢复 SUPERSEDED-DESIGNS.md 中的废弃方案。
+4. 记录所有新决策并同步状态文件。

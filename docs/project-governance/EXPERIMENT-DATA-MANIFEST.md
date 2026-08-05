@@ -3,6 +3,9 @@
 > 本清单记录正式/预实验数据资产的本地位置、运行规模与证据哈希状态。
 > 公开 GitHub 仓库**不包含**原始实验数据；本地资料完整。路径相对仓库根 `D:\Research`。
 > SHA-256 均采用既有冻结证据（`HASH_NOT_RECOMPUTED_EXISTING_EVIDENCE_USED`），未重新计算数百 GB 文件。
+>
+> **可用性说明**：本清单中所有 raw/localPath 均为 **LOCAL_ONLY**（未上传 GitHub）。
+> PUBLIC_GITHUB_MODE 下正式结论请使用 AUTHORITY-MAP.md 的 Public fallback（正式报告/索引/结果包）。
 
 ## RC1 — E1 正式实验（time-policy）
 

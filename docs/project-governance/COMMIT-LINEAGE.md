@@ -1,9 +1,12 @@
 # COMMIT LINEAGE — 重要 Git 提交谱系
 
-> 说明：公开 GitHub 仓库（`wangw-hub/thesis`）目前只包含本仓库的单次归档提交。
-> 三个子项目的完整历史保存在本地 `D:\Research\.git-backups\`（未上传），可通过
-> `git --git-dir=... log` 解析。下表 SHA 若可解析，标记 `VERIFIED_LOCAL_HISTORY`；
+> 说明：本表登记外层归档仓库的治理里程碑与三个子项目的重要提交谱系。
+> 三个子项目的完整历史仅保存在本地 `D:\Research\.git-backups\`（LOCAL_ONLY），
+> 可通过 `git --git-dir=... log` 解析；可解析的标记 `VERIFIED_LOCAL_HISTORY`，
 > 仅来自文档的标记 `DOCUMENTED_ONLY`。
+>
+> **本表不声明任何 SHA 为“当前 HEAD”**。实时仓库 HEAD 应从 GitHub `main` 分支或本地 git
+> 动态读取；静态治理文件只保留 `snapshotBasisHead`（生成快照时的已确认提交）。
 
 ## RC1 — time-policy（`D:\Research\.git-backups\time-policy.git`）
 
@@ -51,12 +54,17 @@
 | M3–M7 迭代 | b250398..dce0df5 | 2026-08-03/04 | 中期稿 M3–M7 逐步收敛 | `midterm-report/m3..m7/` | VERIFIED_LOCAL_HISTORY | HISTORICAL |
 | FINAL-CLEAN | 4807a4e / 2c24ef4 / 29d822f | 2026-08-04 | 中期最终固化（37 页）并记录 end head | `midterm-report/final/` | VERIFIED_LOCAL_HISTORY | CURRENT |
 
-## 外层归档仓库（D:\Research）
+## 外层归档仓库（wangw-hub/thesis，公开）
 
-| commit SHA | 日期 | 含义 | 状态 |
+| commit SHA | 日期 | 含义 | 标记 |
 |---|---|---|---|
-| ded7b32 | 2026-08-05 | 治理同步前的首次归档提交（代码+文档，排除 raw/密钥/运行时） | CURRENT |
-| （本任务提交） | 2026-08-05 | 治理层同步（CURRENT-SNAPSHOT、AUTHORITY-MAP、索引、README 重构等） | CURRENT |
+| ded7b32 | 2026-08-05 | 初始归档基线（代码+文档，排除 raw/密钥/运行时） | MILESTONE（历史基线） |
+| bbb04cc | 2026-08-05 | docs(governance): synchronize thesis repository current state | MILESTONE |
+| 483fc87 | 2026-08-05 | docs(governance): set small-paper P0 as current research action | SNAPSHOT_BASIS（本快照生成时所基于的已确认提交） |
+| （本轮新提交） | 2026-08-05 | docs(governance): add public GitHub recovery mode | 本轮完成后在最终报告登记，不写回静态文件 |
+
+外层提交均为 PUBLIC（Git 跟踪）；子项目历史（RC1/RC2/RC3 原子仓库）为 LOCAL_ONLY，
+`VERIFIED_LOCAL_HISTORY` 仅表示可在本地 `.git-backups` 解析，不代表 GitHub 公开历史。
 
 ## 校验方式
 

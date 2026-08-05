@@ -1,5 +1,9 @@
 # Thesis Repository
 
+> **For a new AI session: use PUBLIC_GITHUB_MODE.** 无本地 `D:\Research` 访问权限的会话
+> 必须按 [AI-CONTEXT-RECOVERY.md](docs/project-governance/AI-CONTEXT-RECOVERY.md) 的
+> MODE B（PUBLIC_GITHUB_MODE）恢复上下文。
+
 ## 论文题目
 
 **面向非连续时间约束的区块链数据共享关键技术研究及实现**
@@ -23,11 +27,22 @@
 
 1. [docs/project-governance/CURRENT-SNAPSHOT.md](docs/project-governance/CURRENT-SNAPSHOT.md) — 当前状态唯一入口
 2. [docs/project-governance/AUTHORITY-MAP.md](docs/project-governance/AUTHORITY-MAP.md) — 每类事实的唯一权威来源
-3. [docs/project-governance/00-PROJECT-CONSTITUTION.md](docs/project-governance/00-PROJECT-CONSTITUTION.md) — 项目宪法与禁止主张
-4. 具体研究内容（见 Repository Structure）
-5. 历史材料仅在需要审计时按需读取
+3. [docs/project-governance/current-project-state.json](docs/project-governance/current-project-state.json) — 机器可读当前状态
+4. [docs/project-governance/SUPERSEDED-DESIGNS.md](docs/project-governance/SUPERSEDED-DESIGNS.md) — 废弃方案清单
+5. 需要时进入具体研究内容（见 Repository Structure；也可读
+   [00-PROJECT-CONSTITUTION.md](docs/project-governance/00-PROJECT-CONSTITUTION.md) 了解项目宪法）
+6. 历史材料仅在需要审计时按需读取
 
 > **Any new AI session must read CURRENT-SNAPSHOT.md first.**
+
+### Public GitHub AI recovery
+
+本仓库的大型 raw 实验数据没有全部上传，但公开治理文件、正式报告与结果包
+足以恢复论文当前研究状态和正式结论。恢复步骤见
+[AI-CONTEXT-RECOVERY.md#mode-b--public_github_mode](docs/project-governance/AI-CONTEXT-RECOVERY.md)。
+
+- GitHub can recover the full research context and reported evidence boundary.
+- GitHub 不能完整重现所有实验（raw 未公开，见 [LOCAL-VS-PUBLIC-ASSETS.md](docs/project-governance/LOCAL-VS-PUBLIC-ASSETS.md)）。
 
 ## Repository Structure
 

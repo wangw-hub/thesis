@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "CurrentSnapshotV1",
+  "schemaVersion": "CurrentSnapshotV2",
   "snapshotDate": "2026-08-05",
   "thesis": {
     "title": "面向非连续时间约束的区块链数据共享关键技术研究及实现",
@@ -7,11 +7,13 @@
     "university": "电子科技大学"
   },
   "git": {
-    "repoRoot": "D:\\Research",
     "branch": "main",
-    "head": "ded7b32",
-    "publicRemote": "https://github.com/wangw-hub/thesis.git",
-    "pushed": false
+    "snapshotBasisHead": "483fc87",
+    "liveHead": "DYNAMIC",
+    "liveHeadResolution": "github-main-or-local-git",
+    "publicRepository": "https://github.com/wangw-hub/thesis",
+    "publicRepositoryStatus": "SYNCED_AS_OF_SNAPSHOT_BASIS",
+    "note": "远程 main 与 snapshotBasisHead(483fc87) 一致；本快照之后的新增治理修改需在下次授权推送后同步。"
   },
   "research": {
     "rc1": {
@@ -20,7 +22,12 @@
       "derivedRepresentation": "C(P)",
       "formalExperiment": "E1 (168 configs, 15120 records)",
       "negativeResults": ["C(P) not a universal compression win", "no O(log U) claim"],
-      "authority": "crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md"
+      "authority": "crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md",
+      "publicAuthorities": [
+        "crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md",
+        "crypto_thesis/time-policy/E1_experiment_acceptance.md",
+        "crypto_thesis/time-policy/第四章正式修订稿V1.2.md"
+      ]
     },
     "rc2": {
       "status": "COMPLETED_WITH_VALID_RERUN_EVIDENCE",
@@ -28,7 +35,12 @@
       "formalRecords": 77760,
       "chainReadRecords": 233280,
       "negativeResults": ["no stable cache benefit", "C(P) no demonstrated advantage"],
-      "authority": "crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795"
+      "authorityLocalRaw": "crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795 (LOCAL_ONLY)",
+      "publicAuthorities": [
+        "crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/rc2-interface-manifest.json",
+        "crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/rc2-claim-manifest.json",
+        "crypto_thesis/epoch-authorization/docs/thesis-drafts/第5章_链上状态驱动的可信授权执行机制_最终定稿.md"
+      ]
     },
     "rc3": {
       "status": "FORMAL_COMPLETED",
@@ -37,11 +49,17 @@
       "warmupRuns": 35,
       "validDispositions": {"VALID_SUCCESS": 120, "VALID_EXPECTED_FAIL_CLOSED": 25},
       "forbiddenClaim": "C-07 (QBFT consensus performance)",
-      "authority": "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11"
+      "authorityLocalRaw": "crypto_thesis/epoch-authorization-r3-prep/experiments/r3/formal/raw (LOCAL_ONLY)",
+      "publicAuthorities": [
+        "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i10/",
+        "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/formal-run-index.json",
+        "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/formal-config-matrix.json",
+        "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i12/i12-state.json"
+      ]
     }
   },
   "writing": {
-    "integratedThesis": "docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md (I14)",
+    "integratedThesis": "crypto_thesis/epoch-authorization-r3-prep/docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md (I14)",
     "literature": "I15 COMPLETED (16 refs verified)",
     "formatting": "I17 V2 candidate applied official UESTC template; NOT SUBMISSION_READY"
   },
@@ -61,5 +79,18 @@
   ],
   "deferredActions": [
     "学位论文 I17 → submission-ready 最终定稿"
-  ]
+  ],
+  "accessModes": {
+    "localFull": {
+      "mode": "LOCAL_FULL_MODE",
+      "rawAvailable": true,
+      "gitHistoryAvailable": true
+    },
+    "publicGitHub": {
+      "repository": "https://github.com/wangw-hub/thesis",
+      "rawAvailable": false,
+      "formalSummariesAvailable": true,
+      "contextRecoverySupported": true
+    }
+  }
 }

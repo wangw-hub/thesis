@@ -1,15 +1,15 @@
 {
-  "schemaVersion": "ThesisProjectStateV1",
+  "schemaVersion": "ThesisProjectStateV2",
   "generatedAt": "2026-08-05T00:00:00+08:00",
-  "generator": "Codex governance sync task (2026-08-05)",
+  "generator": "Codex public-GitHub compatibility fix (2026-08-05)",
   "git": {
-    "repoRoot": "D:\\Research",
     "branch": "main",
-    "startHead": "ded7b32",
-    "endHead": "ded7b32",
-    "worktreeStatus": "CLEAN_AT_START",
-    "pushPerformed": false,
-    "source": "git status/log on 2026-08-05"
+    "snapshotBasisHead": "483fc87",
+    "liveHead": "DYNAMIC",
+    "liveHeadResolution": "github-main-or-local-git",
+    "publicRepository": "https://github.com/wangw-hub/thesis",
+    "publicRepositoryStatus": "SYNCED_AS_OF_SNAPSHOT_BASIS",
+    "note": "snapshotBasisHead 表示本快照生成时所基于的上一个已确认提交（远程 main 与之一致，2026-08-05 实测 HTTP 200）；实时仓库 HEAD 应从 GitHub main 分支或本地 git 动态读取，不以静态文档中的 SHA 为准。本快照之后的新增治理修改需在下次授权推送后同步。"
   },
   "thesis": {
     "title": "面向非连续时间约束的区块链数据共享关键技术研究及实现",
@@ -17,21 +17,21 @@
     "university": "电子科技大学",
     "integratedDraft": {
       "status": "I14_INTEGRATED_MASTER_CANDIDATE_FROZEN",
-      "path": "docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md",
-      "source": "I14 state + docs/full-thesis-final-review/"
+      "path": "crypto_thesis/epoch-authorization-r3-prep/docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md",
+      "source": "crypto_thesis/epoch-authorization-r3-prep/docs/full-thesis-final-review/ (I14)"
     },
     "literature": {
       "status": "I15_FINAL_LITERATURE_VERIFICATION_COMPLETED",
       "verifiedReferences": 16,
       "coverage": "MINIMALLY_SUFFICIENT",
-      "source": "docs/final-literature-verification/i15-state.json"
+      "source": "crypto_thesis/epoch-authorization-r3-prep/docs/final-literature-verification/i15-state.json"
     },
     "formatting": {
       "status": "I17_ACADEMIC_PROSE_RECONSTRUCTION_COMPLETED_WITH_OFFICIAL_TEMPLATE_APPLIED",
       "submissionReady": false,
-      "candidate": "docs/final-manuscript/output/THESIS-FORMAT-CANDIDATE-V2.docx/.pdf",
+      "candidate": "crypto_thesis/epoch-authorization-r3-prep/docs/final-manuscript/output/THESIS-FORMAT-CANDIDATE-V2.docx",
       "minor": 3,
-      "source": "docs/final-manuscript/i17/i17-state.json"
+      "source": "crypto_thesis/epoch-authorization-r3-prep/docs/final-manuscript/i17/i17-state.json"
     }
   },
   "research": {
@@ -51,7 +51,11 @@
         "C(P) smaller than I* in 0/108, equal 36/108, larger 72/108",
         "no universal O(log U) claim"
       ],
-      "source": "crypto_thesis/time-policy/"
+      "publicAuthorities": [
+        "crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md",
+        "crypto_thesis/time-policy/E1_experiment_acceptance.md",
+        "crypto_thesis/time-policy/第四章正式修订稿V1.2.md"
+      ]
     },
     "rc2": {
       "status": "COMPLETED_WITH_VALID_RERUN_EVIDENCE",
@@ -67,7 +71,13 @@
       "invalidatedRun": "formal_auth_multihost_20260729_34af4ff",
       "chapterStatus": "CHAPTER_FINALIZED_FROM_VALID_V13_EVIDENCE",
       "negativeResults": ["no stable cache benefit", "C(P) no demonstrated advantage"],
-      "source": "crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/rc2-interface-manifest.json + v13 run manifests"
+      "localRaw": "crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795 (LOCAL_ONLY)",
+      "publicAuthorities": [
+        "crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/rc2-interface-manifest.json",
+        "crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/rc2-claim-manifest.json",
+        "crypto_thesis/epoch-authorization/docs/thesis-drafts/第5章_链上状态驱动的可信授权执行机制_最终定稿.md",
+        "crypto_thesis/epoch-authorization/docs/thesis-drafts/research-content-2-final/chapter-finalization-state.json"
+      ]
     },
     "rc3": {
       "status": "FORMAL_COMPLETED",
@@ -81,31 +91,39 @@
       "wrongMaterialRelease": 0,
       "stateConsistencyViolations": 0,
       "forbiddenClaims": ["C-07 QBFT consensus performance"],
-      "source": "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/i12/i12-state.json"
+      "localRaw": "crypto_thesis/epoch-authorization-r3-prep/experiments/r3/formal/ (LOCAL_ONLY)",
+      "publicAuthorities": [
+        "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i10/formal-claim-matrix.json",
+        "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/formal-run-index.json",
+        "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/formal-config-matrix.json",
+        "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i12/i12-state.json",
+        "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i12/formal-negative-results.json",
+        "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i12/formal-limitations.json"
+      ]
     }
   },
   "experiments": {
     "formal": {
-      "rc1E1": "crypto_thesis/time-policy/experiments/runs/e1_20260727_ec8b193_r3/",
-      "rc2V13": "crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795/",
-      "rc3I11": "crypto_thesis/epoch-authorization-r3-prep/experiments/r3/formal/"
+      "rc1E1": "crypto_thesis/time-policy/experiments/runs/e1_20260727_ec8b193_r3/ (LOCAL_ONLY)",
+      "rc2V13": "crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795/ (LOCAL_ONLY)",
+      "rc3I11": "crypto_thesis/epoch-authorization-r3-prep/experiments/r3/formal/ (LOCAL_ONLY)"
     },
-    "invalidated": ["crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_20260729_34af4ff/ (RC2 first run)"],
+    "invalidated": ["crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_20260729_34af4ff/ (RC2 first run, LOCAL_ONLY)"],
     "pilotOnly": [
-      "crypto_thesis/epoch-authorization/experiments/runs/pilot_multihost_20260729_990acbe/ (RC2)",
-      "crypto_thesis/epoch-authorization-r3-prep/experiments/r3/i9-pilot/ (RC3, 93 RUNs)"
+      "crypto_thesis/epoch-authorization/experiments/runs/pilot_multihost_20260729_990acbe/ (LOCAL_ONLY)",
+      "crypto_thesis/epoch-authorization-r3-prep/experiments/r3/i9-pilot/ (LOCAL_ONLY)"
     ]
   },
   "writing": {
-    "integratedThesis": "I14 integrated master draft frozen",
-    "literature": "I15 completed",
-    "formatting": "I17 candidate V2, NOT SUBMISSION_READY"
+    "integratedThesis": "crypto_thesis/epoch-authorization-r3-prep/docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md",
+    "literature": "crypto_thesis/epoch-authorization-r3-prep/docs/final-literature-verification/",
+    "formatting": "crypto_thesis/epoch-authorization-r3-prep/docs/final-manuscript/i17/"
   },
   "midterm": {
     "state": "MIDTERM_REPORT_FINAL_FROZEN_READY_FOR_ADVISOR_REVIEW",
     "version": "FINAL-CLEAN",
     "path": "crypto_thesis/epoch-authorization-r3-prep/docs/midterm-report/final/",
-    "source": "final-midterm-state.json"
+    "source": "crypto_thesis/epoch-authorization-r3-prep/docs/midterm-report/final/final-midterm-state.json"
   },
   "smallPaper": {
     "status": "P0_APPROVED_NOT_YET_EXECUTED",
@@ -133,9 +151,23 @@
     "rc1": "crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md",
     "rc2": "crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/",
     "rc3": "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/ + i12/",
-    "thesis": "docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md",
-    "literature": "docs/final-literature-verification/",
-    "midterm": "docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md"
+    "thesis": "crypto_thesis/epoch-authorization-r3-prep/docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md",
+    "literature": "crypto_thesis/epoch-authorization-r3-prep/docs/final-literature-verification/",
+    "midterm": "crypto_thesis/epoch-authorization-r3-prep/docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md"
+  },
+  "accessModes": {
+    "localFull": {
+      "mode": "LOCAL_FULL_MODE",
+      "rawAvailable": true,
+      "gitHistoryAvailable": true,
+      "gitBackups": "D:\\Research\\.git-backups"
+    },
+    "publicGitHub": {
+      "repository": "https://github.com/wangw-hub/thesis",
+      "rawAvailable": false,
+      "formalSummariesAvailable": true,
+      "contextRecoverySupported": true
+    }
   },
   "nextAction": {
     "id": "NA-2026-08-05-02",
