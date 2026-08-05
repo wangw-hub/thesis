@@ -17,7 +17,7 @@
 | RC3 版本化密文头部/前瞻撤销 | FORMAL_COMPLETED（I11：145/145 有效 RUNs；章节已写入集成母本） |
 | Thesis | I14 集成母本 + I15 文献核验完成；I17 V2 格式候选（官方模板已应用），**NOT SUBMISSION_READY** |
 | Midterm | FINAL-CLEAN 最终固化版（37 页），待导师评审 |
-| Small Paper | 计划拟投《软件学报》（未开始仓库内工作） |
+| Small Paper | P0_APPROVED_NOT_YET_EXECUTED（创新性检索、选题切割与投稿蓝图；当前唯一科研动作，尚未执行） |
 
 ## Start Here（强制阅读顺序）
 

@@ -54,6 +54,14 @@ Status: `FORMAL_COMPLETED`（I9–I17 全部完成；RC3 章节已写入集成�
 
 无（RC2 首轮运行偏差已由 V13 复跑解决；`HS-FUNDING-001` 已由独立正式链决议解决）。
 
+## Small Paper / Current Next Action
+
+- smallPaper.status：`P0_APPROVED_NOT_YET_EXECUTED`
+- currentTask：`NOVELTY_SEARCH_TOPIC_SCOPING_AND_PUBLICATION_BLUEPRINT`
+- **CURRENT NEXT ACTION：小论文 P0 —— 创新性检索、选题切割与投稿蓝图冻结**（尚未生成正式产物）
+- parallelAdministrativeActions：中期报告 FINAL-CLEAN 送导师/专家组审核
+- deferredActions：学位论文 I17 → submission-ready 最终定稿
+
 ## Restrictions
 
 - 不修改正式实验 raw / 预注册 / 结果包；不把 PILOT_ONLY 当 Formal；不 push。

@@ -51,8 +51,15 @@
     "path": "crypto_thesis/epoch-authorization-r3-prep/docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md"
   },
   "smallPaper": {
-    "state": "NOT_STARTED_AS_REPO_WORK",
-    "declaredTarget": "《软件学报》 (per midterm stage results, draft not started)"
+    "state": "P0_APPROVED_NOT_YET_EXECUTED",
+    "currentTask": "NOVELTY_SEARCH_TOPIC_SCOPING_AND_PUBLICATION_BLUEPRINT",
+    "scope": "从当前冻结 RC1、RC2、RC3 成果中切割一篇具有独立研究问题和实验闭环的学术期刊论文；优先候选为 RC3 + RC2 必要授权状态机制，但尚未通过真实文献创新性审查，因此不得提前冻结最终选题。"
   },
-  "nextAction": "User reviews frozen midterm report (FINAL-CLEAN), confirms stage-result paper title, then submits to advisor; afterwards resume thesis finalization toward submission-ready V2."
+  "nextAction": "执行小论文 P0：项目事实恢复 → 2021年至今真实联网文献检索 → Tier-1竞争文献识别 → 机制比较矩阵 → 候选A/B/C/D比较 → Claim-Evidence审查 → 实验复用/补实验判断 → 投稿方向评估 → SMALL-PAPER-BLUEPRINT-V1。",
+  "parallelAdministrativeActions": [
+    "中期报告 FINAL-CLEAN 送导师/专家组审核"
+  ],
+  "deferredActions": [
+    "学位论文 I17 → submission-ready 最终定稿"
+  ]
 }

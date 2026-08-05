@@ -108,9 +108,10 @@
     "source": "final-midterm-state.json"
   },
   "smallPaper": {
-    "state": "NOT_STARTED_AS_REPO_WORK",
-    "declared": "拟投稿《软件学报》+ 2 patents planned (midterm stage results)",
-    "source": "midterm final stage-result truth audit (no repo artifacts)"
+    "status": "P0_APPROVED_NOT_YET_EXECUTED",
+    "currentTask": "NOVELTY_SEARCH_TOPIC_SCOPING_AND_PUBLICATION_BLUEPRINT",
+    "scope": "从当前冻结 RC1、RC2、RC3 成果中切割一篇具有独立研究问题和实验闭环的学术期刊论文；优先候选为 RC3 + RC2 必要授权状态机制，但尚未通过真实文献创新性审查，因此不得提前冻结最终选题。",
+    "source": "user decision 2026-08-05; no repo artifacts yet (NOT_YET_EXECUTED)"
   },
   "negativeResults": [
     "C(P) universal compression advantage: REFUTED",
@@ -137,8 +138,14 @@
     "midterm": "docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md"
   },
   "nextAction": {
-    "id": "NA-2026-08-05-01",
-    "action": "User reviews frozen midterm report (FINAL-CLEAN), confirms stage-result paper title, submits to advisor; then resume thesis finalization toward submission-ready.",
-    "source": "final-midterm-state.json + i17-state.json"
-  }
+    "id": "NA-2026-08-05-02",
+    "action": "执行小论文 P0：项目事实恢复 → 2021年至今真实联网文献检索 → Tier-1竞争文献识别 → 机制比较矩阵 → 候选A/B/C/D比较 → Claim-Evidence审查 → 实验复用/补实验判断 → 投稿方向评估 → SMALL-PAPER-BLUEPRINT-V1。",
+    "source": "user decision 2026-08-05 (P0_APPROVED_NOT_YET_EXECUTED)"
+  },
+  "parallelAdministrativeActions": [
+    "中期报告 FINAL-CLEAN 送导师/专家组审核"
+  ],
+  "deferredActions": [
+    "学位论文 I17 → submission-ready 最终定稿"
+  ]
 }

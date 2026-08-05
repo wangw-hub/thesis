@@ -159,19 +159,28 @@ RC3 不依赖 RC2 的 C(P) 或缓存机制。
 
 ## 11. Small Paper State
 
-当前没有本地 P0（创新性检索/选题切割/投稿蓝图）产物。
-中期考评表“阶段性成果”中声明：拟形成论文稿并投稿《软件学报》（`paper_draft_matching_title=false`，即尚未动笔），并拟申请 2 项发明专利（文本撰写中）。
+状态：`P0_APPROVED_NOT_YET_EXECUTED`
 
-状态：`NOT_STARTED_AS_REPO_WORK`（计划已写入中期表，但仓库内无小论文/专利正文草稿）。
+- currentTask：`NOVELTY_SEARCH_TOPIC_SCOPING_AND_PUBLICATION_BLUEPRINT`
+- scope：从当前冻结 RC1、RC2、RC3 成果中切割一篇具有独立研究问题和实验闭环的学术期刊论文；
+  优先候选为 **RC3 + RC2 必要授权状态机制**，但尚未通过真实文献创新性审查，
+  因此**不得提前冻结最终选题**。
+- 仓库内尚无 P0 正式产物（不虚构其已执行完成）；中期表“阶段性成果”仍声明拟投《软件学报》+ 2 项专利计划。
 
 ## 12. Current Next Action
 
-**唯一 CURRENT NEXT ACTION：**
+**唯一 CURRENT NEXT ACTION：小论文 P0 —— 创新性检索、选题切割与投稿蓝图冻结**
 
-> 用户审阅中期考评表最终固化版（`docs/midterm-report/final/`，37 页），确认“阶段性论文题目”，
-> 然后提交导师/专家组评审；评审通过后恢复学位论文定稿（V2 候选稿 → 提交版，关闭 I17 遗留 MINOR 与封面/致谢/成果确认）。
+执行序列：项目事实恢复 → 2021 年至今真实联网文献检索 → Tier-1 竞争文献识别 →
+机制比较矩阵 → 候选 A/B/C/D 比较 → Claim-Evidence 审查 → 实验复用/补实验判断 →
+投稿方向评估 → `SMALL-PAPER-BLUEPRINT-V1`。
 
-不将 M2/M7 修订、I11 等待、RC2 formal rerun 作为 CURRENT NEXT ACTION（均已完结或已被取代）。
+行政待办与科研动作分离：
+
+- parallelAdministrativeActions：中期报告 FINAL-CLEAN 送导师/专家组审核（非科研动作，不阻塞 P0）
+- deferredActions：学位论文 I17 → submission-ready 最终定稿（延后处理，非当前首要科研动作）
+
+不将 M2/M7 修订、I11 等待、RC2 formal rerun、中期送审、论文定稿作为 CURRENT NEXT ACTION。
 
 ## 13. Authority Map
 
