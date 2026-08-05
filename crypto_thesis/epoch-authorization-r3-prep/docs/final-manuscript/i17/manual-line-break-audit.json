@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "ManualLineBreakAuditV1",
+  "v1": {
+    "totalBreaks": 82,
+    "codeBreaks": 81,
+    "pageBreaks": 1,
+    "unintentionalBodyBreaks": 0
+  },
+  "v2": {
+    "totalBreaks": 84,
+    "intentional": 84,
+    "unintentional": 0
+  },
+  "conclusion": "UNINTENTIONAL_MANUAL_BREAKS=0"
+}

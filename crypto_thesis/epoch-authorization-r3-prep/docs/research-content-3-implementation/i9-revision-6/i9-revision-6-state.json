@@ -1,0 +1,1 @@
+{"status":"I9_CANARY_REQUIRES_FURTHER_REVISION","attemptId":"I9_REVISION_6_20260730T141500Z_8fc5f44","bootstrapState":"PUBLISHED","canary":"FAILED","runId":"12d15c7302d632ff5b09c61ec295d470316f10a280e0cda19aeea3b0f6d9b521","failure":"APPLICATION_NAME_TRUNCATION_ATTESTATION_MISMATCH","fatal":0,"major":1,"minor":0,"p9a":"NOT_READY","enteredI10":false}

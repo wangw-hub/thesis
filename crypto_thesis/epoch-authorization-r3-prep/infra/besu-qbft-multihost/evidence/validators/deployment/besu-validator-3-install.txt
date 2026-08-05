@@ -1,0 +1,5 @@
+exit_code=0
+besu/v26.5.0/linux-x86_64/openjdk-java-21
+service_started_at_utc=2026-07-28T10:47:24Z
+
+Created symlink /etc/systemd/system/multi-user.target.wants/besu.service → /etc/systemd/system/besu.service.

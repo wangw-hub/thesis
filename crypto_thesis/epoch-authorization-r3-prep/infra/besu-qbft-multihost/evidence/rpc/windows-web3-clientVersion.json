@@ -1,0 +1,5 @@
+﻿{
+    "jsonrpc":  "2.0",
+    "id":  1,
+    "result":  "besu/v26.5.0/linux-x86_64/openjdk-java-21"
+}

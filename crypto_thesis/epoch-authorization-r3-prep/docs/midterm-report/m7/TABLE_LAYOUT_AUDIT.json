@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "M7TableLayoutAuditV1",
+  "auditDate": "2026-08-04",
+  "hardGate": {
+    "BROKEN_TABLE": 0,
+    "MISSING_CONTINUATION_TITLE": 0,
+    "MISSING_REPEAT_HEADER": 0
+  },
+  "policy": [
+    "三线表（仅上下粗线与表头下细线）",
+    "表题位于表上方，表号连续（表1–表8）",
+    "表头行设置 w:tblHeader（跨页时在各页顶端重复）",
+    "所有行设置 w:cantSplit（禁止行内跨页断裂）",
+    "表内段落设置 keepNext 链，使可容纳于单页的表格整体移动、不拆表",
+    "数值列居中、文字列按需左对齐、状态/结论列居中（与 M6 冻结版式一致）"
+  ],
+  "tables": [
+    {
+      "tableNo": 1,
+      "caption": "三种表示的理论与实现特征",
+      "page": 12,
+      "repeatHeader": true,
+      "cantSplit": true,
+      "wholeOnPage": true
+    },
+    {
+      "tableNo": 2,
+      "caption": "系统安全目标、机制与证据及结论边界",
+      "page": 18,
+      "repeatHeader": true,
+      "cantSplit": true,
+      "wholeOnPage": true
+    },
+    {
+      "tableNo": 3,
+      "caption": "正式实验因素设计汇总（因素/水平/配置/重复/请求与链读取规模）",
+      "page": 19,
+      "repeatHeader": true,
+      "cantSplit": true,
+      "wholeOnPage": true
+    },
+    {
+      "tableNo": 4,
+      "caption": "四种方法运行级总体统计（中位时延、均值、吞吐量、缓存命中率、链读取占比）",
+      "page": 21,
+      "repeatHeader": true,
+      "cantSplit": true,
+      "wholeOnPage": true
+    },
+    {
+      "tableNo": 5,
+      "caption": "四种自然配对比较及运行级 Bootstrap 置信区间",
+      "page": 22,
+      "repeatHeader": true,
+      "cantSplit": true,
+      "wholeOnPage": true,
+      "m6Issue": "M6 中跨页且第二页无续表/重复表头",
+      "m7Fix": "整表移至单页完整展示"
+    },
+    {
+      "tableNo": 6,
+      "caption": "版本化密文生命周期实验配置与运行汇总",
+      "page": 27,
+      "repeatHeader": true,
+      "cantSplit": true,
+      "wholeOnPage": true,
+      "m6Issue": "M6 中跨页且第二页无续表/重复表头",
+      "m7Fix": "整表移至单页完整展示"
+    },
+    {
+      "tableNo": 7,
+      "caption": "故障恢复实验结果与时长汇总（按故障与对象来源）",
+      "page": 29,
+      "repeatHeader": true,
+      "cantSplit": true,
+      "wholeOnPage": true
+    },
+    {
+      "tableNo": 8,
+      "caption": "三项研究内容进展总览",
+      "page": 31,
+      "repeatHeader": true,
+      "cantSplit": true,
+      "wholeOnPage": true,
+      "m6Issue": "M6 中跨页且第二页无续表/重复表头",
+      "m7Fix": "整表移至单页完整展示"
+    }
+  ],
+  "notes": [
+    "学校模板的表单表格（封面/问题/审查意见）不在三线表范围内，未加 tblHeader。",
+    "所有 8 张数据表经 PDF 逐页核验均完整位于单页，未发生跨页，因此无需“续表 X”标题；一旦未来内容变化导致跨页，w:tblHeader 与 cantSplit 已保证重复表头与行内不裂。"
+  ]
+}

@@ -1,0 +1,72 @@
+﻿{
+    "stage":  1,
+    "generated_at_utc":  "2026-07-28T10:23:18.4215853Z",
+    "self_excluded":  "evidence/installation/artifact-sha256.json",
+    "artifacts":  [
+                      {
+                          "path":  "downloads/besu-26.5.0.zip",
+                          "size_bytes":  200010413,
+                          "sha256":  "9ddbe9e94662459898ff7b3ff4439821eeeee3bc2ff961378604202fa7da09e6"
+                      },
+                      {
+                          "path":  "downloads/besu-26.5.0.zip.sha256",
+                          "size_bytes":  82,
+                          "sha256":  "b5cebf311a7151078af005fc1141e034670ae9a23cd38258df1b9e6997a4e63b"
+                      },
+                      {
+                          "path":  "scripts/powershell/01-install-besu.ps1",
+                          "size_bytes":  5251,
+                          "sha256":  "1440967fefc4089f7aea028f84cbccfeb1edcca3bcb06698b62843244a1bb742"
+                      },
+                      {
+                          "path":  "scripts/powershell/New-Stage1ArtifactManifest.ps1",
+                          "size_bytes":  1739,
+                          "sha256":  "7877001c6417f4d4fcacdc2043bee11779c07fe84bd456548204e71c7e42fd9c"
+                      },
+                      {
+                          "path":  "scripts/remote/install-besu-26.5.0.sh",
+                          "size_bytes":  2618,
+                          "sha256":  "8d75f1d762f62c8fdffb87b065d4649cf40ab8bee10b9a7824f05ab21bb51f21"
+                      },
+                      {
+                          "path":  "evidence/installation/download-metadata.json",
+                          "size_bytes":  680,
+                          "sha256":  "41f8c51c8b177e35d078b47bd22d4334d453458f5c7892868ee5682c93776240"
+                      },
+                      {
+                          "path":  "evidence/installation/hash-verification.json",
+                          "size_bytes":  2140,
+                          "sha256":  "59938f1482e748aecf245e7c1cd31dc62fd36bb579a4dfaf8eba7e05be3a11e2"
+                      },
+                      {
+                          "path":  "evidence/installation/besu-validator-1.txt",
+                          "size_bytes":  661,
+                          "sha256":  "57b75c15be9b1bde3c60b69840bbbf69aceb723382f45c38ccb6d9f7971cd5fc"
+                      },
+                      {
+                          "path":  "evidence/installation/besu-validator-2.txt",
+                          "size_bytes":  661,
+                          "sha256":  "7d444be4370ba32136604ec30869b84677c94fa893f7961d10016f90eb1bdd04"
+                      },
+                      {
+                          "path":  "evidence/installation/besu-validator-3.txt",
+                          "size_bytes":  661,
+                          "sha256":  "0631795527b74b997b9305a3e957e561633596079a14e21323621ab2f0927200"
+                      },
+                      {
+                          "path":  "evidence/installation/besu-validator-4.txt",
+                          "size_bytes":  661,
+                          "sha256":  "99eea7ce46477f9c260f839043805faef60ded94fec47561c2855a0089b24a4e"
+                      },
+                      {
+                          "path":  "evidence/installation/experiment-client.txt",
+                          "size_bytes":  662,
+                          "sha256":  "4876d1e8eb5e1ad8c97bf6a9712fbd4cf9c64044aaa2bff433e89657a7322e42"
+                      },
+                      {
+                          "path":  "reports/stage-1-besu-installation.md",
+                          "size_bytes":  4000,
+                          "sha256":  "9f40e2ebe53cacf81009580691c72ebf9667deb8219f180d2db0c98402237bfd"
+                      }
+                  ]
+}

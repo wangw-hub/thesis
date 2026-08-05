@@ -1,0 +1,12 @@
+﻿{
+    "version":  "26.5.0",
+    "release_page":  "https://github.com/besu-eth/besu/releases/tag/26.5.0",
+    "original_download_url":  "https://github.com/besu-eth/besu/releases/download/26.5.0/besu-26.5.0.zip",
+    "file_name":  "besu-26.5.0.zip",
+    "file_size_bytes":  200010413,
+    "sha256":  "9ddbe9e94662459898ff7b3ff4439821eeeee3bc2ff961378604202fa7da09e6",
+    "official_release_checksum":  "9ddbe9e94662459898ff7b3ff4439821eeeee3bc2ff961378604202fa7da09e6",
+    "checksum_verified":  true,
+    "controller_source":  "D:\\Research\\crypto_thesis\\epoch-authorization\\blockchain\\besu-26.5.0.zip",
+    "recorded_at_utc":  "2026-07-28T10:19:44.5694824Z"
+}

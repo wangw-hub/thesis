@@ -1,0 +1,10 @@
+{
+  "stage": 5,
+  "attempt": 1,
+  "status": "FAILED_BEFORE_KEY_GENERATION_OR_INSTALLATION",
+  "cause": "`besu public-key export` requires an existing private key and does not generate one; the besu system user's inherited HOME also pointed to inaccessible /home/thesis.",
+  "remote_target_changes": false,
+  "rpc_private_key_generated": false,
+  "service_created": false,
+  "resolution": "Generate 32 cryptographically random bytes with OpenSSL under the besu user, then require Besu 26.5.0 to parse the key and export the corresponding public key before installation."
+}

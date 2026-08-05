@@ -1,0 +1,16 @@
+{
+  "decision": "MATERIAL_PROTOCOL_DEVIATION",
+  "formal_run_status": "INVALIDATED_MATERIAL_PROTOCOL_DEVIATION",
+  "requires_full_rerun": true,
+  "fatal": 2,
+  "major": 4,
+  "deviations": [
+    "single startup chain read reused for every row",
+    "FrozenStore used instead of BesuStateGateway",
+    "locality labels do not control request generation",
+    "throughput is inverse request latency",
+    "cache_hit is cumulative",
+    "pre-issue matcher warms measured cache",
+    "request-level bootstrap ignores nesting"
+  ]
+}

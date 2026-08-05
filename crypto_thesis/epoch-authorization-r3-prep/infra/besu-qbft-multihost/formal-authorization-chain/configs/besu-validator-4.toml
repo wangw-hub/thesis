@@ -1,0 +1,14 @@
+data-path="/var/lib/besu-formal"
+genesis-file="/etc/besu-formal/genesis.json"
+node-private-key-file="/etc/besu-formal/private/key"
+p2p-host="192.168.6.132"
+p2p-port=31303
+network-id=2026072901
+discovery-enabled=false
+static-nodes-file="/etc/besu-formal/static-nodes.json"
+rpc-http-enabled=false
+rpc-ws-enabled=false
+min-gas-price=0
+sync-min-peers=1
+permissions-accounts-config-file-enabled=true
+permissions-accounts-config-file="/etc/besu-formal/permissions_config.toml"

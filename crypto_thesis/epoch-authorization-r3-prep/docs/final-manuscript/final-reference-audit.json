@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "FinalReferenceAuditV2",
+  "total": 16,
+  "verified": 16,
+  "missing": 0,
+  "orphan": 0,
+  "duplicate": 0,
+  "doiMismatch": 0,
+  "citationMappingErrors": 0,
+  "falsePublicationStatus": 0,
+  "gbTVersion": "GB/T 7714-2015 (fallback; school version unverified)",
+  "citationNumbering": "sequential by first appearance",
+  "citationClosure": "PASS"
+}

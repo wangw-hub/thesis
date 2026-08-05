@@ -1,0 +1,11 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "i6-state.json": "5ed5e3f7b2a06ed75b1b3a3d5b08fe6ec64c582332bb2936466bd6cb5403ea4c",
+    "../../../experiments/r3/i6-revocation-agent/raw/event-scan.json": "c7f6a8682c80ec6641114385003e5d23f45b97b29cb57caa6fefe8dda5756d64",
+    "../../../experiments/r3/i6-revocation-agent/raw/revocation-closure.json": "9cf71ad61d4219eecfaa2a148d8bc8668e8c1afd1a1c84883951eeca88b53353",
+    "../../../experiments/r3/i6-revocation-agent/raw/database-chain-closure.json": "43518c8d13d29fcc4e5c4c0d81c6bc214e31df27e3ec5ec050fc8917b77e8e6d",
+    "../../../experiments/r3/i6-revocation-agent/i6-test-results.json": "76aa53c738d6635009da51a3bafcb778db18788934c19aa80e8a7da65edcb276",
+    "../../../migrations/r3_control/0010_i6_revocation_agent.sql": "c8f299d40a1007ba132fa005d53630f3348712e72140ac77c8083978eb0ca6d5"
+  }
+}

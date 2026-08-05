@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "LiteratureVerificationQueueV1",
+  "items": [
+    {
+      "id": "LQ-01",
+      "item": "近五年许可链授权状态管理研究（正文第二章）",
+      "reason": "需学校数据库检索核对原文",
+      "status": "PENDING"
+    },
+    {
+      "id": "LQ-02",
+      "item": "跨链/跨合约能力绑定相关研究",
+      "reason": "需区分令牌绑定/通道绑定/系统上下文绑定",
+      "status": "PENDING"
+    },
+    {
+      "id": "LQ-03",
+      "item": "多验证器共享一次性状态研究（OAuth/JWT 相关）",
+      "reason": "避免无状态令牌文献误作原子 Nonce 证据",
+      "status": "PENDING"
+    },
+    {
+      "id": "LQ-04",
+      "item": "Besu QBFT 文档版本化 URL 与访问日期",
+      "reason": "最终参考文献表统一",
+      "status": "PENDING"
+    },
+    {
+      "id": "LQ-05",
+      "item": "RFC 9180 HPKE 正式出版条目核对",
+      "reason": "标准引用格式统一",
+      "status": "PENDING"
+    },
+    {
+      "id": "LQ-06",
+      "item": "研究内容三相关工作（版本化密文/前瞻性撤销/IPFS 恢复）",
+      "reason": "本地无已核验文献，需检索",
+      "status": "PENDING"
+    }
+  ]
+}

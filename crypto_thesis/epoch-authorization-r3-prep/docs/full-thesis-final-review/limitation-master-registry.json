@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "LimitationMasterRegistryV1",
+  "limitations": [
+    {
+      "researchContent": "RC1",
+      "limitation": "单机策略编译；Python 常熟不外推；高碎片退化；未覆盖复合策略"
+    },
+    {
+      "researchContent": "RC2",
+      "limitation": "五节点许可链与冻结负载；共享物理主机；无端到端形式化证明；RBAC 不防合法管理员"
+    },
+    {
+      "researchContent": "RC3",
+      "limitation": "单节点 QBFT；29 配置/5 重复；受控环境；有限故障覆盖；仅前瞻撤销；实验验证非证明"
+    },
+    {
+      "researchContent": "overall",
+      "limitation": "三项实验均限于冻结配置与受控环境，结论不扩展到公链/任意规模"
+    }
+  ]
+}

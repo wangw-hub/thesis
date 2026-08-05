@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "LiteratureVerificationRecordV1",
+  "referenceId": "REF-03",
+  "citationKey": "[3]",
+  "currentBibliographyEntry": "[3] Rundgren A, Jordan B, Erdtman S. JSON Canonicalization Scheme (JCS). RFC 8785, 2020.",
+  "title": "JSON Canonicalization Scheme (JCS)",
+  "authors": "Rundgren A, Jordan B, Erdtman S",
+  "year": 2020,
+  "venue": "RFC 8785",
+  "publicationType": "RFC",
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "publisher": "RFC Editor",
+  "DOI": "10.17487/RFC8785",
+  "URL": null,
+  "formalPublicationStatus": "JOURNAL/CONFERENCE/RFC/ENGINEERING",
+  "preprintStatus": false,
+  "officialSource": "https://www.rfc-editor.org/rfc/rfc8785",
+  "secondarySources": [
+    "https://datatracker.ietf.org/doc/rfc8785/"
+  ],
+  "metadataMatch": true,
+  "claimSupport": "DIRECTLY_SUPPORTED",
+  "claimSupportLevel": "DIRECTLY_SUPPORTED",
+  "verificationStatus": "VERIFIED",
+  "recommendedAction": "采纳（必要时按 correction 修正）",
+  "notes": "",
+  "accessDate": "2026-08-02"
+}

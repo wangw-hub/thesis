@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "GlobalSymbolRegistryV1",
+  "symbols": [
+    {
+      "symbol": "I*",
+      "definition": "唯一语义表示",
+      "firstOccurrence": "第四章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "C(P)",
+      "definition": "派生执行表示",
+      "firstOccurrence": "第四章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "pd",
+      "definition": "策略摘要",
+      "firstOccurrence": "第四章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "T",
+      "definition": "离散时间域",
+      "firstOccurrence": "第四章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "U",
+      "definition": "时间槽总数",
+      "firstOccurrence": "第四章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "epoch",
+      "definition": "授权时期",
+      "firstOccurrence": "第五章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "stateVersion",
+      "definition": "资源状态版本",
+      "firstOccurrence": "第五章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "userVersion",
+      "definition": "用户密钥版本",
+      "firstOccurrence": "第五章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "headerVersion",
+      "definition": "Header版本",
+      "firstOccurrence": "第六章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "bodyVersion",
+      "definition": "Body版本",
+      "firstOccurrence": "第六章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "keyVersion",
+      "definition": "CK版本",
+      "firstOccurrence": "第六章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "CK",
+      "definition": "内容密钥",
+      "firstOccurrence": "第六章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "CAP2",
+      "definition": "能力结构",
+      "firstOccurrence": "第五章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "chainId",
+      "definition": "链标识",
+      "firstOccurrence": "第五章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "contractAddress",
+      "definition": "合约实例地址",
+      "firstOccurrence": "第五章",
+      "conflict": false,
+      "resolution": "无冲突"
+    },
+    {
+      "symbol": "nonce",
+      "definition": "一次性值",
+      "firstOccurrence": "第五章",
+      "conflict": false,
+      "resolution": "无冲突"
+    }
+  ]
+}

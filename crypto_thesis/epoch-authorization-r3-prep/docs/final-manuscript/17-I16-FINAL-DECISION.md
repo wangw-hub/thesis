@@ -1,0 +1,3 @@
+# I16 Final Decision
+
+状态：`I16_FORMAT_CANDIDATE_COMPLETED_AWAITING_OFFICIAL_TEMPLATE`。内容门全部 PASS（冻结、引用、数字、图表、公式、算法、交叉引用、目录、DOCX 渲染）；官方模板缺失，格式门为 CANDIDATE 状态，故 NOT SUBMISSION_READY。产物：`output/THESIS-FORMAT-CANDIDATE-V1.docx` 与 `output/THESIS-FORMAT-CANDIDATE-V1.pdf`。

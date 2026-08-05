@@ -1,0 +1,109 @@
+﻿{
+    "schemaVersion":  1,
+    "artifacts":  [
+                      {
+                          "path":  "00-I7-ENTRY-AUDIT.md",
+                          "sha256":  "af95d6d1aade9f2289b6a4903f16218e767525fffdef7b38a0c71a4350cf67de"
+                      },
+                      {
+                          "path":  "01-I7-SCOPE-AND-NON-GOALS.md",
+                          "sha256":  "f018e38f0c3fff3b955448996cbc4bf0caf7970949176f293035b4d6ea4dc000"
+                      },
+                      {
+                          "path":  "02-RECOVERY-AUTHORITY-MATRIX.md",
+                          "sha256":  "e7de452328fa8703d3c1b5d9f1e635aaeb927af711764dd9be8bb115d2597a63"
+                      },
+                      {
+                          "path":  "03-RECOVERY-DISPOSITION-V1.md",
+                          "sha256":  "880198c2c840969b9aa85349ccca6997ebe358f454399ce1966f14a2e74ffc2e"
+                      },
+                      {
+                          "path":  "04-RECOVERY-SNAPSHOT-V1.md",
+                          "sha256":  "964a48fe31c7341134e987ce5101d80e810a27d325a840c5feb9536f4b2bfe82"
+                      },
+                      {
+                          "path":  "05-RECOVERY-COORDINATOR.md",
+                          "sha256":  "a52b09f00c7d5437c1a5f4e9b68c361db8fc9dd0f708e50e5fcead5eec37589d"
+                      },
+                      {
+                          "path":  "06-CHAIN-DATABASE-OBJECT-RECONCILIATION.md",
+                          "sha256":  "eae9d6173820825c69c281d54010393bcd5c5bc3193485d291cb66024224b2ff"
+                      },
+                      {
+                          "path":  "07-COMMIT-UNKNOWN-RECOVERY.md",
+                          "sha256":  "e375e0df24efe0d40f4c11dc14ec2c770645cd2a45f78d77070fc79c0e82654d"
+                      },
+                      {
+                          "path":  "08-EVENT-SCANNER-RECOVERY.md",
+                          "sha256":  "edf9a29b4a8ee21381e5833fb407d4cf7c51e04d9dc79deb1e21947bfc6406ac"
+                      },
+                      {
+                          "path":  "09-WORKER-AND-LEASE-RECOVERY.md",
+                          "sha256":  "c70d3ae87a3a7da81e6e68b99f81e931a7f27ea5a10c314dda7fcd90b8f8f2bc"
+                      },
+                      {
+                          "path":  "10-OBJECT-BACKUP-AND-RESTORE.md",
+                          "sha256":  "8b787ec2a8d6b9051a701a285c6ac7615eb8e05fe0ddf08ea6d170aed19bd9a3"
+                      },
+                      {
+                          "path":  "11-CONTENT-KEY-RECOVERY-BOUNDARY.md",
+                          "sha256":  "f9e740119ea1a17ca3909dc9e97e8226dffc55ebd7299403c884b4d24ef5eff1"
+                      },
+                      {
+                          "path":  "12-DATABASE-BACKUP-AND-RESTORE.md",
+                          "sha256":  "288c497392b8e10360b7e4c6332b9e44096f1a8d4e2aef3fbd4fb5227e4ea97a"
+                      },
+                      {
+                          "path":  "13-DATABASE-DERIVED-STATE-REBUILD.md",
+                          "sha256":  "7edbbddc5804d524aad6139cae4fb8806a6af3be79e5471d5e49abac28107521"
+                      },
+                      {
+                          "path":  "14-RECIPIENT-INDEX-REBUILD.md",
+                          "sha256":  "cf6f12149514fe566f35756b220e009f2d5201f1276aacd08cd9d9e307a88c81"
+                      },
+                      {
+                          "path":  "15-FULL-RECONCILIATION.md",
+                          "sha256":  "7199f6560f5807bfdadb8091ba4181c0da89ce3a7e0da636188df94af4e2be71"
+                      },
+                      {
+                          "path":  "16-SERVICE-RECOVERY-ORDER.md",
+                          "sha256":  "adfd33da9b63a02b10f6f7a5a5cb2d8da7ccb52288f02f8481c47001c04b2fc1"
+                      },
+                      {
+                          "path":  "17-I7-RECOVERY-SCENARIO-MATRIX.md",
+                          "sha256":  "499c02acc32f07993fd4f6cdb9831f1a38042e6d2d29a4c9a53317b5b7f517d9"
+                      },
+                      {
+                          "path":  "18-I7-INVARIANT-REPORT.md",
+                          "sha256":  "9aa7d0b6ba5a0fd23407c1c5bc4f2cb50c2316f5d2a8c7a10ef2924f1acc2bf5"
+                      },
+                      {
+                          "path":  "19-I7-REPRODUCIBILITY-REPORT.md",
+                          "sha256":  "490f559323e1c56d27d9f070b994f81224e8555bdfb1e3b344fa87f0986a29fb"
+                      },
+                      {
+                          "path":  "20-I7-STRICT-PEER-REVIEW.md",
+                          "sha256":  "54e6ba51fd4a03ddbcad05afe5e580d238caad159cdcfc7112975b7da6abf031"
+                      },
+                      {
+                          "path":  "21-I7-ISSUE-TRACKER.md",
+                          "sha256":  "0727b44063f614f082338afd4eac15f514ea38ad5f66b42a1ff9b420924a5fda"
+                      },
+                      {
+                          "path":  "22-RECOVERY-RUNBOOK-V1.md",
+                          "sha256":  "c18fc71a3cc363a99b752614ce07858e47ea029b234c7a8f9f49caeee0de659b"
+                      },
+                      {
+                          "path":  "23-I7-FINAL-DECISION.md",
+                          "sha256":  "447706492cc18764feb29f1b9bf3118f5508a1974e5abd225acaef348bbe3434"
+                      },
+                      {
+                          "path":  "24-I8-ENTRY-CHECKLIST.md",
+                          "sha256":  "1c52bf31548d471aa228aed0dc87194c802440ee48cd1afd690a8a8b25ff3c74"
+                      },
+                      {
+                          "path":  "i7-state.json",
+                          "sha256":  "573d8a626119cf57feebb2f293097d8df49b05286fadb6a87e78d4c39e28cfde"
+                      }
+                  ]
+}

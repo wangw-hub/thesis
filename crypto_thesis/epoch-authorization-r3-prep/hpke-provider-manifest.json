@@ -1,0 +1,15 @@
+{
+  "provider": "pyhpke",
+  "version": "0.6.4",
+  "pythonVersion": "3.13.11",
+  "suite": "Base/DHKEM(X25519,HKDF-SHA256)/HKDF-SHA256/AES-128-GCM",
+  "publicApi": true,
+  "rfcVectorIds": ["RFC9180-A.1.1"],
+  "aadSupported": true,
+  "infoSupported": true,
+  "deterministicEphemeralSupportedForTests": true,
+  "exporterSupported": true,
+  "license": "MIT",
+  "source": "https://pypi.org/project/pyhpke/0.6.4/",
+  "decision": "HPKE_PROVIDER_V1_SELECTED"
+}

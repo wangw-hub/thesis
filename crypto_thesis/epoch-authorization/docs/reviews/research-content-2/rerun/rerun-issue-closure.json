@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "automated_tests": {"passed": 97, "failed": 0},
+  "live_gateway_smoke_test": "PASS",
+  "issues": [
+    {"id": "FATAL-1", "implementation": "FIXED", "final_status": "PENDING_DRY_RUN"},
+    {"id": "FATAL-2", "implementation": "FIXED", "final_status": "PENDING_DRY_RUN"},
+    {"id": "MAJOR-1", "implementation": "FIXED", "final_status": "PENDING_DRY_RUN"},
+    {"id": "MAJOR-2", "implementation": "FIXED", "final_status": "PENDING_DRY_RUN"},
+    {"id": "MAJOR-3", "implementation": "FIXED", "final_status": "PENDING_DRY_RUN"},
+    {"id": "MAJOR-4", "implementation": "FIXED", "final_status": "PENDING_DRY_RUN"}
+  ]
+}

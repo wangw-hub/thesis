@@ -1,0 +1,25 @@
+{
+  "task": "B1 formal authorization experiment chain",
+  "updated_at_utc": "2026-07-29T05:17:02.155073+00:00",
+  "current_stage": "F13_COMPLETE",
+  "completed_stages": [
+    "F0",
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "F10",
+    "F11",
+    "F12",
+    "F13"
+  ],
+  "pending_substeps": [],
+  "hard_stop_triggered": false,
+  "last_evidence_path": "infra\\besu-qbft-multihost\\formal-authorization-chain\\evidence\\f12\\formal-experiment-admission.json",
+  "next_action": "Freeze and preregister the formal Research Content 2 performance experiment configuration under a separate authorization."
+}

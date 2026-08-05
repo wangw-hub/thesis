@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "R3I11ContextStateV1",
+  "task": "R3_I11_CONTEXT_RECOVERY",
+  "recoveredAt": "2026-08-02T00:00:00+08:00",
+  "git": {
+    "repoRoot": "D:/Research/crypto_thesis/epoch-authorization-r3-prep",
+    "branch": "research-content-3-preparation",
+    "head": "2bf56d2de4245707a2db837cc4846ac63afd9904",
+    "headMatchesI10Freeze": true,
+    "workingTreeClean": true,
+    "mainRepo": "D:/Research/crypto_thesis/epoch-authorization",
+    "mainRepoHead": "dac2234",
+    "mainRepoBranch": "master",
+    "i10FreezeCommit": "2bf56d2de4245707a2db837cc4846ac63afd9904"
+  },
+  "i9": {
+    "status": "I9_COMPLETED_AWAITING_I10_APPROVAL",
+    "immutable": true,
+    "accepted": "93/93",
+    "acceptedCounts": {
+      "P9-A": 8,
+      "P9-B": 45,
+      "P9-C": 16,
+      "P9-D": 24
+    },
+    "baselineDigest": "6de936e9d7ef8357530b7361e0b06a862c0474212e1147b69f5dd67fc4779d8a",
+    "pairingSmoke": "PASS",
+    "statisticalSmoke": "PASS",
+    "classification": [
+      "PILOT_ONLY",
+      "PILOT_STATISTICAL_SMOKE_ONLY",
+      "NOT_FOR_FORMAL_THESIS_RESULTS",
+      "NOT_FOR_PERFORMANCE_CLAIMS"
+    ],
+    "resultIndex": "experiments/r3/i9-pilot/final-analysis/i9-run-index.json",
+    "strictEvidenceErrors": 0,
+    "rawShaErrors": 0,
+    "trueSecret": 0,
+    "unclassified": 0,
+    "fatal": 0,
+    "major": 0,
+    "minor": 0,
+    "formalChainAccess": 0,
+    "validatorAccess": 0,
+    "postgres16MainAccess": 0
+  },
+  "i10": {
+    "state": "I10_COMPLETED_AWAITING_I11_APPROVAL",
+    "preregistrationStatus": "DESIGN_FROZEN_AWAITING_I11_APPROVAL",
+    "preregistrationDigest": "5c957cdf7f4269cec58842c4536ad1f4fc73424da01c5a3a1ab1461fbe8fc45f",
+    "preregistrationFileSha256": "1bd568be1c4ac382aac6ef178920e853f63ba89c50abb424737c3d1dd0417b47",
+    "artifactManifest": {
+      "entries": 47,
+      "mismatches": 0
+    },
+    "formalRqCount": 6,
+    "formalClaimCount": 7,
+    "forbiddenClaimIds": [
+      "C-07"
+    ],
+    "baseline": "Baseline-R",
+    "removedBaseline": "Baseline-H",
+    "factorCount": 8,
+    "metricCount": 12,
+    "experimentalUnit": "RUN",
+    "repetitions": 5,
+    "warmupRuns": 35,
+    "warmupsPerConfiguration": 29,
+    "environmentWarmups": 6,
+    "measuredRuns": 145,
+    "totalPlannedRuns": 180,
+    "randomizationSeed": 20260802,
+    "pairingKey": "generatorVersion|semanticClass|inputDigest|seed|configurationDigest",
+    "crossSemanticPairing": false,
+    "statistics": {
+      "bootstrapResamples": 10000,
+      "ci": "percentile 95%",
+      "effectSize": [
+        "median difference",
+        "ratio with log transform",
+        "Cliffs delta"
+      ],
+      "multiplicity": "Holm correction within RQ family"
+    },
+    "rc3MultiNodeFormalRequired": false,
+    "formalTopology": "DESIGNED_NOT_DEPLOYED",
+    "optionalEnhancedPlan": "DISABLED",
+    "formalAttemptCreated": false,
+    "formalDataCollected": false,
+    "formalRaw": 0,
+    "formalDatabaseCreated": false,
+    "formalKuboCreated": false,
+    "formalBesuDeployed": false,
+    "formalIdentityIssued": false,
+    "i11": "READY_AWAITING_USER_APPROVAL",
+    "i11Executed": false,
+    "fatal": 0,
+    "major": 0,
+    "minor": 0,
+    "pseudoreplicationViolations": 0,
+    "resultDrivenFactorLevelViolations": 0
+  },
+  "i11Plan": {
+    "planId": "I11FormalExecutionPlanV1",
+    "experiments": [
+      {
+        "experimentId": "E1",
+        "rq": "RQ-1",
+        "configs": 4,
+        "repetitions": 5,
+        "measuredRuns": 20
+      },
+      {
+        "experimentId": "E2",
+        "rq": "RQ-2",
+        "configs": 6,
+        "repetitions": 5,
+        "measuredRuns": 30
+      },
+      {
+        "experimentId": "E3",
+        "rq": "RQ-3",
+        "configs": 9,
+        "repetitions": 5,
+        "measuredRuns": 45
+      },
+      {
+        "experimentId": "E4",
+        "rq": "RQ-4",
+        "configs": 2,
+        "repetitions": 5,
+        "measuredRuns": 10
+      },
+      {
+        "experimentId": "E5",
+        "rq": "RQ-5|RQ-6",
+        "configs": 8,
+        "repetitions": 5,
+        "measuredRuns": 40
+      }
+    ],
+    "configurationCount": 29,
+    "warmupCount": 35,
+    "measuredCount": 145,
+    "totalRuns": 180,
+    "executionOrder": {
+      "strategy": "blocked deterministic randomization",
+      "seed": 20260802,
+      "blockKeys": [
+        "semantic_class",
+        "experimentId",
+        "configuration_digest"
+      ],
+      "freezeBeforeDataCollection": true
+    },
+    "metrics": [
+      "M-01",
+      "M-02",
+      "M-03",
+      "M-04",
+      "M-05",
+      "M-06",
+      "M-07",
+      "M-08",
+      "M-09",
+      "M-10",
+      "M-11",
+      "M-12"
+    ],
+    "environmentDependencies": {
+      "F1": "isolated functional/crypto/object/recovery validation",
+      "F2": "single-RPC end-to-end on future independent Formal chain",
+      "F3": "multi-node QBFT, NOT admitted for RC3 claims",
+      "F4": "controlled fault/recovery",
+      "formalPostgresql": "designed not created",
+      "formalKubo": "designed not created",
+      "formalChain": "minimal F2 only; F3 not deployed"
+    },
+    "preflightSequence": [
+      "identity freshness",
+      "independent environment",
+      "contract bytecode and factory provenance",
+      "chainId",
+      "no public peers",
+      "secret boundary",
+      "deterministic generator",
+      "clock validity",
+      "evidence-writer readiness",
+      "fail closed on missing or ambiguous state"
+    ],
+    "phases": [
+      "Phase 0: I11 entry audit",
+      "Phase 1: Formal environment provisioning",
+      "Phase 2: Formal environment attestation",
+      "Phase 3: Formal code/analysis freeze",
+      "Phase 4: Formal preflight",
+      "Phase 5: warm-up",
+      "Phase 6: measured E1-E5",
+      "Phase 7: raw sealing/mirror",
+      "Phase 8: strict acceptance",
+      "Phase 9: formal statistics",
+      "Phase 10: formal figures/tables"
+    ],
+    "stopRules": [
+      "SECRET_EXPOSURE",
+      "ERRONEOUS_MATERIAL_RELEASE",
+      "UNAUTHORIZED_CHAIN_OR_VALIDATOR",
+      "POSTGRES16_MAIN_ACCESS",
+      "PROTOCOL_OR_DESIGN_DRIFT",
+      "IDENTITY_REUSE",
+      "RAW_MUTATION",
+      "SHA_FAILURE",
+      "PILOT_FORMAL_MIX",
+      "FATAL"
+    ]
+  },
+  "readiness": {
+    "schemaVersion": "I11EntryReadinessV1",
+    "total": 15,
+    "ready": 7,
+    "notReadyExpected": 7,
+    "blocked": 0,
+    "needsUserApproval": 1,
+    "onlyMissing": "USER_I11_APPROVAL"
+  },
+  "designGaps": [],
+  "protocolAmendmentRequired": false,
+  "actions": {
+    "executeI11": false,
+    "createFormalAttempt": false,
+    "createFormalRun": false,
+    "collectFormalData": false,
+    "createFormalRaw": false,
+    "createFormalPostgresql": false,
+    "deployFormalMultinode": false,
+    "modifyPostgres16Main": false,
+    "accessValidator": false,
+    "upgradePilotToFormal": false,
+    "reusePilotDatabaseOrKubo": false,
+    "rerunI9": false,
+    "modifyI9Raw": false,
+    "modifyI10Preregistration": false,
+    "changeConfigMatrix": false,
+    "changeRepetitions": false,
+    "changeRandomizationSeed": false,
+    "changeStatistics": false,
+    "push": false,
+    "merge": false,
+    "rebase": false
+  },
+  "nextStep": "await USER_I11_APPROVAL (APPROVE_I11)"
+}

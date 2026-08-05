@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "I17ArtifactSha256V1",
+  "generatedAt": "2026-08-02T14:15:57.348108+00:00",
+  "selfIncluded": false,
+  "files": [
+    {
+      "path": "00-I17-ENTRY.md",
+      "sha256": "2fd0f20fda51010e30db8d233d3e596ef907076c23818302aa0c3ff70a424b8d"
+    },
+    {
+      "path": "01-MANUAL-LINE-BREAK-AUDIT.md",
+      "sha256": "a37ce0447ac8c5ce2dd3490aeb692bf4a873145e559cbd54a418c328639c5d27"
+    },
+    {
+      "path": "02-PARAGRAPH-FRAGMENTATION-AUDIT.md",
+      "sha256": "d206f3a431b70d24de6a85f8b5a94af067ef5a1be400ce29b30acb1280e67b26"
+    },
+    {
+      "path": "03-SOURCE-OF-TRUTH.md",
+      "sha256": "435352f4a80ceb9fe75a8ef22ba820755e6db721814f4e5886ed63d8a987907a"
+    },
+    {
+      "path": "04-ACADEMIC-PARAGRAPH-RULES.md",
+      "sha256": "8a78addd4bc7a8089575301aebebb9ecda485d02e3fcdcb252cc7575c5f098fa"
+    },
+    {
+      "path": "05-TEXT-CHANGE-MANIFEST.md",
+      "sha256": "16caf9cfdee30d515aa1feb82e42a17bc4b1526ffb5a3d768ad169803d0fca51"
+    },
+    {
+      "path": "06-PARAGRAPH-RECONSTRUCTION-SAMPLES.md",
+      "sha256": "5a532a6c984823bfd170c1342fabdef11d674b510575ab26c39e34e079ac027f"
+    },
+    {
+      "path": "07-ASSEMBLER-LINEBREAK-FIX.md",
+      "sha256": "df33815fb26c22846095c8c565e8624733ee4cd10b5a2b3a6ba5183375f06747"
+    },
+    {
+      "path": "08-LIST-SEMANTIC-AUDIT.md",
+      "sha256": "48e43a8612ecead3b7afc91c9fc9a7fbe01e6ff4145d3045b5f3b089de692dce"
+    },
+    {
+      "path": "09-I16-FORMAT-ONLY-CLOSURE.md",
+      "sha256": "82fcaefa25aed5465d76eda6c29e3a683ee121531d87403de05ecc32bb89e70b"
+    },
+    {
+      "path": "10-NUMERIC-CLAIM-CITATION-REAUDIT.md",
+      "sha256": "6bcdc53b7b2c6bc2673d18aa851fea2a19bc22223f34302723c076e07ef967ce"
+    },
+    {
+      "path": "11-PARAGRAPH-STATISTICS.md",
+      "sha256": "a3fd64c1640581105ec1f6114e8c6bca34381176621ff0c4a292e39991d36c13"
+    },
+    {
+      "path": "12-DOCX-V2-AUDIT.md",
+      "sha256": "203a3345136245de2a1a81dabf1fc534f400969f73c2775c84bf54ccd13e6dd4"
+    },
+    {
+      "path": "13-I17-STRICT-REVIEW.md",
+      "sha256": "58aa0f06bf7c8c881dbb904721dd4fbb7ab3606cc5a113e8480a05de0ebc2ed8"
+    },
+    {
+      "path": "14-I17-FINAL-DECISION.md",
+      "sha256": "bdcd3752eaab0504e56fec883157185ac6f29f28a2481bd92b07f3858e7772aa"
+    },
+    {
+      "path": "15-NEXT-STAGE-ENTRY.md",
+      "sha256": "0b426a1767eed8ea870cb595908d03a99d1d0b46b3ebb2215f6f84892ee49726"
+    },
+    {
+      "path": "I17-SOURCE.md",
+      "sha256": "f29ef39308ebe7a655a14bd7507e3b99a40bbb3d4a7a7e089e15b0763a1a8dd9"
+    },
+    {
+      "path": "i17-state.json",
+      "sha256": "e2176f3244e77668863a3436a577c06b8bda300183f19822acd15f128a99fc75"
+    },
+    {
+      "path": "i17-transform-manifest.json",
+      "sha256": "9a5dda8a0a13fe651b597e14ad7eabd7be4a43a166c18da1ed77da053109c6e0"
+    },
+    {
+      "path": "manual-line-break-audit.json",
+      "sha256": "8d1735fc2c9ae73c8bc972b1667bc030e588abce199391c3f15c082f823891ec"
+    },
+    {
+      "path": "paragraph-fragmentation-audit.json",
+      "sha256": "663788ca713c9113f6c94648fd61c5434865a06844622677e34df481a6adca31"
+    },
+    {
+      "path": "paragraph-statistics.json",
+      "sha256": "3cfb470e145a97a58fbcb54709b690f926480e0676754fea82f98bd4866b1a0f"
+    },
+    {
+      "path": "text-change-manifest.json",
+      "sha256": "9a5dda8a0a13fe651b597e14ad7eabd7be4a43a166c18da1ed77da053109c6e0"
+    }
+  ]
+}

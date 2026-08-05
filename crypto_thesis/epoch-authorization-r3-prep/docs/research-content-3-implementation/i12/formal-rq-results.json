@@ -1,0 +1,588 @@
+{
+  "schemaVersion": "FormalRQResultCardV1",
+  "cards": {
+    "RQ-1": {
+      "experiment": "E1",
+      "sampleCount": 20,
+      "validCount": 20,
+      "stateConsistency": 20,
+      "wrongMaterialRelease": 0,
+      "configMedians": {
+        "C4": {
+          "medianMs": 3147.257277,
+          "ci95": [
+            3026.501255,
+            3257.903811
+          ],
+          "scenario": "RESTORE_REPLICA"
+        },
+        "C1": {
+          "medianMs": 3080.045876,
+          "ci95": [
+            3033.273097,
+            3244.898333
+          ],
+          "scenario": "INITIAL"
+        },
+        "C3": {
+          "medianMs": 7118.182827,
+          "ci95": [
+            7101.961608,
+            7236.002444
+          ],
+          "scenario": "REVOCATION"
+        },
+        "C2": {
+          "medianMs": 5120.068261,
+          "ci95": [
+            5026.188773,
+            5146.899745
+          ],
+          "scenario": "BODY_ROTATION"
+        }
+      },
+      "conclusion": "在受控 Formal 环境下，E1 的 20 个 RUN 全部通过冻结不变量：状态更新与幂等性检查通过、链/数据库/对象最终状态一致、无错误材料释放。这是实验验证而非形式化证明。"
+    },
+    "RQ-2": {
+      "experiment": "E2",
+      "sampleCount": 30,
+      "validCount": 30,
+      "levels": {
+        "recipient=32,affected=1": {
+          "n": 5,
+          "mean": 5115.0234474,
+          "sd": 94.48518512547639,
+          "median": 5144.195584,
+          "iqr": 116.76051800000005,
+          "min": 5001.535629,
+          "max": 5235.47975,
+          "ci95": [
+            5001.535629,
+            5235.47975
+          ],
+          "chainBroadcastMedianMs": 4959.463075,
+          "compositeReadMedianMs": 36.301346
+        },
+        "recipient=2,affected=1": {
+          "n": 5,
+          "mean": 5083.1525406,
+          "sd": 93.54767616711229,
+          "median": 5117.163201,
+          "iqr": 135.18322200000057,
+          "min": 4949.223038,
+          "max": 5164.386944,
+          "ci95": [
+            4949.223038,
+            5164.386944
+          ],
+          "chainBroadcastMedianMs": 4959.575819,
+          "compositeReadMedianMs": 20.186879
+        },
+        "recipient=2,affected=4": {
+          "n": 5,
+          "mean": 5120.341526599999,
+          "sd": 62.6241500703812,
+          "median": 5129.689151,
+          "iqr": 36.70290800000021,
+          "min": 5016.08405,
+          "max": 5178.485486,
+          "ci95": [
+            5016.08405,
+            5178.485486
+          ],
+          "chainBroadcastMedianMs": 4966.347219,
+          "compositeReadMedianMs": 27.001757
+        },
+        "recipient=32,affected=4": {
+          "n": 5,
+          "mean": 5122.3993084,
+          "sd": 51.72719848486368,
+          "median": 5130.269139,
+          "iqr": 48.62080200000037,
+          "min": 5038.545323,
+          "max": 5166.037018,
+          "ci95": [
+            5038.545323,
+            5166.037018
+          ],
+          "chainBroadcastMedianMs": 4969.690633,
+          "compositeReadMedianMs": 22.539558
+        },
+        "recipient=8,affected=4": {
+          "n": 5,
+          "mean": 5093.2402934,
+          "sd": 61.51049815151291,
+          "median": 5114.68549,
+          "iqr": 89.81020100000023,
+          "min": 5009.491534,
+          "max": 5153.450654,
+          "ci95": [
+            5009.491534,
+            5153.450654
+          ],
+          "chainBroadcastMedianMs": 4951.954812,
+          "compositeReadMedianMs": 18.714674
+        },
+        "recipient=8,affected=1": {
+          "n": 5,
+          "mean": 5105.367756199999,
+          "sd": 72.64117032090047,
+          "median": 5119.045798,
+          "iqr": 5.6224160000001575,
+          "min": 4985.138101,
+          "max": 5183.03136,
+          "ci95": [
+            4985.138101,
+            5183.03136
+          ],
+          "chainBroadcastMedianMs": 4950.177394,
+          "compositeReadMedianMs": 20.381706
+        }
+      },
+      "recipientEffectWithinAffected1": {
+        "medianDifferenceMs": 27.032382999999754,
+        "ratio": 1.0052826892436648,
+        "cliffsDelta": 0.12,
+        "localN": 5,
+        "kuboN": 5
+      },
+      "affectedEffectWithinRecipient2": {
+        "medianDifferenceMs": 12.525949999999284,
+        "ratio": 1.0024478308601827,
+        "cliffsDelta": 0.2,
+        "localN": 5,
+        "kuboN": 5
+      },
+      "semanticBoundary": "HEADER_ONLY 独立分析；不与 BODY_ROTATION 比较",
+      "conclusion": ""
+    },
+    "RQ-3": {
+      "experiment": "E3",
+      "sampleCount": 45,
+      "validCount": 45,
+      "levels": {
+        "body=1048576,recipient=32": {
+          "n": 5,
+          "mean": 5087.2811666,
+          "sd": 42.96724749015188,
+          "median": 5071.251245,
+          "iqr": 42.10393600000043,
+          "min": 5046.777766,
+          "max": 5154.674854,
+          "ci95": [
+            5046.777766,
+            5154.674854
+          ],
+          "bodyEncryptMedianMs": 0.92546,
+          "oldCkCannotDecryptNewBody": 5,
+          "bodyDigestChanged": 5
+        },
+        "body=1048576,recipient=2": {
+          "n": 5,
+          "mean": 4896.6941998,
+          "sd": 255.01379076423686,
+          "median": 4978.171865,
+          "iqr": 65.78020399999969,
+          "min": 4463.794885,
+          "max": 5137.010679,
+          "ci95": [
+            4463.794885,
+            5137.010679
+          ],
+          "bodyEncryptMedianMs": 1.021122,
+          "oldCkCannotDecryptNewBody": 5,
+          "bodyDigestChanged": 5
+        },
+        "body=1048576,recipient=8": {
+          "n": 5,
+          "mean": 5082.0018014,
+          "sd": 52.03420531457718,
+          "median": 5061.706813,
+          "iqr": 79.1207719999993,
+          "min": 5030.440943,
+          "max": 5149.989263,
+          "ci95": [
+            5030.440943,
+            5149.989263
+          ],
+          "bodyEncryptMedianMs": 0.894607,
+          "oldCkCannotDecryptNewBody": 5,
+          "bodyDigestChanged": 5
+        },
+        "body=8388608,recipient=32": {
+          "n": 5,
+          "mean": 5096.2576846,
+          "sd": 61.01575007639529,
+          "median": 5104.837958,
+          "iqr": 34.72989299999972,
+          "min": 4997.562517,
+          "max": 5160.621377,
+          "ci95": [
+            4997.562517,
+            5160.621377
+          ],
+          "bodyEncryptMedianMs": 0.868593,
+          "oldCkCannotDecryptNewBody": 5,
+          "bodyDigestChanged": 5
+        },
+        "body=65536,recipient=32": {
+          "n": 5,
+          "mean": 5044.8778884,
+          "sd": 127.66752640301411,
+          "median": 5067.079405,
+          "iqr": 136.70966399999998,
+          "min": 4842.588101,
+          "max": 5154.07751,
+          "ci95": [
+            4842.588101,
+            5154.07751
+          ],
+          "bodyEncryptMedianMs": 0.917996,
+          "oldCkCannotDecryptNewBody": 5,
+          "bodyDigestChanged": 5
+        },
+        "body=8388608,recipient=2": {
+          "n": 5,
+          "mean": 6163.4834697999995,
+          "sd": 1001.5394966169006,
+          "median": 6696.252564,
+          "iqr": 1759.7312469999997,
+          "min": 5063.064376,
+          "max": 7110.690678,
+          "ci95": [
+            5063.064376,
+            7110.690678
+          ],
+          "bodyEncryptMedianMs": 0.778793,
+          "oldCkCannotDecryptNewBody": 5,
+          "bodyDigestChanged": 5
+        },
+        "body=65536,recipient=8": {
+          "n": 5,
+          "mean": 5099.818494,
+          "sd": 25.834345398218613,
+          "median": 5095.022899,
+          "iqr": 4.603221999999732,
+          "min": 5071.901828,
+          "max": 5142.345605,
+          "ci95": [
+            5071.901828,
+            5142.345605
+          ],
+          "bodyEncryptMedianMs": 0.858739,
+          "oldCkCannotDecryptNewBody": 5,
+          "bodyDigestChanged": 5
+        },
+        "body=65536,recipient=2": {
+          "n": 5,
+          "mean": 5083.686367200001,
+          "sd": 16.465481881298285,
+          "median": 5083.170723,
+          "iqr": 9.49057300000004,
+          "min": 5060.823333,
+          "max": 5106.406665,
+          "ci95": [
+            5060.823333,
+            5106.406665
+          ],
+          "bodyEncryptMedianMs": 1.133995,
+          "oldCkCannotDecryptNewBody": 5,
+          "bodyDigestChanged": 5
+        },
+        "body=8388608,recipient=8": {
+          "n": 5,
+          "mean": 5105.9444518,
+          "sd": 65.98273628233389,
+          "median": 5089.854643,
+          "iqr": 37.122096000000056,
+          "min": 5046.224906,
+          "max": 5216.790202,
+          "ci95": [
+            5046.224906,
+            5216.790202
+          ],
+          "bodyEncryptMedianMs": 0.617959,
+          "oldCkCannotDecryptNewBody": 5,
+          "bodyDigestChanged": 5
+        }
+      },
+      "bodySizeEffectWithinRecipient2": {
+        "medianDifferenceMs": 1613.0818410000002,
+        "ratio": 1.3173377265692126,
+        "cliffsDelta": 0.6,
+        "localN": 5,
+        "kuboN": 5
+      },
+      "correctness": {
+        "oldCkCannotDecryptNewBody": 45,
+        "bodyDigestChanged": 45,
+        "allValid": 45
+      },
+      "semanticBoundary": "BODY_ROTATION 独立分析；性能与密码正确性分开表述",
+      "conclusion": ""
+    },
+    "RQ-4": {
+      "experiment": "E4",
+      "sampleCount": 10,
+      "validCount": 10,
+      "releaseDecisions": {
+        "ALLOWED_AFTER_CURRENT_HEADER_ONLY": 5,
+        "DENIED": 5
+      },
+      "wrongMaterialRelease": 0,
+      "pendingWindowLatencyMs": {
+        "config2Median": 1.326127
+      },
+      "conclusion": "E4 的 10 个 RUN 全部通过 Fail-Closed 检查：撤销事件后，pending 窗口内材料释放判定为 DENIED，header 闭合后恢复一致状态；错误材料释放为 0。"
+    },
+    "RQ-5": {
+      "experiment": "E5",
+      "sampleCount": 40,
+      "validCount": 40,
+      "recoveryTable": {
+        "BOTH_MISSING": {
+          "LOCAL_ONLY": {
+            "n": 5,
+            "valid": 5,
+            "dispositions": {
+              "VALID_EXPECTED_FAIL_CLOSED": 5
+            },
+            "recoveryDispositions": {
+              "FAIL_CLOSED": 5
+            },
+            "repairActions": {
+              "0": 5
+            },
+            "objectSources": {
+              "NONE": 5
+            },
+            "durationMedianMs": 3112.164024,
+            "durationIqrMs": 30.383781,
+            "recoveryMedianMs": null
+          },
+          "KUBO_REPLICA": {
+            "n": 5,
+            "valid": 5,
+            "dispositions": {
+              "VALID_EXPECTED_FAIL_CLOSED": 5
+            },
+            "recoveryDispositions": {
+              "FAIL_CLOSED": 5
+            },
+            "repairActions": {
+              "0": 5
+            },
+            "objectSources": {
+              "NONE": 5
+            },
+            "durationMedianMs": 3129.640055,
+            "durationIqrMs": 141.68386899999996,
+            "recoveryMedianMs": null
+          }
+        },
+        "CID_MISMATCH": {
+          "LOCAL_ONLY": {
+            "n": 5,
+            "valid": 5,
+            "dispositions": {
+              "VALID_EXPECTED_FAIL_CLOSED": 5
+            },
+            "recoveryDispositions": {
+              "FAIL_CLOSED": 5
+            },
+            "repairActions": {
+              "0": 5
+            },
+            "objectSources": {
+              "IN_MEMORY_CANDIDATE": 5
+            },
+            "durationMedianMs": 3107.362621,
+            "durationIqrMs": 99.64928800000007,
+            "recoveryMedianMs": null
+          },
+          "KUBO_REPLICA": {
+            "n": 5,
+            "valid": 5,
+            "dispositions": {
+              "VALID_EXPECTED_FAIL_CLOSED": 5
+            },
+            "recoveryDispositions": {
+              "FAIL_CLOSED": 5
+            },
+            "repairActions": {
+              "0": 5
+            },
+            "objectSources": {
+              "KUBO_CANDIDATE": 5
+            },
+            "durationMedianMs": 3125.612293,
+            "durationIqrMs": 97.80258500000036,
+            "recoveryMedianMs": null
+          }
+        },
+        "CORRUPT_RESTORE": {
+          "LOCAL_ONLY": {
+            "n": 5,
+            "valid": 5,
+            "dispositions": {
+              "VALID_EXPECTED_FAIL_CLOSED": 5
+            },
+            "recoveryDispositions": {
+              "UNRECOVERABLE": 5
+            },
+            "repairActions": {
+              "0": 5
+            },
+            "objectSources": {
+              "NONE": 5
+            },
+            "durationMedianMs": 3163.524622,
+            "durationIqrMs": 78.96438799999987,
+            "recoveryMedianMs": null
+          },
+          "KUBO_REPLICA": {
+            "n": 5,
+            "valid": 5,
+            "dispositions": {
+              "VALID_SUCCESS": 5
+            },
+            "recoveryDispositions": {
+              "CONSISTENT": 5
+            },
+            "repairActions": {
+              "1": 5
+            },
+            "objectSources": {
+              "KUBO": 5
+            },
+            "durationMedianMs": 3132.625769,
+            "durationIqrMs": 131.27304699999968,
+            "recoveryMedianMs": null
+          }
+        },
+        "NONE": {
+          "LOCAL_ONLY": {
+            "n": 5,
+            "valid": 5,
+            "dispositions": {
+              "VALID_SUCCESS": 5
+            },
+            "recoveryDispositions": {
+              "CONSISTENT": 5
+            },
+            "repairActions": {
+              "0": 5
+            },
+            "objectSources": {
+              "LOCAL": 5
+            },
+            "durationMedianMs": 3184.316408,
+            "durationIqrMs": 96.14140800000041,
+            "recoveryMedianMs": null
+          },
+          "KUBO_REPLICA": {
+            "n": 5,
+            "valid": 5,
+            "dispositions": {
+              "VALID_SUCCESS": 5
+            },
+            "recoveryDispositions": {
+              "CONSISTENT": 5
+            },
+            "repairActions": {
+              "0": 5
+            },
+            "objectSources": {
+              "KUBO": 5
+            },
+            "durationMedianMs": 3136.050422,
+            "durationIqrMs": 90.75974399999996,
+            "recoveryMedianMs": null
+          }
+        }
+      },
+      "effectSizes": {
+        "E5-BOTH_MISSING-KUBO_vs_LOCAL": {
+          "medianDifferenceMs": 17.476030999999693,
+          "ratio": 1.0056153952250686,
+          "cliffsDelta": 0.04,
+          "localN": 5,
+          "kuboN": 5,
+          "pairing": "same semantic class, same input digest, same seed, matched fault block"
+        },
+        "E5-CID_MISMATCH-KUBO_vs_LOCAL": {
+          "medianDifferenceMs": 18.24967199999992,
+          "ratio": 1.0058730422631288,
+          "cliffsDelta": 0.52,
+          "localN": 5,
+          "kuboN": 5,
+          "pairing": "same semantic class, same input digest, same seed, matched fault block"
+        },
+        "E5-CORRUPT_RESTORE-KUBO_vs_LOCAL": {
+          "medianDifferenceMs": -30.89885299999969,
+          "ratio": 0.9902327761936415,
+          "cliffsDelta": 0.04,
+          "localN": 5,
+          "kuboN": 5,
+          "pairing": "same semantic class, same input digest, same seed, matched fault block"
+        },
+        "E5-NONE-KUBO_vs_LOCAL": {
+          "medianDifferenceMs": -48.26598600000034,
+          "ratio": 0.9848425910569876,
+          "cliffsDelta": 0.04,
+          "localN": 5,
+          "kuboN": 5,
+          "pairing": "same semantic class, same input digest, same seed, matched fault block"
+        }
+      },
+      "baselineR": "LOCAL_ONLY/NONE 为 Baseline-R（匹配输入与语义）",
+      "conclusion": ""
+    },
+    "RQ-6": {
+      "experiment": "E5",
+      "sampleCount": 40,
+      "validCount": 40,
+      "reproducibleApplicationOverhead": {
+        "environment": "single-node Formal chain / independent DB / isolated Kubo (0 peers)",
+        "measuredRuns": 40,
+        "durationMedians": {
+          "BOTH_MISSING": {
+            "LOCAL_ONLY": 3112.164024,
+            "KUBO_REPLICA": 3129.640055
+          },
+          "CID_MISMATCH": {
+            "LOCAL_ONLY": 3107.362621,
+            "KUBO_REPLICA": 3125.612293
+          },
+          "CORRUPT_RESTORE": {
+            "LOCAL_ONLY": 3163.524622,
+            "KUBO_REPLICA": 3132.625769
+          },
+          "NONE": {
+            "LOCAL_ONLY": 3184.316408,
+            "KUBO_REPLICA": 3136.050422
+          }
+        },
+        "recoveryMedians": {
+          "BOTH_MISSING": {
+            "LOCAL_ONLY": null,
+            "KUBO_REPLICA": null
+          },
+          "CID_MISMATCH": {
+            "LOCAL_ONLY": null,
+            "KUBO_REPLICA": null
+          },
+          "CORRUPT_RESTORE": {
+            "LOCAL_ONLY": null,
+            "KUBO_REPLICA": null
+          },
+          "NONE": {
+            "LOCAL_ONLY": null,
+            "KUBO_REPLICA": null
+          }
+        }
+      },
+      "conclusion": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "stage": 2,
+  "attempt": 2,
+  "status": "FAILED_AFTER_OFFICIAL_GENERATION_BEFORE_TRANSFER",
+  "distributed": false,
+  "services_started": false,
+  "cause": "`besu rlp decode` requires an unquoted raw 0x-prefixed extraData value; the second attempt supplied a JSON-quoted string.",
+  "safety_assessment": "The newly generated keypairs remained only in the fixed remote temporary directory and were not retrieved or distributed.",
+  "authorized_recovery": "Remove the exact remote staging directory, write raw extraData text, and regenerate.",
+  "evidence": "evidence/genesis/generation.txt"
+}

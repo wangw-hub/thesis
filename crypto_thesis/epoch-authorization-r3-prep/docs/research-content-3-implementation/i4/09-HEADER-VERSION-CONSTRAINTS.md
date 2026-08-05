@@ -1,0 +1,7 @@
+# Header版本约束
+
+数据库保证(resourceId,headerVersion)、operationId、headerDigest及job映射唯一。
+部分唯一索引保证每资源最多一个COMMITTED Header。版本1要求previous为空；后续版本
+触发器要求previousHeaderDigest等于精确前一版本headerDigest。双COMMITTED和断链
+测试均被拒绝。
+

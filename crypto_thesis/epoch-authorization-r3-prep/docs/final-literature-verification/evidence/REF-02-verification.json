@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "LiteratureVerificationRecordV1",
+  "referenceId": "REF-02",
+  "citationKey": "[2]",
+  "currentBibliographyEntry": "[2] Abiteboul S, Manolescu I, Polyzotis N, Preda N, Sun C. XML processing in DHT networks. Proceedings of the 24th International Conference on Data Engineering (ICDE), 2008.",
+  "title": "XML processing in DHT networks",
+  "authors": "Abiteboul S, Manolescu I, Polyzotis N, Preda N, Sun C",
+  "year": 2008,
+  "venue": "Proceedings of the 24th International Conference on Data Engineering (ICDE)",
+  "publicationType": "CONFERENCE_PAPER",
+  "volume": null,
+  "issue": null,
+  "pages": "606-615",
+  "publisher": "IEEE",
+  "DOI": "10.1109/ICDE.2008.4497469",
+  "URL": null,
+  "formalPublicationStatus": "JOURNAL/CONFERENCE/RFC/ENGINEERING",
+  "preprintStatus": false,
+  "officialSource": "https://dl.acm.org/doi/10.1109/ICDE.2008.4497469",
+  "secondarySources": [
+    "https://researchr.org/publication/AbiteboulMPPS08"
+  ],
+  "metadataMatch": true,
+  "claimSupport": "PARTIALLY_SUPPORTED",
+  "claimSupportLevel": "PARTIALLY_SUPPORTED",
+  "verificationStatus": "VERIFIED",
+  "recommendedAction": "采纳（必要时按 correction 修正）",
+  "notes": "推荐改为“分布式环境下 XML 等半结构化数据的分区与索引处理[2]”，避免暗示其直接定义 dyadic cover",
+  "accessDate": "2026-08-02"
+}

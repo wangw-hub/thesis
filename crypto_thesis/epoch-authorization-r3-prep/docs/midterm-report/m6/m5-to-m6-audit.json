@@ -1,0 +1,25 @@
+{
+  "m5_pages": 35,
+  "m5_display_equations": 26,
+  "m5_algorithms": 8,
+  "m5_figures": 20,
+  "m5_tables": 8,
+  "m5_references": 29,
+  "m5_recent_2021_2026": 4,
+  "m5_recent_2024_2026": 2,
+  "m5_issues": [
+    "trivial display equations",
+    "broken algorithm block parsing",
+    "internal tags in text/figure/table",
+    "reference recency deficit",
+    "RC2 table statistics mismatch",
+    "duplicate E4/E5 paragraph",
+    "stale citation [18] in innovation 1",
+    "reference spacing"
+  ],
+  "m6_target": {
+    "pages": "28-35",
+    "equations": "12-18",
+    "references": 31
+  }
+}

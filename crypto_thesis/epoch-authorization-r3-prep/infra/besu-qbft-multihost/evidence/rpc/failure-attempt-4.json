@@ -1,0 +1,15 @@
+{
+  "stage": 5,
+  "attempt": 4,
+  "status": "RPC_DEPLOYED_INITIAL_SYNC_NOT_COMPLETE",
+  "observed": {
+    "service_active": true,
+    "chainId": 2026072801,
+    "peer_count": 4,
+    "validator_count": 4,
+    "block_number": 0
+  },
+  "cause": "Acceptance was collected approximately one second after the RPC service completed startup; initial full synchronization had not selected a target yet.",
+  "key_or_data_redeployment_required": false,
+  "resolution": "Wait 20 seconds and rerun read-only acceptance against the existing service."
+}

@@ -1,0 +1,8 @@
+{
+  "artifact_sha256": "b8cd8040e4a7683fb4454ea1cf3c3c4d97647611ad7cb3d616b72a35cf496ad5",
+  "bytecode_sha256": "d9c20c6638b1e5d084170c4f67fcd92882a057da0213d012538868caacbb9840",
+  "deployed_bytecode_sha256": "7c35d95acb2ae3c2871d713ce678db436b04d00f7aef8a693459b7eb8b04329f",
+  "solc": "0.8.30",
+  "evm_version": "london",
+  "optimizer_runs": 200
+}

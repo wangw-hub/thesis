@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "status": "I1_REQUIRES_REVISION",
+  "entryApproved": true,
+  "executionStarted": true,
+  "executionCompleted": false,
+  "hardStop": "HPKE_SELECTED_PUBLIC_API_CANNOT_EXECUTE_RFC9180_A1_NONEMPTY_AAD_VECTOR",
+  "hpkeCandidate": "cryptography==49.0.0",
+  "hpkeRfc9180Vector": "FAIL_INVALID_TAG",
+  "tests": {"total": 1, "passed": 0, "failed": 1},
+  "review": {"fatal": 1, "major": 2, "minor": 1, "editorial": 0},
+  "performanceConclusionsGenerated": false,
+  "formalKeysGenerated": false,
+  "formalChainAccessed": false,
+  "formalDatabaseAccessed": false,
+  "mainRepositoryModified": false,
+  "i2Started": false,
+  "pushExecuted": false
+}
+

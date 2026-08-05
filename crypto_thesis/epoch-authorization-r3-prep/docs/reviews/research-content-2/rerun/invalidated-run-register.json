@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "run": "formal_auth_multihost_20260729_34af4ff",
+  "status": "INVALIDATED_IMMUTABLE",
+  "raw_sha256": "64cc50e3a3495e04460040fbf6d9ae8b3459948c3fe2ccd24618f391b47e9e6e",
+  "issues": [
+    {"id": "FATAL-1", "status": "OPEN_UNTIL_TEST_AND_DRYRUN"},
+    {"id": "FATAL-2", "status": "OPEN_UNTIL_TEST_AND_DRYRUN"},
+    {"id": "MAJOR-1", "status": "OPEN_UNTIL_TEST_AND_DRYRUN"},
+    {"id": "MAJOR-2", "status": "OPEN_UNTIL_TEST_AND_DRYRUN"},
+    {"id": "MAJOR-3", "status": "OPEN_UNTIL_TEST_AND_DRYRUN"},
+    {"id": "MAJOR-4", "status": "OPEN_UNTIL_TEST_AND_DRYRUN"}
+  ]
+}

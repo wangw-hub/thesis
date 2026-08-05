@@ -1,0 +1,16 @@
+{
+  "stage": 0,
+  "status": "FAILED",
+  "failed_at_utc": "2026-07-28T09:20:03.7016507Z",
+  "host": "besu-validator-1",
+  "command_type": "ssh BatchMode remote bash through standard input",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "bash: line 137: $'\\r': command not found",
+  "remote_changes": false,
+  "remaining_hosts_attempted": false,
+  "stage_1_started": false,
+  "git_commit": "015973261556b614c47adc17a57b266ed6933920",
+  "cause": "PowerShell Get-Content preserved CRLF line endings when piping the Bash script to SSH.",
+  "proposed_fix": "Normalize the in-memory script payload from CRLF to LF before piping it to ssh, then rerun stage 0 from the first host."
+}

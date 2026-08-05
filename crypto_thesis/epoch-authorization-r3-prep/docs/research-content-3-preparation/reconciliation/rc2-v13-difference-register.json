@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "result": "RECONCILIATION_PASSED",
+  "counts": {
+    "PERFORMANCE_ONLY": 2,
+    "COMPATIBLE_INTERFACE_REFINEMENT": 3,
+    "PROTOCOL_INTERFACE_CHANGE": 0,
+    "EVIDENCE_INVALIDATING_CHANGE": 0
+  },
+  "differences": [
+    {"id":"R01","classification":"COMPATIBLE_INTERFACE_REFINEMENT","summary":"Required-state absence is represented as GatewayUnavailable rather than a guessed UNKNOWN value; fail-closed semantics are unchanged."},
+    {"id":"R02","classification":"PERFORMANCE_ONLY","summary":"V13 collector and trace freeze exactly three live reads per experimental request without adding a state cache."},
+    {"id":"R08","classification":"COMPATIBLE_INTERFACE_REFINEMENT","summary":"Final chainId and AuthorizationState address are now uniquely frozen for explicit injection."},
+    {"id":"R09","classification":"PERFORMANCE_ONLY","summary":"Dependency hashes advance from the preparation baseline to the final V13 evidence and governance freeze."},
+    {"id":"R10","classification":"COMPATIBLE_INTERFACE_REFINEMENT","summary":"RC2 external dependency advances from active rerun to completed frozen evidence; consumed protocol fields do not change."}
+  ]
+}

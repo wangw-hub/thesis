@@ -1,0 +1,13 @@
+{
+  "schemaVersion":1,
+  "recommended":"S3_HEADER_REGISTRY",
+  "authorizationStateV2Required":false,
+  "options":[
+    {"id":"S1","name":"MODIFY_AUTHORIZATION_STATE","decision":"REJECTED_OPTION","r2EvidenceImpact":"FATAL"},
+    {"id":"S2","name":"AUTHORIZATION_STATE_V2_MIGRATION","decision":"REJECTED_OPTION","r2EvidenceImpact":"HIGH"},
+    {"id":"S3","name":"INDEPENDENT_HEADER_REGISTRY","decision":"RECOMMENDED","r2EvidenceImpact":"NONE"},
+    {"id":"S4","name":"EVENT_ONLY","decision":"REJECTED_OPTION","reason":"NO_QUERYABLE_CURRENT_CAS"},
+    {"id":"S5","name":"EXISTING_FIELDS_ONLY","decision":"REJECTED_OPTION","reason":"NO_HEADER_ANCHOR"}
+  ],
+  "registryBinds":["authorizationContract","resourceId","policyDigest","epoch","stateVersion","headerVersion","keyVersion","previousHeaderDigest","headerDigest","headerReferenceDigest","operationId"]
+}

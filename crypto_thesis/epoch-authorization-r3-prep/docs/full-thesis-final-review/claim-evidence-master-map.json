@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "ClaimEvidenceMasterMapV1",
+  "claims": [
+    {
+      "claim": "I* 唯一语义表示",
+      "researchContent": "RC1",
+      "evidence": "E1 15120 记录/E2 测试",
+      "chapter": "第四章"
+    },
+    {
+      "claim": "C(P) 为派生执行 IR，无普遍存储优势",
+      "researchContent": "RC1",
+      "evidence": "E1-A 负结果",
+      "chapter": "第四章"
+    },
+    {
+      "claim": "CAP2 完整绑定与重放控制",
+      "researchContent": "RC2",
+      "evidence": "V13/攻击回归/共享 Nonce",
+      "chapter": "第五章"
+    },
+    {
+      "claim": "Fail-Closed（RC2 依赖故障）",
+      "researchContent": "RC2",
+      "evidence": "故障测试",
+      "chapter": "第五章"
+    },
+    {
+      "claim": "C-01..C-06（RC3 正确性/安全/恢复）",
+      "researchContent": "RC3",
+      "evidence": "I11/I12 145 RUN",
+      "chapter": "第六章"
+    },
+    {
+      "claim": "C-07 QBFT 性能",
+      "researchContent": "RC3",
+      "evidence": "FORBIDDEN",
+      "chapter": "第六章"
+    }
+  ]
+}

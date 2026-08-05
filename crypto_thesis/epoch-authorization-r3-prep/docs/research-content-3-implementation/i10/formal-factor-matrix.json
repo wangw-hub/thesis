@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "R3FormalFactorMatrixV1",
+  "factors": [
+    {
+      "factorId": "FCT",
+      "name": "recipient_count",
+      "type": "input",
+      "scientificRationale": "tests envelope fan-out within each semantic update class",
+      "PilotEvidence": "P9-B exercised 2/8/32",
+      "candidateLevels": [
+        2,
+        8,
+        32
+      ],
+      "frozenLevels": [
+        2,
+        8,
+        32
+      ],
+      "controlVariables": [
+        "body_bytes",
+        "affected_count",
+        "seeded workload"
+      ],
+      "applicableRQ": [
+        "RQ-2",
+        "RQ-3"
+      ]
+    },
+    {
+      "factorId": "FAF",
+      "name": "affected_count",
+      "type": "input",
+      "scientificRationale": "separates event fan-out from recipient fan-out",
+      "PilotEvidence": "P9-B exercised 1/4",
+      "candidateLevels": [
+        1,
+        4
+      ],
+      "frozenLevels": [
+        1,
+        4
+      ],
+      "controlVariables": [
+        "recipient_count",
+        "update_kind"
+      ],
+      "applicableRQ": [
+        "RQ-2"
+      ]
+    },
+    {
+      "factorId": "FBS",
+      "name": "body_bytes",
+      "type": "input",
+      "scientificRationale": "captures object/body movement only in BODY_ROTATION",
+      "PilotEvidence": "P9-B exercised 65536/1048576/8388608",
+      "candidateLevels": [
+        65536,
+        1048576,
+        8388608
+      ],
+      "frozenLevels": [
+        65536,
+        1048576,
+        8388608
+      ],
+      "controlVariables": [
+        "recipient_count",
+        "update_kind"
+      ],
+      "applicableRQ": [
+        "RQ-3",
+        "RQ-5"
+      ]
+    },
+    {
+      "factorId": "FUP",
+      "name": "update_kind",
+      "type": "semantic_block",
+      "scientificRationale": "HEADER_ONLY and BODY_ROTATION have different security and storage semantics",
+      "PilotEvidence": "I9 explicitly forbids cross-semantic comparison",
+      "candidateLevels": [
+        "HEADER_ONLY",
+        "BODY_ROTATION"
+      ],
+      "frozenLevels": [
+        "HEADER_ONLY",
+        "BODY_ROTATION"
+      ],
+      "controlVariables": [
+        "seed",
+        "environment"
+      ],
+      "applicableRQ": [
+        "RQ-2",
+        "RQ-3"
+      ]
+    },
+    {
+      "factorId": "FRS",
+      "name": "replica_state",
+      "type": "recovery_control",
+      "scientificRationale": "isolates Kubo replica contribution with same object identity",
+      "PilotEvidence": "P9-C/P9-D exercised local, replica and unavailable states",
+      "candidateLevels": [
+        "LOCAL_ONLY",
+        "KUBO_REPLICA"
+      ],
+      "frozenLevels": [
+        "LOCAL_ONLY",
+        "KUBO_REPLICA"
+      ],
+      "controlVariables": [
+        "body_bytes",
+        "fault_class"
+      ],
+      "applicableRQ": [
+        "RQ-5",
+        "RQ-6"
+      ]
+    },
+    {
+      "factorId": "FFT",
+      "name": "fault_class",
+      "type": "controlled_fault",
+      "scientificRationale": "covers object and service failure branches without changing protocol",
+      "PilotEvidence": "P9-C/P9-D accepted controlled branches",
+      "candidateLevels": [
+        "NONE",
+        "CORRUPT_RESTORE",
+        "CID_MISMATCH",
+        "BOTH_MISSING",
+        "KUBO_UNAVAILABLE",
+        "POSTGRES_UNAVAILABLE",
+        "BESU_UNAVAILABLE"
+      ],
+      "frozenLevels": [
+        "NONE",
+        "CORRUPT_RESTORE",
+        "CID_MISMATCH",
+        "BOTH_MISSING"
+      ],
+      "controlVariables": [
+        "replica_state",
+        "object identity",
+        "observation evidence"
+      ],
+      "applicableRQ": [
+        "RQ-4",
+        "RQ-5"
+      ]
+    },
+    {
+      "factorId": "FWL",
+      "name": "workload_type",
+      "type": "workload",
+      "scientificRationale": "keeps update, restore and revocation units semantically distinct",
+      "PilotEvidence": "I9 generator is deterministic and seeded",
+      "candidateLevels": [
+        "HEADER_UPDATE",
+        "BODY_ROTATION",
+        "REVOCATION",
+        "RESTORE"
+      ],
+      "frozenLevels": [
+        "HEADER_UPDATE",
+        "BODY_ROTATION",
+        "REVOCATION",
+        "RESTORE"
+      ],
+      "controlVariables": [
+        "generator_version",
+        "seed",
+        "input_digest"
+      ],
+      "applicableRQ": [
+        "RQ-1",
+        "RQ-2",
+        "RQ-3",
+        "RQ-4",
+        "RQ-5"
+      ]
+    },
+    {
+      "factorId": "FCC",
+      "name": "concurrency",
+      "type": "operational",
+      "scientificRationale": "tests bounded queue contention without claiming distributed scalability",
+      "PilotEvidence": "I4/I9 establish concurrency and lease boundaries",
+      "candidateLevels": [
+        1,
+        4,
+        16
+      ],
+      "frozenLevels": [
+        1,
+        4
+      ],
+      "controlVariables": [
+        "semantic block",
+        "environment",
+        "database pool"
+      ],
+      "applicableRQ": [
+        "RQ-1",
+        "RQ-6"
+      ]
+    }
+  ]
+}

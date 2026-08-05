@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "I11ArtifactSha256V1",
+  "generatedAt": "2026-08-02T10:18:21.091814+00:00",
+  "selfIncluded": false,
+  "files": [
+    {
+      "path": "00-I11-ENTRY.md",
+      "sha256": "a805234343b1f5207934749c676961e40494e70431969578f62c9c2067fb4b0c"
+    },
+    {
+      "path": "01-FORMAL-PROVISIONING.md",
+      "sha256": "fb209b87fe55f7170cd37170d8e837f46f22ef718077750c8f4b5d30a3e58587"
+    },
+    {
+      "path": "02-FORMAL-ENVIRONMENT-ATTESTATION.md",
+      "sha256": "382f8f4c57f7ca813cdc09f9c5ba0fc05a6decac53171858a286285905183769"
+    },
+    {
+      "path": "03-FORMAL-CODE-FREEZE.md",
+      "sha256": "b2b0aeecca831755c35d2088474b8230262cb4c55d5e634b0da166232731b881"
+    },
+    {
+      "path": "04-FORMAL-PREFLIGHT.md",
+      "sha256": "db31b7a3f7571c6a936f7c675a7d759ee9e4c2ac37133ccf65739dae064c6cdc"
+    },
+    {
+      "path": "05-FORMAL-EXECUTION-ORDER.md",
+      "sha256": "979926fa7b7a45ef25e828b5aeb006f93d0b81975896d8c72bddf6c046de515a"
+    },
+    {
+      "path": "06-FORMAL-ATTEMPT.md",
+      "sha256": "a7aa4fac7ab2b3f7fb2b6f6a5f527d0e6ed29129228e4d7dcaa4616a616502f9"
+    },
+    {
+      "path": "07-WARMUP-RESULT.md",
+      "sha256": "3546fde852cdf91d19217415a339be16a1ac21a6cd1dd6be4613cc087643d5f7"
+    },
+    {
+      "path": "08-E1-RESULT.md",
+      "sha256": "2c8eceadf518815836c80761d1ca6efca109a20f3a5415327af5028c9ba843ff"
+    },
+    {
+      "path": "09-E2-RESULT.md",
+      "sha256": "564e6265d7da12dec8c6c5c10a80d4842310be89b39d60fe3c0840dac5097a55"
+    },
+    {
+      "path": "10-E3-RESULT.md",
+      "sha256": "625bc2336ceb5296717a54d8edb12b27553cd234b56e4a3dc4d15f4be5e75773"
+    },
+    {
+      "path": "11-E4-RESULT.md",
+      "sha256": "fb9e9f6e6b97892674471dc0d10b062ea0c64f30e3d80e6437eb30d9f5e38fbd"
+    },
+    {
+      "path": "12-E5-RESULT.md",
+      "sha256": "b677c9bea897d204fbbb94225b5979a704df500e16085ee99821358c8eb92126"
+    },
+    {
+      "path": "13-FORMAL-RUN-DISPOSITION.md",
+      "sha256": "81c4cbe59765ae99eff53be5656266925de85b9ef18fa76befe679884116b206"
+    },
+    {
+      "path": "14-FORMAL-DATA-QUALITY.md",
+      "sha256": "80e01f6b5530a3156c57acd152263ea4ccbd9f3a857033ee58d90406514a49ee"
+    },
+    {
+      "path": "15-FORMAL-INVARIANTS.md",
+      "sha256": "c479f9f23d829c4242b4f8c84f6db7e64a3c6d4aea0f577524a86f80a71ee3d4"
+    },
+    {
+      "path": "16-FORMAL-EVIDENCE-INTEGRITY.md",
+      "sha256": "4ce3e06d33bb291759a1805ac04e9ee35aacf6c09b5c6db0ada2975edadac535"
+    },
+    {
+      "path": "17-FORMAL-PAIRING.md",
+      "sha256": "f89d241f2fca5e2266e67c68f73a8c107f03eae11e9fdbe8f840212b4d444499"
+    },
+    {
+      "path": "18-FORMAL-STATISTICAL-RESULTS.md",
+      "sha256": "f921805b24d9227eb2fbff87fc2980c406a30066bf633f53e9e39e96cb4d9139"
+    },
+    {
+      "path": "19-FORMAL-EFFECT-SIZES.md",
+      "sha256": "e6a0734a5cefd2b93a82ec826e7213e56e63b44ba18da3c4e0b78b28814005e7"
+    },
+    {
+      "path": "20-FORMAL-FIGURE-TABLE-INDEX.md",
+      "sha256": "6965c843db83e88c0469dc4b3fedd930f776e7ba0b97a077a57417b17fe5185b"
+    },
+    {
+      "path": "21-FORMAL-RESULT-CANDIDATE-CLAIMS.md",
+      "sha256": "b8c6613ec745cd28b92392989a87e279e41b026c152188d290fbc17c82a9f4f8"
+    },
+    {
+      "path": "22-I11-STRICT-REVIEW.md",
+      "sha256": "783c5f8ccddaf6f5cf283b4c06288efb1694801a466d3974f6970f47cb3fad2a"
+    },
+    {
+      "path": "23-I11-FINAL-DECISION.md",
+      "sha256": "c6b65590270c3eaefcf09c0b125630cdc51da1860abcb72c490da9968f8771cb"
+    },
+    {
+      "path": "24-NEXT-STAGE-ENTRY.md",
+      "sha256": "8737d6c6894894dc099f37e42acb25f4888c67266d641568fd95ec49ba14b70e"
+    },
+    {
+      "path": "8-E1-RESULT.md",
+      "sha256": "2c8eceadf518815836c80761d1ca6efca109a20f3a5415327af5028c9ba843ff"
+    },
+    {
+      "path": "9-E2-RESULT.md",
+      "sha256": "564e6265d7da12dec8c6c5c10a80d4842310be89b39d60fe3c0840dac5097a55"
+    },
+    {
+      "path": "formal-config-matrix.json",
+      "sha256": "630b1b5218a6364b47ae32291115777bff3d5452f745effc0795166904e20783"
+    },
+    {
+      "path": "formal-execution-order.json",
+      "sha256": "34efb0666a4036c39a39d880161fe61f5c3db15c2acd2cf5ae262a936a008374"
+    },
+    {
+      "path": "formal-result-claims.json",
+      "sha256": "f8b7e8b8bb58ea6ded192679b2bca67fa4fdb1a62c1d707d7b5790b32638241a"
+    },
+    {
+      "path": "formal-run-index.json",
+      "sha256": "7227966a2b80a2b8449dece7c517b7fcfc6b308d95af2767c26bb8292bb98c63"
+    },
+    {
+      "path": "i11-state.json",
+      "sha256": "fa19f384b0bdb51b9abf1e02124b276ddd190417705e413c9f1bcdf359ed480f"
+    }
+  ]
+}

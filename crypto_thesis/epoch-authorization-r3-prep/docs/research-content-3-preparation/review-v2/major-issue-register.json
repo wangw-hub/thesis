@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "issues": [
+    {"id":"M-01","severity":"MAJOR","classification":"REQUIRES_MINIMAL_PROTOTYPE","rq":["RQ3-1"],"modules":["CryptoService"],"dependsOnV13":false,"userDecision":false,"prototype":true,"status":"OPEN_GATED"},
+    {"id":"M-02","severity":"MAJOR","classification":"CLOSED_BY_DESIGN_EVIDENCE","rq":["RQ3-1"],"modules":["BodyFormat","CryptoService"],"dependsOnV13":false,"userDecision":false,"prototype":false,"status":"CLOSED"},
+    {"id":"M-03","severity":"MAJOR","classification":"CLOSED_BY_DESIGN_EVIDENCE","rq":["RQ3-2","RQ3-4"],"modules":["HeaderRegistry","AuthorizationGateway"],"dependsOnV13":false,"userDecision":false,"prototype":false,"status":"CLOSED"},
+    {"id":"M-04","severity":"MAJOR","classification":"REQUIRES_FORMAL_IMPLEMENTATION","rq":["RQ3-4","RQ3-5"],"modules":["RecoveryService","BlockchainGateway"],"dependsOnV13":false,"userDecision":false,"prototype":false,"status":"OPEN_GATED"},
+    {"id":"M-05","severity":"MAJOR","classification":"CLOSED_BY_DESIGN_EVIDENCE","rq":["RQ3-6"],"modules":["Experiment"],"dependsOnV13":false,"userDecision":false,"prototype":false,"status":"CLOSED"},
+    {"id":"M-06","severity":"MAJOR","classification":"CLOSED_BY_DESIGN_EVIDENCE","rq":["RQ3-1","RQ3-3","RQ3-6"],"modules":["ThesisClaims"],"dependsOnV13":false,"userDecision":false,"prototype":false,"status":"CLOSED"},
+    {"id":"M-07","severity":"MAJOR","classification":"ACCEPTED_LIMITATION","rq":["RQ3-3","RQ3-6"],"modules":["HeaderService","ThreatModel"],"dependsOnV13":false,"userDecision":false,"prototype":false,"status":"ACCEPTED"}
+  ],
+  "summary":{"closed":4,"blockedOnRc2V13":0,"userDecisionRequired":0,"requiresMinimalPrototype":1,"requiresFormalImplementation":1,"acceptedLimitation":1}
+}

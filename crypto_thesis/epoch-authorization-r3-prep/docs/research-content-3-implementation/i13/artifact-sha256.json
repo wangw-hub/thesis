@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "I13ArtifactSha256V1",
+  "generatedAt": "2026-08-02T11:37:49.211888+00:00",
+  "selfIncluded": false,
+  "files": [
+    {
+      "path": "00-I13-ENTRY.md",
+      "sha256": "bdaf1fe9217e6794c0fbed8a8befc2c86e6ecc6816482b8b1ecf6bf37ada946d"
+    },
+    {
+      "path": "01-AUTHORITATIVE-THESIS-TARGET.md",
+      "sha256": "149ae039ad2258e1ef2ee5e42f90730edc89fc2628b7c0118dc9cec4887b7556"
+    },
+    {
+      "path": "02-THESIS-DRIFT-AUDIT.md",
+      "sha256": "8130062c8e76a7b7f7a670fcca859e29592c587b8ed1e0fed04c607a723bcee8"
+    },
+    {
+      "path": "03-RC3-CHAPTER-OUTLINE.md",
+      "sha256": "d950c5b4952269d52d046148de6f306986a0e2991281bdc374f207247814a1f3"
+    },
+    {
+      "path": "04-DESIGN-WRITEBACK.md",
+      "sha256": "64042f455926e13299aeeae973114ccfba0c25ae37d54ee51e3faf3158792a0f"
+    },
+    {
+      "path": "05-EXPERIMENT-WRITEBACK.md",
+      "sha256": "b2c27d94746068d6799411b6064b28979be00d1cdc1c8e139382945dd85adbff"
+    },
+    {
+      "path": "06-RESULT-DISCUSSION-WRITEBACK.md",
+      "sha256": "5acf2d8d3979cea87160d471295c51d927e20663bcb1a61bee8b60fc63bf194c"
+    },
+    {
+      "path": "07-FIGURE-TABLE-PLACEMENT.md",
+      "sha256": "5897e49fe1ad7ef6f0c4e6dab656239c6babed7c4dff1dc0ca27a9dce44c95fb"
+    },
+    {
+      "path": "08-CONTRIBUTION-EVIDENCE-CLOSURE.md",
+      "sha256": "5c9ec0d105ec0bb5f7202e7faf268376aac98ac0d1b394b4df07c2e783752a8d"
+    },
+    {
+      "path": "09-THESIS-CHANGE-MANIFEST.md",
+      "sha256": "9aa43a3b987c4d52b47896fac89e7bfb80131158371ea653a222fd78c03fc70c"
+    },
+    {
+      "path": "10-NUMERIC-CONSISTENCY-AUDIT.md",
+      "sha256": "ca8601fa43fa7cc02a662377a22dd1aa0b669938cb0abf308aa5d5879a764de7"
+    },
+    {
+      "path": "11-TERMINOLOGY-AUDIT.md",
+      "sha256": "38ba60ba679b1a69453b99a53b584f58d7e3572b80029e5c393c5fca80092427"
+    },
+    {
+      "path": "12-CLAIM-LANGUAGE-AUDIT.md",
+      "sha256": "25677b626fefb23ed1ca466ff3bd655cae405284e86ecb35795c01742cec54e6"
+    },
+    {
+      "path": "13-I13-STRICT-REVIEW.md",
+      "sha256": "fca573f1d7c6e44b9943a4baef23bc537de59d8a85bf2b0cd14223c10d08e225"
+    },
+    {
+      "path": "14-I13-FINAL-DECISION.md",
+      "sha256": "ae063a224da2ef044d6484217efebd4102bfa73f12d0fb5181bb3b836ec26843"
+    },
+    {
+      "path": "15-NEXT-STAGE-ENTRY.md",
+      "sha256": "5a3b35de272915e7ecd75b9c53a153a56047d5afdb5cf6786377d19b0af7ef34"
+    },
+    {
+      "path": "i13-state.json",
+      "sha256": "8ba0bf890c6fcf3c1b9764f04a3c17a7b76edf8c51d89318fc2c0d0f450ed293"
+    },
+    {
+      "path": "thesis-change-manifest.json",
+      "sha256": "75e49e8b0783ce01d025773af8e45dd8e73fd20834896147f75dae8c9a8ac74e"
+    },
+    {
+      "path": "thesis-claim-audit.json",
+      "sha256": "cf69720f7d08587ade4d2027a97daa24d9e7a37f37808ed77727d77ecea25e05"
+    },
+    {
+      "path": "thesis-numeric-audit.json",
+      "sha256": "5cc0a6ec0e197473774438eecb815fa7d759fe9f8c4de2a7fdbe423897bbc46f"
+    },
+    {
+      "path": "THESIS-RC3-WRITEBACK-FINAL.md",
+      "sha256": "d9594005e1d029f4f5afc4cf37cd429b5a4162fbfed92f0330f2e311e54469b5"
+    },
+    {
+      "path": "thesis-statistical-language-audit.json",
+      "sha256": "9a13e4c7ecbb4f61984542222e5f05897b7b668bb7af8f53cddf9fe298bb6d36"
+    },
+    {
+      "path": "thesis-terminology-audit.json",
+      "sha256": "2880d12a3e700adc0f62c38e7a6e8e6b1255a8081883602dd368df2af1f48e53"
+    }
+  ]
+}

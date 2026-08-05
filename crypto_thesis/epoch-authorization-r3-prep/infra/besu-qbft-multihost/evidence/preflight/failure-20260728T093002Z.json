@@ -1,0 +1,18 @@
+{
+  "stage": 0,
+  "attempt": 6,
+  "status": "BLOCKED_BY_EXISTING_REMOTE_ASSET",
+  "failed_at_utc": "2026-07-28T09:30:02.6906087Z",
+  "host": "besu-validator-1",
+  "exit_code": 0,
+  "remote_changes": false,
+  "ssh_connections_started": true,
+  "stage_1_started": false,
+  "cause": "The read-only preflight found an existing Besu distribution at /opt/besu/besu-26.5.0 and a current symlink at /opt/besu/current.",
+  "evidence": {
+    "preflight_json": "evidence/preflight/besu-validator-1.json",
+    "preflight_json_sha256": "15a0894b1045d6936b44abaa0a262323b894d46ad22b6f7cc57b2a4f59be375c",
+    "read_only_inspection": "2026-07-28: /opt/besu is a directory owned by thesis:thesis; /opt/besu/besu-26.5.0 is populated; /opt/besu/current -> besu-26.5.0."
+  },
+  "required_resolution": "Do not overwrite or delete the discovered asset during Stage 0. Confirm whether this is an approved prior installation that may be adopted, or provide an explicit cleanup/redeployment instruction."
+}

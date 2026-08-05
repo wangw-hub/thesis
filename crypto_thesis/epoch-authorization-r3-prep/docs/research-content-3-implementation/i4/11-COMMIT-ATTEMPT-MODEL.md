@@ -1,0 +1,6 @@
+# CommitAttempt模型
+
+状态为PREPARED、BROADCAST_UNKNOWN、CONFIRMED_TEST_DOUBLE和FAILED_TEST_DOUBLE。
+每个operation/attempt_number唯一，transactionHash可选且唯一。所有记录强制
+`evidence_source=TEST_DOUBLE_ONLY`。UNKNOWN只持久化并等待对账，不触发自动重复广播。
+

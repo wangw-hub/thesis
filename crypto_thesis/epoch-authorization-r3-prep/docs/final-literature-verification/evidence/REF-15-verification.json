@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "LiteratureVerificationRecordV1",
+  "referenceId": "REF-15",
+  "citationKey": "[15]",
+  "currentBibliographyEntry": "[15] Bethencourt J, Sahai A, Waters B. Ciphertext-Policy Attribute-Based Encryption. Proceedings of the 2007 IEEE Symposium on Security and Privacy, 2007.",
+  "title": "Ciphertext-Policy Attribute-Based Encryption",
+  "authors": "Bethencourt J, Sahai A, Waters B",
+  "year": 2007,
+  "venue": "Proceedings of the 2007 IEEE Symposium on Security and Privacy",
+  "publicationType": "CONFERENCE_PAPER",
+  "volume": null,
+  "issue": null,
+  "pages": "321-334",
+  "publisher": "IEEE",
+  "DOI": "10.1109/SP.2007.11",
+  "URL": null,
+  "formalPublicationStatus": "JOURNAL/CONFERENCE/RFC/ENGINEERING",
+  "preprintStatus": false,
+  "officialSource": "https://dl.acm.org/doi/10.1109/SP.2007.11",
+  "secondarySources": [
+    "https://api.crossref.org/works/10.1109/SP.2007.11"
+  ],
+  "metadataMatch": true,
+  "claimSupport": "BACKGROUND_ONLY",
+  "claimSupportLevel": "BACKGROUND_ONLY",
+  "verificationStatus": "VERIFIED",
+  "recommendedAction": "采纳（必要时按 correction 修正）",
+  "notes": "",
+  "accessDate": "2026-08-02"
+}

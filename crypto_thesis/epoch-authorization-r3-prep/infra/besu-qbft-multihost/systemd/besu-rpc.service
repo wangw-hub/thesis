@@ -1,0 +1,25 @@
+[Unit]
+Description=Hyperledger Besu Non-Validator RPC Node
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=besu
+Group=besu
+UMask=0027
+ExecStart=/opt/besu/bin/besu --config-file=/etc/besu/config.toml
+Restart=on-failure
+RestartSec=5
+LimitNOFILE=65536
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=besu-rpc
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=full
+ReadWritePaths=/var/lib/besu /var/log/besu
+
+[Install]
+WantedBy=multi-user.target

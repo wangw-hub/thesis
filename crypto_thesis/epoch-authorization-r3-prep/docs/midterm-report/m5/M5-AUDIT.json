@@ -1,0 +1,23 @@
+{
+  "reference_heading_count": 1,
+  "reference_count": 29,
+  "figures": 20,
+  "tables": 8,
+  "algorithms": 8,
+  "display_equations": 26,
+  "floating_images": 0,
+  "inline_images": 20,
+  "image_paragraph_exact_line_height_count": 0,
+  "problem_four_mentions": 0,
+  "section_8_summary_mentions": 0,
+  "rc3_figure_source_manifest_complete": true,
+  "duplicate_reference_entries": 0,
+  "rendered_page_count": 35,
+  "equation_numbers": true,
+  "fatal": 0,
+  "major": 0,
+  "minor": 0,
+  "finalState": "M5_MIDTERM_REPORT_FIXED_AWAITING_USER_REVIEW",
+  "generatedAt": "2026-08-03T06:23:44.038773+00:00",
+  "gitHead": "11d328ad0150b378d1091d2f8b5215f199e3840a"
+}

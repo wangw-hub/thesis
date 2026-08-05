@@ -1,0 +1,29 @@
+experiment_version: multihost-pilot-v1
+physical_host_relationship: MUST_BE_COMPLETED
+hosts:
+  vm-do:
+    address: 192.0.2.11
+    organization: Org-DO
+    services: [validator-1]
+  vm-as:
+    address: 192.0.2.12
+    organization: Org-AS
+    services: [validator-2, issuer-1, issuer-2]
+  vm-rm:
+    address: 192.0.2.13
+    organization: Org-RM
+    services: [validator-3, postgresql]
+  vm-au:
+    address: 192.0.2.14
+    organization: Org-AU
+    services: [validator-4, verifier-1, verifier-2]
+  vm-client:
+    address: 192.0.2.15
+    organization: Client-Zone
+    services: [rpc-1, workload, monitoring]
+requirements:
+  independent_os_instances: 5
+  unique_node_keys: true
+  unique_ip_addresses: true
+  ntp_required: true
+  private_keys_in_git: false

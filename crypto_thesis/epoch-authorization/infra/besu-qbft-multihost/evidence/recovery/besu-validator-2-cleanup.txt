@@ -1,0 +1,15 @@
+host=besu-validator-2
+started_at_utc=2026-07-28T10:12:15.8577801Z
+exit_code=0
+--- stdout ---
+cleanup_started_utc=2026-07-28T10:12:17Z
+before|directory|755|thesis:thesis|/opt/besu
+removed=/opt/besu
+absent=/opt/besu-26.5.0
+absent=/etc/besu
+absent=/var/lib/besu
+absent=/var/log/besu
+absent_user=besu
+cleanup_finished_utc=2026-07-28T10:12:17Z
+
+--- stderr ---

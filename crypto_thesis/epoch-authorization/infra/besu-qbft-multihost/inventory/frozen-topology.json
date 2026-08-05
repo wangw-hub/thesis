@@ -1,0 +1,44 @@
+{
+  "schema": "BESU-MULTIHOST-TOPOLOGY-1",
+  "frozen_at": "2026-07-28",
+  "hosts": [
+    {
+      "ssh_alias": "besu-validator-1",
+      "hostname": "besu-validator-1",
+      "ip": "192.168.6.129",
+      "user": "thesis",
+      "role": "QBFT Validator-1"
+    },
+    {
+      "ssh_alias": "besu-validator-2",
+      "hostname": "besu-validator-2",
+      "ip": "192.168.6.130",
+      "user": "thesis",
+      "role": "QBFT Validator-2"
+    },
+    {
+      "ssh_alias": "besu-validator-3",
+      "hostname": "besu-validator-3",
+      "ip": "192.168.6.131",
+      "user": "thesis",
+      "role": "QBFT Validator-3"
+    },
+    {
+      "ssh_alias": "besu-validator-4",
+      "hostname": "besu-validator-4",
+      "ip": "192.168.6.132",
+      "user": "thesis",
+      "role": "QBFT Validator-4"
+    },
+    {
+      "ssh_alias": "experiment-client",
+      "hostname": "experiment-client",
+      "ip": "192.168.6.133",
+      "user": "thesis",
+      "role": "Non-validating RPC and deployment control"
+    }
+  ],
+  "required_ports": [30303, 8545, 8546],
+  "required_os": "Ubuntu 24.04 LTS",
+  "required_java_major": 21
+}

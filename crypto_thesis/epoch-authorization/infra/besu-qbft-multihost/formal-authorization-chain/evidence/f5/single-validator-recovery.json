@@ -1,0 +1,30 @@
+{
+  "started_utc": "2026-07-29T03:56:44Z",
+  "before_height": 224,
+  "stop": {
+    "exit_code": 0,
+    "stdout": "failed",
+    "stderr": ""
+  },
+  "during_height": 227,
+  "validators_during": {
+    "exit_code": 0,
+    "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":[\"0x4a9fe6affeeb4adcc656076ff141922eeefc759c\",\"0x4ab7535dfda9ffa87dc05456894ab50ad79b6183\",\"0x9f4b0718f1b71066294cb63c4cdc6ff1490412ed\",\"0xa5110773f0e5bf220b71b2b2cb67725ae04d530c\"]}",
+    "stderr": ""
+  },
+  "start": {
+    "exit_code": 0,
+    "stdout": "active",
+    "stderr": ""
+  },
+  "recovery_0": {
+    "height": 229,
+    "node": {
+      "exit_code": 0,
+      "stdout": "active\nJul 29 11:57:01 besu-validator-4 besu[15933]: 2026-07-29 11:57:01.218+0800 | main | INFO  | Besu | Using the Java implementation of modexp\nJul 29 11:57:01 besu-validator-4 besu[15933]: 2026-07-29 11:57:01.234+0800 | main | INFO  | Besu | Using the native implementation of the signature algorithm\nJul 29 11:57:01 besu-validator-4 besu[15933]: 2026-07-29 11:57:01.237+0800 | main | INFO  | Besu | Using the native implementation of the blake2bf algorithm",
+      "stderr": ""
+    }
+  },
+  "after_height": 229,
+  "finished_utc": "2026-07-29T03:56:59Z"
+}

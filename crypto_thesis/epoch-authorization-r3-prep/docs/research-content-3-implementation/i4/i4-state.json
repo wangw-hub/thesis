@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0",
+  "status": "I4_COMPLETED_AWAITING_I5_APPROVAL",
+  "stateHistory": [
+    "I4_BLOCKED_ON_ISOLATED_POSTGRESQL_ENVIRONMENT",
+    "SSH_AUTHENTICATION_REQUIRED",
+    "SSH_AUTHENTICATION_BLOCKER_RESOLVED_BY_USER",
+    "I4_ENTRY_ENVIRONMENT_READY",
+    "I4_IN_PROGRESS",
+    "I4_COMPLETED_AWAITING_I5_APPROVAL"
+  ],
+  "entry": "PASSED",
+  "environment": {
+    "host": "experiment-client",
+    "postgresql": "16.14",
+    "formalClusterModified": false,
+    "isolatedCluster": "16/r3_i4",
+    "remotePort": 55432,
+    "listenAddress": "127.0.0.1",
+    "database": "epoch_auth_r3_i4_test",
+    "role": "epoch_auth_r3_i4_test",
+    "sshTunnelLocalPort": 65432,
+    "tunnelStoppedAfterTests": true
+  },
+  "schema": {
+    "name": "r3_control",
+    "migrationCount": 7,
+    "tableCount": 8,
+    "migrationResult": "PASSED"
+  },
+  "tests": {"total": 49, "passed": 49, "failed": 0},
+  "regressions": {
+    "i1": {"total": 49, "passed": 49, "failed": 0},
+    "i2": {"total": 49, "passed": 49, "failed": 0},
+    "i3": {"total": 48, "passed": 48, "failed": 0}
+  },
+  "correctness": {
+    "workers": [2, 4, 16],
+    "duplicateClaims": 0,
+    "lostJobs": 0,
+    "partialTransactions": 0,
+    "invariantViolations": 0,
+    "crashPointsPassed": 12
+  },
+  "review": {"fatal": 0, "major": 0, "minor": 0, "editorial": 0},
+  "testDoubleOnly": true,
+  "performanceConclusions": false,
+  "formalChainAccessed": false,
+  "formalDatabaseAccessed": false,
+  "ipfsStarted": false,
+  "formalKeysGenerated": false,
+  "mainRepositoryModified": false,
+  "i5Started": false,
+  "pushExecuted": false
+}

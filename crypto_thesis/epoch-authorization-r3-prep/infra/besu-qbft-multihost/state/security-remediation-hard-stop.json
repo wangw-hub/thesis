@@ -1,0 +1,15 @@
+{
+  "hard_stop_triggered": true,
+  "stage": "C",
+  "condition": "A funded formal ADMIN account cannot be established without changing or rebuilding the frozen Genesis.",
+  "chain_id": 2026072801,
+  "genesis_sha256": "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+  "genesis_alloc_empty": true,
+  "rpc_unlocked_account_count": 0,
+  "validator_positive_balance_count": 0,
+  "base_fee_nonzero": true,
+  "current_chain_modified": false,
+  "formal_role_keys_generated": false,
+  "stages_b_to_i_continued": false,
+  "secret_material_recorded": false
+}

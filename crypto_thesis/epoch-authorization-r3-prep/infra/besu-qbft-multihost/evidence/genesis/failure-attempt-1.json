@@ -1,0 +1,15 @@
+{
+  "stage": 2,
+  "attempt": 1,
+  "status": "FAILED_AFTER_OFFICIAL_GENERATION_BEFORE_TRANSFER",
+  "remote_changes": {
+    "host": "experiment-client",
+    "path": "/tmp/besu-qbft-stage2-2026072801",
+    "distributed": false,
+    "services_started": false
+  },
+  "cause": "The validation script passed the entire genesis.json to `besu rlp decode`; Besu expects a JSON-encoded extraData string.",
+  "safety_assessment": "Four keypairs were generated only in the fixed remote temporary directory. They were not retrieved, mapped, distributed, logged, or committed.",
+  "authorized_recovery": "Remove the exact remote staging directory and regenerate after fixing the decode input.",
+  "evidence": "evidence/genesis/generation.txt"
+}

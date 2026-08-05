@@ -1,0 +1,8 @@
+# DESIGN-ONLY CANDIDATE BASELINE. DO NOT INSTALL WITHOUT I1 APPROVAL.
+# Status: CANDIDATE_NOT_INSTALLED unless marked installed in 03.
+cryptography==49.0.0
+rfc8785==0.1.4
+web3==7.16.0
+jsonschema==4.26.0
+psycopg[binary]==3.3.4
+pytest==8.4.2

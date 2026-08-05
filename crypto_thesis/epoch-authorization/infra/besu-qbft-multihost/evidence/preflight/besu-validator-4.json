@@ -1,0 +1,74 @@
+﻿{
+  "collected_at_utc": "2026-07-28T10:12:48.939453+00:00",
+  "hostname": "besu-validator-4",
+  "whoami": "thesis",
+  "os_release": {
+    "PRETTY_NAME": "Ubuntu 24.04 LTS",
+    "NAME": "Ubuntu",
+    "VERSION_ID": "24.04",
+    "VERSION": "24.04 LTS (Noble Numbat)",
+    "VERSION_CODENAME": "noble",
+    "ID": "ubuntu",
+    "ID_LIKE": "debian",
+    "HOME_URL": "https://www.ubuntu.com/",
+    "SUPPORT_URL": "https://help.ubuntu.com/",
+    "BUG_REPORT_URL": "https://bugs.launchpad.net/ubuntu/",
+    "PRIVACY_POLICY_URL": "https://www.ubuntu.com/legal/terms-and-policies/privacy-policy",
+    "UBUNTU_CODENAME": "noble",
+    "LOGO": "ubuntu-logo"
+  },
+  "machine_id": "b1c67e2f254d463f83c73308ac3a6caf",
+  "ipv4": [
+    "2: ens33    inet 192.168.6.132/24 metric 100 brd 192.168.6.255 scope global dynamic ens33\\       valid_lft 1072sec preferred_lft 1072sec"
+  ],
+  "default_route": "default via 192.168.6.2 dev ens33 proto dhcp src 192.168.6.132 metric 100",
+  "peer_reachability": {
+    "192.168.6.129": true,
+    "192.168.6.130": true,
+    "192.168.6.131": true,
+    "192.168.6.132": true,
+    "192.168.6.133": true
+  },
+  "java": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "openjdk version \"21.0.11\" 2026-04-21\nOpenJDK Runtime Environment (build 21.0.11+10-1-24.04.2-Ubuntu)\nOpenJDK 64-Bit Server VM (build 21.0.11+10-1-24.04.2-Ubuntu, mixed mode, sharing)"
+  },
+  "java_major": 21,
+  "cpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           45 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  2\nOn-line CPU(s) list:                     0,1\nVendor ID:                               AuthenticAMD\nModel name:                              AMD Ryzen 7 H 255 W/ Radeon 780M\nCPU family:                              25\nModel:                                   117\nThread(s) per core:                      1\nCore(s) per socket:                      1\nSocket(s):                               2\nStepping:                                2\nBogoMIPS:                                7585.84\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ibpb vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx512_bf16 clzero arat avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid overflow_recov succor fsrm\nHypervisor vendor:                       VMware\nVirtualization type:                     full\nL1d cache:                               64 KiB (2 instances)\nL1i cache:                               64 KiB (2 instances)\nL2 cache:                                2 MiB (2 instances)\nL3 cache:                                32 MiB (2 instances)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0,1\nVulnerability Gather data sampling:      Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Vulnerable\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Mitigation; Clear CPU buffers\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected",
+  "memory": "total        used        free      shared  buff/cache   available\nMem:      3066961920   447885312  1925517312     1286144   863641600  2619076608\nSwap:     3067080704           0  3067080704",
+  "disk": "Filesystem                          1B-blocks       Used   Available Use% Mounted on\n/dev/mapper/ubuntu--vg-ubuntu--lv 19896352768 6970351616 11889381376  37% /",
+  "timedatectl": "Local time: Tue 2026-07-28 18:12:49 CST\n           Universal time: Tue 2026-07-28 10:12:49 UTC\n                 RTC time: Tue 2026-07-28 10:12:48\n                Time zone: Asia/Shanghai (CST, +0800)\nSystem clock synchronized: yes\n              NTP service: active\n          RTC in local TZ: no",
+  "timezone": "Asia/Shanghai",
+  "sudo_noninteractive": true,
+  "ports_in_use": {
+    "30303": false,
+    "8545": false,
+    "8546": false
+  },
+  "commands": {
+    "python3": "/usr/bin/python3",
+    "unzip": "/usr/bin/unzip",
+    "sha256sum": "/usr/bin/sha256sum",
+    "besu": null
+  },
+  "besu_processes": [],
+  "besu_units": [],
+  "besu_paths": {
+    "/etc/besu": {
+      "exists": false,
+      "is_symlink": false,
+      "entries": []
+    },
+    "/var/lib/besu": {
+      "exists": false,
+      "is_symlink": false,
+      "entries": []
+    },
+    "/opt/besu": {
+      "exists": false,
+      "is_symlink": false,
+      "entries": []
+    }
+  }
+}

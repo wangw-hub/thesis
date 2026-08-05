@@ -1,0 +1,20 @@
+﻿{
+    "stage":  2,
+    "passed":  true,
+    "chainId":  2026072801,
+    "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+    "validator_count":  4,
+    "validator_addresses":  [
+                                "0x6e86edb3d714dc28e149edd280625ded1436fadf",
+                                "0x1583e3922a8b9477d08e00919418a30e619ed49c",
+                                "0x599d6230371a00524208ad63164aae5f90ab5d36",
+                                "0xd7716b03e26dba82368fd4bf2c263da6a76e086b"
+                            ],
+    "node_ids_unique":  true,
+    "private_key_hashes_unique":  true,
+    "remote_private_material_removed":  true,
+    "besu_version":  "26.5.0",
+    "generated_at_utc":  "2026-07-28T10:37:34.8843259Z",
+    "validator_order_source":  "QBFT extraData decode order",
+    "mapping_reconciled_at_utc":  "2026-07-28T10:39:17.5829808Z"
+}

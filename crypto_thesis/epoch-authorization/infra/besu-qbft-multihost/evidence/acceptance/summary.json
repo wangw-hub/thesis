@@ -1,0 +1,61 @@
+﻿{
+    "stage":  6,
+    "passed":  true,
+    "chain_id":  2026072801,
+    "fixed_height":  702,
+    "fixed_height_hex":  "0x2be",
+    "fixed_block_hash":  "0x825ae90e0a2704427d9698a514b295a814d0240d109e5f6a157debd6ad0ecb8a",
+    "validator_count":  4,
+    "rpc_is_validator":  false,
+    "peer_count_each":  4,
+    "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+    "static_nodes_sha256":  "f252d0820a85895842c4be76b216c9ea3ba602e1324c570f36fbe43d9c768036",
+    "initial_heights":  [
+                            {
+                                "host":  "besu-validator-1",
+                                "height":  708
+                            },
+                            {
+                                "host":  "besu-validator-2",
+                                "height":  709
+                            },
+                            {
+                                "host":  "besu-validator-3",
+                                "height":  710
+                            },
+                            {
+                                "host":  "besu-validator-4",
+                                "height":  711
+                            },
+                            {
+                                "host":  "experiment-client",
+                                "height":  711
+                            }
+                        ],
+    "final_heights":  [
+                          {
+                              "host":  "besu-validator-1",
+                              "height":  751
+                          },
+                          {
+                              "host":  "besu-validator-2",
+                              "height":  752
+                          },
+                          {
+                              "host":  "besu-validator-3",
+                              "height":  753
+                          },
+                          {
+                              "host":  "besu-validator-4",
+                              "height":  754
+                          },
+                          {
+                              "host":  "experiment-client",
+                              "height":  754
+                          }
+                      ],
+    "rpc_restart_passed":  true,
+    "validator_restart_passed":  true,
+    "block_growth_passed":  true,
+    "completed_at_utc":  "2026-07-28T11:13:00.1931230Z"
+}

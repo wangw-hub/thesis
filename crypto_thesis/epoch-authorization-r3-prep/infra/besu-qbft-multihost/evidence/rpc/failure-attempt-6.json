@@ -1,0 +1,9 @@
+{
+  "stage": 5,
+  "attempt": 6,
+  "operation": "acceptance summary validation",
+  "exit_code": 1,
+  "reason": "Windows PowerShell 5 returned null for an empty Compare-Object result; strict mode rejected direct .Count access.",
+  "impact": "Local acceptance aggregation stopped after remote RPC checks passed; no remote state was modified.",
+  "resolution": "Wrap Compare-Object output in an explicit array before checking Count."
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "R3FormalResultCandidateClaimsV1",
+  "claims": [
+    {
+      "claimId": "C-01",
+      "rqId": "RQ-1",
+      "experiment": "E1",
+      "metrics": [
+        "M-01",
+        "M-02",
+        "M-09"
+      ],
+      "validRuns": 20,
+      "plannedRuns": 20,
+      "statistic": "descriptive + bootstrap 95% CI (RUN unit)",
+      "evidence": "experiments/r3/formal/raw (attempt FORMAL_20260802T095534Z_4d12daf)",
+      "figureTable": "table-within-class-duration.json / table-matched-local-kubo-recovery.json"
+    },
+    {
+      "claimId": "C-02",
+      "rqId": "RQ-2",
+      "experiment": "E2",
+      "metrics": [
+        "M-03",
+        "M-04",
+        "M-05"
+      ],
+      "validRuns": 30,
+      "plannedRuns": 30,
+      "statistic": "descriptive + bootstrap 95% CI (RUN unit)",
+      "evidence": "experiments/r3/formal/raw (attempt FORMAL_20260802T095534Z_4d12daf)",
+      "figureTable": "table-within-class-duration.json / table-matched-local-kubo-recovery.json"
+    },
+    {
+      "claimId": "C-03",
+      "rqId": "RQ-3",
+      "experiment": "E3",
+      "metrics": [
+        "M-03",
+        "M-04",
+        "M-06"
+      ],
+      "validRuns": 45,
+      "plannedRuns": 45,
+      "statistic": "descriptive + bootstrap 95% CI (RUN unit)",
+      "evidence": "experiments/r3/formal/raw (attempt FORMAL_20260802T095534Z_4d12daf)",
+      "figureTable": "table-within-class-duration.json / table-matched-local-kubo-recovery.json"
+    },
+    {
+      "claimId": "C-04",
+      "rqId": "RQ-4",
+      "experiment": "E4",
+      "metrics": [
+        "M-01",
+        "M-07",
+        "M-09"
+      ],
+      "validRuns": 10,
+      "plannedRuns": 10,
+      "statistic": "descriptive + bootstrap 95% CI (RUN unit)",
+      "evidence": "experiments/r3/formal/raw (attempt FORMAL_20260802T095534Z_4d12daf)",
+      "figureTable": "table-within-class-duration.json / table-matched-local-kubo-recovery.json"
+    },
+    {
+      "claimId": "C-05",
+      "rqId": "RQ-5",
+      "experiment": "E5",
+      "metrics": [
+        "M-08",
+        "M-09",
+        "M-10",
+        "M-11"
+      ],
+      "validRuns": 40,
+      "plannedRuns": 40,
+      "statistic": "descriptive + bootstrap 95% CI (RUN unit)",
+      "evidence": "experiments/r3/formal/raw (attempt FORMAL_20260802T095534Z_4d12daf)",
+      "figureTable": "table-within-class-duration.json / table-matched-local-kubo-recovery.json"
+    },
+    {
+      "claimId": "C-06",
+      "rqId": "RQ-5/RQ-6",
+      "experiment": "E5",
+      "metrics": [
+        "M-08",
+        "M-10",
+        "M-12"
+      ],
+      "validRuns": 40,
+      "plannedRuns": 40,
+      "statistic": "matched Local/Kubo effect sizes (median diff/ratio/Cliff's delta)",
+      "evidence": "experiments/r3/formal/raw (attempt FORMAL_20260802T095534Z_4d12daf)",
+      "figureTable": "table-matched-local-kubo-recovery.json"
+    }
+  ]
+}

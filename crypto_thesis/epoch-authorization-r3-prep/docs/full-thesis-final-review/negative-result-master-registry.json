@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "NegativeResultMasterRegistryV1",
+  "results": [
+    {
+      "researchContent": "RC1",
+      "negative": "C(P) 相对规范区间列表无普遍存储优势，层次匹配在当前原型中更慢",
+      "evidence": "E1-A 350.4/161.0/1984.7 ns；表4-4/4-5"
+    },
+    {
+      "researchContent": "RC2",
+      "negative": "缓存未产生稳定端到端收益；C(P) 无 Baseline-I 不可复制的价值",
+      "evidence": "V13 配对 CI 跨 0；改善/退化比例相近"
+    },
+    {
+      "researchContent": "RC2",
+      "negative": "C0-B0 与 C1-B1 无稳定方向（方法间差异不显著）",
+      "evidence": "表5-2"
+    },
+    {
+      "researchContent": "RC3",
+      "negative": "LOCAL/KUBO 多数匹配块无清晰性能效应（δ≈0.04）",
+      "evidence": "I12 effect-sizes.json"
+    },
+    {
+      "researchContent": "RC3",
+      "negative": "Kubo 副本收益限于特定损坏场景的恢复可用性，属 trade-off",
+      "evidence": "E5 CORRUPT_RESTORE：LOCAL UNRECOVERABLE vs KUBO CONSISTENT"
+    }
+  ]
+}

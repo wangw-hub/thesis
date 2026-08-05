@@ -1,0 +1,12 @@
+{
+  "FUNDING_REVIEW_ONLY": true,
+  "hard_stop": "HS-FUNDING-001",
+  "hard_stop_remains_active": true,
+  "option_a_reward_transition": "NOT_RECOMMENDED",
+  "option_b1_new_preallocated_chain": "RECOMMENDED_PENDING_USER_DECISION",
+  "min_gas_price_only": "NOT_VIABLE",
+  "formal_chain_modified": false,
+  "formal_roles_generated": false,
+  "formal_contract_deployed": false,
+  "stage_c_allowed": false
+}

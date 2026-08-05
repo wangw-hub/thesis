@@ -1,0 +1,29 @@
+{
+  "capturedAt": "2026-07-30",
+  "host": "experiment-client",
+  "sshUser": "thesis",
+  "postgresVersion": "16.14",
+  "clusters": [
+    {
+      "version": "16",
+      "name": "main",
+      "port": 5432,
+      "status": "online",
+      "service": "postgresql@16-main.service",
+      "mainPid": 52520,
+      "activeEnterTimestamp": "Wed 2026-07-29 13:03:28 CST",
+      "dataDirectory": "/var/lib/postgresql/16/main",
+      "configDirectory": "/etc/postgresql/16/main",
+      "logFile": "/var/log/postgresql/postgresql-16-main.log",
+      "configSha256": {
+        "postgresql.conf": "d9899ba7b45305aee2dba18cedb26eee34c4f496fa5a27b0e7724f401864b035",
+        "pg_hba.conf": "e743a9e5ce869a9858285dda1a06f2c5a50384559f21100e73636ce99aea1c2f",
+        "pg_ident.conf": "b4dfef08731a7d20a3bb724ad4cf3e1cd91ec01fbe51349c6a3acc5704072965"
+      }
+    }
+  ],
+  "databaseNames": ["epoch_auth", "postgres", "template0", "template1"],
+  "roleNames": ["epoch_auth", "postgres"],
+  "businessDataRead": false,
+  "secretsRead": false
+}

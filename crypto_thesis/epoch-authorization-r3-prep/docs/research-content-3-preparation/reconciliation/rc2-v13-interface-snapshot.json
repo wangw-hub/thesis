@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0",
+  "mainRepositoryHead": "b39e8a57bf9cf9f688ff5ff09b8b8ae067aa37aa",
+  "auditedSourceHead": "26ef5bc8dc7b09e683aae8c7d7012f779f6847ed",
+  "v13PreregistrationCommit": "8a3d795e22e5d9373c3053245e3b4040cd062dd5",
+  "v13ExperimentCodeCommit": "8a3d795e22e5d9373c3053245e3b4040cd062dd5",
+  "rc2Status": "COMPLETED_WITH_VALID_RERUN_EVIDENCE",
+  "interfaceManifestPath": "D:/Research/crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/rc2-interface-manifest.json",
+  "interfaceManifestSha256": "15e958a87e4e6b77711556f2554100d4b614763170890f96c8d6311ea8349898",
+  "chain": {"chainId":2026072901,"besuVersion":"26.5.0","consensus":"QBFT","confirmations":0},
+  "authorizationState": {
+    "address":"0x9ef44cf538d0df457ba77c556d8785e48bfc436d",
+    "artifactSha256":"b8cd8040e4a7683fb4454ea1cf3c3c4d97647611ad7cb3d616b72a35cf496ad5",
+    "abiCanonicalSha256":"bf9780238971c3e505756dcb2d0fd53ef823fb73ef4b9a994e77313044dda0a0",
+    "historicalStubStatus":"SUPERSEDED_NON_AUTHORITATIVE_STUB"
+  },
+  "cap2": {"version":2,"signature":"Ed25519","canonicalEncoding":"UNSIGNED_BIG_ENDIAN","modificationAllowed":false},
+  "gateway": {"sameBlockPairRead":true,"staleFallback":false,"failure":"GatewayUnavailable","failClosed":true},
+  "postgresql": {"version":"16.14","businessSchema":"FROZEN","rc3Schema":"r3_control","failClosed":true},
+  "sourceHashErrors": 0,
+  "v13ArtifactErrors": 0
+}

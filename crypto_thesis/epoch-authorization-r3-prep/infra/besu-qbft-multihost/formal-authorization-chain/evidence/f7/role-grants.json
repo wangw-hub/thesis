@@ -1,0 +1,30 @@
+[
+  {
+    "role": "OWNER",
+    "account": "0x55Ad93F30fC82Af657026CE5D755a0292cD12c86",
+    "transaction_hash": "0xafe0f65484809fff2e393edac2b984da52844fe2ad79263791cd2884a121122d",
+    "status": "0x1",
+    "gas_used": "0xbeab"
+  },
+  {
+    "role": "AUTHORIZER",
+    "account": "0xc01BC223F7018B17FB8670c186d684C829755180",
+    "transaction_hash": "0x5825b13daaaa8dffb9a381b10206d2c806cf339afa680baaee2ca97d44ada09f",
+    "status": "0x1",
+    "gas_used": "0xbeab"
+  },
+  {
+    "role": "REVOCATION",
+    "account": "0xd6207f065a3AE0D425AcDC406359dCC00F55536F",
+    "transaction_hash": "0x84f70f6645ebe5838278820e5d6eb6f930bf422a9ddc2f4196fdc92fd10d7b2e",
+    "status": "0x1",
+    "gas_used": "0xbe9f"
+  },
+  {
+    "role": "AUDITOR",
+    "account": "0xe6EA2De2C6D4Da7A92658De606E13B8d828285CF",
+    "transaction_hash": "0x6deeb7ca1a82bec75e4eca88df287f74fe2fac6d76a533cdb3b97d951ee42143",
+    "status": "0x1",
+    "gas_used": "0xbe9f"
+  }
+]

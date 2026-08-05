@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "M2SourceMapV1",
+  "contentBasis": "THESIS-FORMAT-CANDIDATE-V2 + I9-I17 frozen evidence (RC1/RC2/RC3 assets)",
+  "sources": {
+    "fullDraft": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\midterm-report\\m2\\MIDTERM-REPORT-M2-FULL-DRAFT.md",
+      "sha256": "95C309791B51B41058609AC9983054C76947C5328F169A60BEE1C5668967A7B8"
+    },
+    "docxCandidate": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\midterm-report\\m2\\output\\王威-专业学位研究生学位论文中期考评表-M2候选稿.docx",
+      "sha256": "2C580A3D7AB0646E40DBEF08B579FF2DC0EDDFFCEC553FE807AD3FA235F11E71"
+    },
+    "pdfCandidate": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\midterm-report\\m2\\output\\王威-专业学位研究生学位论文中期考评表-M2候选稿.pdf",
+      "sha256": "3ADADC9942C53F073EED20959DE7EF35A15B911B5CCFABFFA7EC8461BC2CCD62"
+    },
+    "officialBlankTemplate": {
+      "path": "D:\\Users\\wangw\\Documents\\xwechat_files\\wxid_qxnxx2moo0vz22_5966\\msg\\file\\2026-08\\附件2：专业学位研究生学位论文中期考评表-2023版.docx",
+      "sha256": "A5C1545A69843692AE83147A4D2F53EE7C22DC3C9CD96DFC63E1E4991A7F2D48"
+    },
+    "thesisV2": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\final-manuscript\\output\\THESIS-FORMAT-CANDIDATE-V2.docx",
+      "sha256": "72BF70AEFAD002C9F46ACF0E3D958FD8C7F3E9402310F70DE9FF3278B1D3667A"
+    },
+    "rc1Fig": {
+      "path": "D:\\Research\\crypto_thesis\\time-policy\\figures\\图4-1确定性时间策略编译流程.png",
+      "sha256": "E87C384AB7E158572416B2AAB10843CC995C3FFC64099EC287591E1EFF463E26"
+    },
+    "rc2Fig": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization\\docs\\thesis-drafts\\research-content-2-final\\figures\\figure-5-1-design.png",
+      "sha256": "E35CFD7EDE520391F8C3D869D65DDB5E1DF95AF20B186F8498D9BAF8B369652D"
+    },
+    "rc3Fig": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\experiments\\r3\\formal\\figures\\i12-final\\fig-rq2-header-only-duration.png",
+      "sha256": "3B9142FBD5131068D347D29B460F40436F52D1355E8F0E30530DA57EA831ED69"
+    },
+    "cap2Schematic": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\midterm-report\\m2\\figures\\schematic-cap2-flow.png",
+      "sha256": "CF41FECAEF276DB3C316CA60453FB9C0B2D895B9E510E27E9F8E404DE3335BF1"
+    },
+    "closureSchematic": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\midterm-report\\m2\\figures\\schematic-closure-arch.png",
+      "sha256": "D5A67E0DFD97F91D23DD434C9B1119AEA206AD434AAA790D6ED4824331D53DCD"
+    }
+  }
+}

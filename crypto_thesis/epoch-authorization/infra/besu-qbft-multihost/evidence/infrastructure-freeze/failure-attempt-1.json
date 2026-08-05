@@ -1,0 +1,9 @@
+{
+  "stage": "A",
+  "attempt": 1,
+  "operation": "tracked-file secret scan",
+  "exit_code": 1,
+  "reason": "Git default quotePath escaping rendered non-ASCII tracked filenames as backslash escape sequences, which PowerShell rejected as filesystem paths.",
+  "impact": "The scan stopped before producing an acceptance result. No remote system or chain state was modified.",
+  "resolution": "Request unquoted Unicode paths from git with core.quotepath=false."
+}

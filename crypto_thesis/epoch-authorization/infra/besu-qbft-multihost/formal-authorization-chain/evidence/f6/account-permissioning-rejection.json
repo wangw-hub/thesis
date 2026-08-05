@@ -1,0 +1,4 @@
+{
+  "accepted": false,
+  "error": "RPC eth_sendRawTransaction failed: {'code': -32007, 'message': 'Sender account not authorized to send transactions'}"
+}

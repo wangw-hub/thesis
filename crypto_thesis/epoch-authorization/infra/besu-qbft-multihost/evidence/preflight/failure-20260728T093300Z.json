@@ -1,0 +1,8 @@
+{
+  "stage": "recovery-preflight",
+  "status": "FAILED_BEFORE_READ_ONLY_INVENTORY",
+  "failed_at_utc": "2026-07-28T09:33:00Z",
+  "remote_changes": false,
+  "cause": "A Windows PowerShell to Bash quoting error produced an unexpected EOF on all five hosts.",
+  "resolution": "Replace the variable-containing inline Bash command with a quote-safe, fixed-path read-only command before retrying."
+}

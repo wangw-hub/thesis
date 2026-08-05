@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "R3FormalRQMatrixV1",
+  "researchQuestions": [
+    {
+      "rqId": "RQ-1",
+      "question": "在固定链上块与数据库快照边界下，VersionedHeaderV1、AuthorizationState 和 HeaderRegistry 的状态更新是否保持可验证的一致性与幂等性？",
+      "class": [
+        "CORRECTNESS",
+        "SECURITY_BEHAVIOR"
+      ],
+      "primaryEvidence": "run-level invariant and acceptance evidence"
+    },
+    {
+      "rqId": "RQ-2",
+      "question": "在不改变安全语义的同类任务内，HEADER_ONLY 的端到端工程开销如何随 recipient_count 与 affected_count 变化？",
+      "class": [
+        "ENGINEERING_OVERHEAD",
+        "SCALABILITY"
+      ],
+      "primaryEvidence": "RUN-level duration and resource counters; no comparison with BODY_ROTATION"
+    },
+    {
+      "rqId": "RQ-3",
+      "question": "BODY_ROTATION 在固定语义内如何随 body_bytes 与 recipient_count 变化，并是否保持旧版本不可释放和新版本可验证？",
+      "class": [
+        "ENGINEERING_OVERHEAD",
+        "CORRECTNESS"
+      ],
+      "primaryEvidence": "RUN-level duration, body digest, header-chain and release decisions"
+    },
+    {
+      "rqId": "RQ-4",
+      "question": "预先撤销事件发生后，当前 Header 的可用性窗口与材料释放判定是否 fail-closed、可追踪且不产生错误释放？",
+      "class": [
+        "SECURITY_BEHAVIOR",
+        "CORRECTNESS"
+      ],
+      "primaryEvidence": "fixed-block event evidence and MaterialReleaseGuard decisions"
+    },
+    {
+      "rqId": "RQ-5",
+      "question": "在 LocalObjectStore 与 Kubo replica 两种已冻结对象来源下，RecoveryCoordinator 能否在对象缺失、损坏或 CID 不一致时保持一致性并完成预注册的恢复动作？",
+      "class": [
+        "RECOVERY",
+        "SECURITY_BEHAVIOR",
+        "ENGINEERING_OVERHEAD"
+      ],
+      "primaryEvidence": "recovery disposition, repair counters, object-source and integrity evidence"
+    },
+    {
+      "rqId": "RQ-6",
+      "question": "在受限且明确标注的独立正式环境中，链上、数据库和对象存储边界的组合是否产生可重复的应用层开销与恢复成本？",
+      "class": [
+        "PERFORMANCE",
+        "RECOVERY"
+      ],
+      "primaryEvidence": "pre-registered RUN-level metrics only; no consensus-performance inference"
+    }
+  ]
+}

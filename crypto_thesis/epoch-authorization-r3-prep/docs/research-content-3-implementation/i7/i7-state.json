@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "state": "I7_COMPLETED_AWAITING_I8_APPROVAL",
+  "entryState": "I6_COMPLETED_AWAITING_I7_APPROVAL",
+  "chainId": 2026073005,
+  "postgresCluster": "16/r3_i4",
+  "restoreDatabase": "epoch_auth_r3_i7_restore_test",
+  "scenarios": {"total": 20, "passed": 20, "failed": 0},
+  "i7Tests": {"total": 49, "passed": 49, "failed": 0},
+  "regressions": {"i1":"49/49","i2":"49/49","i3":"54/54","i4":"55/55","i5":"33/33","i6":"50/50","i7":"49/49"},
+  "fatal": 0,
+  "major": 0,
+  "minor": 2,
+  "invariantViolations": 0,
+  "performanceClaimsGenerated": false,
+  "formalChainAccessed": false,
+  "formalDatabaseModified": false,
+  "ipfsStarted": false,
+  "i8Approved": false
+}

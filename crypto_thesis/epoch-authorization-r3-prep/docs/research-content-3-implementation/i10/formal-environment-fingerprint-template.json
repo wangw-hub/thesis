@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "R3FormalEnvironmentFingerprintV1",
+  "status": "TEMPLATE_NOT_COLLECTED",
+  "scope": "one record per future formal host/node",
+  "requiredFields": [
+    "host",
+    "role",
+    "cpuModel",
+    "physicalCores",
+    "logicalCores",
+    "ramBytes",
+    "storageDeviceAndFreeBytes",
+    "os",
+    "kernel",
+    "virtualization",
+    "network",
+    "pythonVersion",
+    "javaVersion",
+    "besuVersion",
+    "postgresqlVersion",
+    "kuboVersion",
+    "web3pyVersion",
+    "cryptographyVersion",
+    "compilerVersion",
+    "runtimeVersion",
+    "gitSha",
+    "contractBytecodeDigest",
+    "dependencyLockDigest"
+  ],
+  "secretPolicy": "values, keys, passwords, tokens and private paths are never recorded",
+  "pilotFormalSeparation": "formal host/node fingerprints must not identify r3_i5 Pilot services"
+}

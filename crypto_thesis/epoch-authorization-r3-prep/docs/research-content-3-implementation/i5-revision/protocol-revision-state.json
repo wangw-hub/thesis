@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "state": "PROTOCOL_REVISION_APPROVED_FOR_I5_RESUME",
+  "originalI5State": "I5_REQUIRES_PROTOCOL_REVISION",
+  "resolvedStop": "HARD_STOP_RC2_KEY_VERSION_INTERFACE_GAP",
+  "resolution": "RC2_KEY_VERSION_INTERFACE_GAP_RESOLVED_BY_AUTHORITY_REALIGNMENT",
+  "keyVersionAuthority": "HEADER_REGISTRY",
+  "bodyVersionAuthority": "HEADER_REGISTRY",
+  "keyVersionEqualsBodyVersion": true,
+  "operationIdModified": false,
+  "authorizationStateModified": false,
+  "cap2Modified": false,
+  "regressions": {
+    "i1": {"passed": 49, "total": 49},
+    "i2": {"passed": 49, "total": 49},
+    "i3": {"passed": 54, "total": 54, "amendmentTests": 6},
+    "i4": {"passed": 55, "total": 55, "amendmentTests": 6}
+  },
+  "databaseInvariantViolations": 0,
+  "partialTransactions": 0,
+  "review": {"fatal": 0, "major": 0, "minor": 0, "editorial": 0},
+  "i6Approved": false
+}

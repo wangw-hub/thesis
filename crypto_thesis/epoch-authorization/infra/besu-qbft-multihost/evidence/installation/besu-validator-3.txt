@@ -1,0 +1,20 @@
+host=besu-validator-3
+started_at_utc=2026-07-28T10:20:04.0520059Z
+exit_code=0
+--- stdout ---
+package_sha256=9ddbe9e94662459898ff7b3ff4439821eeeee3bc2ff961378604202fa7da09e6
+installed_at_utc=2026-07-28T10:20:11Z
+openjdk version "21.0.11" 2026-04-21
+OpenJDK Runtime Environment (build 21.0.11+10-1-24.04.2-Ubuntu)
+OpenJDK 64-Bit Server VM (build 21.0.11+10-1-24.04.2-Ubuntu, mixed mode, sharing)
+besu/v26.5.0/linux-x86_64/openjdk-java-21
+/opt/besu-26.5.0
+uid=999(besu) gid=988(besu) groups=988(besu)
+755 root:root /opt/besu-26.5.0
+750 root:besu /etc/besu
+750 besu:besu /var/lib/besu
+750 besu:besu /var/log/besu
+besu_processes=none
+besu_units=none
+
+--- stderr ---

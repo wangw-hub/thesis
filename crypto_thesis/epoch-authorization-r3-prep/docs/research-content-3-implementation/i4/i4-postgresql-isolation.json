@@ -1,0 +1,28 @@
+{
+  "result": "PASSED",
+  "formalCluster": {
+    "name": "16/main",
+    "port": 5432,
+    "pidBefore": 52520,
+    "pidAfter": 52520,
+    "restarted": false,
+    "configShaChanged": false,
+    "databaseModified": false,
+    "roleModified": false,
+    "schemaModified": false
+  },
+  "isolatedCluster": {
+    "name": "16/r3_i4",
+    "port": 55432,
+    "listenAddress": "127.0.0.1",
+    "pid": 364386,
+    "dataDirectory": "/var/lib/postgresql/16/r3_i4",
+    "configDirectory": "/etc/postgresql/16/r3_i4",
+    "database": "epoch_auth_r3_i4_test",
+    "role": "epoch_auth_r3_i4_test"
+  },
+  "directLanConnection": false,
+  "remoteLoopbackConnection": true,
+  "sshTunnelLocalPort": 65432,
+  "secretRecorded": false
+}

@@ -1,0 +1,98 @@
+﻿utc=2026-07-28T10:12:49Z
+hostname=besu-validator-4
+whoami=thesis
+PRETTY_NAME="Ubuntu 24.04 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+machine_id=b1c67e2f254d463f83c73308ac3a6caf
+ipv4:
+2: ens33    inet 192.168.6.132/24 metric 100 brd 192.168.6.255 scope global dynamic ens33\       valid_lft 1071sec preferred_lft 1071sec
+default_route:
+default via 192.168.6.2 dev ens33 proto dhcp src 192.168.6.132 metric 100 
+java:
+openjdk version "21.0.11" 2026-04-21
+OpenJDK Runtime Environment (build 21.0.11+10-1-24.04.2-Ubuntu)
+OpenJDK 64-Bit Server VM (build 21.0.11+10-1-24.04.2-Ubuntu, mixed mode, sharing)
+cpu:
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           45 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  2
+On-line CPU(s) list:                     0,1
+Vendor ID:                               AuthenticAMD
+Model name:                              AMD Ryzen 7 H 255 W/ Radeon 780M
+CPU family:                              25
+Model:                                   117
+Thread(s) per core:                      1
+Core(s) per socket:                      1
+Socket(s):                               2
+Stepping:                                2
+BogoMIPS:                                7585.84
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ibpb vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx512_bf16 clzero arat avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid overflow_recov succor fsrm
+Hypervisor vendor:                       VMware
+Virtualization type:                     full
+L1d cache:                               64 KiB (2 instances)
+L1i cache:                               64 KiB (2 instances)
+L2 cache:                                2 MiB (2 instances)
+L3 cache:                                32 MiB (2 instances)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0,1
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode
+Vulnerability Spec store bypass:         Vulnerable
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Mitigation; Clear CPU buffers
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+memory:
+               total        used        free      shared  buff/cache   available
+Mem:      3066961920   431583232  1941569536     1298432   863866880  2635378688
+Swap:     3067080704           0  3067080704
+disk:
+Filesystem                          1B-blocks       Used   Available Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv 19896352768 6970376192 11889356800  37% /
+clock:
+               Local time: Tue 2026-07-28 18:12:50 CST
+           Universal time: Tue 2026-07-28 10:12:50 UTC
+                 RTC time: Tue 2026-07-28 10:12:49
+                Time zone: Asia/Shanghai (CST, +0800)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+sudo_noninteractive:
+ports:
+besu_commands:
+besu_processes:
+besu_units:
+besu_paths:
+ABSENT /etc/besu
+ABSENT /var/lib/besu
+ABSENT /opt/besu
+peer_ping:
+192.168.6.129=reachable
+192.168.6.130=reachable
+192.168.6.131=reachable
+192.168.6.132=reachable
+192.168.6.133=reachable
+

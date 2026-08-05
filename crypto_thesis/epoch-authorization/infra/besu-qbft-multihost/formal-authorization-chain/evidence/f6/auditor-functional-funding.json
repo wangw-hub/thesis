@@ -1,0 +1,9 @@
+{
+  "role": "AUDITOR",
+  "recipient": "0xe6EA2De2C6D4Da7A92658De606E13B8d828285CF",
+  "amount_wei": "100000000000000000",
+  "transaction_hash": "0x2842756455856a84691886f4d1ee6ded8b416f61efe9f1227a1384611ad44961",
+  "status": "0x1",
+  "gas_used": "0x5208",
+  "block_number": "0x633"
+}

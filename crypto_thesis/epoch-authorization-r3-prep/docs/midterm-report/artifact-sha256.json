@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "M1ArtifactSha256V1",
+  "generatedAt": "2026-08-03T02:51:04.017037+00:00",
+  "selfIncluded": false,
+  "files": [
+    {
+      "path": "00-M1-ENTRY.md",
+      "sha256": "d154f1d1d1ca93e5a3058053250c9d9b5c76b505076a3c2b82e2249a5f1db186"
+    },
+    {
+      "path": "01-REFERENCE-WRITING-STYLE-ANALYSIS.md",
+      "sha256": "d531f55b3c4495fc851b66a094b956655576229151895c289876a22bb0595e19"
+    },
+    {
+      "path": "02-MIDTERM-TEMPLATE-AUTHORITY.md",
+      "sha256": "390e9d8c327008e4a376d7f92fb3e6f7be13f6bc22f8db3932284e90c193985f"
+    },
+    {
+      "path": "03-MIDTERM-TIMING-AUDIT.md",
+      "sha256": "378e32975aec4ff966d48aca3fea2c94016f41516c87bf8507cfb507052e2326"
+    },
+    {
+      "path": "04-MIDTERM-CONTENT-SOURCE-MAP.md",
+      "sha256": "68d710d926627abe63d0ded3486c88f20044f331a150891e63013290b211e3f6"
+    },
+    {
+      "path": "05-MIDTERM-WRITING-OUTLINE.md",
+      "sha256": "49cdb383f03bd6f181b06140450d3493b0665a174b1c57e77eecd8bff61bd6d6"
+    },
+    {
+      "path": "06-RESEARCH-PROGRESS-DRAFT.md",
+      "sha256": "a71e3e6f089d8886fb7e32e48633bac99a2f4f76c3f728d2ac3563e69dbbc6ed"
+    },
+    {
+      "path": "07-PROBLEMS-AND-SOLUTIONS-DRAFT.md",
+      "sha256": "75ab5f3d1d3e373950f281952f48ac15210f8390acf135bd301893078448cf61"
+    },
+    {
+      "path": "08-NEXT-RESEARCH-PLAN.md",
+      "sha256": "c11dadda503bbeba166bd2ce2d13620ea61292ff20b2c3ef0ac3a4497a9a1c01"
+    },
+    {
+      "path": "09-STAGE-RESULTS-REGISTRY.md",
+      "sha256": "265aa75c39b38c435e579e2034dcc97a159a1ad00b63e517cc37c5f50f9b8724"
+    },
+    {
+      "path": "10-MIDTERM-CLAIM-EVIDENCE-MAP.md",
+      "sha256": "08db836150f579ec290e7e1d702ee4dbfce1dc04ade9620f2f25b777ecfa6377"
+    },
+    {
+      "path": "11-ACADEMIC-STYLE-AUDIT.md",
+      "sha256": "b0553c4147eebd0917bca3289cccdcfc9df37675900f1baeb009331217f6dbb7"
+    },
+    {
+      "path": "12-MIDTERM-STRICT-REVIEW.md",
+      "sha256": "e27c69fbadb7b08bffd9a9e195c6517337e56d080fdb1b2e04a64418a5396b98"
+    },
+    {
+      "path": "13-M1-FINAL-DECISION.md",
+      "sha256": "2c07074d5b60a8219b867191b8915776eb50f1f5687aff4a5af3cbbddfbe7125"
+    },
+    {
+      "path": "academic-style-audit.json",
+      "sha256": "179261091cd1195818d46c2fa4e4f837be6e742c5565841d082a2bec687b9dcc"
+    },
+    {
+      "path": "midterm-claim-evidence-map.json",
+      "sha256": "2801ea40ae6d7d2b1d0d1123860b1fd89bada4f7abc2719eff7d94e052275ef8"
+    },
+    {
+      "path": "MIDTERM-REPORT-FINAL-DRAFT.md",
+      "sha256": "2fe31f41a32d02dc129bd79b8274b8874b84c7ad90f82373851e8d783bfd49da"
+    },
+    {
+      "path": "midterm-source-map.json",
+      "sha256": "f52cd79ca23ebf30977ccc3f5054624a311adfed0509bcea3e8707a1a11cd210"
+    },
+    {
+      "path": "midterm-state.json",
+      "sha256": "f1fc9b3e15eadc2d115ff52f93d4f9b43a8286538b4c8a950b0f397714765b7a"
+    },
+    {
+      "path": "output/王威-专业学位研究生学位论文中期考评表-候选稿.docx",
+      "sha256": "9277ab46c163a6ad9e709317a7cec8795af3b766bfff1b36e97380e78ea70b5e"
+    },
+    {
+      "path": "output/王威-专业学位研究生学位论文中期考评表-候选稿.pdf",
+      "sha256": "d4754c5d0f053849fcf577cd23eabd092b9d8423cd37f0805c7d4ca2c566b9b8"
+    }
+  ]
+}

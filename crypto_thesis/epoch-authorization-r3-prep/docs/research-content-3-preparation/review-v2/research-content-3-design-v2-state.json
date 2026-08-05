@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0",
+  "researchContent": 3,
+  "phase": "DESIGN_REVIEW_ONLY",
+  "status": "PREPARATION_COMPLETE_AWAITING_ENTRY_DECISION",
+  "researchContent2V13Assumption": "ACTIVE",
+  "formalImplementationEntered": false,
+  "implemented": false,
+  "tested": false,
+  "validated": false,
+  "completed": false,
+  "authorizationStateV2Required": false,
+  "recommendedChainArchitecture": "INDEPENDENT_HEADER_REGISTRY_COMPOSING_FROZEN_AUTHORIZATION_STATE",
+  "recommendedCommitProtocol": "OFFCHAIN_CANDIDATE_VERIFY_THEN_SINGLE_ONCHAIN_COMMITTED",
+  "recommendedRevocationMode": "IMMEDIATE_AUTHORIZATION_CUTOFF_ASYNC_PER_RESOURCE_HEADER_REBUILD",
+  "majorIssueRegister": {
+    "total": 7,
+    "closedByDesignEvidence": 4,
+    "blockedOnRc2V13": 0,
+    "userDecisionRequired": 0,
+    "requiresMinimalPrototype": 1,
+    "requiresFormalImplementation": 1,
+    "acceptedLimitation": 1
+  },
+  "openDecisionRegister": {
+    "total": 14,
+    "closedByDesignEvidence": 8,
+    "blockedOnRc2V13": 1,
+    "userDecisionRequired": 1,
+    "requiresMinimalPrototype": 3,
+    "rejectedOption": 1
+  },
+  "strictReview": {
+    "fatal": 0,
+    "major": 4,
+    "minor": 6,
+    "editorial": 4
+  },
+  "entryCandidate": true,
+  "entryApproved": false,
+  "requiredBeforeEntry": [
+    "RC2_V13_FINAL_READ_ONLY_RECONCILIATION",
+    "USER_KEYSTORE_DECISION",
+    "EXPLICIT_USER_ENTRY_APPROVAL"
+  ],
+  "prohibitedActionsObserved": [],
+  "pushExecuted": false
+}

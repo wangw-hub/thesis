@@ -1,0 +1,9 @@
+UTC: 2026-07-28T09:24:36.8182374Z
+Stage: 0
+Attempt: 3
+Failure location: local PowerShell parser before any SSH connection
+Exit code: 1
+Error: Variable reference is not valid because ':' immediately followed $jsonExit and $textExit in interpolated strings.
+Remote changes: none
+SSH connections started: no
+Stage 1 started: no

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "I12ArtifactSha256V1",
+  "generatedAt": "2026-08-02T11:15:12.070070+00:00",
+  "selfIncluded": false,
+  "files": [
+    {
+      "path": "00-I12-ENTRY.md",
+      "sha256": "cfb2fb357a6cd69e56eac5f12f46300a352d0bd43bb00df01e205cfd564e297c"
+    },
+    {
+      "path": "01-I11-FROZEN-BASELINE.md",
+      "sha256": "6bbe5709296adfa93bc3f0aa23e3391608c093147a5980408fb9986bc9289ced"
+    },
+    {
+      "path": "02-FORMAL-ATTEMPT-LINEAGE.md",
+      "sha256": "ec87779a622d28286217b8ba7f0088a3d37839a175f8e59748f545f8d38a8c1c"
+    },
+    {
+      "path": "03-FORMAL-RUN-INTEGRITY.md",
+      "sha256": "91cd38b556cfcdbf6158dae704a0f94162d5f127e16dc0a9f103538d89240557"
+    },
+    {
+      "path": "04-RQ-RESULT-MATRIX.md",
+      "sha256": "50a1b76290f68409ee5ebae7e0e801be708147115dd5bbe721057790813ce8e9"
+    },
+    {
+      "path": "05-CLAIM-EVIDENCE-MATRIX.md",
+      "sha256": "dba6338dc30917f2331d560ab53fbe928a53cb378a3ad22e882ccde0abd33c2b"
+    },
+    {
+      "path": "06-FORMAL-STATISTICAL-REPRODUCTION.md",
+      "sha256": "a06f7b0f4964d1876f9f2bb0fc58b107f8eaeecbb536fe3fab16ce3666677ab9"
+    },
+    {
+      "path": "07-RQ1-RESULT.md",
+      "sha256": "582be33dd1ce36c8d293e98fe5b64e230867171d11cc9542271968a84b4693a2"
+    },
+    {
+      "path": "08-RQ2-RESULT.md",
+      "sha256": "f445431d9651158854090d5cc9d6ade81eaea0383d183aea5b08f5da7bb5ffb8"
+    },
+    {
+      "path": "09-RQ3-RESULT.md",
+      "sha256": "d62e01b0342ba946d598ec546ae3d9075363800c4a5e8a93b155853183b9191e"
+    },
+    {
+      "path": "10-RQ4-RESULT.md",
+      "sha256": "4b43b67d41f916a61f2e55aa14b11bf2e0d19632bcc1b6ac9558031fe002f0a3"
+    },
+    {
+      "path": "11-RQ5-RQ6-RESULT.md",
+      "sha256": "4772b0dda7b517aa4a575273e7dff2cd96108398f1077d2a1be6a0c0c350ab49"
+    },
+    {
+      "path": "12-NEGATIVE-RESULTS.md",
+      "sha256": "a68399c62be1f945c4757bda10c67ca1cfb49335c7ced05b25b2b5cfcb9bbfb4"
+    },
+    {
+      "path": "13-LIMITATIONS.md",
+      "sha256": "ef877958a04d6025abbbbd271e538262d7b302e30368ac1c72f8bc67ce61e991"
+    },
+    {
+      "path": "14-FIGURE-TABLE-AUDIT.md",
+      "sha256": "f56937cf5c77b466508f7b1c47e8bd74d8b72bf2f9b8879ebd890830034a7d49"
+    },
+    {
+      "path": "15-FORMAL-FIGURE-INDEX.md",
+      "sha256": "469ce9c7ae5e146cba5eb794f709eafe735c8028569226cc1ab07d0efa96a4d8"
+    },
+    {
+      "path": "16-FORMAL-TABLE-INDEX.md",
+      "sha256": "5ec6670f04a67bbd51c62b37d084544558a2c87aa669807f5c34ab18ccc786db"
+    },
+    {
+      "path": "17-THESIS-WRITEBACK-OUTLINE.md",
+      "sha256": "92bc72c30a0e45f3e861f93b6fcb4ee8499e3348063f8e11edbd95f89eaeac6e"
+    },
+    {
+      "path": "18-THESIS-WRITEBACK-CANDIDATE.md",
+      "sha256": "783e92749eb6887495428d1c4fc06db3dfa894aefc29266c865fdfd59380e283"
+    },
+    {
+      "path": "19-RESULT-EVIDENCE-MAP.md",
+      "sha256": "0fc983a091d3ef932c955f01a69d22a29d95a7509149fc5bd95c077e4de0c7f8"
+    },
+    {
+      "path": "20-REPRODUCIBILITY.md",
+      "sha256": "2e763635b1e15bc7e73208097d14132cb2559583d984c7d31597b12df7197a5e"
+    },
+    {
+      "path": "21-I12-STRICT-REVIEW.md",
+      "sha256": "859832e29dc8c616bdfa9ad3f8fa42bc3e1a740c63f280640c4a3386dca9e7fc"
+    },
+    {
+      "path": "22-I12-FINAL-DECISION.md",
+      "sha256": "d0861cbf7a4ab511b5c17e16fa68f54d0770911bb67505e91bd4755eec11b85b"
+    },
+    {
+      "path": "23-NEXT-STAGE-ENTRY.md",
+      "sha256": "92be4532e5a6d1150d157e0ab100b138872052bf1e4c81fdfcfe3a8ad212b7ee"
+    },
+    {
+      "path": "formal-analysis-reproduction.json",
+      "sha256": "ae1d8fb5711f78352eb5614483790adc8f8535ca53b34d61ea0462a520fde74b"
+    },
+    {
+      "path": "formal-claim-evidence-matrix.json",
+      "sha256": "9926629b0f5d6149f5af4bc7ca1d8aeb25f8bd8928ea41b6ff83a28036ffa0c4"
+    },
+    {
+      "path": "formal-figure-index.json",
+      "sha256": "c93e70af090b06b202212d943d5dd6f11e32006470370174e0cebf3f2d62d696"
+    },
+    {
+      "path": "formal-limitations.json",
+      "sha256": "8acc87a01b46a50dcbda5381c4fbe476b01dd7221d885eda7f42ddafb238887b"
+    },
+    {
+      "path": "formal-negative-results.json",
+      "sha256": "cfc694ccffa2c0851b03378d4ac4ca0f415f21c0c1a55d1e5a66f981741c5b9a"
+    },
+    {
+      "path": "formal-rq-results.json",
+      "sha256": "e9830479762387fcfb301da9c07b0cf27e059b71281dd48c34c8a0a16b4f7d1f"
+    },
+    {
+      "path": "formal-table-index.json",
+      "sha256": "ba4b3619dbe3872650736aabb58a64751c49ebdd9ca24723f5102cfcbc14073a"
+    },
+    {
+      "path": "i12-state.json",
+      "sha256": "774bc5c1cbbd77e96a7293ec224e41185ab0c12d73923e66fed3eb9206a824bc"
+    },
+    {
+      "path": "thesis-ready-result-dataset.json",
+      "sha256": "9b230143b00237c1e16956522be6f72572018e8f70bd097afeb67f3589354a84"
+    }
+  ]
+}

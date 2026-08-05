@@ -1,0 +1,10 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "i5-state.json": "2b09793944cb227c2b9e2b7b5f93e9ba4daffc177f520069894109b2aa2a3de1",
+    "../../../contracts/r3/build/HeaderRegistryV1.json": "6a340049850453a41a02c571ce6c180ace336213da4ff13f25f44df441fc28d2",
+    "../../../experiments/r3/i5-header-registry/raw/chain-results.json": "98ee720cd34f501678ee9dd40a8b2196e487efb7f79bc38b67c5552c97748878",
+    "../../../experiments/r3/i5-header-registry/raw/database-chain-closure.json": "0d233ffde75ecf1779f508b42b2b6fb5460de68414501d04f6263e71177d1b5a",
+    "../../../experiments/r3/i5-header-registry/reports/i5-test-results.json": "1817a24bcee8579c723a987f24a6492d97be8e98c4c6dcece18b1db79c178544"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "P9AEvidenceFinalStateV1",
+  "startGitHead": "2b5f89ee6e71466fb25c9c2db66b72a43d3af585",
+  "codeGitHead": "11e1c8465bda869a18cfbe7f51d88782c4835196",
+  "frozenAttempt": "I9_P9A_20260801T120153Z_421276e",
+  "oldRawModified": false,
+  "formalPilotAttemptCreated": false,
+  "strictAcceptanceRequirementCount": 16,
+  "missingProducerCount": 0,
+  "multipleAuthorityFieldCount": 0,
+  "newTestCount": 27,
+  "localTestsPassed": 132,
+  "remoteTestsPassed": 132,
+  "remoteDedicatedTests": "SKIPPED_A7_REAL_CHAIN_CREDENTIAL_EXPORT_NOT_AUTHORIZED",
+  "trueSecret": 0,
+  "unclassified": 0,
+  "fatal": 0,
+  "major": 1,
+  "minor": 1,
+  "state": "P9A_EVIDENCE_CONTRACT_REQUIRES_REVISION",
+  "nextAction": "EXPLICITLY_AUTHORIZE_SECURE_EXPORT_OF_I5_ISOLATED_CHAIN_ACCOUNT_CREDENTIAL_TO_EXPERIMENT_CLIENT_FOR_A7_EVIDENCE_ONLY"
+}

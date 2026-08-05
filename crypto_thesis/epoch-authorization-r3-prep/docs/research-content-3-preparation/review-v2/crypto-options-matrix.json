@@ -1,0 +1,7 @@
+{
+  "schemaVersion":1,
+  "body":{"primary":"AES-256-GCM","comparison":"CHACHA20-POLY1305","tagBits":128,"defaultChunkBytes":4194304,"maxChunkCount":4294967295,"nonceConstruction":"random64_prefix || uint32_be(chunk_index)"},
+  "hpke":{"mode":"BASE","kem":"DHKEM(X25519,HKDF-SHA256)","kdf":"HKDF-SHA256","aead":"AES-128-GCM","implementationCandidate":"pyca/cryptography 49.0.0","status":"REQUIRES_MINIMAL_PROTOTYPE"},
+  "keyHierarchy":{"selected":"DIRECT_HPKE_PER_RECIPIENT_CK","kekEpochIncluded":false,"rejected":["HPKE_KEK_PLUS_CK_WRAP","SHARED_EPOCH_ACCESS_KEY"]},
+  "signature":{"algorithm":"Ed25519","scope":"HEADER_DIGEST","separateFromTransactionKey":true}
+}

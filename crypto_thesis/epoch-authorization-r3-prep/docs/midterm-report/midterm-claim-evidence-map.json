@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "MidtermClaimEvidenceMapV1",
+  "claims": [
+    {
+      "section": "RC1 进展",
+      "claim": "非连续时间策略可确定性编译为唯一语义表示与摘要",
+      "source": "论文 V2 第四章",
+      "evidence": "15120/15120 有效、81 项测试、98.61% 覆盖率",
+      "wordingBoundary": "在本实验配置范围内"
+    },
+    {
+      "section": "RC1 负结果",
+      "claim": "层次覆盖无普遍存储优势",
+      "source": "论文 V2 第四章",
+      "evidence": "E1-A 108 样本比较",
+      "wordingBoundary": "不构成通用压缩替代方案"
+    },
+    {
+      "section": "RC2 进展",
+      "claim": "许可联盟链状态锚定+CAP2+共享Nonce 实现可信授权执行",
+      "source": "论文 V2 第五章",
+      "evidence": "9720 运行块、196~199 ms、98.66%~98.80% 链读取占比",
+      "wordingBoundary": "V13 冻结代码与配置"
+    },
+    {
+      "section": "RC2 负结果",
+      "claim": "缓存与 C(P) 无稳定端到端收益",
+      "source": "论文 V2 第五章",
+      "evidence": "配对 Bootstrap 置信区间跨 0",
+      "wordingBoundary": "当前冻结工作负载"
+    },
+    {
+      "section": "RC3 进展",
+      "claim": "版本化密文头部与前瞻性撤销闭环维持链上链下一致",
+      "source": "论文 V2 第六章",
+      "evidence": "145 measured RUN、错误材料释放 0、E1-E5",
+      "wordingBoundary": "受控单节点环境，仅前瞻性撤销"
+    },
+    {
+      "section": "RC3 负结果",
+      "claim": "Kubo 正常路径无稳定性能优势",
+      "source": "论文 V2 第六章",
+      "evidence": "E5 匹配块比较",
+      "wordingBoundary": "定位为恢复可用性机制"
+    }
+  ]
+}

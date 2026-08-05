@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "I10ArtifactSha256V1",
+  "generatedAt": "2026-08-02T06:14:22Z",
+  "selfIncluded": false,
+  "files": [
+    {
+      "path": "00-I10-ENTRY.md",
+      "sha256": "1c1dc0b9e5a34d463af0c6c0070fb833ddd935c571b019c5541935790611ef54"
+    },
+    {
+      "path": "01-I9-FROZEN-BASELINE.md",
+      "sha256": "c8a1edd83646ffb334fa50c72c12116342ba5bec03d22160c4d350983f5bdcb4"
+    },
+    {
+      "path": "02-FORMAL-RESEARCH-QUESTIONS.md",
+      "sha256": "f1224a4a88b4f90385217cfdf995c8d9fc6feb5dddb42956501cf4c327df6526"
+    },
+    {
+      "path": "03-FORMAL-CLAIM-MATRIX.md",
+      "sha256": "7b192ad7c859953f18a4ea89c7835ca2c32a506f948122216c90f2bdc7fb07dd"
+    },
+    {
+      "path": "04-FORMAL-BASELINE-DESIGN.md",
+      "sha256": "7d09ba0ba03bd6341c3eaedaa5d11bb688d2fb882b0c6a49f8bb7eb2b67ffc49"
+    },
+    {
+      "path": "05-FORMAL-FACTOR-LEVEL-DESIGN.md",
+      "sha256": "165e0f6b3a195d0ba323fbb68fa94ef9228c6ab86cb2430e2fcd180cc7bf5a36"
+    },
+    {
+      "path": "06-FORMAL-WORKLOAD-DESIGN.md",
+      "sha256": "69d5192fdfef0bd2e1d608d0a88c1cc1095cb35cfa9fadec2e1786e80d076509"
+    },
+    {
+      "path": "07-FORMAL-METRIC-REGISTRY.md",
+      "sha256": "0c3140f96dbc5d6cd273f19eb5af61b2471dc3e8f8418142b29adeaaf0c17cb5"
+    },
+    {
+      "path": "08-FORMAL-EXPERIMENTAL-UNIT.md",
+      "sha256": "22893d89bd2cb92175f637604a278deac3b975ecb8fbd26941d3695ff46857b9"
+    },
+    {
+      "path": "09-FORMAL-SAMPLE-SIZE-PLAN.md",
+      "sha256": "2147e722f6e8a6cb749d3060c7505cca23b37dfdb923f1399f8a0d7c03dabd95"
+    },
+    {
+      "path": "10-FORMAL-WARMUP-PLAN.md",
+      "sha256": "f093bf0ea019334e091e2eeb205b37115ee73ee7943c44a39f1edcee7da725af"
+    },
+    {
+      "path": "11-FORMAL-EXECUTION-ORDER.md",
+      "sha256": "21ffc49db2c08a026255f8e7157b0d51d288f86f9290acf6e9be3f88783af3f7"
+    },
+    {
+      "path": "12-FORMAL-PAIRING-PLAN.md",
+      "sha256": "39205cef64b162a88129f701816e95bbad359dd9b34241bee67ba2ddf9413aad"
+    },
+    {
+      "path": "13-FORMAL-STATISTICAL-PLAN.md",
+      "sha256": "6864805e6ab145f892303b0598ceaf27b0ebdf493e8974b874b9e335e343e5dc"
+    },
+    {
+      "path": "14-FORMAL-EXCLUSION-MISSING-POLICY.md",
+      "sha256": "3c6bd7bd2d5b718906abe7b639eb3e6d2bffedbe4bfd5b557a2fa419206b6814"
+    },
+    {
+      "path": "15-FORMAL-FAILURE-DISPOSITION.md",
+      "sha256": "8dcc67d21d887d7590ceefd9959fee7680663dc24cead685106c7908ec72989d"
+    },
+    {
+      "path": "16-FORMAL-STOP-RULES.md",
+      "sha256": "51cbdaabd46ac00e37a14df99f02a5a33dd4d97e2dacaa9a1c34352408efba3c"
+    },
+    {
+      "path": "17-FORMAL-ENVIRONMENT-CLASSES.md",
+      "sha256": "cc9912b4cf8245c01838cba15ce5105f8f8092ea2c89ee58cbfc7c32b203996b"
+    },
+    {
+      "path": "18-RC3-MULTINODE-DECISION.md",
+      "sha256": "c138e3b9b81dfb817abdb62f14f2ecf6dcd48b777f4095544f6888d40052c357"
+    },
+    {
+      "path": "19-RC3-FORMAL-BESU-TOPOLOGY.md",
+      "sha256": "3b31a5b372124817d6ab24c47dc1c017221bcdbd98a4863d6d4851055cb521ca"
+    },
+    {
+      "path": "20-FORMAL-DATABASE-DESIGN.md",
+      "sha256": "cbad886c4229af5580d6c9973f5e4911df82a14a9d45de1244196043c8eeb738"
+    },
+    {
+      "path": "21-FORMAL-STORAGE-DESIGN.md",
+      "sha256": "e6aa3806bc74b158fceba1b336b0ed2a505e81cc96fe7ee739a818464d6f039d"
+    },
+    {
+      "path": "22-FORMAL-IDENTITY-DOMAIN.md",
+      "sha256": "f2232747db2a8ccf616bcfbde8af66c41453597a0847615b8bef583b0dfb2f0b"
+    },
+    {
+      "path": "23-FORMAL-EVIDENCE-DESIGN.md",
+      "sha256": "13d8b1a52fc3b4c3fc2d95f9d3fb294cffcb6e8aa2f35c84b44aa8aa567e60bb"
+    },
+    {
+      "path": "24-FORMAL-DIRECTORY-LAYOUT.md",
+      "sha256": "5ff0401454384c3da2c3f93cc2444c16df1c25f3019db9bc6304cbc5411dd5ce"
+    },
+    {
+      "path": "25-FORMAL-CODE-FREEZE-PROCEDURE.md",
+      "sha256": "c7d4aac8a75a5efbd49d915a3f1ddf31a8d52f24db62b80bd0ab850e73f9a691"
+    },
+    {
+      "path": "26-FORMAL-PREFLIGHT-DESIGN.md",
+      "sha256": "0e060b195f5cabfea67983fc9ed3fd33717401b67124e3814373eef742927997"
+    },
+    {
+      "path": "27-FORMAL-RQ-EXPERIMENT-MATRIX.md",
+      "sha256": "253ea0b9f83a1e573207c87d9049f15487800f8d9be6f76b6be80b1aefd6165a"
+    },
+    {
+      "path": "28-FORMAL-RUN-BUDGET.md",
+      "sha256": "ce77b1b20ed34bced1f80f1b5f1a478ac547dab5a9d59df19f0d50abbdf4fb95"
+    },
+    {
+      "path": "29-MINIMUM-SUFFICIENT-FORMAL-PLAN.md",
+      "sha256": "d166377ab11e0006d0561fae72f82c61917bf963a87ac4c18182248f064c4268"
+    },
+    {
+      "path": "30-OPTIONAL-ENHANCED-FORMAL-PLAN.md",
+      "sha256": "a55de42835a6aca1a8ba1f10704db42f4dbd5b9dfba03e37de0ab3d9433753ce"
+    },
+    {
+      "path": "31-FORMAL-PREREGISTRATION.md",
+      "sha256": "79212559f1f75bf2a6e8b0c2af1484e2e0a0e4e2ee2cd423510d7d1dfc7f5450"
+    },
+    {
+      "path": "32-FORMAL-ANALYSIS-CODE-PLAN.md",
+      "sha256": "2afb3b2820cb2390fdec378bd54b84142cd2882381fcb435df70f3b4610c4807"
+    },
+    {
+      "path": "33-FORMAL-FIGURE-TABLE-PLAN.md",
+      "sha256": "486d15caf0af48c50dc6532e26b4818adbcd0d4b3cf23eccd15e4cd288b39ff1"
+    },
+    {
+      "path": "34-I10-STRICT-REVIEW.md",
+      "sha256": "957dc2c203103480f9fa2c476f248bbb99a53112379b589677d49b3a18356fa2"
+    },
+    {
+      "path": "35-I10-FINAL-DECISION.md",
+      "sha256": "3ec2acca5a8f1f73c4cbfc82f2790c20905abaefcc1c4e8410277d7b9be26e61"
+    },
+    {
+      "path": "36-I11-ENTRY-CHECKLIST.md",
+      "sha256": "759af64fc0de0f6b2d55b50448c745fbb9f4031f3999fa03da6d5079d8624875"
+    },
+    {
+      "path": "formal-besu-topology.json",
+      "sha256": "244d2791256af61bbede4b20bef38ac8a71dfe8820db244403214f715c17524f"
+    },
+    {
+      "path": "formal-claim-matrix.json",
+      "sha256": "f3619a32d2e2cc508782ab87e43960b9691c814811365bc1c7bc5c6a76544871"
+    },
+    {
+      "path": "formal-environment-fingerprint-template.json",
+      "sha256": "c70d51560cc0925bc509b3279ebf8a68dec31728b79fde59632d2760d88fea1d"
+    },
+    {
+      "path": "formal-factor-matrix.json",
+      "sha256": "93378fd3e7e6cbd765d3bc5154f62b6df844297390195ddd367702e6fb45b7c9"
+    },
+    {
+      "path": "formal-metric-registry.json",
+      "sha256": "d7e240bb1cccd6e9d696f459de6faf0ff30a136977988e6360d878d55ff3b2b6"
+    },
+    {
+      "path": "formal-preregistration.json",
+      "sha256": "1bd568be1c4ac382aac6ef178920e853f63ba89c50abb424737c3d1dd0417b47"
+    },
+    {
+      "path": "formal-rq-matrix.json",
+      "sha256": "645d3504561600cecf2efa66befe2eac9f2c9cb53e424be3512a7a5dcf8f6261"
+    },
+    {
+      "path": "formal-run-budget.json",
+      "sha256": "95e43b40f02d6fc1e01946b7731474433ca00a6b010ca8b3e625a3d4ddcacc29"
+    },
+    {
+      "path": "formal-stop-rules.json",
+      "sha256": "f5d858170788498db6fa28fbc6e2e98f26b422b06ccc4fbafd67030627e6e402"
+    },
+    {
+      "path": "i10-state.json",
+      "sha256": "a987a14fa7d4c9a1fbc8349c06ed9c46aa86b2faf98e7d8d53aeac24e96f1972"
+    }
+  ]
+}

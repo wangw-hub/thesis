@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "M4FigureAssetCatalogV1",
+  "figures": [
+    {
+      "file": "m4-exp-fig10-boundary.png",
+      "sha256": "1595A7133B58F3BD2850E41F9F048CD08FDC7299E22CCBDDCEB0CD6AA2024D76",
+      "size": 83092
+    },
+    {
+      "file": "m4-exp-fig11-stage.png",
+      "sha256": "27E073CF313E62B3AD1CED5610072E6EBE2B0120C34E8A24DC3B151CB942F806",
+      "size": 63596
+    },
+    {
+      "file": "m4-exp-fig12-latency.png",
+      "sha256": "49AC379C37A4021A0AEA367B9C08E43F38BE07FAABB5264295073EDEBAAB204D",
+      "size": 128315
+    },
+    {
+      "file": "m4-exp-fig13-paired.png",
+      "sha256": "59833CC332B8C6AD6BF8DFE29153AB5B9B33A872932C806B81BE6F1E6F806D5C",
+      "size": 57839
+    },
+    {
+      "file": "m4-exp-fig14-concurrency.png",
+      "sha256": "68A7694CD1EC11103A54919C0EC23619768434AB368DA37EBAF7F553AC6CA231",
+      "size": 104937
+    },
+    {
+      "file": "m4-exp-fig15-frag.png",
+      "sha256": "0347F3BCBF679E7DB0D6836C4FB909173ABADEE3666F3AAE223D92E00485258B",
+      "size": 82851
+    },
+    {
+      "file": "m4-exp-fig16-locality.png",
+      "sha256": "2D027EE862BC9E9CD39FDA07ED82BAA3D91D2FD6E8D564B11A84F6C233D57752",
+      "size": 110151
+    },
+    {
+      "file": "m4-exp-fig17-header.png",
+      "sha256": "4B9D62907E6C8FA5240C772ECFC363A95DE8FBCACFEE914ACC4CC0DFF53DAB49",
+      "size": 94824
+    },
+    {
+      "file": "m4-exp-fig18-rotation.png",
+      "sha256": "15F7354424EDBAF4AE3A72591833127301B11384E12968FCFEA5EC9B7CB2D4DA",
+      "size": 76062
+    },
+    {
+      "file": "m4-exp-fig19-recovery.png",
+      "sha256": "A6524F4AE60F114AD7B1AFBAE5C3178E4ED7C5D47C4523A95C193277694D03DF",
+      "size": 84789
+    },
+    {
+      "file": "m4-exp-fig8-match.png",
+      "sha256": "BC03F3CD8C803FF3C233CA292EFFD8AD86B0C637994E3982A7AD4CB224B45821",
+      "size": 93768
+    },
+    {
+      "file": "m4-exp-fig9-rep-size.png",
+      "sha256": "3F8876F7F08BB9FD44E6A29BCE9978CD6182CD71A0D6530E0D6D25C1BFDAC9FB",
+      "size": 97263
+    },
+    {
+      "file": "m4-fig1-route.png",
+      "sha256": "63BF9B77537F222F393E0A30C9C37CE0714515F93AEAB95099C92CF14FE2BBB9",
+      "size": 181077
+    },
+    {
+      "file": "m4-fig2-ir.png",
+      "sha256": "19EE407487DEA1DEBC224167AD9AA62CF343C0002940028E7619F0E8AF97D2DE",
+      "size": 95487
+    },
+    {
+      "file": "m4-fig3-compile.png",
+      "sha256": "23905C7CAFCA31DE9B18F04120AA6DD9DFB7223963FA6175F873708D6198F0C0",
+      "size": 130571
+    },
+    {
+      "file": "m4-fig4-arch.png",
+      "sha256": "7086B6218C4F608B4B0E5D27332B6AA3265D9C787AA09BD1D7E972DB2D9F6695",
+      "size": 166164
+    },
+    {
+      "file": "m4-fig5-cap2.png",
+      "sha256": "C94936090E58E295C871BE6E946AF6F7117BB8FD5F1858BC46BA99E240496AA1",
+      "size": 157136
+    },
+    {
+      "file": "m4-fig6-object.png",
+      "sha256": "2246E30704D8F2FB192D256F9C6A7704315367A0E0EFB0F4CD818EC33398B2DF",
+      "size": 123001
+    },
+    {
+      "file": "m4-fig7-closure.png",
+      "sha256": "71D427C132E942C38AC149F14B0E17C5C304C82E41E07B2A7F2B1D832808B6B2",
+      "size": 163081
+    }
+  ]
+}

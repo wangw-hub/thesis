@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "LiteratureVerificationRecordV1",
+  "referenceId": "REF-10",
+  "citationKey": "[10]",
+  "currentBibliographyEntry": "[10] Barnes R, Bhargavan K, Lipp B, Wood C. Hybrid Public Key Encryption. RFC 9180, 2022.",
+  "title": "Hybrid Public Key Encryption",
+  "authors": "Barnes R, Bhargavan K, Lipp B, Wood C",
+  "year": 2022,
+  "venue": "RFC 9180",
+  "publicationType": "RFC",
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "publisher": "RFC Editor",
+  "DOI": "10.17487/RFC9180",
+  "URL": null,
+  "formalPublicationStatus": "JOURNAL/CONFERENCE/RFC/ENGINEERING",
+  "preprintStatus": false,
+  "officialSource": "https://www.rfc-editor.org/rfc/rfc9180",
+  "secondarySources": [
+    "https://www.rfc-editor.org/info/rfc9180/"
+  ],
+  "metadataMatch": true,
+  "claimSupport": "DIRECTLY_SUPPORTED",
+  "claimSupportLevel": "DIRECTLY_SUPPORTED",
+  "verificationStatus": "VERIFIED",
+  "recommendedAction": "采纳（必要时按 correction 修正）",
+  "notes": "",
+  "accessDate": "2026-08-02"
+}

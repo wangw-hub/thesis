@@ -1,0 +1,12 @@
+{
+  "algorithm": "SHA-256",
+  "artifacts": {
+    "00-ORIGINAL-HPKE-CANDIDATE-FAILURE.md": "6d78d425a190041bc2f05614a7e6b09aaee72cfebb09c5e73f20e2b1b5a1e74c",
+    "01-RFC9180-VECTOR-FIELD-MAPPING.md": "e12c48234f52c7d71d1c2c22cd65a430b6729ccbde5a9a71f6a36578d6b088ab",
+    "02-I1-RECOVERY-RESULT.md": "c1796c6184e0f16ecad9d05a203a14a679a441f4ab7edc2ea74a674e618080d9",
+    "03-I1-RECOVERY-STRICT-PEER-REVIEW.md": "6bac37eb2f7a6fcc7d84dfd39f746e6053875b5b01567235f85150925fc79516",
+    "i1-recovery-state.json": "4ba3c84f24e7de25fcd8601d8ed41eae1f5831e4688078eacaa8e27979132810",
+    "original-candidate-failure.json": "591d2404e4c1e8e8c7b0af5c78b098f0c87ef49e3513d02cdf6601e35c13dd13",
+    "rfc9180-vector-field-mapping.json": "18255906b8029233eab4de6b48c6c33e2844451f88be5f4daf7e2cab9470fe3f"
+  }
+}

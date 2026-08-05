@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epoch-authorization"
+version = "0.1.0"
+description = "Local prototype for epoch-bound, user-bound capability authorization."
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "cryptography>=46,<47",
+  "time-policy @ file:///D:/Research/crypto_thesis/time-policy",
+  "web3>=7.16,<8",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8.3,<9",
+  "pytest-cov>=6,<7",
+  "hypothesis>=6.120,<7",
+  "eth-tester[py-evm]>=0.13.0b1,<0.14",
+  "py-solc-x>=2.0,<3",
+]
+dev = ["epoch-authorization[test]"]
+multihost = [
+  "psycopg[binary]>=3.2,<4",
+  "PyYAML>=6,<7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["tests"]
+markers = [
+  "property: property-based tests",
+  "attack: adversarial protocol tests",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["epoch_auth"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 90

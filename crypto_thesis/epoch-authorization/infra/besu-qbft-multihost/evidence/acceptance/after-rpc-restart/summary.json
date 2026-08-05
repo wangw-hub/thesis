@@ -1,0 +1,112 @@
+﻿[
+    {
+        "host":  "besu-validator-1",
+        "service":  "besu.service",
+        "active":  true,
+        "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+        "static_nodes_sha256":  "f252d0820a85895842c4be76b216c9ea3ba602e1324c570f36fbe43d9c768036",
+        "private_key_sha256":  "745e77221c69dc56c0c3be280554b7314426cb782ee69ab0d20fea29cf704c64",
+        "node_id":  "45835af724311e3da282f7c376f448ba820f30ba01c4660ff6f88bb0261fb10073c8d48dbe9bc4f1876b67b6a23a1671f176cfa95a95c44de7789e9700c9487b",
+        "block_number_hex":  "0x2de",
+        "block_number":  734,
+        "peer_count_hex":  "0x4",
+        "peer_count":  4,
+        "validators":  [
+                           "0x1583e3922a8b9477d08e00919418a30e619ed49c",
+                           "0x599d6230371a00524208ad63164aae5f90ab5d36",
+                           "0x6e86edb3d714dc28e149edd280625ded1436fadf",
+                           "0xd7716b03e26dba82368fd4bf2c263da6a76e086b"
+                       ],
+        "fixed_block_hash":  "0x825ae90e0a2704427d9698a514b295a814d0240d109e5f6a157debd6ad0ecb8a",
+        "recent_error_count":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\acceptance\\after-rpc-restart\\besu-validator-1.txt"
+    },
+    {
+        "host":  "besu-validator-2",
+        "service":  "besu.service",
+        "active":  true,
+        "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+        "static_nodes_sha256":  "f252d0820a85895842c4be76b216c9ea3ba602e1324c570f36fbe43d9c768036",
+        "private_key_sha256":  "7a058f1c2f2ddf6dae039b2fc46b7094b9bd98165e627f3903ea051a0bfb3802",
+        "node_id":  "2c83db62d7580d1e7086d81024e1a2dfb05d10de0df9ec5e0a2b1266f07e18a090dcb94772376df762d405b3350d33466c2bb7b671473cbc5fff6dbe6be6ff03",
+        "block_number_hex":  "0x2df",
+        "block_number":  735,
+        "peer_count_hex":  "0x4",
+        "peer_count":  4,
+        "validators":  [
+                           "0x1583e3922a8b9477d08e00919418a30e619ed49c",
+                           "0x599d6230371a00524208ad63164aae5f90ab5d36",
+                           "0x6e86edb3d714dc28e149edd280625ded1436fadf",
+                           "0xd7716b03e26dba82368fd4bf2c263da6a76e086b"
+                       ],
+        "fixed_block_hash":  "0x825ae90e0a2704427d9698a514b295a814d0240d109e5f6a157debd6ad0ecb8a",
+        "recent_error_count":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\acceptance\\after-rpc-restart\\besu-validator-2.txt"
+    },
+    {
+        "host":  "besu-validator-3",
+        "service":  "besu.service",
+        "active":  true,
+        "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+        "static_nodes_sha256":  "f252d0820a85895842c4be76b216c9ea3ba602e1324c570f36fbe43d9c768036",
+        "private_key_sha256":  "00699a594adae9a553219cd5e3576d00de60ed057df156a066e4d878e08c39a0",
+        "node_id":  "7d8348834e08d141ab776c9628ee82ff91620c1637862decce9d01cfb0b3f55f48c1809ab5eaca058ed515d9f2c2300aeaee3b7914c4ea00418db2cce073d932",
+        "block_number_hex":  "0x2df",
+        "block_number":  735,
+        "peer_count_hex":  "0x4",
+        "peer_count":  4,
+        "validators":  [
+                           "0x1583e3922a8b9477d08e00919418a30e619ed49c",
+                           "0x599d6230371a00524208ad63164aae5f90ab5d36",
+                           "0x6e86edb3d714dc28e149edd280625ded1436fadf",
+                           "0xd7716b03e26dba82368fd4bf2c263da6a76e086b"
+                       ],
+        "fixed_block_hash":  "0x825ae90e0a2704427d9698a514b295a814d0240d109e5f6a157debd6ad0ecb8a",
+        "recent_error_count":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\acceptance\\after-rpc-restart\\besu-validator-3.txt"
+    },
+    {
+        "host":  "besu-validator-4",
+        "service":  "besu.service",
+        "active":  true,
+        "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+        "static_nodes_sha256":  "f252d0820a85895842c4be76b216c9ea3ba602e1324c570f36fbe43d9c768036",
+        "private_key_sha256":  "8993119dd52b72697b7ff95f6f3c6e49704d30aff2ae3e90e9d432b4ac9b5efb",
+        "node_id":  "fc0678110ce00588367df96a799f828e12e1729fb1bb8ec5f508a8ab28cabc8acf748f558650ccb5abfcef8746c58472d5e79864d026dabd88492300282d8433",
+        "block_number_hex":  "0x2e0",
+        "block_number":  736,
+        "peer_count_hex":  "0x4",
+        "peer_count":  4,
+        "validators":  [
+                           "0x1583e3922a8b9477d08e00919418a30e619ed49c",
+                           "0x599d6230371a00524208ad63164aae5f90ab5d36",
+                           "0x6e86edb3d714dc28e149edd280625ded1436fadf",
+                           "0xd7716b03e26dba82368fd4bf2c263da6a76e086b"
+                       ],
+        "fixed_block_hash":  "0x825ae90e0a2704427d9698a514b295a814d0240d109e5f6a157debd6ad0ecb8a",
+        "recent_error_count":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\acceptance\\after-rpc-restart\\besu-validator-4.txt"
+    },
+    {
+        "host":  "experiment-client",
+        "service":  "besu-rpc.service",
+        "active":  true,
+        "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+        "static_nodes_sha256":  "f252d0820a85895842c4be76b216c9ea3ba602e1324c570f36fbe43d9c768036",
+        "private_key_sha256":  "9fe4877a3cd2a98e9ba5657380ba6c528d14093832ca1c6f1c849969ac010460",
+        "node_id":  "82a8ae5daa0ad3d00d58fad9a59f3567a08767191a667d55ec5df94bead2d02f41522d591db46f72def6d1e5f9ab013c8efce1ffccc165db6ae4681ad8ae0700",
+        "block_number_hex":  "0x2e1",
+        "block_number":  737,
+        "peer_count_hex":  "0x4",
+        "peer_count":  4,
+        "validators":  [
+                           "0x1583e3922a8b9477d08e00919418a30e619ed49c",
+                           "0x599d6230371a00524208ad63164aae5f90ab5d36",
+                           "0x6e86edb3d714dc28e149edd280625ded1436fadf",
+                           "0xd7716b03e26dba82368fd4bf2c263da6a76e086b"
+                       ],
+        "fixed_block_hash":  "0x825ae90e0a2704427d9698a514b295a814d0240d109e5f6a157debd6ad0ecb8a",
+        "recent_error_count":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\acceptance\\after-rpc-restart\\experiment-client.txt"
+    }
+]

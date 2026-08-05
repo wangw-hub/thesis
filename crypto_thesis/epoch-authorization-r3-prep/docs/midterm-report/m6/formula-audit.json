@@ -1,0 +1,184 @@
+[
+  {
+    "m5_no": 1,
+    "latex": "S(P)=\\bigcup_{i=1}^{n}\\{x\\in T\\mid l_i\\le x<r_i\\}",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "核心语义定义（允许槽集合），正文以式（1）引用",
+    "m6_no": 1
+  },
+  {
+    "m5_no": 2,
+    "latex": "T=\\{0,1,\\ldots,U-1\\}",
+    "m6_status": "MOVE_INLINE",
+    "reason": "普通符号定义，已写入正文行内",
+    "m6_no": null
+  },
+  {
+    "m5_no": 3,
+    "latex": "\\phi(t)=\\lfloor(t-t_0)/\\Delta\\rfloor",
+    "m6_status": "MOVE_INLINE",
+    "reason": "时间槽映射符号定义，后文未按编号引用，已写入正文行内",
+    "m6_no": null
+  },
+  {
+    "m5_no": 4,
+    "latex": "\\mathcal{D}=[t_0,t_0+U\\Delta)",
+    "m6_status": "MOVE_INLINE",
+    "reason": "普通符号定义，已写入正文行内",
+    "m6_no": null
+  },
+  {
+    "m5_no": 5,
+    "latex": "I^*=\\operatorname{Normalize}(P)=\\langle[a_1,b_1),\\ldots,[a_k,b_k)\\rangle",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "唯一语义表示核心定义，正文以式（2）引用；按规范移至算法1之前的形式化模型",
+    "m6_no": 2
+  },
+  {
+    "m5_no": 6,
+    "latex": "C(P)=\\bigcup_{I\\in I^*}C(I),\\ c=|C(P)|",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "派生执行表示核心定义，正文以式（3）引用",
+    "m6_no": 3
+  },
+  {
+    "m5_no": 7,
+    "latex": "D(j,s)=[j2^s,(j+1)2^s)",
+    "m6_status": "MOVE_INLINE",
+    "reason": "二进制对齐节点符号定义，已写入正文行内",
+    "m6_no": null
+  },
+  {
+    "m5_no": 8,
+    "latex": "L=2^{\\lceil\\log_2 U\\rceil}",
+    "m6_status": "MOVE_INLINE",
+    "reason": "符号定义，已写入算法2输入说明",
+    "m6_no": null
+  },
+  {
+    "m5_no": 9,
+    "latex": "pd=\\operatorname{SHA-256}(B(P))",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "策略摘要绑定核心关系，正文以式（4）引用；SHA-256 记法规范化",
+    "m6_no": 4
+  },
+  {
+    "m5_no": 10,
+    "latex": "T(n,c)=O(n\\log n+c)",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "输出敏感复杂度刻画，构成复杂度分析基础，正文以式（5）引用",
+    "m6_no": 5
+  },
+  {
+    "m5_no": 11,
+    "latex": "B(P)=\\operatorname{CanonicalSerialize}(t_0,\\Delta,U,I^*)",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "规范编码核心定义，正文以式（6）引用",
+    "m6_no": 6
+  },
+  {
+    "m5_no": 12,
+    "latex": "stateVersion'=stateVersion+1\\ \\wedge\\ REVOKED\\ 为终态",
+    "m6_status": "MOVE_INLINE",
+    "reason": "普通状态性质陈述，后文未按编号引用，已并入正文陈述",
+    "m6_no": null
+  },
+  {
+    "m5_no": 13,
+    "latex": "U=(account,userKeyId,status,userVersion,updatedAtBlock)",
+    "m6_status": "MOVE_INLINE",
+    "reason": "普通字段列表，已改写为正文行内元组表述",
+    "m6_no": null
+  },
+  {
+    "m5_no": 14,
+    "latex": "R=(owner,policyDigest,epoch,status,policyVersion,stateVersion,updatedAtBlock)",
+    "m6_status": "MOVE_INLINE",
+    "reason": "普通字段列表，已改写为正文行内元组表述",
+    "m6_no": null
+  },
+  {
+    "m5_no": 15,
+    "latex": "\\sigma=\\operatorname{Ed25519.Sign}(sk_I,B)",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "能力凭证签名核心关系（密码封装），正文以式（7）引用",
+    "m6_no": 7
+  },
+  {
+    "m5_no": 16,
+    "latex": "B=\\operatorname{Encode}(F_1\\Vert F_2\\Vert\\cdots\\Vert F_n)",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "签名输入编码关系，正文以式（8）引用；去除实现代号下标",
+    "m6_no": 8
+  },
+  {
+    "m5_no": 17,
+    "latex": "\\text{INSERT}(k)=1\\Leftrightarrow k\\notin consumed,\\ k=(chain,contract,resource,epoch,nonce)",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "原子一次性消费核心关系，构成授权接受/拒绝判定基础",
+    "m6_no": 9
+  },
+  {
+    "m5_no": 18,
+    "latex": "release\\Rightarrow status=ACTIVE\\wedge dbAvailable",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "故障闭合核心关系（依赖故障时拒绝放行）",
+    "m6_no": 10
+  },
+  {
+    "m5_no": 19,
+    "latex": "hdrHash=\\operatorname{SHA-256}(\\operatorname{Canonical}(Header)),\\ HeaderRegistry\\gets(hdrHash,objHash)",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "版本登记核心关系（链上注册表绑定）",
+    "m6_no": 11
+  },
+  {
+    "m5_no": 20,
+    "latex": "EK_R=\\operatorname{HPKE.Seal}(pk_R,CK)",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "混合加密核心关系",
+    "m6_no": 12
+  },
+  {
+    "m5_no": 21,
+    "latex": "C_{body}=\\operatorname{AES-256-GCM}(K,N,M)",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "密码封装核心关系",
+    "m6_no": 13
+  },
+  {
+    "m5_no": 22,
+    "latex": "keyVersion=bodyVersion",
+    "m6_status": "MOVE_INLINE",
+    "reason": "普通绑定关系，已并入正文陈述",
+    "m6_no": null
+  },
+  {
+    "m5_no": 23,
+    "latex": "(h,b,k)\\mapsto(h+1,b+1,k+1)",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "密文主体与密钥轮换的版本核心关系",
+    "m6_no": 14
+  },
+  {
+    "m5_no": 24,
+    "latex": "(h,b,k)\\mapsto(h+1,b,k)",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "仅密文头更新的版本核心关系",
+    "m6_no": 15
+  },
+  {
+    "m5_no": 25,
+    "latex": "release\\Leftrightarrow status=ACTIVE\\wedge t\\in S(I^*)\\wedge hdrValid",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "材料释放核心判定关系",
+    "m6_no": 16
+  },
+  {
+    "m5_no": 26,
+    "latex": "restore\\Leftrightarrow \\operatorname{SHA-256}(candidate)=objHash\\wedge structuralValid",
+    "m6_status": "KEEP_DISPLAY",
+    "reason": "恢复判定核心关系（完整性权威唯一）",
+    "m6_no": 17
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "ThesisFormattingAuthorityMapV1",
+  "school": "电子科技大学（来源：开题报告表）",
+  "officialTemplate": null,
+  "officialFormatGuide": null,
+  "historicalExample": {
+    "path": "D:\\Research\\heart_thesis\\开题报告表-王威-1 (2).docx",
+    "sha256": "CCE14F6A4815C2F3138C57CBDA091ACD0705783031FAAC3139C1B1D9729FD2E0",
+    "role": "开题报告表"
+  },
+  "candidateFormat": "CONSERVATIVE_ACADEMIC_FORMAT_CANDIDATE",
+  "authorityGaps": [
+    "字体与字号（中文/英文）",
+    "行距与段距",
+    "页边距",
+    "页眉页脚内容",
+    "页码体系（前置/正文）",
+    "封面版式与字段",
+    "原创性/授权声明页",
+    "目录层级与格式",
+    "图题/表题格式",
+    "公式编号格式",
+    "参考文献格式（GB/T 版本与细节）",
+    "算法/伪代码样式",
+    "附录格式",
+    "图表目录要求"
+  ]
+}

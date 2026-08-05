@@ -1,0 +1,8 @@
+# COMMIT_UNKNOWN 边界
+
+未取得成功回执时数据库只能保持 READY_FOR_CHAIN_COMMIT、COMMIT_UNKNOWN 或失败状态，不能 COMMITTED。COMMITTED 的 CAS 要求：
+
+- TEST_DOUBLE_ONLY + CONFIRMED_TEST_DOUBLE；或
+- REAL_ISOLATED_CHAIN_ONLY + CONFIRMED_REAL_CHAIN + receiptStatus=1 + blockNumber/blockHash。
+
+完整替换交易与重组恢复仍属于 I7。

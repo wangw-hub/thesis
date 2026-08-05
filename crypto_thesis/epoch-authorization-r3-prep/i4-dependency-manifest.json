@@ -1,0 +1,25 @@
+{
+  "python": "3.13.11",
+  "postgresql": "16.14",
+  "client": "psycopg 3.3.4",
+  "clientLicense": "LGPL-3.0-or-later",
+  "wheelSha256": {
+    "psycopg-3.3.4-py3-none-any.whl": "b6bbc25ccf05c8fad3b061d9db2ef0909a555171b84b07f29458a447253d679a",
+    "psycopg_binary-3.3.4-cp313-cp313-win_amd64.whl": "dbfdb9b6cc79f31104a7b162a2b921b765fcc62af6c00540a167a8de47e4ed38"
+  },
+  "environment": ".venv-r3-i4",
+  "serverHost": "127.0.0.1",
+  "serverPort": 65432,
+  "remotePort": 55432,
+  "database": "epoch_auth_r3_i4_test",
+  "user": "epoch_auth_r3_i4_test",
+  "passwordRecorded": false,
+  "dependencyTree": [
+    "psycopg==3.3.4",
+    "psycopg-binary==3.3.4",
+    "tzdata==2026.3",
+    "pytest==8.4.2",
+    "rfc8785==0.1.4"
+  ],
+  "status": "INSTALLED_IN_ISOLATED_ENVIRONMENT"
+}

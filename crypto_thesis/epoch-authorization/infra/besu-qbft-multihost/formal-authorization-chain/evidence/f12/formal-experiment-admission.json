@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-07-29T05:17:02.155073+00:00",
+  "decision": "FORMAL_EXPERIMENT_ADMISSION_APPROVED",
+  "formal_performance_data_collected": false,
+  "checks": {
+    "formal_chain_infrastructure": true,
+    "formal_role_separation": true,
+    "account_permissioning": true,
+    "contract_state_machine": true,
+    "cap2_formal_binding": true,
+    "postgresql_shared_nonce": true,
+    "transaction_nonce": true,
+    "semantic_difference_zero": true,
+    "attack_error_accept_zero": true,
+    "nonce_duplicate_success_zero": true,
+    "state_race_error_zero": true,
+    "faults_fail_closed": true,
+    "pilot_complete": true,
+    "pilot_separated_from_formal_results": true,
+    "raw_data_unmodified": true,
+    "new_old_chain_evidence_separated": true
+  },
+  "pilot_raw_sha256": "a4d0fcb12de587afe31e8af49854a9db7bcc40a04e5ef2a38865cd1c7d4d27b3"
+}

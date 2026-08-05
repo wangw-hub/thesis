@@ -1,0 +1,34 @@
+﻿[
+    {
+        "host":  "besu-validator-1",
+        "passed":  true,
+        "block_number_hex":  "0x37",
+        "peer_count_hex":  "0x3",
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\validators\\deployment\\besu-validator-1-acceptance.txt",
+        "evidence_sha256":  "1660bab9abb03d538a96a63b94c6bec27618fd18f9fd6a3d6b07d5f65d814143"
+    },
+    {
+        "host":  "besu-validator-2",
+        "passed":  true,
+        "block_number_hex":  "0x37",
+        "peer_count_hex":  "0x3",
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\validators\\deployment\\besu-validator-2-acceptance.txt",
+        "evidence_sha256":  "3a97b33335c029ad4f4f94c4f3ab2c20051861d323d33a71787fdb64d39f208c"
+    },
+    {
+        "host":  "besu-validator-3",
+        "passed":  true,
+        "block_number_hex":  "0x37",
+        "peer_count_hex":  "0x3",
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\validators\\deployment\\besu-validator-3-acceptance.txt",
+        "evidence_sha256":  "21290677ea4d5fcd26b629c923f731327ce8811c72409b84615988f3e8502215"
+    },
+    {
+        "host":  "besu-validator-4",
+        "passed":  true,
+        "block_number_hex":  "0x38",
+        "peer_count_hex":  "0x3",
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\validators\\deployment\\besu-validator-4-acceptance.txt",
+        "evidence_sha256":  "5728b93d47c76590b3fccb0f2a9adb498cca7a455009cbdef29047c8845a0799"
+    }
+]

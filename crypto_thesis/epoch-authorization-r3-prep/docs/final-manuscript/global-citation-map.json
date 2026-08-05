@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "GlobalCitationRenumberingV1",
+  "method": "first-appearance order in final prose (GB/T 7714 sequential)",
+  "mapping": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5",
+    "13": "6",
+    "11": "7",
+    "12": "8",
+    "6": "9",
+    "7": "10",
+    "8": "11",
+    "9": "12",
+    "16": "13",
+    "10": "14",
+    "14": "15",
+    "15": "16"
+  }
+}

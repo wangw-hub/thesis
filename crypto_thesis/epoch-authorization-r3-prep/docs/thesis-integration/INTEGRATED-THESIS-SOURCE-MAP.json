@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "IntegratedThesisSourceMapV1",
+  "generatedAt": "2026-08-02T12:00:11.740063+00:00",
+  "sections": [
+    {
+      "section": "中文摘要/Abstract/关键词",
+      "source": "I14 新建候选（基于三章真实结果）",
+      "type": "NEW"
+    },
+    {
+      "section": "第一章 绪论",
+      "source": "I14 新建候选（基于开题与三章真实结果）",
+      "type": "NEW"
+    },
+    {
+      "section": "第二章 相关工作与技术基础",
+      "source": "I14 新建候选（引用第四章[1-4]与第五章已核验文献）",
+      "type": "NEW_WITH_LITERATURE_QUEUE"
+    },
+    {
+      "section": "第三章 总体技术路线",
+      "source": "I14 新建过渡段（接口逻辑来自四/五/六章冻结文本）",
+      "type": "NEW"
+    },
+    {
+      "section": "第四章",
+      "source": "time-policy/第四章正式修订稿V1.2.md",
+      "type": "EMBED_VERBATIM"
+    },
+    {
+      "section": "第五章",
+      "source": "epoch-authorization/docs/thesis-drafts/第5章_…_最终定稿.md",
+      "type": "EMBED_VERBATIM"
+    },
+    {
+      "section": "第六章",
+      "source": "docs/research-content-3-implementation/i13/THESIS-RC3-WRITEBACK-FINAL.md",
+      "type": "EMBED_VERBATIM"
+    },
+    {
+      "section": "第七章 总结与展望",
+      "source": "I14 新建候选",
+      "type": "NEW"
+    },
+    {
+      "section": "参考文献",
+      "source": "第四章[1-4] + 第五章已核验[5-9] + RFC 9180",
+      "type": "COMPILED"
+    },
+    {
+      "section": "附录A 复现说明",
+      "source": "I14 新建候选（基于 I11-I13 复现材料）",
+      "type": "NEW"
+    }
+  ],
+  "appliedFixes": [
+    {
+      "issue": "第四章 4.10 “5120 条记录”与 E1 验收 15120/15120 不一致",
+      "fix": "集成稿沿用 15120/15120（权威验收）；冻结章节文件不改",
+      "chapter": "第四章/附录"
+    },
+    {
+      "issue": "第四章稿内嵌“参考文献”与母本汇总参考文献重复",
+      "fix": "剥离第四章内嵌参考文献，统一由母本汇总表承载",
+      "chapter": "集成母本"
+    }
+  ]
+}

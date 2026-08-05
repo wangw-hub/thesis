@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "LiteratureVerificationRecordV1",
+  "referenceId": "REF-13",
+  "citationKey": "[13]",
+  "currentBibliographyEntry": "[13] Dennis J B, Van Horn E C. Programming semantics for multiprogrammed computations. Communications of the ACM, 1966.",
+  "title": "Programming semantics for multiprogrammed computations",
+  "authors": "Dennis J B, Van Horn E C",
+  "year": 1966,
+  "venue": "Communications of the ACM",
+  "publicationType": "JOURNAL_ARTICLE",
+  "volume": 9,
+  "issue": 3,
+  "pages": "143-155",
+  "publisher": "ACM",
+  "DOI": "10.1145/365230.365252",
+  "URL": null,
+  "formalPublicationStatus": "JOURNAL/CONFERENCE/RFC/ENGINEERING",
+  "preprintStatus": false,
+  "officialSource": "https://dblp.org/search?q=Programming+Semantics+for+Multiprogrammed+Computations",
+  "secondarySources": [
+    "https://doi.org/10.1145/365230.365252"
+  ],
+  "metadataMatch": true,
+  "claimSupport": "DIRECTLY_SUPPORTED",
+  "claimSupportLevel": "DIRECTLY_SUPPORTED",
+  "verificationStatus": "VERIFIED",
+  "recommendedAction": "采纳（必要时按 correction 修正）",
+  "notes": "",
+  "accessDate": "2026-08-02"
+}

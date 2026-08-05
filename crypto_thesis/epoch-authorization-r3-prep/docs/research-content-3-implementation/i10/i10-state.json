@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "I10StateV1",
+  "state": "I10_COMPLETED_AWAITING_I11_APPROVAL",
+  "i9BaselineFrozen": true,
+  "i9AcceptedPilotBaselineDigest": "6de936e9d7ef8357530b7361e0b06a862c0474212e1147b69f5dd67fc4779d8a",
+  "formalResearchQuestionCount": 6,
+  "formalClaimCount": 7,
+  "forbiddenClaimIds": [
+    "C-07"
+  ],
+  "formalFactorCount": 8,
+  "formalMetricCount": 12,
+  "experimentalUnit": "RUN",
+  "pseudoreplicationViolations": 0,
+  "resultDrivenFactorLevelViolations": 0,
+  "formalAttemptCreated": false,
+  "formalDataCollected": false,
+  "formalPerformanceConclusion": false,
+  "rc2FormalAssetsReused": false,
+  "rc3MultiNodeFormalRequired": false,
+  "formalTopology": "DESIGNED_NOT_DEPLOYED",
+  "formalDatabaseCreated": false,
+  "formalKuboCreated": false,
+  "trueSecret": 0,
+  "unclassified": 0,
+  "fatal": 0,
+  "major": 0,
+  "minor": 0,
+  "i11": "READY_AWAITING_USER_APPROVAL",
+  "createdAt": "2026-08-02T06:14:22Z",
+  "gitCommit": "32700371f2107827bf2c4faae27d29f23cb623a1"
+}

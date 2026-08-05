@@ -1,0 +1,10 @@
+{
+  "state": "I1_COMPLETED_AWAITING_I2_APPROVAL",
+  "providerDecision": "HPKE_PROVIDER_V1_SELECTED",
+  "provider": "pyhpke",
+  "version": "0.6.4",
+  "tests": {"total": 49, "passed": 49, "failed": 0},
+  "review": {"fatal": 0, "major": 0, "minor": 0},
+  "performanceConclusions": false,
+  "i2Started": false
+}

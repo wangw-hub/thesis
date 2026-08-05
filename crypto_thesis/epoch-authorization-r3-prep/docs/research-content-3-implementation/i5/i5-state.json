@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "state": "I5_COMPLETED_AWAITING_I6_APPROVAL",
+  "priorState": "I5_REQUIRES_PROTOCOL_REVISION",
+  "resolvedStop": "HARD_STOP_RC2_KEY_VERSION_INTERFACE_GAP",
+  "chainType": "R3_I5_ISOLATED_DEVELOPMENT_CHAIN",
+  "chainId": 2026073005,
+  "genesisSha256": "010711cdf0b30fa87ab605489068fd897f7140e9c7d921e5fe2faee24b5a369d",
+  "authorizationStateMirror": "0x12BA996711Db58897A525b5a718225bD085A3c5f",
+  "headerRegistry": "0x280b757a16525AdAef8ED88EE158e0c6F924B35F",
+  "keyVersionAuthority": "HEADER_REGISTRY",
+  "keyVersionEqualsBodyVersion": true,
+  "regressions": {"i1":"49/49","i2":"49/49","i3":"54/54","i4":"55/55","i5":"33/33"},
+  "chainInvariantViolations": 0,
+  "databaseInvariantViolations": 0,
+  "fatal": 0,
+  "major": 0,
+  "minor": 0,
+  "formalChainAccessed": false,
+  "formalDatabaseModified": false,
+  "performanceClaimsGenerated": false,
+  "i6Approved": false
+}

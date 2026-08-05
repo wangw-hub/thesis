@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "NegativeResultRegistryV1",
+  "results": [
+    {
+      "class": "NO_CLEAR_EFFECT",
+      "result": "E5 BOTH_MISSING: LOCAL vs KUBO duration difference median=17.5 ms, Cliff's delta=0.04",
+      "boundary": "匹配块内未观察到稳定差异"
+    },
+    {
+      "class": "NO_CLEAR_EFFECT",
+      "result": "E5 CORRUPT_RESTORE: LOCAL vs KUBO duration difference median=-30.9 ms, Cliff's delta=0.04",
+      "boundary": "匹配块内未观察到稳定差异"
+    },
+    {
+      "class": "NO_CLEAR_EFFECT",
+      "result": "E5 NONE: LOCAL vs KUBO duration difference median=-48.3 ms, Cliff's delta=0.04",
+      "boundary": "匹配块内未观察到稳定差异"
+    },
+    {
+      "class": "TRADEOFF",
+      "result": "E5 CORRUPT_RESTORE: LOCAL_ONLY 恢复结果为 UNRECOVERABLE（Fail-Closed），KUBO_REPLICA 恢复为 CONSISTENT（repair=1）；端到端中位数差 -30.9 ms（Cliff's delta 0.04）",
+      "boundary": "Kubo 副本决定恢复来源可用性（trade-off）；时长差异小"
+    },
+    {
+      "class": "LIMITED_SCOPE",
+      "result": "单节点 Formal 链；未评估多 Validator 共识性能（C-07 禁止）",
+      "boundary": "结论仅适用于受限应用层环境测量"
+    }
+  ]
+}

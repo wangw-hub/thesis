@@ -1,0 +1,7 @@
+{
+  "algorithm": "SHA-256",
+  "artifacts": {
+    "requirements-r3-i1-v2.lock": "b5f311f519c0dbee715f030c79ed0f01bc75407878a3f70016f9d14f8a18137a",
+    "hpke-provider-manifest.json": "4f3ed58def4f7968f0b342776d49c17eb41f84be85cb87f5cad42bcc39c4ee64"
+  }
+}

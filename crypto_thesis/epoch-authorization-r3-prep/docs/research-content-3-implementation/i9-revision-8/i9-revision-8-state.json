@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "state": "I9_CANARY_PASSED_AWAITING_P9_A_APPROVAL",
+  "attemptId": "I9_REVISION_8_20260730T155554Z_c1d9bbf",
+  "runId": "0e152bb939ea7282ec05cc48bf3020a56124625805cd4d3d25e7707ff30bb1c8",
+  "softwareCommit": "c1d9bbfe4eef8e74fcc309a9260cc10f235e5b4f",
+  "canary": "CANARY_PASSED",
+  "plannedCanaries": 1,
+  "executedCanaries": 1,
+  "fatal": 0,
+  "major": 0,
+  "minor": 0,
+  "p9A": "READY_AWAITING_USER_APPROVAL",
+  "p9AExecuted": false,
+  "p9BExecuted": false,
+  "p9CExecuted": false,
+  "p9DExecuted": false,
+  "i10Started": false
+}

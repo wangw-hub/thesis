@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "algorithm": "SHA-256",
+  "manifest_rule": "Sort non-artifact files by name; concatenate name=lowercase_sha256 with LF; hash UTF-8 bytes.",
+  "file_count_excluding_self": 29,
+  "package_manifest_sha256": "124af42e5a015fb4a8d7974f3896fa642e114c4a5cd8cf61ccc131c56c60ee87",
+  "base_commit": "8a3d795e22e5d9373c3053245e3b4040cd062dd5"
+}

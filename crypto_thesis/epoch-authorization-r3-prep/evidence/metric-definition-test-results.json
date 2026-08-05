@@ -1,0 +1,9 @@
+{
+  "command": "python -m pytest -q",
+  "passed": 97,
+  "failed": 0,
+  "warning_count": 1,
+  "warning_class": "dependency deprecation",
+  "old_invalidated_raw_sha256": "64cc50e3a3495e04460040fbf6d9ae8b3459948c3fe2ccd24618f391b47e9e6e",
+  "secret_scan": {"TRUE_SECRET": 0, "UNCLASSIFIED": 0}
+}

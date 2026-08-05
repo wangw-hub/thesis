@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "attemptId": "I9_P9A_20260801T120153Z_421276e",
+  "executionGitCommit": "421276e179a31129431bb286791818d59c477dea",
+  "runnerPlanned": 8,
+  "runnerActual": 8,
+  "runnerValid": 8,
+  "strictAcceptedValid": 0,
+  "unexpectedInvalid": 8,
+  "mechanicalGate": "P9_A_PASSED",
+  "strictP9AState": "P9_A_FAILED",
+  "failureClassification": ["EVIDENCE_DEFECT"],
+  "p9bGate": "NOT_READY",
+  "researchContent3State": "I9_LAST_FULL_P9_A_FAILED_AWAITING_USER_DECISION",
+  "trueSecret": 0,
+  "unclassified": 0,
+  "fatal": 0,
+  "major": 2,
+  "minor": 1,
+  "rerunPerformed": false,
+  "p9bExecuted": false,
+  "i10Entered": false
+}

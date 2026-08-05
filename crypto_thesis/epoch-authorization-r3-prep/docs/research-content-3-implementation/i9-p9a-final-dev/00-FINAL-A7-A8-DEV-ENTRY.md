@@ -1,0 +1,3 @@
+# Final A7/A8 development entry
+
+Scope: `P9A_FINAL_A7_A8_DEVELOPMENT_VALIDATION`. Start HEAD `710d5d70b4abe6022b8029b2ee1734b257353852`. Execution commit `74b677f9ebd7021b7e3663f3b5b8f542f056fc6a`. Labels: `DEVELOPMENT_ONLY`, `NOT_PILOT_EVIDENCE`, `NOT_FOR_STATISTICS`, `NOT_FOR_THESIS_RESULTS`. No formal Pilot attempt was created.

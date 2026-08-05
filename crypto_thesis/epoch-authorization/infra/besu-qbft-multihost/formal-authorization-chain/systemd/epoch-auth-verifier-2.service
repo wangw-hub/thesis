@@ -1,0 +1,17 @@
+[Unit]
+Description=Formal Authorization Verifier-2
+After=network-online.target postgresql.service besu-formal-rpc.service
+Requires=postgresql.service besu-formal-rpc.service
+
+[Service]
+Type=simple
+User=epoch-auth
+Group=epoch-auth
+ExecStart=/usr/bin/python3 /opt/epoch-auth-formal/service_daemon.py --kind verifier --instance Verifier-2 --config /etc/epoch-auth-formal/service.json
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

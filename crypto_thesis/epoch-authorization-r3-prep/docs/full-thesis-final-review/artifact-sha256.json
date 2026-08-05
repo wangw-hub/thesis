@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "I14ArtifactSha256V1",
+  "generatedAt": "2026-08-02T12:00:11.828904+00:00",
+  "selfIncluded": false,
+  "files": [
+    {
+      "path": "00-I14-ENTRY.md",
+      "sha256": "12bb9faab2749b10cb7d3f03772e129488124c171e5b6349ce62925dd9ab13a4"
+    },
+    {
+      "path": "01-THESIS-SOURCE-AUTHORITY-MAP.md",
+      "sha256": "7476fc91789cb38873c832feb84defdfe46f6376bc4f56b02e69834e5f53ec1c"
+    },
+    {
+      "path": "02-CANONICAL-OUTLINE.md",
+      "sha256": "a2cf3bede122335d83d596b96a6d7ee4f19e045cca5627489aaa508bf09b5be3"
+    },
+    {
+      "path": "03-RESEARCH-CONTENT-CLOSURE.md",
+      "sha256": "6d21f12d9907d39cb5eb0a4acae9e36a53c2eae7b8bcb3021ee60f7b48727007"
+    },
+    {
+      "path": "04-CROSS-CHAPTER-DRIFT-AUDIT.md",
+      "sha256": "9ba35e196ec98d20865393a48335296562b7196751decb566d1f1d4ce698ecb7"
+    },
+    {
+      "path": "05-GLOBAL-TERMINOLOGY-AUDIT.md",
+      "sha256": "8851fd589f74212ad8b6f84f61604bec56e81a381f9f259de70af38b51039ea6"
+    },
+    {
+      "path": "06-GLOBAL-SYMBOL-AUDIT.md",
+      "sha256": "8dc57927421c7432d7fbf5c63740d16084e291d84d03a2bb7883ff222f9b013c"
+    },
+    {
+      "path": "07-GLOBAL-NUMERIC-AUDIT.md",
+      "sha256": "b859a66daa7db3732f22e8c51e8f42619a0370f9934776f99a8e62b41364cd7e"
+    },
+    {
+      "path": "08-FIGURE-REGISTRY.md",
+      "sha256": "6389eeb017123921fb3e2e936ae6d8eb33fb444d091a4f9e1b3c0f49ae3c8765"
+    },
+    {
+      "path": "09-TABLE-REGISTRY.md",
+      "sha256": "03c5cfac09643f81872c49361757b975a0c7fb824c72fd3b7b2f85197d7d272a"
+    },
+    {
+      "path": "10-EQUATION-ALGORITHM-AUDIT.md",
+      "sha256": "8cda314219f49e6a465dc55e0fdc49bdf3c760f43422dd58348b4a73e7243310"
+    },
+    {
+      "path": "11-REFERENCE-INTEGRITY-AUDIT.md",
+      "sha256": "0901935efa1557ff21434c19d7a2951b6992058d1d6bd2f2b06bf03ef91133af"
+    },
+    {
+      "path": "12-LITERATURE-VERIFICATION-QUEUE.md",
+      "sha256": "c1d267f3faa4c1c9f18c6fa61cf5584db4e3a77ce2ca065d3aba387cb4f992ac"
+    },
+    {
+      "path": "13-CONTRIBUTION-REGISTRY.md",
+      "sha256": "0e02641a12e3c6435c589aa3c30929d2ae678f2004fa89f70b7dc797db26fed8"
+    },
+    {
+      "path": "14-CLAIM-EVIDENCE-MASTER-MAP.md",
+      "sha256": "f11761444e7ad36fee4d294feaed11f598ad29aafbac40613f00aa1b7cb043ee"
+    },
+    {
+      "path": "15-NEGATIVE-RESULT-MASTER-REGISTRY.md",
+      "sha256": "1f092a77ed8d082cd048508adb3df4a624f9b3d80ae28d3df311f90bc3d13bf5"
+    },
+    {
+      "path": "16-LIMITATION-MASTER-REGISTRY.md",
+      "sha256": "582683579bdc0ecbff41bd43b82ceb1287e6a52e320338a85a9242fb95575c77"
+    },
+    {
+      "path": "17-ABSTRACT-INTRO-CONCLUSION-AUDIT.md",
+      "sha256": "bcafb9b8f4e83c496d53f6877c701df53a4a0173b55f053d3a912992ccec7405"
+    },
+    {
+      "path": "18-CHAPTER-TRANSITION-AUDIT.md",
+      "sha256": "0b32698189c7f30b36e42b3c95e384b75a54fea8d36c7f2f972f1687092e111f"
+    },
+    {
+      "path": "19-DEFENSE-RISK-REGISTER.md",
+      "sha256": "aa3c4d4a2c2ec785286be1bb4d45358fa6b77061e2f3b43ece479c772d90ef81"
+    },
+    {
+      "path": "20-FINAL-CONTRIBUTION-STATEMENT.md",
+      "sha256": "c91eef8d6b0fd76ea8971b79f4d76be1fd5bb0e50a7034b2a9b6b7f67fd1bdd0"
+    },
+    {
+      "path": "21-FINAL-CHINESE-ABSTRACT.md",
+      "sha256": "70744556b4441a164f70c54082f04726aa7f4bd0c36ae8829bbe74783ae3e3c2"
+    },
+    {
+      "path": "22-FINAL-ENGLISH-ABSTRACT.md",
+      "sha256": "e61e901ac71fd51471aaf2a6853d93f0af268e5f0d5b4a3f708333a17217fab4"
+    },
+    {
+      "path": "23-I14-STRICT-REVIEW.md",
+      "sha256": "e4f133ebf3648fd45c680156b15418ba84b59e1546d0192479c76cc5e2d8280b"
+    },
+    {
+      "path": "24-FINAL-THESIS-ISSUE-REGISTER.md",
+      "sha256": "77bd0cce5a5c3fb418fe3eb8b91c72e24ca392be88d7401967d385b5b208cf4e"
+    },
+    {
+      "path": "25-I14-FINAL-DECISION.md",
+      "sha256": "3575691e8ec62683d83e66f10b5b0fff743c96b8bb3ca656d3439d159e087d7b"
+    },
+    {
+      "path": "26-NEXT-STAGE-ENTRY.md",
+      "sha256": "8ef0c3781da9e1d6e72d5ebefad35761156e6f642891c369b8ff2f9d7a7677d8"
+    },
+    {
+      "path": "claim-evidence-master-map.json",
+      "sha256": "3343fb4a4d472ac88a991f55e1646b9b59d224ea1205aec28f38c423f580dc1a"
+    },
+    {
+      "path": "defense-risk-register.json",
+      "sha256": "6edce3bbde810fd39d312116deae32fc336be1e2443da3d73a65d6fe2ca61b22"
+    },
+    {
+      "path": "final-thesis-issue-register.json",
+      "sha256": "d54d014d3870a7bb119345ab348612959744515814876dfa6100adcb9ae453ff"
+    },
+    {
+      "path": "global-numeric-audit.json",
+      "sha256": "2556ff9f2994fd70bc0d11798b9fa8bc187ce1f6b6d8f9ba3824086c3a70f109"
+    },
+    {
+      "path": "global-symbol-registry.json",
+      "sha256": "5a71e1d4fb6b7a19d7edfbd5311fe45e4b653ded315fbbeefbe66a3074ed30de"
+    },
+    {
+      "path": "i14-state.json",
+      "sha256": "52e366a30b1aa4e1fd1f65e179a33fec2fe93944ba3b87e4612efa30ca97a6bb"
+    },
+    {
+      "path": "limitation-master-registry.json",
+      "sha256": "21a82f45b834b4abb3d0c6f0f1aaf9826d603b9be00e633af8ecc6e69c044c98"
+    },
+    {
+      "path": "literature-verification-queue.json",
+      "sha256": "48a5640d45df0d3a7c1591dfff8f2d8842e7c907f2c20a9934a8a877324e8eed"
+    },
+    {
+      "path": "negative-result-master-registry.json",
+      "sha256": "50ffecb42532b0edc6c65727a370ff47223389a56b0e796e4328d5b3e46bba40"
+    },
+    {
+      "path": "thesis-source-authority-map.json",
+      "sha256": "fc198311640e118a9fac196087bc3bf3f028366dff33c667062575321e89d8d4"
+    }
+  ]
+}

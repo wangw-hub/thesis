@@ -1,0 +1,13 @@
+{
+  "attempt0ShaErrors": 0,
+  "canaryAttempts": 2,
+  "fatal": 0,
+  "major": 3,
+  "minor": 2,
+  "p9aScheduled": false,
+  "p9bScheduled": false,
+  "p9cScheduled": false,
+  "p9dScheduled": false,
+  "status": "I9_REQUIRES_FURTHER_REVISION",
+  "enteredI10": false
+}

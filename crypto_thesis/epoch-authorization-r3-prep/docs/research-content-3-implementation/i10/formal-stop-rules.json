@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "R3FormalStopRulesV1",
+  "immediateStop": [
+    "SECRET_EXPOSURE",
+    "ERRONEOUS_MATERIAL_RELEASE",
+    "UNAUTHORIZED_CHAIN_OR_VALIDATOR",
+    "POSTGRES16_MAIN_ACCESS",
+    "PROTOCOL_OR_DESIGN_DRIFT",
+    "IDENTITY_REUSE",
+    "RAW_MUTATION",
+    "SHA_FAILURE",
+    "PILOT_FORMAL_MIX",
+    "FATAL"
+  ],
+  "majorDisposition": "stop affected block and review",
+  "minorDisposition": "log without plan change"
+}

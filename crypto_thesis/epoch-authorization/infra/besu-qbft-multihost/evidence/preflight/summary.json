@@ -1,0 +1,54 @@
+﻿{
+    "stage":  0,
+    "collected_at_utc":  "2026-07-28T10:12:52.8420657Z",
+    "git_commit":  "015973261556b614c47adc17a57b266ed6933920",
+    "git_dirty":  true,
+    "hosts_completed":  5,
+    "hosts_expected":  5,
+    "failures":  [
+
+                 ],
+    "passed":  true,
+    "evidence":  [
+                     {
+                         "host":  "besu-validator-1",
+                         "started_at_utc":  "2026-07-28T10:12:41.3276968Z",
+                         "exit_code":  0,
+                         "machine_id":  "2e25d70ae02c4862b186358fff957d12",
+                         "json_sha256":  "929a8f41320fbc67a5fb3356d43a79daf6986369415974527689398b674bf3ff",
+                         "text_sha256":  "42e607ad77b6ecedd9c0c32a3cbce1718160c0fb36553fa45903a88ead19fb33"
+                     },
+                     {
+                         "host":  "besu-validator-2",
+                         "started_at_utc":  "2026-07-28T10:12:43.6127721Z",
+                         "exit_code":  0,
+                         "machine_id":  "a661f2eddd2048c3884401bff5bfc129",
+                         "json_sha256":  "34990fb121b37e7945dd66a20f11e1558a72ef6d26f5242b6836d924a9550087",
+                         "text_sha256":  "8285795bcc26c07d4d763b788b3f1b2693915ea7383afff607a3b15563fe9a8b"
+                     },
+                     {
+                         "host":  "besu-validator-3",
+                         "started_at_utc":  "2026-07-28T10:12:45.8498281Z",
+                         "exit_code":  0,
+                         "machine_id":  "ef7ecb3369de442e9f9ec686d1d513db",
+                         "json_sha256":  "db74aaf28575cfc272083c351bcc6ec39be6f9e6f8b7529846198ada69db4211",
+                         "text_sha256":  "4e7f4cfb3e6709aabf7e49e9db2a5cc2e38ba7ddb6e7a75f26d2f53cc8a86ee9"
+                     },
+                     {
+                         "host":  "besu-validator-4",
+                         "started_at_utc":  "2026-07-28T10:12:48.0665497Z",
+                         "exit_code":  0,
+                         "machine_id":  "b1c67e2f254d463f83c73308ac3a6caf",
+                         "json_sha256":  "ca36746bbdd7b6422be12a8af2f556c7027a37966cff72537dee9d38154b5d18",
+                         "text_sha256":  "e79b2839e19a402719487b6096d2a5d0a7323c08c1934a54a875bb1b416ed6dd"
+                     },
+                     {
+                         "host":  "experiment-client",
+                         "started_at_utc":  "2026-07-28T10:12:50.2883437Z",
+                         "exit_code":  0,
+                         "machine_id":  "2223fe6d61a54ab88d071fad5f750c2c",
+                         "json_sha256":  "f77ec8be805310a655d0502fc603bbba47ce2705394e91f990b4aeec0f0282a5",
+                         "text_sha256":  "d415f08b30f1017bb51a2dd3b79173d759773e89a691fe25558be24e2110e1cd"
+                     }
+                 ]
+}

@@ -1,0 +1,16 @@
+# Conflict Audit
+
+| ID | Source A | Source B | Conflict | Adopted conclusion | Basis | Document action | Thesis impact |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| X-01 | Blueprint V1.0 | R1 compiler/Chapter 4 V1.2 | Blueprint binds digest to `C(P)`; implementation serializes normalized intervals. | Digest binds `I*`; old statement is SUPERSEDED. | Actual `serialize.py`, `compiler.py`, Chapter 4. | Keep blueprint unchanged; cite supersession here. | Prevents false digest claim. |
+| X-02 | Blueprint/R1 early wording | E1 formal evidence | C(P) appears as a compression-oriented core. | C(P) is optional derived IR; compression superiority is SUPERSEDED. | 0/36/72 comparison result and necessity analysis. | Preserve old document as historical. | Must report negative boundary. |
+| X-03 | Early ResourceState references | Current contract source | Earlier naming differs from AuthorizationState. | AuthorizationState is CURRENT implementation name; old naming is PARTIALLY_VALID design language. | `contracts/AuthorizationState.sol`. | Do not rename history. | Avoid claiming deployment. |
+| X-04 | Blueprint R3 design | Repository/evidence | HPKE/IPFS/header/revocation design can read as completed. | HISTORICAL_ONLY design; no formal R3 implementation. | Code/evidence inventory. | Mark as NOT_STARTED in governance. | Cannot appear as result. |
+| X-05 | Old Besu architecture V1.1 | Frozen multihost evidence | Old material uses development-chain assumptions and earlier chain identity. | Five-host formal infrastructure uses chain ID 2026072801. | Genesis, stage-A and total acceptance. | Retain V1.1 for evolution. | Deployment claims use frozen chain only. |
+| X-06 | Role-design documents | Stage-C funding evidence | Role design exists although formal roles are not generated/funded. | Formal role separation is NOT_STARTED/HARD_STOP. | Funding admission evidence. | Keep design as DESIGN, not outcome. | No formal contract claim. |
+| X-07 | Existing workload/pre-experiment documents | Current Stage-C stop | Workloads and pilot pipeline may be mistaken for executed PILOT_ONLY data. | Workload definition is historical/design; actual PILOT_ONLY is NOT_STARTED. | Pilot audit reports and zero later execution evidence. | Keep reports with scope note. | No performance result. |
+| X-08 | Historic security incident | Current active tree/history scans | A legacy node key once existed in tracked history. | Retired LOCAL_ONLY historical identity; active reachable evidence is clean. | Security remediation evidence and Git commits. | Preserve audit, never restore key. | Security narrative must be precise. |
+| X-09 | Blueprint capability language | Current code/test evidence | CAP2 design language can imply full formal-chain operation. | CAP2 is IMPLEMENTED_TESTED but formal chain integration is blocked. | Serialization source, binding tests, funding hard stop. | Keep scope in claims matrix. | No end-to-end claim. |
+| X-10 | Broad deployment reports | Current hard-stop report | Infrastructure completion can imply R2 completion. | Infrastructure/Stage B are VALIDATED; R2 is HARD_STOP at formal funding. | Stage-A/B and Stage-C reports. | Current state is authoritative. | Prevents overstatement. |
+
+No historic source is edited to conceal these differences. Each conflict is retained with its current classification.

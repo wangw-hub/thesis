@@ -1,0 +1,53 @@
+﻿{
+    "task":  "security-remediation-and-stages-b-to-i",
+    "mode":  "AUTONOMOUS_CONTINUOUS_EXECUTION",
+    "started_at_utc":  "2026-07-29T02:10:00Z",
+    "updated_at_utc":  "2026-07-29T02:39:29.1462078Z",
+    "git_head":  "3c3aa3beedfe6c94853844c2af1ac4901e5a6eb5",
+    "current_stage":  "HARD_STOP",
+    "current_substep":  "stage C formal role funding admission",
+    "completed_stages":  [
+                             "R0",
+                             "R1",
+                             "R2",
+                             "R3",
+                             "R4",
+                             "R5-A",
+                             "R5-C",
+                             "R5-B",
+                             "R6-A",
+                             "R6-B",
+                             "R6-C",
+                             "Stage-B"
+                         ],
+    "completed_substeps":  [
+                               "external quarantine bundle verified",
+                               "legacy rpc-1 identity retired",
+                               "nine legacy development node-key files removed",
+                               "unsafe prepare.ps1 removed from reachable history",
+                               "safe prepare.ps1 restored",
+                               "reflogs expired and unreachable Git objects pruned",
+                               "final worktree/index/history/object scans passed",
+                               "stage A chain and security revalidation passed",
+                               "security remediation commit created",
+                               "sanitized five-node infrastructure commit created",
+                               "PostgreSQL 16.14 deployed",
+                               "shared nonce concurrency accepted",
+                               "transaction nonce concurrency and recovery accepted",
+                               "database outage failed closed",
+                               "stage C funding admission hard stop recorded"
+                           ],
+    "pending_substeps":  [
+                             "stage C formal role separation blocked by unavailable chain funds",
+                             "stage D contract deployment not started",
+                             "stage E authorization integration not started",
+                             "stage F security and semantics not started",
+                             "stage G controlled faults not started",
+                             "stage H PILOT_ONLY not started",
+                             "stage I admission audit concluded not admitted"
+                         ],
+    "hard_stop_triggered":  true,
+    "last_successful_command":  "post-hard-stop health check",
+    "last_evidence_path":  "evidence/roles/post-hard-stop-health.json",
+    "next_action":  "A new, separately approved QBFT experiment chain design must pre-allocate a controlled funding account; the frozen accepted chain cannot be modified."
+}

@@ -1,0 +1,10 @@
+{
+  "stage": 3,
+  "attempt": 2,
+  "status": "FAILED_DURING_FIRST_HOST_ACCEPTANCE",
+  "host": "besu-validator-1",
+  "cause": "Files were correctly installed under /etc/besu with root:besu permissions, but acceptance attempted to read them as thesis without sudo -n.",
+  "remote_state": "The complete four-file material set exists on validator-1; no other host was processed.",
+  "private_key_overwritten": false,
+  "resolution": "Use sudo -n for acceptance. On retry, accept a complete existing set only after exact expected hashes match; reject partial or mismatched state."
+}

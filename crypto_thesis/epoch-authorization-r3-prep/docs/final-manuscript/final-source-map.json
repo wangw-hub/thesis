@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "FinalManuscriptSourceMapV1",
+  "gitSha": "26cd2f34ccaafb22fa1b146d6984fbb30c3d262e",
+  "sources": {
+    "integratedMaster": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\thesis-integration\\THESIS-INTEGRATED-MASTER-DRAFT-V1.md",
+      "sha256": "6D1D1B9D7BAD385CCF3515983E0A32E2931FD03DC25880AD419BF8CFA5FC3303"
+    },
+    "masterSource": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\final-manuscript\\MASTER-SOURCE.md",
+      "sha256": "FBB24BFFCCB2EE61F145C9DEA5FCB0343CCF05A79054CE9F37BF3EA671C90B99"
+    },
+    "referenceRegistry": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\final-literature-verification\\final-reference-registry.json",
+      "sha256": "D532624D3586BF0D5E6589EF45C9E33DCF482D907F20629ACE70AFEC9C96C354"
+    },
+    "rc1Source": {
+      "path": "D:\\Research\\crypto_thesis\\time-policy\\第四章正式修订稿V1.2.md",
+      "sha256": "B09982333B56C97E9777A4DABA6DE174256CBB24DE352099135E14252E10A522"
+    },
+    "rc2Source": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization\\docs\\thesis-drafts\\第5章_链上状态驱动的可信授权执行机制_最终定稿.md",
+      "sha256": "0AA2ABDB7E7FD00FBFF710F839D3122A6B561F0FCB9EAE147CF527A1414A45B6"
+    },
+    "rc3Source": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\research-content-3-implementation\\i13\\THESIS-RC3-WRITEBACK-FINAL.md",
+      "sha256": "D9594005E1D029F4F5AFC4CF37CD429B5A4162FBFED92F0330F2E311E54469B5"
+    },
+    "figureRegistry": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\full-thesis-final-review\\08-FIGURE-REGISTRY.md",
+      "sha256": "6389EEB017123921FB3E2E936AE6D8EB33FB444D091A4F9E1B3C0F49AE3C8765"
+    },
+    "tableRegistry": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\full-thesis-final-review\\09-TABLE-REGISTRY.md",
+      "sha256": "03C5CFAC09643F81872C49361757B975A0C7FB824C72FD3B7B2F85197D7D272A"
+    },
+    "docxCandidate": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\final-manuscript\\output\\THESIS-FORMAT-CANDIDATE-V1.docx",
+      "sha256": "984ED384390BA256EF90854721C6DE8EEFF3D2E753FD01995741F05BC1F10C56"
+    },
+    "pdfCandidate": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\final-manuscript\\output\\THESIS-FORMAT-CANDIDATE-V1.pdf",
+      "sha256": "21B9A20ACFC8731CB6A593834828C8F98999E96D123A25B2FA53DFBA36040457"
+    },
+    "openingReport": {
+      "path": "D:\\Research\\heart_thesis\\开题报告表-王威-1 (2).docx",
+      "sha256": "CCE14F6A4815C2F3138C57CBDA091ACD0705783031FAAC3139C1B1D9729FD2E0"
+    }
+  }
+}

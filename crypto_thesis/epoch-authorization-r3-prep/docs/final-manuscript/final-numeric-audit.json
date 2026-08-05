@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "FullThesisNumericAuditV2",
+  "drift": 0,
+  "keysChecked": 20,
+  "missingInDocx": [],
+  "verified": [
+    "15120/15120",
+    "145 measured",
+    "35 warm-up",
+    "29 configs",
+    "120 VALID_SUCCESS",
+    "25 VALID_EXPECTED_FAIL_CLOSED"
+  ]
+}

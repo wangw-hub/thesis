@@ -1,0 +1,17 @@
+[Unit]
+Description=Formal Authorization Issuer-1
+After=network-online.target besu-formal-rpc.service
+Requires=besu-formal-rpc.service
+
+[Service]
+Type=simple
+User=epoch-auth
+Group=epoch-auth
+ExecStart=/usr/bin/python3 /opt/epoch-auth-formal/service_daemon.py --kind issuer --instance Issuer-1 --config /etc/epoch-auth-formal/service.json
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

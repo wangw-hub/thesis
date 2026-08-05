@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "LiteratureVerificationRecordV1",
+  "referenceId": "REF-04",
+  "citationKey": "[4]",
+  "currentBibliographyEntry": "[4] Claessen K, Hughes J. QuickCheck: a lightweight tool for random testing of Haskell programs. Proceedings of ICFP 2000, 2000.",
+  "title": "QuickCheck: a lightweight tool for random testing of Haskell programs",
+  "authors": "Claessen K, Hughes J",
+  "year": 2000,
+  "venue": "Proceedings of ICFP 2000",
+  "publicationType": "CONFERENCE_PAPER",
+  "volume": null,
+  "issue": null,
+  "pages": "268-279",
+  "publisher": "ACM",
+  "DOI": "10.1145/351240.351266",
+  "URL": null,
+  "formalPublicationStatus": "JOURNAL/CONFERENCE/RFC/ENGINEERING",
+  "preprintStatus": false,
+  "officialSource": "https://dblp.org/search?q=QuickCheck",
+  "secondarySources": [
+    "https://dl.acm.org/doi/10.1145/351240.351266"
+  ],
+  "metadataMatch": true,
+  "claimSupport": "DIRECTLY_SUPPORTED",
+  "claimSupportLevel": "DIRECTLY_SUPPORTED",
+  "verificationStatus": "VERIFIED",
+  "recommendedAction": "采纳（必要时按 correction 修正）",
+  "notes": "",
+  "accessDate": "2026-08-02"
+}

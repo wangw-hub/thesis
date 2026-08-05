@@ -1,0 +1,86 @@
+{
+  "fileCount": 16,
+  "files": [
+    {
+      "path": "00-I9-REVISION-ENTRY.md",
+      "sha256": "a286a335b52a95b5372e63dea1727af335fba4e8947d33de1e20bb6e3242b205",
+      "sizeBytes": 618
+    },
+    {
+      "path": "01-INVALIDATED-ATTEMPT-0-FREEZE.md",
+      "sha256": "deaf9a25da9159eb7571cdeedb50358e83a02896cc7c19b5de60465dfd7e681f",
+      "sizeBytes": 420
+    },
+    {
+      "path": "02-I9-MAJOR-ROOT-CAUSE-ANALYSIS.md",
+      "sha256": "4a26ee3ba6813a274b6eb24a38dc826bf6a26d51435a91643a7fbe47ec10dcf0",
+      "sizeBytes": 1866
+    },
+    {
+      "path": "03-I9-MINOR-DISPOSITION.md",
+      "sha256": "10bb154ee4ff7ecafc9b79bbc67cfe960f5de3d042b3b6286d3bfd2b0235518c",
+      "sizeBytes": 515
+    },
+    {
+      "path": "04-REMOTE-AUTHORITATIVE-EXECUTION.md",
+      "sha256": "c0fb3c4b7793a69b36238530f304a386774a9fab4557a460f9ee362632a0ba42",
+      "sizeBytes": 454
+    },
+    {
+      "path": "05-REMOTE-CODE-SNAPSHOT.md",
+      "sha256": "8a15ac82a75f24a4342fed5c461ade911def6d70317299f1f683164a971984a8",
+      "sizeBytes": 905
+    },
+    {
+      "path": "06-PILOT-ATTEMPT-IDENTITY-V1.md",
+      "sha256": "400b02c3a2df9e336deb07409a00ef1fb29434cc0b801e3dba8192779aff77d9",
+      "sizeBytes": 546
+    },
+    {
+      "path": "07-PILOT-PHASE-CONTRACT-V1.md",
+      "sha256": "8d7f635a755333e7845b6d39949d25df2bc06b9fb16adb7376b6ffe049cdd8c4",
+      "sizeBytes": 544
+    },
+    {
+      "path": "08-PILOT-PHASE-INSTRUMENTATION-FIX.md",
+      "sha256": "1d844dab21b2035f963232b0bbb72a88ab8cc4d2869e18ed4dcad8ae5a6bc751",
+      "sizeBytes": 528
+    },
+    {
+      "path": "09-PILOT-STAGE-GATE-V1.md",
+      "sha256": "33546a913464ecb68148604b468543fd5fb31e4250f9e3be005534334266fe21",
+      "sizeBytes": 471
+    },
+    {
+      "path": "10-REVISION-CANARY-RESULT.md",
+      "sha256": "74ad9a67564a21d7baa74985063d16b02f5eae1399fbb7a32c61967d4d87955c",
+      "sizeBytes": 1151
+    },
+    {
+      "path": "20-I9-REVISION-STRICT-PEER-REVIEW.md",
+      "sha256": "555d90fc5373c073e69800a87a53e36c627e4a1a2d87bb3ac4741b9e8bde1908",
+      "sizeBytes": 542
+    },
+    {
+      "path": "21-I9-REVISION-ISSUE-TRACKER.md",
+      "sha256": "a70e63ab80106fceba98a4202f8851e2ce416a0bbb918135004849284da4989c",
+      "sizeBytes": 756
+    },
+    {
+      "path": "22-I9-REVISION-FINAL-DECISION.md",
+      "sha256": "2f59ce1fe1dc93d6e798af8d9f465df47098e539077872c29d3fb2aac37cef1c",
+      "sizeBytes": 647
+    },
+    {
+      "path": "23-I10-ENTRY-CHECKLIST-REVISED.md",
+      "sha256": "1d837bfb07d4d1805b53548a9f19e7350e2740ec3bb817ad7e202445e66e0123",
+      "sizeBytes": 325
+    },
+    {
+      "path": "i9-revision-state.json",
+      "sha256": "00fa9b1e17b2f15b41e7df16b8a0cf144e4d298517244164045af9807aca2ea6",
+      "sizeBytes": 261
+    }
+  ],
+  "schemaVersion": 1
+}

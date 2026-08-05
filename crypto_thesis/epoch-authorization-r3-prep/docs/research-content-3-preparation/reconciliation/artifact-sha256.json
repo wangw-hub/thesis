@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0",
+  "algorithm": "SHA-256",
+  "scope": "reconciliation files excluding this manifest",
+  "artifactCount": 3,
+  "artifacts": [
+    {"path":"RC2-V13-RECONCILIATION-REPORT.md","sha256":"9c58d673d27dc5c97fedbb7c332d3316f1e4652a330f73cff166739d88e46131"},
+    {"path":"rc2-v13-difference-register.json","sha256":"75c52de2c951bad3eed30db775926d0db34c9033797466efb9663af532bb763f"},
+    {"path":"rc2-v13-interface-snapshot.json","sha256":"669d9474cd197b28157ca80386fd7c74d0c7c76cd129636df4f7abb33147fb2b"}
+  ]
+}

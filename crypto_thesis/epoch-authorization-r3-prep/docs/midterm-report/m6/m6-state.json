@@ -1,0 +1,19 @@
+{
+  "version": "M6",
+  "title": "王威-专业学位研究生学位论文中期考评表-M6候选稿",
+  "pages": 35,
+  "display_equations": 17,
+  "algorithms": 8,
+  "figures": 20,
+  "tables": 8,
+  "references": 31,
+  "recent_2021_2026": 18,
+  "recent_2024_2026": 8,
+  "forbidden_internal_stage_tags": 0,
+  "fatal": 0,
+  "major": 0,
+  "minor": 0,
+  "final_state": "M6_MIDTERM_REPORT_ACADEMIC_RECONSTRUCTION_COMPLETED_AWAITING_USER_REVIEW",
+  "docx_sha256": "d77883d9f6ecb7560043ca3abd68663399cc6b5511d3cc6f17b40f0165ba33f4",
+  "pdf_sha256": "fdc5b5bd1c5f0880b9a5f4bb24251595efa5a76bbd52c3745aa85adefa32eab1"
+}

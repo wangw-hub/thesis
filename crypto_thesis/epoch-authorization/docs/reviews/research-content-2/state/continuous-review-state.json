@@ -1,0 +1,10 @@
+{
+  "current_stage": "R2-1_HARD_STOP",
+  "completed": ["R2-0", "R2-1"],
+  "pending": ["correct collector", "new preregistration", "complete formal rerun", "independent run-level analysis"],
+  "raw_sha256": "64cc50e3a3495e04460040fbf6d9ae8b3459948c3fe2ccd24618f391b47e9e6e",
+  "fatal": 2,
+  "major": 4,
+  "hard_stop": true,
+  "next_action": "Review and implement the frozen full-rerun requirements without modifying existing raw data."
+}

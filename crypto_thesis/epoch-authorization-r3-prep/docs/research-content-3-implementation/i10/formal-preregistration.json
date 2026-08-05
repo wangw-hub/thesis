@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "R3FormalPreregistrationV1",
+  "status": "DESIGN_FROZEN_AWAITING_I11_APPROVAL",
+  "gitCommit": "32700371f2107827bf2c4faae27d29f23cb623a1",
+  "i9AcceptedPilotBaselineDigest": "6de936e9d7ef8357530b7361e0b06a862c0474212e1147b69f5dd67fc4779d8a",
+  "i9BaselineFrozen": true,
+  "formalDataCollectionAuthorized": false,
+  "formalAttemptCreated": false,
+  "formalPerformanceConclusion": false,
+  "researchQuestions": [
+    "RQ-1",
+    "RQ-2",
+    "RQ-3",
+    "RQ-4",
+    "RQ-5",
+    "RQ-6"
+  ],
+  "claimMatrix": "formal-claim-matrix.json",
+  "factorMatrix": "formal-factor-matrix.json",
+  "metricRegistry": "formal-metric-registry.json",
+  "runBudget": "formal-run-budget.json",
+  "environmentClasses": [
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ],
+  "rc3MultiNodeFormalRequired": false,
+  "multiNodeReason": "No frozen thesis claim requires QBFT consensus performance; any future consensus claim requires a separate I10 amendment and genuinely deployed independent topology.",
+  "randomization": {
+    "strategy": "blocked deterministic randomization",
+    "seed": 20260802,
+    "blockKeys": [
+      "semantic_class",
+      "experimentId",
+      "configuration_digest"
+    ],
+    "timingNeighborPairing": false
+  },
+  "pairing": {
+    "pairingKey": "generatorVersion|semanticClass|inputDigest|seed|configurationDigest",
+    "sharedFactors": [
+      "semantic_class",
+      "input_digest",
+      "seed",
+      "environment_fingerprint"
+    ],
+    "varyingFactors": [
+      "replica_state",
+      "fault_class",
+      "recipient_count",
+      "body_bytes"
+    ],
+    "crossSemanticPairing": false
+  },
+  "statistics": {
+    "unit": "RUN",
+    "descriptive": [
+      "n",
+      "mean",
+      "SD",
+      "median",
+      "IQR",
+      "min",
+      "max"
+    ],
+    "bootstrap": {
+      "enabled": true,
+      "resamples": 10000,
+      "ci": "percentile 95%",
+      "resampleUnit": "RUN within pre-registered block"
+    },
+    "effectSize": [
+      "median difference",
+      "ratio with log transform when positive",
+      "Cliffs delta for ordinal outcomes"
+    ],
+    "multiplicity": "Holm correction within each RQ family",
+    "pHacking": "forbidden"
+  },
+  "policies": {
+    "missing": "log and exclude; no silent deletion",
+    "replacement": "only if pre-registered infrastructure replacement rule is met and replacement is a new RUN with original failure retained",
+    "failure": "classify protocol/security/infrastructure; never relabel after seeing timing",
+    "stop": "strict stop for security, protocol, design, unauthorized-resource, or FATAL failures"
+  },
+  "preregistrationDigest": "5c957cdf7f4269cec58842c4536ad1f4fc73424da01c5a3a1ab1461fbe8fc45f",
+  "createdAt": "2026-08-02T06:14:22Z"
+}

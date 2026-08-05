@@ -1,0 +1,18 @@
+{
+  "applicationNameFix": "PASSED",
+  "bootstrapState": "PUBLISHED",
+  "canaryAttemptId": "I9_REVISION_7_20260730T151134Z_55afcc2",
+  "canaryRunId": "aac16dc0d8ec9e6fcbb05b964fd77b0a1ecb34dd5a5b43d1a398111f5fe46402",
+  "canaryRunsExecuted": 1,
+  "canaryStatus": "FAILED_CANARY_DATABASE_TRANSACTION_BOUNDARY",
+  "fatal": 0,
+  "major": 2,
+  "minor": 1,
+  "p9A": "NOT_READY",
+  "p9AExecuted": false,
+  "rawShaErrors": 0,
+  "remoteLocalShaErrors": 0,
+  "researchContent3State": "I9_CANARY_REQUIRES_FURTHER_REVISION",
+  "schemaVersion": 1,
+  "terminalEvidence": "PASSED"
+}

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "R3FormalClaimMatrixV1",
+  "claims": [
+    {
+      "claimId": "C-01",
+      "claimText": "VersionedHeaderV1 与链上/数据库固定块状态在预注册更新路径上保持一致、可验证且幂等。",
+      "claimClass": "CORRECTNESS",
+      "supportingRQ": [
+        "RQ-1"
+      ],
+      "requiredMetric": [
+        "M-01",
+        "M-02",
+        "M-09"
+      ],
+      "requiredEnvironment": "F1/F2",
+      "requiredBaseline": "same-task replay control",
+      "requiredExperiment": "E1",
+      "allowedEvidence": [
+        "run-level strict evidence",
+        "fixed-block composite state",
+        "database snapshot"
+      ],
+      "forbiddenEvidence": [
+        "Pilot-only rows as formal results",
+        "single-node observations as QBFT claims"
+      ],
+      "status": "FROZEN"
+    },
+    {
+      "claimId": "C-02",
+      "claimText": "HEADER_ONLY 在同一语义类内的工程开销可按 recipient_count 与 affected_count 描述。",
+      "claimClass": "ENGINEERING_OVERHEAD",
+      "supportingRQ": [
+        "RQ-2"
+      ],
+      "requiredMetric": [
+        "M-03",
+        "M-04",
+        "M-05"
+      ],
+      "requiredEnvironment": "F2",
+      "requiredBaseline": "within-class fixed-size control",
+      "requiredExperiment": "E2",
+      "allowedEvidence": [
+        "formal RUN timing with environment fingerprint",
+        "pre-registered within-class effects"
+      ],
+      "forbiddenEvidence": [
+        "HEADER_ONLY vs BODY_ROTATION ranking",
+        "Pilot timing"
+      ],
+      "status": "FROZEN"
+    },
+    {
+      "claimId": "C-03",
+      "claimText": "BODY_ROTATION 在同一语义类内的工程开销可按 body_bytes 与 recipient_count 描述。",
+      "claimClass": "ENGINEERING_OVERHEAD",
+      "supportingRQ": [
+        "RQ-3"
+      ],
+      "requiredMetric": [
+        "M-03",
+        "M-04",
+        "M-06"
+      ],
+      "requiredEnvironment": "F2",
+      "requiredBaseline": "within-class fixed-body control",
+      "requiredExperiment": "E3",
+      "allowedEvidence": [
+        "formal RUN timing and bytes",
+        "same-class CI/effect size"
+      ],
+      "forbiddenEvidence": [
+        "BODY_ROTATION vs HEADER_ONLY superiority",
+        "Pilot timing"
+      ],
+      "status": "FROZEN"
+    },
+    {
+      "claimId": "C-04",
+      "claimText": "预先撤销路径在当前 Header 与释放窗口约束下 fail-closed，且不产生错误材料释放。",
+      "claimClass": "SECURITY_BEHAVIOR",
+      "supportingRQ": [
+        "RQ-4"
+      ],
+      "requiredMetric": [
+        "M-01",
+        "M-07",
+        "M-09"
+      ],
+      "requiredEnvironment": "F1/F2",
+      "requiredBaseline": "no-revocation control",
+      "requiredExperiment": "E4",
+      "allowedEvidence": [
+        "event identity",
+        "release decision",
+        "negative-path acceptance"
+      ],
+      "forbiddenEvidence": [
+        "implementation test treated as cryptographic proof",
+        "recovery success as plaintext-recovery claim"
+      ],
+      "status": "FROZEN"
+    },
+    {
+      "claimId": "C-05",
+      "claimText": "RecoveryCoordinator 在预注册对象/服务故障下保持一致性、可解释并按规则 fail-closed。",
+      "claimClass": "RECOVERY",
+      "supportingRQ": [
+        "RQ-5",
+        "RQ-6"
+      ],
+      "requiredMetric": [
+        "M-08",
+        "M-09",
+        "M-10",
+        "M-11"
+      ],
+      "requiredEnvironment": "F4",
+      "requiredBaseline": "Baseline-R local-only control",
+      "requiredExperiment": "E5",
+      "allowedEvidence": [
+        "independent fault observation",
+        "repair plan and disposition",
+        "object SHA/CID evidence"
+      ],
+      "forbiddenEvidence": [
+        "unobserved fault labels",
+        "Pilot-only fault runs",
+        "silent deletion of failed records"
+      ],
+      "status": "FROZEN"
+    },
+    {
+      "claimId": "C-06",
+      "claimText": "Kubo replica 相对于 LocalObjectStore 的影响仅在语义相同、对象大小和故障条件匹配的正式块内报告。",
+      "claimClass": "PERFORMANCE",
+      "supportingRQ": [
+        "RQ-5",
+        "RQ-6"
+      ],
+      "requiredMetric": [
+        "M-08",
+        "M-10",
+        "M-12"
+      ],
+      "requiredEnvironment": "F4",
+      "requiredBaseline": "Baseline-R",
+      "requiredExperiment": "E5",
+      "allowedEvidence": [
+        "paired RUNs by deterministic workload identity",
+        "pre-registered recovery metrics"
+      ],
+      "forbiddenEvidence": [
+        "timing-neighbor pairing",
+        "unmatched size comparisons",
+        "formal chain not deployed"
+      ],
+      "status": "FROZEN"
+    },
+    {
+      "claimId": "C-07",
+      "claimText": "RC3 形式化设计不声称 QBFT 共识吞吐、共识延迟或多验证节点可扩展性。",
+      "claimClass": "SCALABILITY",
+      "supportingRQ": [],
+      "requiredMetric": [],
+      "requiredEnvironment": "F3",
+      "requiredBaseline": "none",
+      "requiredExperiment": "none",
+      "allowedEvidence": [
+        "design decision only"
+      ],
+      "forbiddenEvidence": [
+        "single-node or Pilot chain used as QBFT evidence",
+        "un-deployed topology used as results"
+      ],
+      "status": "FORBIDDEN"
+    }
+  ]
+}

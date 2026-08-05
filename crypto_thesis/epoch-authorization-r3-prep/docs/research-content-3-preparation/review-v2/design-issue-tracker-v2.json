@@ -1,0 +1,20 @@
+{
+  "schemaVersion":1,
+  "summary":{"fatal":0,"major":4,"minor":6,"editorial":4},
+  "issues":[
+    {"id":"V2-M01","severity":"MAJOR","classification":"REQUIRES_MINIMAL_PROTOTYPE","gate":"I1","status":"OPEN_GATED"},
+    {"id":"V2-M02","severity":"MAJOR","classification":"REQUIRES_MINIMAL_PROTOTYPE","gate":"I1_E7_PILOT","status":"OPEN_GATED"},
+    {"id":"V2-M03","severity":"MAJOR","classification":"REQUIRES_FORMAL_IMPLEMENTATION","gate":"I7_E8","status":"OPEN_GATED"},
+    {"id":"V2-M04","severity":"MAJOR","classification":"USER_DECISION_REQUIRED","gate":"G0","status":"OPEN_GATED"},
+    {"id":"V2-m01","severity":"MINOR","classification":"REQUIRES_MINIMAL_PROTOTYPE","gate":"E6","status":"OPEN"},
+    {"id":"V2-m02","severity":"MINOR","classification":"REQUIRES_FORMAL_IMPLEMENTATION","gate":"I5","status":"OPEN"},
+    {"id":"V2-m03","severity":"MINOR","classification":"REQUIRES_FORMAL_IMPLEMENTATION","gate":"I4_I6","status":"OPEN"},
+    {"id":"V2-m04","severity":"MINOR","classification":"REQUIRES_FORMAL_IMPLEMENTATION","gate":"I4","status":"OPEN"},
+    {"id":"V2-m05","severity":"MINOR","classification":"REQUIRES_MINIMAL_PROTOTYPE","gate":"I9_I10","status":"OPEN"},
+    {"id":"V2-m06","severity":"MINOR","classification":"REQUIRES_FORMAL_IMPLEMENTATION","gate":"I3","status":"OPEN"},
+    {"id":"V2-E01","severity":"EDITORIAL","classification":"CLOSED_BY_DESIGN_EVIDENCE","status":"CLOSED"},
+    {"id":"V2-E02","severity":"EDITORIAL","classification":"CLOSED_BY_DESIGN_EVIDENCE","status":"CLOSED"},
+    {"id":"V2-E03","severity":"EDITORIAL","classification":"CLOSED_BY_DESIGN_EVIDENCE","status":"CLOSED"},
+    {"id":"V2-E04","severity":"EDITORIAL","classification":"CLOSED_BY_DESIGN_EVIDENCE","status":"CLOSED"}
+  ]
+}

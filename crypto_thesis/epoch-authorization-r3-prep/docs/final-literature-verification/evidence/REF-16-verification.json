@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "LiteratureVerificationRecordV1",
+  "referenceId": "REF-16",
+  "citationKey": "[16]",
+  "currentBibliographyEntry": "[16] Rouhani S, Belchior R, Cruz R S, Deters R. Distributed attribute-based access control system using permissioned blockchain. World Wide Web, 2021.",
+  "title": "Distributed attribute-based access control system using permissioned blockchain",
+  "authors": "Rouhani S, Belchior R, Cruz R S, Deters R",
+  "year": 2021,
+  "venue": "World Wide Web",
+  "publicationType": "JOURNAL_ARTICLE",
+  "volume": 24,
+  "issue": 5,
+  "pages": "1617-1644",
+  "publisher": "Springer",
+  "DOI": "10.1007/s11280-021-00874-7",
+  "URL": null,
+  "formalPublicationStatus": "JOURNAL/CONFERENCE/RFC/ENGINEERING",
+  "preprintStatus": false,
+  "officialSource": "https://dblp.org/search?q=Rouhani+Deters+Distributed+Access+Control+Blockchain",
+  "secondarySources": [
+    "https://ir.webis.de/anthology/2021.wwwjournals_journal-ir0anthology0volumeA24A5.11/",
+    "https://link.springer.com/article/10.1007/s11280-021-00874-7"
+  ],
+  "metadataMatch": true,
+  "claimSupport": "DIRECTLY_SUPPORTED",
+  "claimSupportLevel": "DIRECTLY_SUPPORTED",
+  "verificationStatus": "VERIFIED_WITH_CORRECTION",
+  "recommendedAction": "采纳（必要时按 correction 修正）",
+  "notes": "DOI 更正：原 10.1007/s11280-021-00889-4 经 Crossref/DOI 解析失败（404），经 DBLP/webis、ACM DL、inria HAL、x-mol 等多源交叉确认正确 DOI 为 10.1007/s11280-021-00874-7（World Wide Web 24(5):1617-1644）",
+  "accessDate": "2026-08-02"
+}

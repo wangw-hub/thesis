@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "M4ArtifactSha256V1",
+  "generatedAt": "2026-08-03T05:42:25.889196+00:00",
+  "files": [
+    {
+      "path": "M4-MIDTERM-SOURCE.md",
+      "sha256": "BF75E5CA636F162D1F5F8D82309F2A9208E756EC9DD25C2AE969ECB3360DA956"
+    },
+    {
+      "path": "m4-state.json",
+      "sha256": "BE2A222CA44FC8346E42736E8460D48763770C898D8DF4107CD58AFC6C89A72C"
+    },
+    {
+      "path": "audit-report.json",
+      "sha256": "F1B4546B281A1233D1992E043F68ED3C303E5F5F725C2A54FEDB1C195084897D"
+    },
+    {
+      "path": "figure-asset-catalog.json",
+      "sha256": "AA04D28399C8FEC0312F039F420178EBD9C860CE44229BAC52039E9FC9785295"
+    }
+  ]
+}

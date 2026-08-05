@@ -1,0 +1,14 @@
+{
+  "stage": 4,
+  "attempt": 1,
+  "status": "SERVICES_AND_CHAIN_HEALTHY_ACCEPTANCE_PARSER_FAILED",
+  "observed": {
+    "services_active": 4,
+    "peer_count_each": 3,
+    "blocks_produced": true,
+    "validator_count": 4
+  },
+  "cause": "The acceptance script used a non-privileged shell redirection for key.pub and did not match ss IPv4-mapped IPv6 display `[::ffff:127.0.0.1]:8545`.",
+  "service_redeployment_required": false,
+  "resolution": "Fix read-only parsing and rerun acceptance only."
+}

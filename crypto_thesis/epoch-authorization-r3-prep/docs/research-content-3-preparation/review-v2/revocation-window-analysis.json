@@ -1,0 +1,8 @@
+{
+  "schemaVersion":1,
+  "selectedMode":"IMMEDIATE_AUTHORIZATION_CUTOFF_BOUNDED_ASYNC_HEADER_REBUILD",
+  "authorizationEffectivePoint":"AUTHORIZATION_STATE_CONFIRMED",
+  "dataAvailabilityRecoveryPoint":"HEADER_REGISTRY_COMMITTED_CONFIRMED",
+  "betweenPoints":{"revokedUser":"NO_NEW_MATERIAL","authorizedUser":"TEMPORARILY_UNAVAILABLE","fallbackToOldHeader":false,"failClosed":true},
+  "costBoundary":{"singleHeaderIndependentOfBodyBytes":"HYPOTHESIS_E7","totalRevocation":"AT_LEAST_LINEAR_IN_AFFECTED_RESOURCE_COUNT"}
+}

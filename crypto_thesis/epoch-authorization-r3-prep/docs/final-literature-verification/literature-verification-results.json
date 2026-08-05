@@ -1,0 +1,385 @@
+{
+  "schemaVersion": "LiteratureVerificationResultsV1",
+  "records": [
+    {
+      "id": "REF-01",
+      "key": 1,
+      "authors": "Bertino E, Bonatti P A, Ferrari E",
+      "title": "TRBAC: A Temporal Role-Based Access Control Model",
+      "venue": "ACM Transactions on Information and System Security",
+      "year": 2001,
+      "volume": 4,
+      "issue": 3,
+      "pages": "191-233",
+      "publisher": "ACM",
+      "doi": "10.1145/501978.501979",
+      "type": "JOURNAL_ARTICLE",
+      "status": "VERIFIED_WITH_CORRECTION",
+      "correction": "页码 191-223→191-233；DOI 由 10.1145/344287.344298（RBAC'00 工作坊版）更正为期刊版 10.1145/501978.501979",
+      "sources": [
+        "https://dblp.org/search?q=TRBAC",
+        "https://dl.acm.org/doi/10.1145/501978.501979"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "时间角色访问控制模型（TRBAC）背景"
+      ]
+    },
+    {
+      "id": "REF-02",
+      "key": 2,
+      "authors": "Abiteboul S, Manolescu I, Polyzotis N, Preda N, Sun C",
+      "title": "XML processing in DHT networks",
+      "venue": "Proceedings of the 24th International Conference on Data Engineering (ICDE)",
+      "year": 2008,
+      "volume": null,
+      "issue": null,
+      "pages": "606-615",
+      "publisher": "IEEE",
+      "doi": "10.1109/ICDE.2008.4497469",
+      "type": "CONFERENCE_PAPER",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://dl.acm.org/doi/10.1109/ICDE.2008.4497469",
+        "https://researchr.org/publication/AbiteboulMPPS08"
+      ],
+      "claimSupport": "PARTIALLY_SUPPORTED",
+      "claims": [
+        "分布式环境下半结构化数据的区间/层次处理背景"
+      ],
+      "wordingNote": "推荐改为“分布式环境下 XML 等半结构化数据的分区与索引处理[2]”，避免暗示其直接定义 dyadic cover"
+    },
+    {
+      "id": "REF-03",
+      "key": 3,
+      "authors": "Rundgren A, Jordan B, Erdtman S",
+      "title": "JSON Canonicalization Scheme (JCS)",
+      "venue": "RFC 8785",
+      "year": 2020,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": "RFC Editor",
+      "doi": "10.17487/RFC8785",
+      "type": "RFC",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc8785",
+        "https://datatracker.ietf.org/doc/rfc8785/"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "规范 JSON 序列化保证哈希/签名一致性"
+      ]
+    },
+    {
+      "id": "REF-04",
+      "key": 4,
+      "authors": "Claessen K, Hughes J",
+      "title": "QuickCheck: a lightweight tool for random testing of Haskell programs",
+      "venue": "Proceedings of ICFP 2000",
+      "year": 2000,
+      "volume": null,
+      "issue": null,
+      "pages": "268-279",
+      "publisher": "ACM",
+      "doi": "10.1145/351240.351266",
+      "type": "CONFERENCE_PAPER",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://dblp.org/search?q=QuickCheck",
+        "https://dl.acm.org/doi/10.1145/351240.351266"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "性质测试方法背景"
+      ]
+    },
+    {
+      "id": "REF-05",
+      "key": 5,
+      "authors": "Saltzer J H, Schroeder M D",
+      "title": "The protection of information in computer systems",
+      "venue": "Proceedings of the IEEE",
+      "year": 1975,
+      "volume": 63,
+      "issue": 9,
+      "pages": "1278-1308",
+      "publisher": "IEEE",
+      "doi": "10.1109/PROC.1975.9939",
+      "type": "JOURNAL_ARTICLE",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://dblp.org/search?q=Protection+of+Information",
+        "https://ieeexplore.ieee.org/document/1451609"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "最小权限/Fail-Safe 设计原则"
+      ]
+    },
+    {
+      "id": "REF-06",
+      "key": 6,
+      "authors": "Hyperledger Besu Documentation",
+      "title": "QBFT consensus protocol",
+      "venue": "https://besu.hyperledger.org/private-networks/how-to/configure/consensus/qbft",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": "Hyperledger Foundation",
+      "doi": null,
+      "type": "TECHNICAL_REPORT",
+      "status": "VERIFIED_WITH_CORRECTION",
+      "correction": "补充 URL 与访问日期（2026-08-02）；定位为工程实现来源而非学术文献",
+      "sources": [
+        "https://besu.hyperledger.org/private-networks/how-to/configure/consensus/qbft"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "Besu QBFT 配置与实现背景"
+      ]
+    },
+    {
+      "id": "REF-07",
+      "key": 7,
+      "authors": "PostgreSQL Global Development Group",
+      "title": "PostgreSQL 16 Documentation: INSERT",
+      "venue": "https://www.postgresql.org/docs/16/sql-insert.html",
+      "year": 2026,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": "PostgreSQL Global Development Group",
+      "doi": null,
+      "type": "TECHNICAL_REPORT",
+      "status": "VERIFIED_WITH_CORRECTION",
+      "correction": "补充官方 URL 与访问日期（2026-08-02）；定位为工程实现来源",
+      "sources": [
+        "https://www.postgresql.org/docs/16/sql-insert.html"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "INSERT ON CONFLICT/RETURNING 数据库语义"
+      ]
+    },
+    {
+      "id": "REF-08",
+      "key": 8,
+      "authors": "Josefsson S, Liusvaara I",
+      "title": "Edwards-Curve Digital Signature Algorithm (EdDSA)",
+      "venue": "RFC 8032",
+      "year": 2017,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": "RFC Editor",
+      "doi": "10.17487/RFC8032",
+      "type": "RFC",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc8032"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "Ed25519 签名标准依据"
+      ]
+    },
+    {
+      "id": "REF-09",
+      "key": 9,
+      "authors": "Efron B",
+      "title": "Bootstrap Methods: Another Look at the Jackknife",
+      "venue": "The Annals of Statistics",
+      "year": 1979,
+      "volume": 7,
+      "issue": 1,
+      "pages": "1-26",
+      "publisher": "Institute of Mathematical Statistics",
+      "doi": "10.1214/aos/1176344552",
+      "type": "JOURNAL_ARTICLE",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://projecteuclid.org/journals/annals-of-statistics/volume-7/issue-1/",
+        "https://www.altmetric.com/details/3124244"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "Bootstrap 统计方法"
+      ]
+    },
+    {
+      "id": "REF-10",
+      "key": 10,
+      "authors": "Barnes R, Bhargavan K, Lipp B, Wood C",
+      "title": "Hybrid Public Key Encryption",
+      "venue": "RFC 9180",
+      "year": 2022,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": "RFC Editor",
+      "doi": "10.17487/RFC9180",
+      "type": "RFC",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc9180",
+        "https://www.rfc-editor.org/info/rfc9180/"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "HPKE（X25519/HKDF-SHA256/AES-128-GCM 基础套件）标准；与正文描述一致，无技术错配"
+      ]
+    },
+    {
+      "id": "REF-11",
+      "key": 11,
+      "authors": "Hardt D (Ed.)",
+      "title": "The OAuth 2.0 Authorization Framework",
+      "venue": "RFC 6749",
+      "year": 2012,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": "RFC Editor",
+      "doi": "10.17487/RFC6749",
+      "type": "RFC",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc6749"
+      ],
+      "claimSupport": "BACKGROUND_ONLY",
+      "claims": [
+        "令牌授权框架与一次性语义背景（论文以数据库原子 Nonce 区别于无状态令牌）"
+      ]
+    },
+    {
+      "id": "REF-12",
+      "key": 12,
+      "authors": "Jones M, Bradley J, Sakimura N",
+      "title": "JSON Web Token (JWT)",
+      "venue": "RFC 7519",
+      "year": 2015,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": "RFC Editor",
+      "doi": "10.17487/RFC7519",
+      "type": "RFC",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc7519"
+      ],
+      "claimSupport": "BACKGROUND_ONLY",
+      "claims": [
+        "JWT 声明/时间绑定背景（论文能力结构与之对比）"
+      ]
+    },
+    {
+      "id": "REF-13",
+      "key": 13,
+      "authors": "Dennis J B, Van Horn E C",
+      "title": "Programming semantics for multiprogrammed computations",
+      "venue": "Communications of the ACM",
+      "year": 1966,
+      "volume": 9,
+      "issue": 3,
+      "pages": "143-155",
+      "publisher": "ACM",
+      "doi": "10.1145/365230.365252",
+      "type": "JOURNAL_ARTICLE",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://dblp.org/search?q=Programming+Semantics+for+Multiprogrammed+Computations",
+        "https://doi.org/10.1145/365230.365252"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "能力（capability）概念历史背景"
+      ]
+    },
+    {
+      "id": "REF-14",
+      "key": 14,
+      "authors": "Benet J",
+      "title": "IPFS - Content Addressed, Versioned, P2P File System",
+      "venue": "arXiv:1407.3561",
+      "year": 2014,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": "arXiv",
+      "doi": null,
+      "type": "PREPRINT",
+      "status": "VERIFIED_WITH_CORRECTION",
+      "correction": "定位为预印本/技术报告（arXiv:1407.3561），不得写成正式期刊论文",
+      "sources": [
+        "https://arxiv.org/abs/1407.3561"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "IPFS 内容寻址与版本化文件系统背景"
+      ]
+    },
+    {
+      "id": "REF-15",
+      "key": 15,
+      "authors": "Bethencourt J, Sahai A, Waters B",
+      "title": "Ciphertext-Policy Attribute-Based Encryption",
+      "venue": "Proceedings of the 2007 IEEE Symposium on Security and Privacy",
+      "year": 2007,
+      "volume": null,
+      "issue": null,
+      "pages": "321-334",
+      "publisher": "IEEE",
+      "doi": "10.1109/SP.2007.11",
+      "type": "CONFERENCE_PAPER",
+      "status": "VERIFIED",
+      "correction": null,
+      "sources": [
+        "https://dl.acm.org/doi/10.1109/SP.2007.11",
+        "https://api.crossref.org/works/10.1109/SP.2007.11"
+      ],
+      "claimSupport": "BACKGROUND_ONLY",
+      "claims": [
+        "密文策略访问控制与撤销语义背景（论文不采用 ABE，仅作对比背景）"
+      ]
+    },
+    {
+      "id": "REF-16",
+      "key": 16,
+      "authors": "Rouhani S, Belchior R, Cruz R S, Deters R",
+      "title": "Distributed attribute-based access control system using permissioned blockchain",
+      "venue": "World Wide Web",
+      "year": 2021,
+      "volume": 24,
+      "issue": 5,
+      "pages": "1617-1644",
+      "publisher": "Springer",
+      "doi": "10.1007/s11280-021-00874-7",
+      "type": "JOURNAL_ARTICLE",
+      "status": "VERIFIED_WITH_CORRECTION",
+      "correction": "DOI 更正：原 10.1007/s11280-021-00889-4 经 Crossref/DOI 解析失败（404），经 DBLP/webis、ACM DL、inria HAL、x-mol 等多源交叉确认正确 DOI 为 10.1007/s11280-021-00874-7（World Wide Web 24(5):1617-1644）",
+      "sources": [
+        "https://dblp.org/search?q=Rouhani+Deters+Distributed+Access+Control+Blockchain",
+        "https://ir.webis.de/anthology/2021.wwwjournals_journal-ir0anthology0volumeA24A5.11/",
+        "https://link.springer.com/article/10.1007/s11280-021-00874-7"
+      ],
+      "claimSupport": "DIRECTLY_SUPPORTED",
+      "claims": [
+        "许可链上分布式基于属性的访问控制（RC2 相关工作背景）"
+      ]
+    }
+  ]
+}

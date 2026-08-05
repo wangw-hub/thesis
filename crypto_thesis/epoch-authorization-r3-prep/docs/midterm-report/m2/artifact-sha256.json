@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "M2ArtifactSha256V1",
+  "generatedAt": "2026-08-03T03:24:19.542092+00:00",
+  "selfIncluded": false,
+  "files": [
+    {
+      "path": "00-M2-ENTRY.md",
+      "sha256": "f6991404bfecd2702f335b0f48aeedfafde83cbf0edff2f08ac3fcfc200e39ca"
+    },
+    {
+      "path": "01-M1-FAILURE-ANALYSIS.md",
+      "sha256": "9e9b04e8dac0a5c59847fcd9533e86bd7efee68c1a132e68f469ea0230c1c533"
+    },
+    {
+      "path": "02-REFERENCE-DEEP-STRUCTURE-ANALYSIS.md",
+      "sha256": "6b3d885b64363ad06e0121981ca8082288cbc80336d51cda433c5e5c004e53fc"
+    },
+    {
+      "path": "03-LEGACY-CONTENT-AUDIT.md",
+      "sha256": "f4ed048b0eeac265b4363c9a435663fd8354ffdfec8851019fce4b2d1a91481e"
+    },
+    {
+      "path": "04-EVIDENCE-TIMELINE-AUDIT.md",
+      "sha256": "e9555aa567613a003d12f0aca9ab4560e31fdf2341a294ff88c4799558932cae"
+    },
+    {
+      "path": "05-M2-DETAILED-OUTLINE.md",
+      "sha256": "48ea8ec2d49d93564a44d6d7f1bc0203117fe736846a3a48f03b9acbc692f4a3"
+    },
+    {
+      "path": "06-RC1-EXPANDED-NARRATIVE.md",
+      "sha256": "a8bc49d1597842079a6012b9ebdf53814ca5ddcd90a89c8ca0ad391b02a6ad5b"
+    },
+    {
+      "path": "07-RC2-EXPANDED-NARRATIVE.md",
+      "sha256": "839bbbde735c97cafd23e19150553f2bb4b7b545eed18b81dec7cbbc9894123a"
+    },
+    {
+      "path": "08-RC3-EXPANDED-NARRATIVE.md",
+      "sha256": "dbe3191fa37f9a5bd1aecd3309f0d90851f6501f25571df3a343a78512806e29"
+    },
+    {
+      "path": "09-SYSTEM-CLOSURE-NARRATIVE.md",
+      "sha256": "f8dd04f163a285f786f9f69d2349994c839a259d4a7043825d5eb05cbbfda10a"
+    },
+    {
+      "path": "10-PROBLEMS-EXPANDED.md",
+      "sha256": "76b0acca492ba9c8bb74196c5946f074bd2c48e209b5f8c83ae0848dce9c76ed"
+    },
+    {
+      "path": "11-SOLUTIONS-AND-PLAN-EXPANDED.md",
+      "sha256": "90f0699f2b33b70109816089df49f5cb0ca1dcda7653d5bf14fadcaeaf9178a6"
+    },
+    {
+      "path": "12-WORKLOAD-EVIDENCE-AUDIT.md",
+      "sha256": "6722edef689d0bbac9876d81fa666d2b0eb700a3481aa0360263931afa85a745"
+    },
+    {
+      "path": "13-TEXT-DENSITY-AUDIT.md",
+      "sha256": "b0e3f8c2e2eec3a9a76e2ec840927d93835df13eb78c6924320a19ca3f4ce55d"
+    },
+    {
+      "path": "14-ACADEMIC-STYLE-AUDIT.md",
+      "sha256": "9b83f245b846c39dae3003012274d844cc1aa1d9fe2a518e8c82ded39ad7ba0b"
+    },
+    {
+      "path": "15-M2-STRICT-REVIEW.md",
+      "sha256": "dba84c1c654975cbaf00c4425315dffe67648749d0542305017fa3ab8eaea892"
+    },
+    {
+      "path": "16-M2-FINAL-DECISION.md",
+      "sha256": "076014d0055f32ad1e4bf141989ea8476ce1684edac012434e5bd71157902f15"
+    },
+    {
+      "path": "figures/schematic-cap2-flow.png",
+      "sha256": "cf41fecaef276db3c316ca60453fb9c0b2d895b9e510e27e9f8e404de3335bf1"
+    },
+    {
+      "path": "figures/schematic-closure-arch.png",
+      "sha256": "d5a67e0dfd97f91d23dd434c9b1119aea206ad434aaa790d6ed4824331d53dcd"
+    },
+    {
+      "path": "m2-source-map.json",
+      "sha256": "0e69c59ae70c2a9862414b9c6ec0c996ada36618c31cda2ef1165f2d698fb0ba"
+    },
+    {
+      "path": "m2-state.json",
+      "sha256": "9406ccbd45c09e790bdb2c7b0c165133c3fdbab8b8d70240441ced7106c1d732"
+    },
+    {
+      "path": "MIDTERM-REPORT-M2-FULL-DRAFT.md",
+      "sha256": "95c309791b51b41058609ac9983054c76947c5328f169a60bee1c5668967a7b8"
+    },
+    {
+      "path": "output/王威-专业学位研究生学位论文中期考评表-M2候选稿.docx",
+      "sha256": "2c580a3d7ab0646e40dbef08b579ff2dc0eddffcec553fe807ad3fa235f11e71"
+    },
+    {
+      "path": "output/王威-专业学位研究生学位论文中期考评表-M2候选稿.pdf",
+      "sha256": "3adadc9942c53f073eed20959de7ef35a15b911b5ccfabffa7ec8461bc2ccd62"
+    },
+    {
+      "path": "text-density-audit.json",
+      "sha256": "bc18f0b5b88068957a1edd8641a4207fdffc655a36d68bfb30e3befc8b42a1fb"
+    }
+  ]
+}

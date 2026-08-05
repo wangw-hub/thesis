@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "M7AlgorithmAuditV1",
+  "auditDate": "2026-08-04",
+  "hardGate": {
+    "ALGORITHM_LOGIC_ERROR": 0,
+    "ALGORITHM_NUMBERING_ERROR": 0,
+    "ALGORITHM_INTERFACE_ERROR": 0
+  },
+  "algorithms": [
+    {
+      "algorithmNo": 1,
+      "name": "非连续时间策略规范化算法（Normalize）",
+      "actualSource": "src/epoch_auth_r3 规范化实现（排序 + 线性扫描合并）",
+      "inputMatch": true,
+      "outputMatch": true,
+      "logicCorrect": true,
+      "edgeCasesCovered": "空输入、单区间、相交、相邻、嵌套、重复、等价拆分",
+      "pseudoCodeStyleCorrect": true,
+      "action": "REWRITTEN",
+      "reason": "修复首轮把空 cur 加入 I* 的缺陷；修正“l ≤ cur.right 或 l = cur.right”的冗余条件；明确空输入提前返回；最后追加尾区间。"
+    },
+    {
+      "algorithmNo": 2,
+      "name": "二进制层次覆盖生成算法（Cover）",
+      "actualSource": "层次覆盖实现（最大对齐块选择；位运算）",
+      "inputMatch": true,
+      "outputMatch": true,
+      "logicCorrect": true,
+      "edgeCasesCovered": "对齐/非对齐区间、覆盖完整性与节点互斥",
+      "pseudoCodeStyleCorrect": true,
+      "action": "MODIFIED",
+      "reason": "输入保持单区间 I=[l,r)；删除未参与算法计算的 L=2^ceil(log2 U) 上界；与算法3的逐区间调用接口统一。"
+    },
+    {
+      "algorithmNo": 3,
+      "name": "确定性策略编译与摘要生成算法（PolicyCompile）",
+      "actualSource": "编译管线（校验→Normalize→Cover→CanonicalSerialize→SHA-256）",
+      "inputMatch": true,
+      "outputMatch": true,
+      "logicCorrect": true,
+      "edgeCasesCovered": "时区/粒度/端点约束校验；空策略",
+      "pseudoCodeStyleCorrect": true,
+      "action": "REWRITTEN",
+      "reason": "C ← Cover(I*,U) 改为显式循环 C ← C ∪ Cover(I,U)，与算法2单区间接口及正文 C(P)=⋃C(I) 完全一致。"
+    },
+    {
+      "algorithmNo": 4,
+      "name": "上下文完整绑定能力凭证签发算法（Issue）",
+      "actualSource": "CAP2 签发实现（确认块快照、签名前复读、Ed25519）",
+      "inputMatch": true,
+      "outputMatch": true,
+      "logicCorrect": true,
+      "edgeCasesCovered": "状态无效/摘要不一致/时间窗口/两次快照竞态",
+      "pseudoCodeStyleCorrect": true,
+      "action": "KEEP",
+      "reason": "审计未发现逻辑问题。"
+    },
+    {
+      "algorithmNo": 5,
+      "name": "上下文完整绑定能力凭证验证与一次性随机数消费算法（Verify）",
+      "actualSource": "CAP2 验证实现（全部检查通过后原子消费共享 Nonce）",
+      "inputMatch": true,
+      "outputMatch": true,
+      "logicCorrect": true,
+      "edgeCasesCovered": "解析/验签/链状态/绑定复核/时间策略/重放消费冲突",
+      "pseudoCodeStyleCorrect": true,
+      "action": "KEEP",
+      "reason": "审计未发现逻辑问题。"
+    },
+    {
+      "algorithmNo": 6,
+      "name": "仅密文头更新算法（HeaderOnlyUpdate）",
+      "actualSource": "HeaderOnlyUpdate 流程（headerVersion+1；JCS 序列化；摘要登记）",
+      "inputMatch": true,
+      "outputMatch": true,
+      "logicCorrect": true,
+      "edgeCasesCovered": "撤销/暂停/策略更新意图；版本单调性",
+      "pseudoCodeStyleCorrect": true,
+      "action": "REWRITTEN",
+      "reason": "由旧“算法7”重编号为算法6并置于算法7之前；补充英文名；登记字段改为 (headerCoreDigest,headerObjectDigest,bodyObjectDigest) 与冻结实现一致。"
+    },
+    {
+      "algorithmNo": 7,
+      "name": "密文主体与密钥轮换算法（BodyRotation）",
+      "actualSource": "BodyRotation 流程（新 CK、分块重加密、HPKE 信封、版本 +1）",
+      "inputMatch": true,
+      "outputMatch": true,
+      "logicCorrect": true,
+      "edgeCasesCovered": "密钥/内容变化触发；接收者循环",
+      "pseudoCodeStyleCorrect": true,
+      "action": "REWRITTEN",
+      "reason": "由旧“算法6”重编号为算法7并置于算法6之后；补充英文名；登记至密文头部注册合约。"
+    },
+    {
+      "algorithmNo": 8,
+      "name": "对象恢复协调算法（RecoveryCoordinator）",
+      "actualSource": "src/epoch_auth_r3/recovery/reconciler.py + coordinator",
+      "inputMatch": true,
+      "outputMatch": true,
+      "logicCorrect": true,
+      "edgeCasesCovered": "读取失败/摘要不一致/结构不合法→关闭状态；一致对象恢复",
+      "pseudoCodeStyleCorrect": true,
+      "action": "KEEP",
+      "reason": "算法内容与冻结恢复流程一致；候选可接受判定与恢复执行判定已在正文两级表述。"
+    }
+  ],
+  "format": {
+    "algorithmTitleFormat": "算法X 名称（EnglishName）",
+    "hasInputOutputBlocks": true,
+    "hasBottomRule": true,
+    "forbiddenAlgorithmEndText": "算法结束",
+    "docxContainsForbiddenEndText": false,
+    "algorithmBlocksNativeText": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "FinalP9AArtifactSha256V1",
+  "attemptId": "I9_P9A_20260801T105241Z_2f30275",
+  "executionGitCommit": "2f3027514750bdd956f74f49977bf8be14f3450e",
+  "codeSnapshotSha256": "5d5b47a974bd20af53783d59467f4f99db7d4a419506d1ee4fd5a68551b5211f",
+  "attemptArchiveSha256": "f258b2405309c222753f0858a2d1d6ff7154073c8d78ef1821886977c307373b",
+  "remoteGateSha256": "8e75435f53024fa08b98ca1903e57279654a4271ce280bf215acdd3bd2555af4",
+  "localGateSha256": "8e75435f53024fa08b98ca1903e57279654a4271ce280bf215acdd3bd2555af4",
+  "remoteResultsSha256": "44abc09a43ebe7f042e19dbae3d859adf19d65af48fa2eebbaa6df212ef56fdc",
+  "localResultsSha256": "44abc09a43ebe7f042e19dbae3d859adf19d65af48fa2eebbaa6df212ef56fdc",
+  "stateSha256": "6f8ea111b499f97ed53676187c7c18db9f4269ac5e8d3e32bf1fa469a6b15a1e",
+  "rawShaErrors": 0,
+  "mirrorShaErrors": 0,
+  "trueSecret": 0,
+  "unclassified": 0
+}

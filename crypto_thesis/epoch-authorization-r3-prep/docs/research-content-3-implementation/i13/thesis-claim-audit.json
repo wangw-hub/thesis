@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "ThesisClaimAuditV1",
+  "claims": {
+    "C-01": "SUPPORTED",
+    "C-02": "SUPPORTED",
+    "C-03": "SUPPORTED",
+    "C-04": "SUPPORTED",
+    "C-05": "SUPPORTED",
+    "C-06": "SUPPORTED_WITH_QUALIFICATION",
+    "C-07": "FORBIDDEN"
+  },
+  "unsupportedClaims": 0,
+  "forbiddenClaims": 0,
+  "issues": []
+}

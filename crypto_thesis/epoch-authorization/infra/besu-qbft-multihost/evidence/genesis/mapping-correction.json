@@ -1,0 +1,9 @@
+{
+  "stage": 2,
+  "status": "CORRECTED_BEFORE_DISTRIBUTION",
+  "issue": "The initial public manifest ordered key directories lexicographically by address instead of using the validator order encoded in Genesis extraData.",
+  "impact": "No keys or Genesis had been distributed; the cryptographic material and Genesis remain unchanged.",
+  "correction": "Rebuild the host mapping from `besu rlp decode --type=QBFT_EXTRA_DATA` order and update the reproducible generator.",
+  "requires_key_regeneration": false,
+  "requires_genesis_regeneration": false
+}

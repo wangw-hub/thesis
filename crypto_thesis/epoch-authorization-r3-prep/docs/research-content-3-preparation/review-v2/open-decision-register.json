@@ -1,0 +1,20 @@
+{
+  "schemaVersion":1,
+  "decisions":[
+    {"id":"OD-01","classification":"REQUIRES_MINIMAL_PROTOTYPE","dependsOnV13":false,"userDecision":false,"prototype":true},
+    {"id":"OD-02","classification":"REQUIRES_MINIMAL_PROTOTYPE","dependsOnV13":false,"userDecision":false,"prototype":true},
+    {"id":"OD-03","classification":"CLOSED_BY_DESIGN_EVIDENCE","dependsOnV13":false,"userDecision":false,"prototype":false},
+    {"id":"OD-04","classification":"REJECTED_OPTION","dependsOnV13":false,"userDecision":false,"prototype":false},
+    {"id":"OD-05","classification":"CLOSED_BY_DESIGN_EVIDENCE","dependsOnV13":false,"userDecision":false,"prototype":false},
+    {"id":"OD-06","classification":"REQUIRES_MINIMAL_PROTOTYPE","dependsOnV13":false,"userDecision":false,"prototype":true},
+    {"id":"OD-07","classification":"CLOSED_BY_DESIGN_EVIDENCE","dependsOnV13":false,"userDecision":false,"prototype":false},
+    {"id":"OD-08","classification":"CLOSED_BY_DESIGN_EVIDENCE","dependsOnV13":false,"userDecision":false,"prototype":false},
+    {"id":"OD-09","classification":"CLOSED_BY_DESIGN_EVIDENCE","dependsOnV13":false,"userDecision":false,"prototype":false},
+    {"id":"OD-10","classification":"CLOSED_BY_DESIGN_EVIDENCE","dependsOnV13":false,"userDecision":false,"prototype":false},
+    {"id":"OD-11","classification":"CLOSED_BY_DESIGN_EVIDENCE","dependsOnV13":false,"userDecision":false,"prototype":false},
+    {"id":"OD-12","classification":"BLOCKED_ON_RC2_V13","dependsOnV13":true,"userDecision":false,"prototype":false},
+    {"id":"OD-13","classification":"USER_DECISION_REQUIRED","dependsOnV13":false,"userDecision":true,"prototype":false},
+    {"id":"OD-14","classification":"CLOSED_BY_DESIGN_EVIDENCE","dependsOnV13":false,"userDecision":false,"prototype":false}
+  ],
+  "summary":{"closed":8,"blockedOnRc2V13":1,"userDecisionRequired":1,"requiresMinimalPrototype":3,"rejectedOption":1}
+}

@@ -1,0 +1,7 @@
+{
+  "accepted": false,
+  "rejection_code": "SYSTEM_STATE_UNAVAILABLE",
+  "transition_transaction": "72bd00e9442e59f9f829f30e92fc1db7c34c3a3a5291a3de69c9730f6dacfb09",
+  "transition_status": 1,
+  "state_race_erroneous_issue_count": 0
+}

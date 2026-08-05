@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "attemptId": "I9_P9A_20260801T105241Z_2f30275",
+  "executionGitCommit": "2f3027514750bdd956f74f49977bf8be14f3450e",
+  "plannedRuns": 8,
+  "actualRuns": 7,
+  "validRuns": 6,
+  "unexpectedInvalidRuns": 1,
+  "failedScenario": "A7_REVOCATION_AGENT",
+  "failureClassification": ["SCENARIO_FIXTURE_DEFECT", "EVIDENCE_DEFECT"],
+  "p9aState": "P9_A_FAILED",
+  "p9bGate": "NOT_READY",
+  "researchContent3State": "I9_FINAL_P9_A_FAILED_AWAITING_USER_DECISION",
+  "remoteLocalArchiveSha256": "f258b2405309c222753f0858a2d1d6ff7154073c8d78ef1821886977c307373b",
+  "trueSecret": 0,
+  "unclassified": 0,
+  "fatal": 0,
+  "major": 2,
+  "minor": 1,
+  "rerunPerformed": false,
+  "p9bExecuted": false,
+  "i10Entered": false
+}

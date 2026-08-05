@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "M7TemporalConsistencyAuditV1",
+  "auditDate": "2026-08-04",
+  "reportDateOnCover": "2026年7月27日",
+  "conflictFound": true,
+  "summary": "封面填表日期（2026-07-27）早于研究内容三正式实验与证据冻结日期（2026-08-02）以及仓库首个提交日期（2026-07-28），存在时间一致性冲突。",
+  "items": [
+    {
+      "result": "研究内容三 29 配置/145 有效运行正式实验（含 E1–E5）",
+      "evidenceDate": "2026-08-02 17:56–18:16（北京时间；attempt-manifest createdAt 2026-08-02T09:56:47Z，analysis-manifest generatedAt 2026-08-02T10:16:58Z）",
+      "reportDate": "2026-07-27",
+      "existedBeforeReportDate": false,
+      "action": "未删除结果；M7 保留报告日期原值，标记为需用户确认的元数据项。"
+    },
+    {
+      "result": "研究内容三 i11/i12 证据冻结提交（044c2bc / a17d73b / 354c21b）",
+      "evidenceDate": "2026-08-02 18:22–19:15（+0800）",
+      "reportDate": "2026-07-27",
+      "existedBeforeReportDate": false,
+      "action": "同上。"
+    },
+    {
+      "result": "仓库最早提交（7cd4a93 最小可用原型）",
+      "evidenceDate": "2026-07-28 10:35:43（+0800）",
+      "reportDate": "2026-07-27",
+      "existedBeforeReportDate": false,
+      "action": "仓库侧时间线整体晚于填表日期，印证冲突并非单条证据异常。"
+    },
+    {
+      "result": "研究内容一（168 样本/15120 条记录）与研究内容二（五节点链 9720 运行块）",
+      "evidenceDate": "2026-07-28 之后（仓库证据时间线）",
+      "reportDate": "2026-07-27",
+      "existedBeforeReportDate": "无法从 Git 时间线证明存在于此日期之前",
+      "action": "以 Git 可核验时间线为准，同样纳入需确认范围。"
+    }
+  ],
+  "resolutionOptions": [
+    "A. 若学校允许且实际填表/提交日期晚于 2026-07-27：将封面填表日期改为真实填表/提交日期，冲突消除。",
+    "B. 若 2026-07-27 为不可修改的权威日期：需删除或重新界定晚于该日期的实验表述，或与导师确认后调整时间线说明。"
+  ],
+  "status": "AWAITING_USER_METADATA_CONFIRMATION",
+  "constraint": "代理不自行修改填表日期，也不删除任何真实实验证据；本审计如实记录冲突，最终定稿需用户选择 A 或 B。"
+}

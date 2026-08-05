@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "LiteratureVerificationRecordV1",
+  "referenceId": "REF-09",
+  "citationKey": "[9]",
+  "currentBibliographyEntry": "[9] Efron B. Bootstrap Methods: Another Look at the Jackknife. The Annals of Statistics, 1979.",
+  "title": "Bootstrap Methods: Another Look at the Jackknife",
+  "authors": "Efron B",
+  "year": 1979,
+  "venue": "The Annals of Statistics",
+  "publicationType": "JOURNAL_ARTICLE",
+  "volume": 7,
+  "issue": 1,
+  "pages": "1-26",
+  "publisher": "Institute of Mathematical Statistics",
+  "DOI": "10.1214/aos/1176344552",
+  "URL": null,
+  "formalPublicationStatus": "JOURNAL/CONFERENCE/RFC/ENGINEERING",
+  "preprintStatus": false,
+  "officialSource": "https://projecteuclid.org/journals/annals-of-statistics/volume-7/issue-1/",
+  "secondarySources": [
+    "https://www.altmetric.com/details/3124244"
+  ],
+  "metadataMatch": true,
+  "claimSupport": "DIRECTLY_SUPPORTED",
+  "claimSupportLevel": "DIRECTLY_SUPPORTED",
+  "verificationStatus": "VERIFIED",
+  "recommendedAction": "采纳（必要时按 correction 修正）",
+  "notes": "",
+  "accessDate": "2026-08-02"
+}

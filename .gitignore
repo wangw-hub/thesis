@@ -1,0 +1,47 @@
+# ==== Agent / tool scratch dirs (never upload) ====
+.agents/
+.codex/
+.codex-temp/
+tmp/
+pytest-formal-tmp/
+i8-pytest-2/
+i9-test/
+i9-test-final/
+r3-i2-revision-temp/
+reg-i2/
+reg-i3/
+.git-backups/
+
+# ==== Secrets (never upload) ====
+.funding-review-secrets/
+crypto_thesis/secrets/
+security-quarantine/
+*.key
+*.pem
+
+# ==== Large binaries / runtimes (downloadable, not source) ====
+**/blockchain/
+**/experiments/
+**/infra/**/downloads/
+**/.tools/
+**/.venv*/
+**/node_modules/
+**/build/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# ==== Caches & coverage ====
+__pycache__/
+*.pyc
+.pytest_cache/
+.hypothesis/
+.idea/
+.coverage
+coverage.json
+
+# ==== Editor / OS temp files ====
+~$*
+.DS_Store
+Thumbs.db

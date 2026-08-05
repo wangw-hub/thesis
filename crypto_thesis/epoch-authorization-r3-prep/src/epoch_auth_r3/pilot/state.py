@@ -1,0 +1,34 @@
+from enum import StrEnum
+
+
+class PilotRunStateV1(StrEnum):
+    PLANNED = "PLANNED"
+    ENVIRONMENT_CHECKED = "ENVIRONMENT_CHECKED"
+    RESET_COMPLETE = "RESET_COMPLETE"
+    FIXTURE_CREATED = "FIXTURE_CREATED"
+    WARMUP_COMPLETE = "WARMUP_COMPLETE"
+    RUNNING = "RUNNING"
+    COMPLETED = "COMPLETED"
+    FAILED_EXPECTED = "FAILED_EXPECTED"
+    FAILED_UNEXPECTED = "FAILED_UNEXPECTED"
+    INVALIDATED = "INVALIDATED"
+    EVIDENCE_VERIFIED = "EVIDENCE_VERIFIED"
+
+
+_NEXT = {
+    PilotRunStateV1.PLANNED: {PilotRunStateV1.ENVIRONMENT_CHECKED},
+    PilotRunStateV1.ENVIRONMENT_CHECKED: {PilotRunStateV1.RESET_COMPLETE},
+    PilotRunStateV1.RESET_COMPLETE: {PilotRunStateV1.FIXTURE_CREATED},
+    PilotRunStateV1.FIXTURE_CREATED: {PilotRunStateV1.WARMUP_COMPLETE, PilotRunStateV1.RUNNING},
+    PilotRunStateV1.WARMUP_COMPLETE: {PilotRunStateV1.RUNNING},
+    PilotRunStateV1.RUNNING: {PilotRunStateV1.COMPLETED, PilotRunStateV1.FAILED_EXPECTED,
+                             PilotRunStateV1.FAILED_UNEXPECTED},
+    PilotRunStateV1.COMPLETED: {PilotRunStateV1.EVIDENCE_VERIFIED, PilotRunStateV1.INVALIDATED},
+    PilotRunStateV1.FAILED_EXPECTED: {PilotRunStateV1.EVIDENCE_VERIFIED, PilotRunStateV1.INVALIDATED},
+    PilotRunStateV1.FAILED_UNEXPECTED: {PilotRunStateV1.INVALIDATED},
+}
+
+
+def validate_transition(before: PilotRunStateV1, after: PilotRunStateV1) -> None:
+    if after not in _NEXT.get(before, set()):
+        raise ValueError("ILLEGAL_PILOT_STATE_TRANSITION")

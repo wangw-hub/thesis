@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "FinalCitationClosureAuditV1",
+  "missingBibliography": [],
+  "orphanReferences": [],
+  "duplicates": 0,
+  "keyConflicts": 0,
+  "citedKeys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "bibliographyKeys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ]
+}

@@ -1,0 +1,48 @@
+﻿{
+    "schema_version":  1,
+    "updated_at_utc":  "2026-07-29T05:44:58.653197+00:00",
+    "project_title":  "面向非连续时间约束的区块链数据共享关键技术研究及实现",
+    "degree_type":  "计算机技术专业硕士",
+    "git":  {
+                "head_before_f13":  "990acbef09bba40251fbd46031cad19b9e3868dc",
+                "dirty":  true
+            },
+    "research":  {
+                     "content_1":  {
+                                       "status":  "COMPLETED_WITH_SCOPE_ADJUSTMENT",
+                                       "primary_representation":  "I*",
+                                       "derived_representation":  "C(P)",
+                                       "claim_status":  "C(P)_DEMOTED"
+                                   },
+                     "content_2":  {
+                                       "status":  "FORMAL_EVIDENCE_REQUIRES_RERUN",
+                                       "infrastructure_validation_chain_id":  2026072801,
+                                       "formal_authorization_chain_id":  2026072901,
+                                       "formal_genesis_sha256":  "7d431f01aab7d0c55c58c09346ee1f9a43475322a4aca304cfbb172b9b32add4",
+                                       "validators":  4,
+                                       "rpc_nodes":  1,
+                                       "postgresql":  "16.14",
+                                       "contract":  "0x9ef44cf538d0df457ba77c556d8785e48bfc436d",
+                                       "formal_experiment_admission":  "FORMAL_EXPERIMENT_ADMISSION_APPROVED",
+                                       "formal_run":  "formal_auth_multihost_20260729_34af4ff",
+                                       "formal_records":  103680,
+                                       "formal_raw_sha256":  "64cc50e3a3495e04460040fbf6d9ae8b3459948c3fe2ccd24618f391b47e9e6e",
+                                       "cp_position":  "C(P)_DEMOTED_CONFIRMED"
+                                   },
+                     "content_3":  {
+                                       "status":  "NOT_STARTED"
+                                   }
+                 },
+    "current_hard_stop":  {
+                              "id":  "HS-R2-FORMAL-REVIEW-001",
+                              "reason":  "material protocol deviations in live-chain access, locality generation, throughput, and cache metrics",
+                              "active":  true
+                          },
+    "formal_performance_data_allowed":  true,
+    "formal_performance_data_collected":  false,
+    "next_action":  "Correct, preregister, and completely rerun the Research Content 2 formal benchmark.",
+    "source_files":  [
+                         "infra\\besu-qbft-multihost\\formal-authorization-chain\\evidence\\f12\\formal-experiment-admission.json",
+                         "experiments\\runs\\pilot_multihost_20260729_990acbe\\processed\\audit.json"
+                     ]
+}

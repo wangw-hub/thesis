@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "FinalThesisIssueRegisterV1",
+  "issues": [
+    {
+      "issueId": "ISS-01",
+      "chapter": "第四章",
+      "level": "MAJOR",
+      "description": "4.10 记录数 5120 与 E1 验收 15120/15120 不一致",
+      "status": "RESOLVED_IN_MASTER"
+    },
+    {
+      "issueId": "ISS-02",
+      "chapter": "第五章",
+      "level": "MINOR",
+      "description": "正文引用为描述式，未编号标注",
+      "status": "FIXED_IN_MASTER"
+    },
+    {
+      "issueId": "ISS-03",
+      "chapter": "跨章",
+      "level": "MINOR",
+      "description": "算法编号风格（Algorithm 1 / 算法5-x）不统一",
+      "status": "FIXED_IN_MASTER"
+    },
+    {
+      "issueId": "ISS-04",
+      "chapter": "第五章",
+      "level": "FORMAT_ONLY",
+      "description": "Besu/PostgreSQL 文档访问日期待补充",
+      "status": "OPEN_FORMAT"
+    },
+    {
+      "issueId": "ISS-05",
+      "chapter": "整体",
+      "level": "LITERATURE_VERIFICATION_REQUIRED",
+      "description": "相关工作待核验条目见文献队列",
+      "status": "OPEN_QUEUE"
+    },
+    {
+      "issueId": "ISS-06",
+      "chapter": "第六章",
+      "level": "MINOR",
+      "description": "RC3 章节尚无文献编号引用（RFC 9180 等标准引用待排版统一）",
+      "status": "FIXED_IN_MASTER"
+    }
+  ],
+  "counts": {
+    "FATAL": 0,
+    "MAJOR": 0,
+    "MINOR": 3,
+    "FORMAT_ONLY": 1,
+    "LITERATURE_VERIFICATION_REQUIRED": 1
+  }
+}

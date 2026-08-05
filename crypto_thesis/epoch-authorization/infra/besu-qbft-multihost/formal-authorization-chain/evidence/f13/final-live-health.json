@@ -1,0 +1,55 @@
+{
+  "generated_at_utc": "2026-07-29T05:30:12.586278+00:00",
+  "chain_id": 2026072901,
+  "peer_count": 4,
+  "validators": [
+    "0x4a9fe6affeeb4adcc656076ff141922eeefc759c",
+    "0x4ab7535dfda9ffa87dc05456894ab50ad79b6183",
+    "0x9f4b0718f1b71066294cb63c4cdc6ff1490412ed",
+    "0xa5110773f0e5bf220b71b2b2cb67725ae04d530c"
+  ],
+  "block_before": 2856,
+  "block_after": 2859,
+  "blocks_growing": true,
+  "hosts": {
+    "besu-validator-1": {
+      "formal_service": "active",
+      "old_service": "disabled",
+      "genesis_sha256": "7d431f01aab7d0c55c58c09346ee1f9a43475322a4aca304cfbb172b9b32add4",
+      "besu_version": "besu/v26.5.0/linux-x86_64/openjdk-java-21",
+      "java_version": "openjdk version \"21.0.11\" 2026-04-21"
+    },
+    "besu-validator-2": {
+      "formal_service": "active",
+      "old_service": "disabled",
+      "genesis_sha256": "7d431f01aab7d0c55c58c09346ee1f9a43475322a4aca304cfbb172b9b32add4",
+      "besu_version": "besu/v26.5.0/linux-x86_64/openjdk-java-21",
+      "java_version": "openjdk version \"21.0.11\" 2026-04-21"
+    },
+    "besu-validator-3": {
+      "formal_service": "active",
+      "old_service": "disabled",
+      "genesis_sha256": "7d431f01aab7d0c55c58c09346ee1f9a43475322a4aca304cfbb172b9b32add4",
+      "besu_version": "besu/v26.5.0/linux-x86_64/openjdk-java-21",
+      "java_version": "openjdk version \"21.0.11\" 2026-04-21"
+    },
+    "besu-validator-4": {
+      "formal_service": "active",
+      "old_service": "disabled",
+      "genesis_sha256": "7d431f01aab7d0c55c58c09346ee1f9a43475322a4aca304cfbb172b9b32add4",
+      "besu_version": "besu/v26.5.0/linux-x86_64/openjdk-java-21",
+      "java_version": "openjdk version \"21.0.11\" 2026-04-21"
+    },
+    "experiment-client": {
+      "formal_service": "active",
+      "old_service": "not-found",
+      "genesis_sha256": "7d431f01aab7d0c55c58c09346ee1f9a43475322a4aca304cfbb172b9b32add4",
+      "besu_version": "besu/v26.5.0/linux-x86_64/openjdk-java-21",
+      "java_version": "openjdk version \"21.0.11\" 2026-04-21"
+    }
+  },
+  "all_formal_services_active": true,
+  "all_old_services_disabled": false,
+  "all_genesis_hashes_match": true,
+  "accepted": true
+}

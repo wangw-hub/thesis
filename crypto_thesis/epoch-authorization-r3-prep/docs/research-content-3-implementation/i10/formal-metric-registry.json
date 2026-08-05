@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "R3FormalMetricRegistryV1",
+  "metrics": [
+    {
+      "metricId": "M-01",
+      "name": "strict_validity",
+      "unit": "boolean/run",
+      "aggregation": "count and proportion by pre-registered config",
+      "primary": true,
+      "exclusion": "identity/SHA/evidence failures excluded and logged"
+    },
+    {
+      "metricId": "M-02",
+      "name": "state_consistency",
+      "unit": "boolean/run",
+      "aggregation": "invariant pass proportion",
+      "primary": true,
+      "exclusion": "missing fixed-block state is invalid"
+    },
+    {
+      "metricId": "M-03",
+      "name": "end_to_end_duration",
+      "unit": "milliseconds/run",
+      "aggregation": "median, IQR, mean, SD, percentile bootstrap CI",
+      "primary": true,
+      "exclusion": "invalid clock or partial phase"
+    },
+    {
+      "metricId": "M-04",
+      "name": "chain_receipt_duration",
+      "unit": "milliseconds/run",
+      "aggregation": "descriptive within semantic class",
+      "primary": false,
+      "exclusion": "diagnostic only when receipt absent"
+    },
+    {
+      "metricId": "M-05",
+      "name": "recipient_envelope_count",
+      "unit": "count/run",
+      "aggregation": "median and exact count",
+      "primary": true,
+      "exclusion": "input identity mismatch"
+    },
+    {
+      "metricId": "M-06",
+      "name": "body_bytes_processed",
+      "unit": "bytes/run",
+      "aggregation": "exact bytes and ratio to frozen input",
+      "primary": true,
+      "exclusion": "digest/size mismatch"
+    },
+    {
+      "metricId": "M-07",
+      "name": "release_decision_latency",
+      "unit": "milliseconds/run",
+      "aggregation": "median/IQR within security block",
+      "primary": true,
+      "exclusion": "decision not evaluated"
+    },
+    {
+      "metricId": "M-08",
+      "name": "recovery_duration",
+      "unit": "milliseconds/run",
+      "aggregation": "median/IQR and bootstrap CI by fault/replica block",
+      "primary": true,
+      "exclusion": "missing independent fault observation"
+    },
+    {
+      "metricId": "M-09",
+      "name": "repair_actions",
+      "unit": "count/run",
+      "aggregation": "exact count; zero is meaningful",
+      "primary": true,
+      "exclusion": "partial recovery evidence"
+    },
+    {
+      "metricId": "M-10",
+      "name": "object_source",
+      "unit": "categorical/run",
+      "aggregation": "count by LOCAL/KUBO and fault outcome",
+      "primary": true,
+      "exclusion": "unverified source"
+    },
+    {
+      "metricId": "M-11",
+      "name": "recovery_disposition",
+      "unit": "categorical/run",
+      "aggregation": "count by CONSISTENT/RECOVERY_IN_PROGRESS/UNRECOVERABLE",
+      "primary": true,
+      "exclusion": "unknown disposition"
+    },
+    {
+      "metricId": "M-12",
+      "name": "object_read_bytes",
+      "unit": "bytes/run",
+      "aggregation": "median/IQR in matched storage blocks",
+      "primary": false,
+      "exclusion": "read accounting unavailable"
+    }
+  ]
+}

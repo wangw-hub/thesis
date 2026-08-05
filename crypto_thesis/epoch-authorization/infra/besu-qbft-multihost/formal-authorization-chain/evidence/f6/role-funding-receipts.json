@@ -1,0 +1,47 @@
+{
+  "chain_id": 2026072901,
+  "deployer": "0xc347371416524Eb61AB871ac47043623b2C0038A",
+  "base_fee_per_gas": "7",
+  "receipts": [
+    {
+      "role": "ADMIN",
+      "recipient": "0xC422671d19aB3810B69B5f4e28EaA1655E92CeA6",
+      "amount_wei": "1000000000000000000",
+      "transaction_hash": "0x36e2b221e7533ac62425345d75cd7c0d95be60cfafccd6e80c785af9607c78f5",
+      "nonce": 0,
+      "gas_used": "0x5208",
+      "block_number": "0x180",
+      "status": "0x1"
+    },
+    {
+      "role": "OWNER",
+      "recipient": "0x55Ad93F30fC82Af657026CE5D755a0292cD12c86",
+      "amount_wei": "1000000000000000000",
+      "transaction_hash": "0xe4646a53f47d75dce7cab2bc4752ea18025c1937ba464ec3990b10bad80f7bdf",
+      "nonce": 1,
+      "gas_used": "0x5208",
+      "block_number": "0x181",
+      "status": "0x1"
+    },
+    {
+      "role": "AUTHORIZER",
+      "recipient": "0xc01BC223F7018B17FB8670c186d684C829755180",
+      "amount_wei": "1000000000000000000",
+      "transaction_hash": "0x477becbb7ad50ed54b5389b6dfa6f7b7d2278735e3e69796ff25305993570cb0",
+      "nonce": 2,
+      "gas_used": "0x5208",
+      "block_number": "0x182",
+      "status": "0x1"
+    },
+    {
+      "role": "REVOCATION",
+      "recipient": "0xd6207f065a3AE0D425AcDC406359dCC00F55536F",
+      "amount_wei": "1000000000000000000",
+      "transaction_hash": "0xd4515c47e501465c753b566b58441eb878615634d38dc3ea15373faba88d1f60",
+      "nonce": 3,
+      "gas_used": "0x5208",
+      "block_number": "0x183",
+      "status": "0x1"
+    }
+  ]
+}

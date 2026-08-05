@@ -1,0 +1,13 @@
+exit_code=0
+--- stdout ---
+hostname=besu-validator-4
+genesis_sha256=7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a
+private_key_sha256=8993119dd52b72697b7ff95f6f3c6e49704d30aff2ae3e90e9d432b4ac9b5efb
+public_key_sha256=12ed4424d94220606bb9e31bed5a301f5932fc8d0ff35a5e5436ed7ed28688c2
+644 root:besu /etc/besu/genesis.json
+640 root:besu /etc/besu/key
+644 root:besu /etc/besu/key.pub
+644 root:besu /etc/besu/validators.json
+public_key=fc0678110ce00588367df96a799f828e12e1729fb1bb8ec5f508a8ab28cabc8acf748f558650ccb5abfcef8746c58472d5e79864d026dabd88492300282d8433
+
+--- stderr ---

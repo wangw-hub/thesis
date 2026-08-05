@@ -1,0 +1,323 @@
+{
+  "generated_at_utc": "2026-07-29T05:30:13.896822+00:00",
+  "FUNDING_REVIEW_ONLY": false,
+  "formal_chain_id": 2026072901,
+  "file_count": 63,
+  "files": [
+    {
+      "path": "accounts/account-governance-manifest.json",
+      "size": 1776,
+      "sha256": "5a4e75b150b7576c01bc4787cee10fc6b33ff134beecf7ea7448435f7ba32801"
+    },
+    {
+      "path": "accounts/public-role-addresses.json",
+      "size": 790,
+      "sha256": "dbd53e8c91b77a1e4478ce9642f1c81ef4b4703894cffed45c63593a71254e53"
+    },
+    {
+      "path": "configs/authorization-services.json",
+      "size": 546,
+      "sha256": "c81943851704cdd65b0b5c9e4b97e575420dc1e73778284ea3df3ed6b2b391ab"
+    },
+    {
+      "path": "configs/besu-validator-1.toml",
+      "size": 481,
+      "sha256": "3cb2577c92e5c9262214142fba5dcd08a972aaf574a3c89b757e0af4250708c6"
+    },
+    {
+      "path": "configs/besu-validator-2.toml",
+      "size": 481,
+      "sha256": "180fa6359f67127e2bcc09458e81988589bc2fc3c35534f5e074143e8833e443"
+    },
+    {
+      "path": "configs/besu-validator-3.toml",
+      "size": 481,
+      "sha256": "f6ec1107a9985cbc072f8019657e86b30c916779f5a7d9f0a0f129b0a625cc42"
+    },
+    {
+      "path": "configs/besu-validator-4.toml",
+      "size": 481,
+      "sha256": "6d62b7816632a3c4391c399c03a27a376e0a35399366dd59bd208f02abf2d238"
+    },
+    {
+      "path": "configs/experiment-client.toml",
+      "size": 619,
+      "sha256": "b8633e888d88ece8193024380ad354771ebbd3477997d071d48bc06ede05db62"
+    },
+    {
+      "path": "configs/permissions_config.toml",
+      "size": 479,
+      "sha256": "24fc65de6bafcedd35e95fc2f61c7a2cb8b2d93b39c84857422d6f30657e8887"
+    },
+    {
+      "path": "configs/static-nodes.json",
+      "size": 657,
+      "sha256": "501771d2a63e74811f2dc32d534a614353b118e7e3bb2e8e481532ffc2879f85"
+    },
+    {
+      "path": "contracts/artifact-manifest.json",
+      "size": 359,
+      "sha256": "88fbbb0f17a71bc971fbf3ea0cd65a0a1ee5e6c9edb2a93fd2d49cc0af5883dd"
+    },
+    {
+      "path": "contracts/AuthorizationState.json",
+      "size": 45742,
+      "sha256": "b8cd8040e4a7683fb4454ea1cf3c3c4d97647611ad7cb3d616b72a35cf496ad5"
+    },
+    {
+      "path": "evidence/f10/controlled-faults.json",
+      "size": 3487,
+      "sha256": "0bde6091b37f14402018ef551eba95cd989310a77f955e639d14ca0b9e7e0914"
+    },
+    {
+      "path": "evidence/f12/formal-experiment-admission.json",
+      "size": 907,
+      "sha256": "01b91f77f1305328e4f331fc4df7b6fc43c8fb2a0ac79f1e2b8eef57359716e3"
+    },
+    {
+      "path": "evidence/f13/final-live-health.json",
+      "size": 2217,
+      "sha256": "611bde151865abe3fb6931c297c5f0921f4bb20a0e37a93bb41921eb4cef9d24"
+    },
+    {
+      "path": "evidence/f13/final-secret-scan.json",
+      "size": 34666,
+      "sha256": "f8ceb28cd86ea4b54212a1edb1b849a378b3351eb014a6fd32a09f2a181f1115"
+    },
+    {
+      "path": "evidence/f5/formal-chain-infrastructure-audit.json",
+      "size": 10169,
+      "sha256": "f881288939f7e01904c6377eb75f68ebbf6baa5f8bca1f4016f10b8d88843e4d"
+    },
+    {
+      "path": "evidence/f5/rpc-block-samples.json",
+      "size": 2577,
+      "sha256": "ec7065451a335bcb2f955f26f4f8b6ea69a999e9d54bfe50f975dfd75abba737"
+    },
+    {
+      "path": "evidence/f5/single-validator-recovery.json",
+      "size": 1244,
+      "sha256": "42f8d8ce65294e4ed963a0631f2cdeebf94c2cffddf182858a71018f0c2e605d"
+    },
+    {
+      "path": "evidence/f6/account-permissioning-rejection.json",
+      "size": 157,
+      "sha256": "4ddeb439cef6634820b7ae4a58090c117451444c57af230ec55f42a2f3c5873b"
+    },
+    {
+      "path": "evidence/f6/auditor-functional-funding.json",
+      "size": 294,
+      "sha256": "590317479ba1d42f25b33128a17ede52eaede2f7050c592dbb6cd1c62eea3ca2"
+    },
+    {
+      "path": "evidence/f6/role-funding-receipts.json",
+      "size": 1549,
+      "sha256": "2c00a4438e749e7d026326b8dd6f6040cc7d2981e70d37fd7086e2947828cee8"
+    },
+    {
+      "path": "evidence/f7/deployment.json",
+      "size": 435,
+      "sha256": "b443c54a5e57c5c548139035a0c584d920b1de66e85943440a52a34cd8901ea0"
+    },
+    {
+      "path": "evidence/f7/role-grants.json",
+      "size": 969,
+      "sha256": "139c6c56547e38adac228c24757e3f588ae0ca464a4eeb08be965fa24bac323a"
+    },
+    {
+      "path": "evidence/f7/state-machine-validation.json",
+      "size": 5380,
+      "sha256": "3cbf2e0bd9b6841e0522dea5ba18bc459307d00b651f9ca3dd8939b93b7893f9"
+    },
+    {
+      "path": "evidence/f8/cap2-live-binding.json",
+      "size": 540,
+      "sha256": "81c63e8514127813757df07ea04d2e397f9d9a89cb06c3af673556c4fba0f176"
+    },
+    {
+      "path": "evidence/f8/service-binding.json",
+      "size": 5297,
+      "sha256": "ba9d6ece9113eab66c16604208883b4579b897604fe0eaaba346d868321fcb38"
+    },
+    {
+      "path": "evidence/f9/live-security-and-semantics.json",
+      "size": 1155,
+      "sha256": "4b811079b0b4c9928010f020c23a7a921f383e6a66ab0f82c08b44a4391366d8"
+    },
+    {
+      "path": "evidence/f9/state-race.json",
+      "size": 242,
+      "sha256": "a4f58d9f654f959c3b12651a061f7cb85ec08f3db0abcfa54b1bcb28d70d4db7"
+    },
+    {
+      "path": "genesis/genesis.json",
+      "size": 838,
+      "sha256": "7d431f01aab7d0c55c58c09346ee1f9a43475322a4aca304cfbb172b9b32add4"
+    },
+    {
+      "path": "genesis/genesis.sha256",
+      "size": 80,
+      "sha256": "92440a0e163f5638e12c655e795d30663882144acf0a37fdc5c18a45d9444e92"
+    },
+    {
+      "path": "genesis/parameter-freeze.json",
+      "size": 430,
+      "sha256": "1ee00e87fffa541dd878a53b67362bba5feddbb0df4474bef481173b99d2bcad"
+    },
+    {
+      "path": "genesis/qbftConfigFile.json",
+      "size": 1530,
+      "sha256": "a8452865a1472c46ea7c6cf5a208a2c738e577bbd043bbcf1885400791273377"
+    },
+    {
+      "path": "README.md",
+      "size": 251,
+      "sha256": "30c50ed577731922b7c442997ff9e0d14408c73b50ac2e5191f89563987ca46d"
+    },
+    {
+      "path": "reports/F0-B1-decision-and-old-chain-preservation.md",
+      "size": 749,
+      "sha256": "3c7952fd81430360cf8b3b9c666675eca61de54476baccd3d7fbf92dcb7a6b05"
+    },
+    {
+      "path": "reports/F11-PILOT_ONLY-pre-experiment.md",
+      "size": 656,
+      "sha256": "2504e5e520c67f332a6205ae076c24e4b0aaf23b9fa1bd3f4a75f0b54bc43b4d"
+    },
+    {
+      "path": "reports/F12-formal-experiment-admission.md",
+      "size": 446,
+      "sha256": "c0deee98ce5adc8fb0856d016225722077992f0a7a237e2f4d5ba126c11cf8a7"
+    },
+    {
+      "path": "reports/F13-final-governance-and-freeze.md",
+      "size": 1349,
+      "sha256": "f0a531515ac4472504c1da3c9c9746620e1b65ad48e05957bbc120b069778acb"
+    },
+    {
+      "path": "scripts/powershell/01-generate-formal-accounts.ps1",
+      "size": 1684,
+      "sha256": "65068838625f933e20cc6c520ff4678da961fe525fc67e0c7e3be0c5706eaf21"
+    },
+    {
+      "path": "scripts/powershell/restore-infrastructure-validation-chain.ps1",
+      "size": 154,
+      "sha256": "61355dab9d3fc245ca87affc88daa88aa0b3e78b8fb7e5b2ffd1357020568b99"
+    },
+    {
+      "path": "scripts/python/__pycache__/fund_roles.cpython-313.pyc",
+      "size": 5925,
+      "sha256": "b2b12e84c3a64f660e15a3e8d3e0b220686aa5c90d427e99365587a39f87caa9"
+    },
+    {
+      "path": "scripts/python/collect_f13_final.py",
+      "size": 4359,
+      "sha256": "d53d01cf2620b340613b17d787eefa3e6ac583527e98aae51e67287df3fbe529"
+    },
+    {
+      "path": "scripts/python/finalize_f11_f13.py",
+      "size": 17014,
+      "sha256": "090094d500e0ed40951571555b756ec2116705d8ac26857b0cf7e81bcf27356d"
+    },
+    {
+      "path": "scripts/python/fund_roles.py",
+      "size": 3637,
+      "sha256": "b5d9d35b068b219d4df3cf033b0e2af958af0de766910d749ea13071419cdf0a"
+    },
+    {
+      "path": "scripts/python/prepare_service_state.py",
+      "size": 5491,
+      "sha256": "aacafe1198a6eaaefe8a0f30b332537bf86d1a257f781b16c5f72388f2f247ab"
+    },
+    {
+      "path": "scripts/python/run_f10_faults.py",
+      "size": 5920,
+      "sha256": "7f998b7a0b3e76d3043db072d6063b4154e1a319ec34fc62167a22fbdc111fd1"
+    },
+    {
+      "path": "scripts/python/run_f11_pilot.py",
+      "size": 14731,
+      "sha256": "b11dca010599cbf6fa9333ed50ffde0e558eedab89f5f6b1608ff268035e2322"
+    },
+    {
+      "path": "scripts/python/run_f9_live.py",
+      "size": 8026,
+      "sha256": "90995442e96bc42c6f24c5cf350c393fe76e8bcb8f1c41d656b3e877e308be2a"
+    },
+    {
+      "path": "scripts/python/scan_f13_secrets.py",
+      "size": 4101,
+      "sha256": "9784fb74df8862e435e6fdf5af9167417bfde8ca8b7e44f6ca0ba3a90c6ba72a"
+    },
+    {
+      "path": "scripts/python/validate_cap2_chain_binding.py",
+      "size": 4935,
+      "sha256": "8e28549c74853703636ac0b5b28252caee7f6c13270a1e3c27e4cbfa128d2e44"
+    },
+    {
+      "path": "scripts/python/validate_state_machine.py",
+      "size": 5371,
+      "sha256": "0c67b31d7e7afbd0c76dee1bdb8e8602d862374f6cc37e821b892a87317f9fb2"
+    },
+    {
+      "path": "scripts/python/validate_state_race.py",
+      "size": 4804,
+      "sha256": "9e9fd87dfca0c316052315bbf06a8b059bae8dd80ad3c880394f7baa9d173c23"
+    },
+    {
+      "path": "scripts/remote/formal_nonce_concurrency.py",
+      "size": 2656,
+      "sha256": "8f40894c9c804df3b8b54d3d4a265a78680516880ac497ee02665eab722f8568"
+    },
+    {
+      "path": "scripts/remote/nonce_bridge.py",
+      "size": 2022,
+      "sha256": "e048c3e6100a0f7db0286ddeb78090ad6bc6d3bf52e7d8d828a3c2c8a4d72ddb"
+    },
+    {
+      "path": "scripts/remote/service_daemon.py",
+      "size": 2616,
+      "sha256": "94a555ca3b5c576689a523b2e9958782171d99f115c0987eb97f4038666ea4b3"
+    },
+    {
+      "path": "state/continuous-execution-state.json",
+      "size": 656,
+      "sha256": "2949eec16d1ae6bbbf5463e6ab699b9505897d65301e624a1032411c716bfcb6"
+    },
+    {
+      "path": "state/resume-checkpoint.md",
+      "size": 914,
+      "sha256": "26201dc6ae3d415cf54a9ab2e5b79ae5fe2797cc8ff47c4e19ea5986d9843290"
+    },
+    {
+      "path": "systemd/epoch-auth-issuer.service",
+      "size": 444,
+      "sha256": "929043787a9aa36ff96c5cdbe4f9bc4a282deae64fb9810cb52ba457ff40276b"
+    },
+    {
+      "path": "systemd/epoch-auth-verifier-1.service",
+      "size": 488,
+      "sha256": "9f076e61c83040da503e5d27c497fe195ecb971d7a4920a4494765fad2a38369"
+    },
+    {
+      "path": "systemd/epoch-auth-verifier-2.service",
+      "size": 488,
+      "sha256": "4891e2d3030e97a91b652604f1017b38de46458e1a3c381522c212eb004e4322"
+    },
+    {
+      "path": "validator-public/node-ids.txt",
+      "size": 528,
+      "sha256": "34795c519106cf71438d328add902cd1df5c4d50d88a82677fec66085d9b4165"
+    },
+    {
+      "path": "validator-public/validator-addresses.txt",
+      "size": 176,
+      "sha256": "b599cbce2fa59de86ecf51927d537c449c540000715d4c30431f81445de697a8"
+    },
+    {
+      "path": "validator-public/validators.json",
+      "size": 1093,
+      "sha256": "334543f779433ef3a16851abaee7a0cf5d9f0afc955aeff11b8e22a51914235d"
+    }
+  ]
+}

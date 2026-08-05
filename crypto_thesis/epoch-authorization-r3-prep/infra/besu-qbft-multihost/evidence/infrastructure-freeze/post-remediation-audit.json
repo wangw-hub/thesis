@@ -1,0 +1,128 @@
+﻿{
+    "stage":  "A",
+    "checked_at_utc":  "2026-07-29T02:22:51.3887212Z",
+    "git_head":  "e291f56dfd6510388ea489a9d46a5eb99f13c3be",
+    "git_status":  [
+                       " M .gitignore",
+                       " M blockchain/besu/README.md",
+                       "?? blockchain/besu/scripts/prepare.example.ps1",
+                       "?? blockchain/besu/scripts/prepare.ps1",
+                       "?? blockchain/besu/secrets.example.md",
+                       "?? infra/besu-qbft-multihost/",
+                       "?? scripts/security/"
+                   ],
+    "cached_diff":  [
+
+                    ],
+    "worktree_diff":  [
+                          ".gitignore",
+                          "blockchain/besu/README.md"
+                      ],
+    "tracked_file_count":  119,
+    "secret_candidate_count":  5,
+    "secret_candidates":  [
+                              {
+                                  "path":  "blockchain/besu/generated/genesis.json",
+                                  "pattern":  "0x[0-9a-fA-F]{64}"
+                              },
+                              {
+                                  "path":  "blockchain/besu/genesis/qbftConfigFile.json",
+                                  "pattern":  "0x[0-9a-fA-F]{64}"
+                              },
+                              {
+                                  "path":  "infra/multihost/README.md",
+                                  "pattern":  "PRIVATE KEY"
+                              },
+                              {
+                                  "path":  "src/epoch_auth/blockchain/besu_gateway.py",
+                                  "pattern":  "PRIVATE KEY"
+                              },
+                              {
+                                  "path":  "src/epoch_auth/keys.py",
+                                  "pattern":  "PRIVATE KEY"
+                              }
+                          ],
+    "classified_secret_summary":  {
+                                      "generated_at_utc":  "2026-07-29T02:20:16.6972679Z",
+                                      "worktree_candidate_count":  93,
+                                      "committable_true_secret_count":  0,
+                                      "unclassified_count":  0,
+                                      "current_required_secret_count":  6,
+                                      "tracked_true_secret_count":  0,
+                                      "reachable_history_true_secret_count":  0,
+                                      "active_object_true_secret_count":  0,
+                                      "unsafe_prepare_history_entries":  0,
+                                      "prepare_checks":  {
+                                                             "syntax_errors":  0,
+                                                             "hardcoded_32_byte_hex":  0,
+                                                             "accepts_secret_file_path":  true,
+                                                             "rejects_tracked_secret":  true,
+                                                             "rejects_existing_key":  true,
+                                                             "contains_ssh_command":  false
+                                                         },
+                                      "refs":  [
+                                                   "e291f56dfd6510388ea489a9d46a5eb99f13c3be refs/heads/master"
+                                               ],
+                                      "remotes":  [
+
+                                                  ],
+                                      "tags":  [
+
+                                               ],
+                                      "stash":  [
+
+                                                ],
+                                      "git_fsck_output":  [
+
+                                                          ]
+                                  },
+    "private_tracked":  [
+
+                        ],
+    "genesis_expected_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+    "genesis_actual_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+    "nodes":  [
+                  {
+                      "host":  "besu-validator-1",
+                      "service":  "besu.service",
+                      "active":  true,
+                      "besu_version":  "besu/v26.5.0/linux-x86_64/openjdk-java-21"
+                  },
+                  {
+                      "host":  "besu-validator-2",
+                      "service":  "besu.service",
+                      "active":  true,
+                      "besu_version":  "besu/v26.5.0/linux-x86_64/openjdk-java-21"
+                  },
+                  {
+                      "host":  "besu-validator-3",
+                      "service":  "besu.service",
+                      "active":  true,
+                      "besu_version":  "besu/v26.5.0/linux-x86_64/openjdk-java-21"
+                  },
+                  {
+                      "host":  "besu-validator-4",
+                      "service":  "besu.service",
+                      "active":  true,
+                      "besu_version":  "besu/v26.5.0/linux-x86_64/openjdk-java-21"
+                  },
+                  {
+                      "host":  "experiment-client",
+                      "service":  "besu-rpc.service",
+                      "active":  true,
+                      "besu_version":  "besu/v26.5.0/linux-x86_64/openjdk-java-21"
+                  }
+              ],
+    "chain_id_hex":  "0x78c36ae1",
+    "block_number_hex":  "0x6d8d",
+    "block_number_after_hex":  "0x6d90",
+    "peer_count_hex":  "0x4",
+    "validator_addresses":  [
+                                "0x1583e3922a8b9477d08e00919418a30e619ed49c",
+                                "0x599d6230371a00524208ad63164aae5f90ab5d36",
+                                "0x6e86edb3d714dc28e149edd280625ded1436fadf",
+                                "0xd7716b03e26dba82368fd4bf2c263da6a76e086b"
+                            ],
+    "validator_count":  4,
+    "validators_match_manifest":  true
+}

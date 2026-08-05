@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "git_head": "26ef5bc8dc7b09e683aae8c7d7012f779f6847ed",
+  "status": "FROZEN_READ_ONLY_BASELINE",
+  "chain": {
+    "role": "FORMAL_AUTHORIZATION_EXPERIMENT_CHAIN",
+    "besu_version": "26.5.0",
+    "consensus": "QBFT",
+    "chain_id": 2026072901,
+    "network_id": 2026072901,
+    "genesis_sha256": "7d431f01aab7d0c55c58c09346ee1f9a43475322a4aca304cfbb172b9b32add4",
+    "validator_count": 4,
+    "rpc_node_role": "NON_VALIDATOR",
+    "validator_addresses": [
+      "0x4a9fe6affeeb4adcc656076ff141922eeefc759c",
+      "0x4ab7535dfda9ffa87dc05456894ab50ad79b6183",
+      "0x9f4b0718f1b71066294cb63c4cdc6ff1490412ed",
+      "0xa5110773f0e5bf220b71b2b2cb67725ae04d530c"
+    ]
+  },
+  "authorization_state": {
+    "contract_name": "AuthorizationState",
+    "address": "0x9ef44cf538d0df457ba77c556d8785e48bfc436d",
+    "deployment_block": 1483,
+    "artifact_sha256": "b8cd8040e4a7683fb4454ea1cf3c3c4d97647611ad7cb3d616b72a35cf496ad5",
+    "source_sha256": "a6ad3e76eed272036eaa1f9c5c6086c3cf46f198b1adb66045915409c3056c5f",
+    "access_roles_source_sha256": "bf648049ff27def786dcb2d02de7411c2c4705ffd58361d2745ec59437f7b50f",
+    "abi_canonical_sha256": "bf9780238971c3e505756dcb2d0fd53ef823fb73ef4b9a994e77313044dda0a0",
+    "bytecode_ascii_hex_sha256": "d9c20c6638b1e5d084170c4f67fcd92882a057da0213d012538868caacbb9840",
+    "deployed_bytecode_ascii_hex_sha256": "7c35d95acb2ae3c2871d713ce678db436b04d00f7aef8a693459b7eb8b04329f",
+    "compiler": "solc 0.8.30",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evm_version": "london",
+    "roles": [
+      "ADMIN_ROLE",
+      "OWNER_ROLE",
+      "AUTHORIZER_ROLE",
+      "REVOCATION_ROLE",
+      "AUDITOR_ROLE"
+    ],
+    "resource_fields": [
+      "owner:address",
+      "policyDigest:bytes32",
+      "epoch:uint64",
+      "status:Status",
+      "policyVersion:uint64",
+      "stateVersion:uint64",
+      "updatedAtBlock:uint64"
+    ],
+    "user_fields": [
+      "account:address",
+      "userKeyId:bytes32",
+      "status:Status",
+      "userVersion:uint64",
+      "updatedAtBlock:uint64"
+    ],
+    "status_values": [
+      "NONE",
+      "ACTIVE",
+      "SUSPENDED",
+      "REVOKED"
+    ],
+    "read_methods": [
+      "getResource(bytes32)",
+      "getUser(bytes32)",
+      "hasRole(bytes32,address)"
+    ],
+    "write_methods": [
+      "registerResource(bytes32,address,bytes32)",
+      "updatePolicy(bytes32,bytes32)",
+      "advanceEpoch(bytes32,bytes32)",
+      "suspendResource(bytes32)",
+      "activateResource(bytes32)",
+      "revokeResource(bytes32)",
+      "registerUser(bytes32,address,bytes32)",
+      "rotateUserKey(bytes32,bytes32)",
+      "suspendUser(bytes32)",
+      "activateUser(bytes32)",
+      "revokeUser(bytes32)",
+      "grantRole(bytes32,address)",
+      "revokeRole(bytes32,address)"
+    ],
+    "events": [
+      "ResourceRegistered",
+      "PolicyUpdated",
+      "EpochAdvanced",
+      "ResourceStatusChanged",
+      "UserRegistered",
+      "UserKeyRotated",
+      "UserStatusChanged",
+      "RoleGranted",
+      "RoleRevoked"
+    ],
+    "terminal_states": [
+      "resource.REVOKED",
+      "user.REVOKED"
+    ],
+    "historical_interface_stub": {
+      "path": "contracts/interfaces/IAuthorizationState.sol",
+      "sha256": "0971d6a02fd803832d6bc880d3d21e2c0f90520a3ecf7e1d5dce23c5e2707ea4",
+      "status": "SUPERSEDED_NON_AUTHORITATIVE_STUB",
+      "reason": "Its resource tuple omits deployed stateVersion."
+    }
+  },
+  "cap2": {
+    "magic": "CAP2",
+    "version": 2,
+    "signature_algorithm": "Ed25519",
+    "user_key_id": "SHA-256(raw Ed25519 public key)",
+    "integer_encoding": "unsigned big-endian",
+    "fields": [
+      "magic:bytes4",
+      "version:uint8",
+      "flags:uint8",
+      "issuer:utf8-u16-length",
+      "resourceId:utf8-u16-length",
+      "policyDigest:bytes32",
+      "epoch:uint64",
+      "userKeyId:bytes32",
+      "operation:uint8",
+      "notBefore:uint64",
+      "expiresAt:uint64",
+      "nonce:bytes16",
+      "issuedAt:uint64",
+      "chainId:uint64",
+      "contractAddress:bytes20",
+      "resourceStateVersion:uint64",
+      "userVersion:uint64",
+      "matchedNode.start:uint64:optional",
+      "matchedNode.size:uint64:optional",
+      "coverVersion:bytes32:optional"
+    ],
+    "operations": {
+      "READ": 1,
+      "UPDATE": 2,
+      "MANAGE": 3
+    },
+    "canonical_signing_bytes": "encode_capability(payload)",
+    "policy_digest_representation": "I*",
+    "chain_id": 2026072901,
+    "contract_address": "0x9ef44cf538d0df457ba77c556d8785e48bfc436d"
+  },
+  "besu_state_gateway": {
+    "input": [
+      "resource_id:str",
+      "user_id:str"
+    ],
+    "output": "ConfirmedState(block_number,block_hash,resource_state,user_state)",
+    "pair_block_semantics": "Resource and user are read at the same selected confirmed block.",
+    "confirmations": 0,
+    "rpc_attempts": 3,
+    "unknown_state": "Required-state absence raises GatewayUnavailable; no guessed UNKNOWN value is returned.",
+    "rpc_error": "GatewayUnavailable",
+    "fail_closed": true,
+    "stale_fallback": false,
+    "v13_reads_per_request": 3,
+    "v13_read_boundary": [
+      "issuer initial state read",
+      "issuer pre-sign state reread",
+      "verifier state read"
+    ]
+  },
+  "issuer": {
+    "preconditions": [
+      "resource exists and ACTIVE",
+      "user exists and ACTIVE",
+      "presented public key matches userKeyId",
+      "I* policyDigest matches state",
+      "time policy permits request",
+      "pre-sign state reread equals initial snapshot"
+    ],
+    "gateway_failure_code": "SYSTEM_STATE_UNAVAILABLE",
+    "state_race_code": "SYSTEM_STATE_UNAVAILABLE",
+    "output": "Ed25519-signed canonical CAP2"
+  },
+  "verifier": {
+    "instances": [
+      "Verifier-1",
+      "Verifier-2"
+    ],
+    "shared_nonce_truth": "PostgreSQL",
+    "nonce_consumption_point": "After all signature, state, context, key, operation, time and policy checks.",
+    "accept_condition": "All checks pass and atomic Nonce consumption returns one row."
+  },
+  "postgresql": {
+    "version": "16.14",
+    "business_schema_change_policy": "FROZEN",
+    "consumed_nonce_unique_key": [
+      "chain_id",
+      "contract_address",
+      "resource_id",
+      "epoch",
+      "nonce"
+    ],
+    "atomic_consume": "INSERT ... ON CONFLICT DO NOTHING RETURNING 1",
+    "audit_fields": [
+      "verifier_id",
+      "consumed_at"
+    ],
+    "transaction_nonce_state_key": [
+      "chain_id",
+      "sender"
+    ],
+    "transaction_nonce_lock": "SELECT next_nonce ... FOR UPDATE",
+    "reservation_states": [
+      "RESERVED",
+      "BROADCAST",
+      "CONFIRMED",
+      "FAILED"
+    ],
+    "fail_closed": true,
+    "research_content_3_schema": "r3_control"
+  },
+  "rejection_order": [
+    "MALFORMED_TOKEN",
+    "INVALID_SIGNATURE",
+    "SYSTEM_STATE_UNAVAILABLE",
+    "RESOURCE_NOT_FOUND",
+    "RESOURCE_INACTIVE",
+    "USER_NOT_FOUND",
+    "USER_INACTIVE",
+    "POLICY_DIGEST_MISMATCH",
+    "EPOCH_MISMATCH",
+    "CHAIN_CONTEXT_MISMATCH",
+    "STATE_VERSION_MISMATCH",
+    "USER_VERSION_MISMATCH",
+    "USER_KEY_MISMATCH",
+    "OPERATION_MISMATCH",
+    "NOT_YET_VALID",
+    "EXPIRED",
+    "POLICY_DIGEST_MISMATCH",
+    "TIME_POLICY_DENIED",
+    "NONCE_REPLAY",
+    "ACCEPT"
+  ],
+  "fail_closed_rules": [
+    "RPC or required-state failure prevents issuance and verification.",
+    "Issuer state-race detection prevents signing.",
+    "PostgreSQL failure prevents successful verification.",
+    "No in-memory Nonce fallback is permitted in formal service mode.",
+    "CAP1 or mismatched chain/contract context is rejected in chain mode."
+  ],
+  "source_files": [
+    "contracts/AuthorizationState.sol",
+    "contracts/AccessRoles.sol",
+    "infra/besu-qbft-multihost/formal-authorization-chain/contracts/AuthorizationState.json",
+    "src/epoch_auth/models.py",
+    "src/epoch_auth/serialization.py",
+    "src/epoch_auth/token.py",
+    "src/epoch_auth/keys.py",
+    "src/epoch_auth/issuer.py",
+    "src/epoch_auth/verifier.py",
+    "src/epoch_auth/blockchain/besu_gateway.py",
+    "services/shared_nonce/postgres.py",
+    "deployment/postgresql/schema.sql",
+    "deployment/transaction_nonce.py"
+  ],
+  "artifact_hashes": {
+    "models_py": "68e3fbbf3bd013948370e7ec55df422f3bcc1379039e44190004836fd713419e",
+    "serialization_py": "88b5eea4070d92295f2a50975cf56bb5425a3ff0b8ec2f9cd34431a0c77c6dab",
+    "issuer_py": "714bc96fb4b69b8f626d0cdfefa4e82ea8a424d709e153f8025d8bf99bbaa85e",
+    "verifier_py": "d369121f515906d714f284b763ffb8f9977391899362696eea1ad29b63cebc1c",
+    "besu_gateway_py": "85123b38ab05548ad77aebe4f4ce550ce4d15659f560956d4d8da3fea8ca4e3b",
+    "postgres_nonce_store_py": "f3c4a42bac5bb3086687dbcbcef476e23f839e8f8954cf21ae9ce519b29e84b9",
+    "postgres_schema_sql": "d7b2d33e231422e52780d22b01b5aaa87b3261d73781ae901a1e43b7ff3183cd",
+    "transaction_nonce_py": "5a5e6688a54aafe7219010b606be20b71bae7e5814a14925e897785c200c2070"
+  }
+}

@@ -1,0 +1,10 @@
+UTC: 2026-07-28T09:22:49.2066166Z
+Stage: 0
+Attempt: 2
+Host: besu-validator-1
+Exit code: 1
+STDERR: bash: line 137: $'\r': command not found
+Remote changes: none
+Other hosts attempted: no
+Stage 1 started: no
+Cause: PowerShell native pipeline appended a Windows newline.

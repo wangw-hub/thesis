@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "LiteratureVerificationRecordV1",
+  "referenceId": "REF-01",
+  "citationKey": "[1]",
+  "currentBibliographyEntry": "[1] Bertino E, Bonatti P A, Ferrari E. TRBAC: A Temporal Role-Based Access Control Model. ACM Transactions on Information and System Security, 2001.",
+  "title": "TRBAC: A Temporal Role-Based Access Control Model",
+  "authors": "Bertino E, Bonatti P A, Ferrari E",
+  "year": 2001,
+  "venue": "ACM Transactions on Information and System Security",
+  "publicationType": "JOURNAL_ARTICLE",
+  "volume": 4,
+  "issue": 3,
+  "pages": "191-233",
+  "publisher": "ACM",
+  "DOI": "10.1145/501978.501979",
+  "URL": null,
+  "formalPublicationStatus": "JOURNAL/CONFERENCE/RFC/ENGINEERING",
+  "preprintStatus": false,
+  "officialSource": "https://dblp.org/search?q=TRBAC",
+  "secondarySources": [
+    "https://dl.acm.org/doi/10.1145/501978.501979"
+  ],
+  "metadataMatch": true,
+  "claimSupport": "DIRECTLY_SUPPORTED",
+  "claimSupportLevel": "DIRECTLY_SUPPORTED",
+  "verificationStatus": "VERIFIED_WITH_CORRECTION",
+  "recommendedAction": "采纳（必要时按 correction 修正）",
+  "notes": "页码 191-223→191-233；DOI 由 10.1145/344287.344298（RBAC'00 工作坊版）更正为期刊版 10.1145/501978.501979",
+  "accessDate": "2026-08-02"
+}

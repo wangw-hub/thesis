@@ -1,0 +1,17 @@
+exit_code=0
+--- stdout ---
+[2m2026-07-28 18:37:29.347+0800[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mGenerateBlockchainConfig[m[2m | [m[32mGenerating 4 nodes keys.
+[m[2m2026-07-28 18:37:29.355+0800[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mGenerateBlockchainConfig[m[2m | [m[32mGenerating keypair for node 0.
+[m[2m2026-07-28 18:37:30.288+0800[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mGenerateBlockchainConfig[m[2m | [m[32mGenerating keypair for node 1.
+[m[2m2026-07-28 18:37:30.292+0800[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mGenerateBlockchainConfig[m[2m | [m[32mGenerating keypair for node 2.
+[m[2m2026-07-28 18:37:30.297+0800[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mGenerateBlockchainConfig[m[2m | [m[32mGenerating keypair for node 3.
+[m[2m2026-07-28 18:37:30.304+0800[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mGenerateBlockchainConfig[m[2m | [m[32mGenerating QBFT extra data.
+[m[2m2026-07-28 18:37:30.311+0800[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mGenerateBlockchainConfig[m[2m | [m[32mWriting genesis file.
+[mbesu_version=besu/v26.5.0/linux-x86_64/openjdk-java-21
+genesis_sha256=7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a
+archive_sha256=bbac9d1d1863b651153dfb32a8b33ee9e65660b60da90be40ca66f2d66509325
+private_key_count=4
+public_key_count=4
+generated_at_utc=2026-07-28T10:37:34Z
+
+--- stderr ---

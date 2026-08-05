@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "ThesisSourceAuthorityMapV1",
+  "sources": [
+    {
+      "path": "D:/Research/crypto_thesis/time-policy/第四章正式修订稿V1.2.md",
+      "chapter": "第四章",
+      "authorityLevel": "AUTHORITATIVE_CHAPTER_SOURCE",
+      "currentOrObsolete": "CURRENT"
+    },
+    {
+      "path": "D:/Research/crypto_thesis/epoch-authorization/docs/thesis-drafts/第5章_…_最终定稿.md",
+      "chapter": "第五章",
+      "authorityLevel": "AUTHORITATIVE_CHAPTER_SOURCE",
+      "currentOrObsolete": "CURRENT"
+    },
+    {
+      "path": "docs/research-content-3-implementation/i13/THESIS-RC3-WRITEBACK-FINAL.md",
+      "chapter": "第六章",
+      "authorityLevel": "AUTHORITATIVE_CHAPTER_SOURCE",
+      "currentOrObsolete": "CURRENT"
+    },
+    {
+      "path": "D:/Research/heart_thesis/开题报告表-王威-1 (2).docx",
+      "chapter": "开题",
+      "authorityLevel": "HISTORICAL_SOURCE",
+      "currentOrObsolete": "OBSOLETE_FOR_BODY"
+    },
+    {
+      "path": "docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md",
+      "chapter": "全论文",
+      "authorityLevel": "INTEGRATED_CANDIDATE",
+      "currentOrObsolete": "CURRENT_CANDIDATE"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+exit_code=0
+[2m2026-07-28 18:59:18.850+0800[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mKeyPairUtil[m[2m | [m[32mAttempting to load public key from /tmp/besu-rpc-key
+[m[2m2026-07-28 18:59:18.887+0800[m[2m | [m[2mmain[m[2m | [m[32mINFO [m[2m | [m[2mKeyPairUtil[m[2m | [m[32mLoaded public key 0x82a8ae5daa0ad3d00d58fad9a59f3567a08767191a667d55ec5df94bead2d02f41522d591db46f72def6d1e5f9ab013c8efce1ffccc165db6ae4681ad8ae0700 from /tmp/besu-rpc-key
+[mbesu/v26.5.0/linux-x86_64/openjdk-java-21
+rpc_node_id=82a8ae5daa0ad3d00d58fad9a59f3567a08767191a667d55ec5df94bead2d02f41522d591db46f72def6d1e5f9ab013c8efce1ffccc165db6ae4681ad8ae0700
+rpc_private_key_sha256=9fe4877a3cd2a98e9ba5657380ba6c528d14093832ca1c6f1c849969ac010460
+service_started_at_utc=2026-07-28T10:59:22Z
+
+/opt/besu/bin/besu: 41: cd: can't cd to /home/thesis
+Created symlink /etc/systemd/system/multi-user.target.wants/besu-rpc.service → /etc/systemd/system/besu-rpc.service.

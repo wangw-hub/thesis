@@ -1,0 +1,10 @@
+# I5 部署报告
+
+- 链：r3_i5，chainId 2026073005，单验证者 QBFT
+- Genesis SHA：`010711cdf0b30fa87ab605489068fd897f7140e9c7d921e5fe2faee24b5a369d`
+- AuthorizationState 镜像：`0x12BA996711Db58897A525b5a718225bD085A3c5f`
+- HeaderRegistry：`0x280b757a16525AdAef8ED88EE158e0c6F924B35F`
+- Registry 部署块：830
+- INITIAL/HEADER_ONLY/BODY_ROTATION 块：832/833/834
+
+服务重启后 33/33 测试再次通过，链状态持久。

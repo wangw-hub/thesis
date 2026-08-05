@@ -1,0 +1,15 @@
+{
+  "stage": 6,
+  "attempt": 1,
+  "operation": "pre-restart chain identity acceptance",
+  "exit_code": 1,
+  "reason": "The remote collector used shell input redirection before sudo while reading /etc/besu/key.pub, so all collected node IDs were empty.",
+  "observed_facts": {
+    "services_active": true,
+    "private_key_hashes_unique": true,
+    "fixed_height_block_hash_consistent": true,
+    "restart_operations_started": false
+  },
+  "impact": "Acceptance stopped before either authorized restart; no remote state was changed.",
+  "resolution": "Read key.pub through sudo cat and normalize the public value after the privileged read."
+}

@@ -1,0 +1,13 @@
+{
+  "stage": 5,
+  "attempt": 5,
+  "status": "RPC_HEALTHY_LOCAL_POSTPROCESSING_FAILED",
+  "observed": {
+    "block_number_hex": "0x199",
+    "peer_count": 4,
+    "validator_count": 4
+  },
+  "cause": "Windows PowerShell 5 does not support the implicit `.address` property enumeration used on the Validator object array.",
+  "remote_changes": false,
+  "resolution": "Enumerate manifest objects explicitly and rerun acceptance only."
+}

@@ -1,0 +1,513 @@
+{
+  "schemaVersion": "M6ReferenceRegistryV1",
+  "references": [
+    {
+      "n": 1,
+      "authors": "Sandhu R S, Coyne E J, Feinstein H L, et al.",
+      "title": "Role-based access control models",
+      "venue": "IEEE Computer",
+      "year": 1996,
+      "volume_issue": "29(2)",
+      "pages": "38-47",
+      "type": "JOURNAL",
+      "doi": "10.1109/2.485845",
+      "sources": [
+        "dblp",
+        "IEEE Xplore"
+      ],
+      "verified": true
+    },
+    {
+      "n": 2,
+      "authors": "Bertino E, Bonatti P A, Ferrari E",
+      "title": "TRBAC: A temporal role-based access control model",
+      "venue": "ACM Transactions on Information and System Security",
+      "year": 2001,
+      "volume_issue": "4(3)",
+      "pages": "191-233",
+      "type": "JOURNAL",
+      "doi": "10.1145/501978.501979",
+      "sources": [
+        "dblp",
+        "ACM DL"
+      ],
+      "verified": true
+    },
+    {
+      "n": 3,
+      "authors": "Panda S, Sahoo S, Halder R, et al.",
+      "title": "Contextual attribute-based access control scheme for cloud storage using blockchain technology",
+      "venue": "Software: Practice and Experience",
+      "year": 2024,
+      "volume_issue": "54(10)",
+      "pages": "2042-2062",
+      "type": "JOURNAL",
+      "doi": null,
+      "sources": [
+        "researchr",
+        "NSTL"
+      ],
+      "verified": true
+    },
+    {
+      "n": 4,
+      "authors": "Bethencourt J, Sahai A, Waters B",
+      "title": "Ciphertext-policy attribute-based encryption",
+      "venue": "IEEE Symposium on Security and Privacy",
+      "year": 2007,
+      "volume_issue": null,
+      "pages": "321-334",
+      "type": "CONFERENCE",
+      "doi": "10.1109/SP.2007.11",
+      "sources": [
+        "dblp",
+        "Crossref"
+      ],
+      "verified": true
+    },
+    {
+      "n": 5,
+      "authors": "Hardt D",
+      "title": "The OAuth 2.0 authorization framework",
+      "venue": "RFC 6749",
+      "year": 2012,
+      "volume_issue": null,
+      "pages": null,
+      "type": "STANDARD",
+      "doi": "10.17487/RFC6749",
+      "sources": [
+        "RFC Editor",
+        "IETF Datatracker"
+      ],
+      "verified": true
+    },
+    {
+      "n": 6,
+      "authors": "Jones M, Bradley J, Sakimura N",
+      "title": "JSON Web Token (JWT)",
+      "venue": "RFC 7519",
+      "year": 2015,
+      "volume_issue": null,
+      "pages": null,
+      "type": "STANDARD",
+      "doi": "10.17487/RFC7519",
+      "sources": [
+        "RFC Editor",
+        "IETF Datatracker"
+      ],
+      "verified": true
+    },
+    {
+      "n": 7,
+      "authors": "Nakamoto S",
+      "title": "Bitcoin: A peer-to-peer electronic cash system",
+      "venue": "Bitcoin.org",
+      "year": 2008,
+      "volume_issue": null,
+      "pages": null,
+      "type": "WEB",
+      "doi": null,
+      "sources": [
+        "bitcoin.org"
+      ],
+      "verified": true
+    },
+    {
+      "n": 8,
+      "authors": "Androulaki E, Barger A, Bortnikov V, et al.",
+      "title": "Hyperledger Fabric: A distributed operating system for permissioned blockchains",
+      "venue": "EuroSys",
+      "year": 2018,
+      "volume_issue": null,
+      "pages": "30",
+      "type": "CONFERENCE",
+      "doi": "10.1145/3190508.3190538",
+      "sources": [
+        "ACM DL",
+        "dblp"
+      ],
+      "verified": true
+    },
+    {
+      "n": 9,
+      "authors": "Rouhani S, Belchior R, Cruz R S, et al.",
+      "title": "Distributed attribute-based access control system using permissioned blockchain",
+      "venue": "World Wide Web",
+      "year": 2021,
+      "volume_issue": "24(5)",
+      "pages": "1617-1644",
+      "type": "JOURNAL",
+      "doi": "10.1007/s11280-021-00874-7",
+      "sources": [
+        "Crossref",
+        "Springer",
+        "dblp"
+      ],
+      "verified": true
+    },
+    {
+      "n": 10,
+      "authors": "Singh R, Kukreja D, Sharma D K",
+      "title": "Blockchain-enabled access control to prevent cyber attacks in IoT: Systematic literature review",
+      "venue": "Frontiers in Big Data",
+      "year": 2022,
+      "volume_issue": "5",
+      "pages": "1081770",
+      "type": "JOURNAL",
+      "doi": "10.3389/fdata.2022.1081770",
+      "sources": [
+        "Frontiers",
+        "dblp"
+      ],
+      "verified": true
+    },
+    {
+      "n": 11,
+      "authors": "Wang P, Xu N, Zhang H, et al.",
+      "title": "Dynamic access control and trust management for blockchain-empowered IoT",
+      "venue": "IEEE Internet of Things Journal",
+      "year": 2022,
+      "volume_issue": "9(15)",
+      "pages": "12997-13009",
+      "type": "JOURNAL",
+      "doi": "10.1109/JIOT.2021.3125091",
+      "sources": [
+        "IEEE Xplore",
+        "dblp",
+        "researchr"
+      ],
+      "verified": true
+    },
+    {
+      "n": 12,
+      "authors": "Sun L, Zhou D, Liu D, et al.",
+      "title": "BPDAC: A blockchain based and provenance enabled dynamic access control scheme",
+      "venue": "IEEE Access",
+      "year": 2023,
+      "volume_issue": "11",
+      "pages": "142552-142568",
+      "type": "JOURNAL",
+      "doi": "10.1109/ACCESS.2023.3340887",
+      "sources": [
+        "IEEE Xplore",
+        "dblp",
+        "DOAJ"
+      ],
+      "verified": true
+    },
+    {
+      "n": 13,
+      "authors": "Akhtar M, Barati M, Shafiq B, et al.",
+      "title": "Blockchain based auditable access control for business processes with event driven policies",
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "year": 2024,
+      "volume_issue": "21(5)",
+      "pages": "4699-4716",
+      "type": "JOURNAL",
+      "doi": "10.1109/TDSC.2024.3356811",
+      "sources": [
+        "IEEE Xplore/ACM DL",
+        "Cardiff ORCA"
+      ],
+      "verified": true
+    },
+    {
+      "n": 14,
+      "authors": "Guo Y, Lu Z, Ge H, et al.",
+      "title": "Revocable blockchain-aided attribute-based encryption with escrow-free in cloud storage",
+      "venue": "IEEE Transactions on Computers",
+      "year": 2023,
+      "volume_issue": "72(7)",
+      "pages": "1901-1912",
+      "type": "JOURNAL",
+      "doi": "10.1109/TC.2023.3234210",
+      "sources": [
+        "IEEE/ACM DL",
+        "Crossref",
+        "researchr"
+      ],
+      "verified": true
+    },
+    {
+      "n": 15,
+      "authors": "Wang S, Yang M, Jiang S, et al.",
+      "title": "BBS: A secure and autonomous blockchain-based big-data sharing system",
+      "venue": "Journal of Systems Architecture",
+      "year": 2024,
+      "volume_issue": "150",
+      "pages": "103133",
+      "type": "JOURNAL",
+      "doi": "10.1016/j.sysarc.2024.103133",
+      "sources": [
+        "ACM DL",
+        "Elsevier",
+        "PolyU Research"
+      ],
+      "verified": true
+    },
+    {
+      "n": 16,
+      "authors": "Nguyen L D, Hoang J, Wang Q, et al.",
+      "title": "BDSP: A fair blockchain-enabled framework for privacy-enhanced enterprise data sharing",
+      "venue": "IEEE ICBC",
+      "year": 2023,
+      "volume_issue": null,
+      "pages": "1-9",
+      "type": "CONFERENCE",
+      "doi": null,
+      "sources": [
+        "IEEE Xplore",
+        "researchr"
+      ],
+      "verified": true
+    },
+    {
+      "n": 17,
+      "authors": "Xu Z, Sun Q, Han H, et al.",
+      "title": "BMTAC: A decentralized, auditable, time-limited, multi-authority attribute access control scheme in blockchain environment",
+      "venue": "IEEE SmartWorld/UIC/ScalCom/DigitalTwin/PriComp/Meta",
+      "year": 2022,
+      "volume_issue": null,
+      "pages": "1997-2002",
+      "type": "CONFERENCE",
+      "doi": null,
+      "sources": [
+        "IEEE Xplore",
+        "dblp",
+        "researchr"
+      ],
+      "verified": true
+    },
+    {
+      "n": 18,
+      "authors": "Tran-Truong P T, Son H X, Khanh V H, et al.",
+      "title": "TACKLE: Time-based access control and key delegation for letter of credit ecosystems",
+      "venue": "High-Confidence Computing",
+      "year": 2025,
+      "volume_issue": "5",
+      "pages": "100369",
+      "type": "JOURNAL",
+      "doi": "10.1016/j.hcc.2025.100369",
+      "sources": [
+        "ScienceDirect",
+        "PlumX"
+      ],
+      "verified": true
+    },
+    {
+      "n": 19,
+      "authors": "Zhang X, Du W, Moshayedi A J",
+      "title": "A traceable and revocable multi-authority attribute-based access control scheme for mineral industry data secure storage in blockchain",
+      "venue": "The Journal of Supercomputing",
+      "year": 2023,
+      "volume_issue": "79(13)",
+      "pages": "14743-14779",
+      "type": "JOURNAL",
+      "doi": "10.1007/s11227-023-05222-2",
+      "sources": [
+        "Springer",
+        "EBSCO",
+        "dblp"
+      ],
+      "verified": true
+    },
+    {
+      "n": 20,
+      "authors": "Slamanig D, Striecks C",
+      "title": "Revisiting updatable encryption: Controlled forward security, constructions and a puncturable perspective",
+      "venue": "TCC 2023 (LNCS 14370)",
+      "year": 2023,
+      "volume_issue": null,
+      "pages": "220-250",
+      "type": "CONFERENCE",
+      "doi": null,
+      "sources": [
+        "researchr",
+        "AIT Publications",
+        "IACR"
+      ],
+      "verified": true
+    },
+    {
+      "n": 21,
+      "authors": "Zhou Y, Zhu X, Chen A, et al.",
+      "title": "Access control mechanism in distributed smart power plants based on blockchain and ciphertext updatable functional encryption",
+      "venue": "Peer-to-Peer Networking and Applications",
+      "year": 2024,
+      "volume_issue": "17(2)",
+      "pages": "1021-1035",
+      "type": "JOURNAL",
+      "doi": "10.1007/s12083-024-01622-0",
+      "sources": [
+        "Springer",
+        "EBSCO",
+        "x-mol"
+      ],
+      "verified": true
+    },
+    {
+      "n": 22,
+      "authors": "Hameed Z, Barzegar H R, El Ioini N, et al.",
+      "title": "BE-DSN: Leveraging blockchain for improving data availability and security in distributed storage networks",
+      "venue": "Cluster Computing",
+      "year": 2025,
+      "volume_issue": "28(7)",
+      "pages": null,
+      "type": "JOURNAL",
+      "doi": "10.1007/s10586-024-05083-1",
+      "sources": [
+        "Springer",
+        "ACM DL",
+        "EBSCO"
+      ],
+      "verified": true
+    },
+    {
+      "n": 23,
+      "authors": "Rundgren A, Jordan B, Erdtman S",
+      "title": "JSON canonicalization scheme (JCS)",
+      "venue": "RFC 8785",
+      "year": 2020,
+      "volume_issue": null,
+      "pages": null,
+      "type": "STANDARD",
+      "doi": "10.17487/RFC8785",
+      "sources": [
+        "RFC Editor",
+        "IETF Datatracker"
+      ],
+      "verified": true
+    },
+    {
+      "n": 24,
+      "authors": "Claessen K, Hughes J",
+      "title": "QuickCheck: A lightweight tool for random testing of Haskell programs",
+      "venue": "ICFP 2000",
+      "year": 2000,
+      "volume_issue": null,
+      "pages": "268-279",
+      "type": "CONFERENCE",
+      "doi": "10.1145/351240.351266",
+      "sources": [
+        "ACM DL",
+        "dblp"
+      ],
+      "verified": true
+    },
+    {
+      "n": 25,
+      "authors": "Hyperledger Besu Documentation",
+      "title": "QBFT consensus protocol",
+      "venue": "Hyperledger Foundation",
+      "year": 2026,
+      "volume_issue": null,
+      "pages": null,
+      "type": "TECH_REPORT",
+      "doi": null,
+      "sources": [
+        "besu.hyperledger.org"
+      ],
+      "verified": true
+    },
+    {
+      "n": 26,
+      "authors": "Josefsson S, Liusvaara I",
+      "title": "Edwards-Curve digital signature algorithm (EdDSA)",
+      "venue": "RFC 8032",
+      "year": 2017,
+      "volume_issue": null,
+      "pages": null,
+      "type": "STANDARD",
+      "doi": "10.17487/RFC8032",
+      "sources": [
+        "RFC Editor",
+        "IETF Datatracker"
+      ],
+      "verified": true
+    },
+    {
+      "n": 27,
+      "authors": "PostgreSQL Global Development Group",
+      "title": "PostgreSQL 16 documentation: INSERT",
+      "venue": "PostgreSQL",
+      "year": 2026,
+      "volume_issue": null,
+      "pages": null,
+      "type": "TECH_REPORT",
+      "doi": null,
+      "sources": [
+        "postgresql.org"
+      ],
+      "verified": true
+    },
+    {
+      "n": 28,
+      "authors": "Efron B",
+      "title": "Bootstrap methods: Another look at the jackknife",
+      "venue": "The Annals of Statistics",
+      "year": 1979,
+      "volume_issue": "7(1)",
+      "pages": "1-26",
+      "type": "JOURNAL",
+      "doi": "10.1214/aos/1176344552",
+      "sources": [
+        "Project Euclid",
+        "dblp"
+      ],
+      "verified": true
+    },
+    {
+      "n": 29,
+      "authors": "Dworkin M",
+      "title": "Recommendation for block cipher modes of operation: Galois/Counter Mode (GCM) and GMAC",
+      "venue": "NIST SP 800-38D",
+      "year": 2007,
+      "volume_issue": null,
+      "pages": null,
+      "type": "STANDARD",
+      "doi": null,
+      "sources": [
+        "NIST"
+      ],
+      "verified": true
+    },
+    {
+      "n": 30,
+      "authors": "Barnes R, Bhargavan K, Lipp B, et al.",
+      "title": "Hybrid public key encryption",
+      "venue": "RFC 9180",
+      "year": 2022,
+      "volume_issue": null,
+      "pages": null,
+      "type": "STANDARD",
+      "doi": "10.17487/RFC9180",
+      "sources": [
+        "RFC Editor",
+        "IETF Datatracker"
+      ],
+      "verified": true
+    },
+    {
+      "n": 31,
+      "authors": "Benet J",
+      "title": "IPFS - Content addressed, versioned, P2P file system",
+      "venue": "arXiv:1407.3561",
+      "year": 2014,
+      "volume_issue": null,
+      "pages": null,
+      "type": "PREPRINT",
+      "doi": null,
+      "sources": [
+        "arXiv"
+      ],
+      "verified": true
+    }
+  ],
+  "summary": {
+    "total": 31,
+    "papers": 22,
+    "standards": 9,
+    "recent_2021_2026": 18,
+    "recent_2024_2026": 8
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "stage": "A",
+  "attempt": 2,
+  "operation": "QBFT validator-set audit",
+  "exit_code": 1,
+  "reason": "qbft_getValidatorsByBlockNumber requires a block-number argument; the initial reusable RPC helper always sent an empty parameter array.",
+  "impact": "Git scanning and service inspection completed, but the acceptance decision was not emitted. No remote state was modified.",
+  "resolution": "Add an explicit RPC parameter argument and query the latest validator set."
+}

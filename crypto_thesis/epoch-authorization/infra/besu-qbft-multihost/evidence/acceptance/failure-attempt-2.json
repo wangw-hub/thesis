@@ -1,0 +1,14 @@
+{
+  "stage": 6,
+  "attempt": 2,
+  "operation": "pre-restart chain identity acceptance",
+  "exit_code": 1,
+  "reason": "Besu key.pub values include a 0x prefix, while the local parser accepted only the 128 hexadecimal digits.",
+  "observed_facts": {
+    "all_node_ids_present": true,
+    "all_node_ids_distinct_by_manual_format inspection": true,
+    "restart_operations_started": false
+  },
+  "impact": "Acceptance stopped before either authorized restart; no remote state was changed.",
+  "resolution": "Accept an optional 0x prefix and compare the normalized 128-digit node ID."
+}

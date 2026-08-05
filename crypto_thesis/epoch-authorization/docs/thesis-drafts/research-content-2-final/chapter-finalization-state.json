@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "CHAPTER_FINALIZED_FROM_VALID_V13_EVIDENCE",
+  "source_git_head": "b39e8a57bf9cf9f688ff5ff09b8b8ae067aa37aa",
+  "v13_request_data_sha256": "00dbdc62c21a7c12143394118df5dc00bbe7108d822a4af41bd6a96aa89cc4ce",
+  "v13_raw_index_sha256": "3cb273c3d1938fb4af2dee4d9f0c78f69033380efd0c37f68ae3258990720680",
+  "inference_unit": "RUN_BLOCK",
+  "formal_data_figures": 8,
+  "mechanism_diagrams": 2,
+  "formal_tables": 6,
+  "formula_groups": 3,
+  "algorithms": 3,
+  "fatal_issues": 0,
+  "major_issues": 0,
+  "minor_issues": 2,
+  "minor_issues_closed": 2,
+  "raw_data_modified": false,
+  "formal_chain_modified": false,
+  "system_code_modified": false,
+  "rc3_worktree_modified": false,
+  "push_executed": false,
+  "next_action": "在research-content-3-preparation独立worktree中依据rc2-interface-manifest.json执行V13只读接口对账；完成KeyStore用户决策后，决定是否批准研究内容三I0。"
+}

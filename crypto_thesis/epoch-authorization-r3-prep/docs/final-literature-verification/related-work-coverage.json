@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "RelatedWorkCoverageV1",
+  "coverage": {
+    "T1 时间约束访问控制": {
+      "refs": [
+        "REF-01"
+      ],
+      "status": "COVERED",
+      "note": "TRBAC 直接支撑"
+    },
+    "T2 时间相关 ABE/加密访问控制": {
+      "refs": [
+        "REF-15"
+      ],
+      "status": "PARTIAL",
+      "note": "仅背景；建议扩充"
+    },
+    "T3 区块链数据共享与可信授权": {
+      "refs": [
+        "REF-16"
+      ],
+      "status": "COVERED",
+      "note": "许可链 ABAC 综述性文献"
+    },
+    "T4 capability/token/replay": {
+      "refs": [
+        "REF-05",
+        "REF-11",
+        "REF-12",
+        "REF-13"
+      ],
+      "status": "COVERED"
+    },
+    "T5 permissioned blockchain/Besu/QBFT": {
+      "refs": [
+        "REF-06"
+      ],
+      "status": "COVERED",
+      "note": "官方工程文档"
+    },
+    "T6 HPKE/hybrid encryption": {
+      "refs": [
+        "REF-10"
+      ],
+      "status": "COVERED"
+    },
+    "T7 cryptographic revocation/forward revocation": {
+      "refs": [
+        "REF-15"
+      ],
+      "status": "PARTIAL",
+      "note": "建议扩充前瞻撤销文献"
+    },
+    "T8 versioned encrypted objects": {
+      "refs": [
+        "REF-14"
+      ],
+      "status": "PARTIAL",
+      "note": "IPFS 版本化背景；建议扩充"
+    },
+    "T9 IPFS/Kubo storage": {
+      "refs": [
+        "REF-14"
+      ],
+      "status": "COVERED"
+    },
+    "T10 crash recovery/transactional consistency": {
+      "refs": [
+        "REF-07"
+      ],
+      "status": "PARTIAL",
+      "note": "建议补充事务恢复学术文献"
+    }
+  },
+  "verdict": {
+    "verdict": "MINIMALLY_SUFFICIENT",
+    "rc1": "COVERED",
+    "rc2": "COVERED",
+    "rc3": "PARTIAL",
+    "overall": "MINIMALLY_SUFFICIENT",
+    "expansionTopics": [
+      "T2 时间相关 ABE/加密访问控制",
+      "T7 cryptographic revocation/forward revocation",
+      "T8 versioned encrypted objects",
+      "T10 crash recovery/transactional consistency"
+    ],
+    "suggestedDatabases": [
+      "ACM DL",
+      "IEEE Xplore",
+      "Springer",
+      "DBLP",
+      "学校图书馆数据库"
+    ],
+    "suggestedQueries": [
+      "permissioned blockchain access control survey",
+      "forward secure revocation encrypted storage",
+      "versioned encrypted data access control",
+      "distributed transaction recovery blockchain"
+    ]
+  }
+}

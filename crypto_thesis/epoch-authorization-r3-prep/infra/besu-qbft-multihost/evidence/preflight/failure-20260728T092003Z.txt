@@ -1,0 +1,10 @@
+UTC: 2026-07-28T09:20:03.7016507Z
+Stage: 0
+Host: besu-validator-1
+Command type: ssh -o BatchMode=yes ... bash -s -- --json
+Exit code: 1
+STDOUT: empty
+STDERR: bash: line 137: $'\r': command not found
+Remote changes: none
+Other hosts attempted: no
+Stage 1 started: no

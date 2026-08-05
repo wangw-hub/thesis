@@ -1,0 +1,17 @@
+{
+  "schema": "FORMAL-AUTHORIZATION-QBFT-1",
+  "chainId": 2026072901,
+  "networkId": 2026072901,
+  "besuVersion": "26.5.0",
+  "consensus": "qbft",
+  "blockperiodseconds": 2,
+  "requesttimeoutseconds": 4,
+  "epochlength": 30000,
+  "gasLimit": "0x1fffffffffffff",
+  "zeroBaseFee": false,
+  "validatorCount": 4,
+  "p2pPort": 31303,
+  "rpcPort": 8645,
+  "bootstrapFunderWei": "100000000000000000000",
+  "FUNDING_REVIEW_ONLY": false
+}

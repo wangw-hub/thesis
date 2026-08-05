@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "M3AuditV1",
+  "pipeline": [
+    "m3_transform.py (citations/equations/algorithms/figures/3+3/references)",
+    "make_m3_method_figs.py (7 grayscale method figures)",
+    "make_m3_exp_figs.py (12 experiment figures from frozen data)",
+    "build_m3_docx.py (user cover + indentation + superscript + OMML + tables)",
+    "render_m3.py -> 31 pages"
+  ],
+  "citationAnchorsHit": 21,
+  "citationAnchorsTotal": 21,
+  "equationsTotal": 26,
+  "algorithmBlocks": 8,
+  "figuresEmbedded": 19,
+  "tablesEmbedded": 8,
+  "referencesRendered": 29,
+  "firstLineIndentParagraphs": 165,
+  "superscriptRuns": 93,
+  "ommlCount": 67,
+  "hangingIndentRefs": 29,
+  "pagesTarget": "28-35",
+  "pagesActual": 31,
+  "hanziTarget": "20000-25000",
+  "hanziActual": 20574,
+  "fatal": 0,
+  "major": 0,
+  "minor": 0
+}

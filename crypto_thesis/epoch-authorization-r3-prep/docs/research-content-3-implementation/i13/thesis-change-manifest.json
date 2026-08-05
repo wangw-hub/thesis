@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "ThesisChangeManifestV1",
+  "changes": [
+    {
+      "file": "docs/research-content-3-implementation/i13/THESIS-RC3-WRITEBACK-FINAL.md",
+      "section": "第六章（新章节）",
+      "changeType": "NEW_CHAPTER",
+      "oldSummary": "无（RC3 此前为 future work）",
+      "newSummary": "研究内容三完整章节：设计、实验、结果、讨论、局限与小结",
+      "reason": "用户批准 THESIS_WRITEBACK；I12 结果写回",
+      "sourceEvidence": "docs/research-content-3-implementation/i12/ + experiments/r3/formal/",
+      "claimIds": [
+        "C-01",
+        "C-02",
+        "C-03",
+        "C-04",
+        "C-05",
+        "C-06"
+      ],
+      "figureTableDependencies": [
+        "图6-1",
+        "图6-2",
+        "图6-3",
+        "表6-1",
+        "表6-2",
+        "表6-3",
+        "表6-4",
+        "表6-5"
+      ]
+    }
+  ]
+}

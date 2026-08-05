@@ -1,0 +1,267 @@
+{
+  "generated_at_utc": "2026-07-29T03:55:47Z",
+  "hosts": {
+    "besu-validator-1": {
+      "service": {
+        "exit_code": 0,
+        "stdout": "active",
+        "stderr": ""
+      },
+      "version": {
+        "exit_code": 0,
+        "stdout": "besu/v26.5.0/linux-x86_64/openjdk-java-21",
+        "stderr": ""
+      },
+      "java": {
+        "exit_code": 0,
+        "stdout": "openjdk version \"21.0.11\" 2026-04-21",
+        "stderr": ""
+      },
+      "genesis_sha256": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "sha256sum: /etc/besu-formal/genesis.json: Permission denied"
+      },
+      "config_sha256": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "sha256sum: /etc/besu-formal/config.toml: Permission denied\nsha256sum: /etc/besu-formal/static-nodes.json: Permission denied"
+      },
+      "ports": {
+        "exit_code": 0,
+        "stdout": "LISTEN 0      4096               *:31303            *:*",
+        "stderr": ""
+      },
+      "old_chain_preserved": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    "besu-validator-2": {
+      "service": {
+        "exit_code": 0,
+        "stdout": "active",
+        "stderr": ""
+      },
+      "version": {
+        "exit_code": 0,
+        "stdout": "besu/v26.5.0/linux-x86_64/openjdk-java-21",
+        "stderr": ""
+      },
+      "java": {
+        "exit_code": 0,
+        "stdout": "openjdk version \"21.0.11\" 2026-04-21",
+        "stderr": ""
+      },
+      "genesis_sha256": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "sha256sum: /etc/besu-formal/genesis.json: Permission denied"
+      },
+      "config_sha256": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "sha256sum: /etc/besu-formal/config.toml: Permission denied\nsha256sum: /etc/besu-formal/static-nodes.json: Permission denied"
+      },
+      "ports": {
+        "exit_code": 0,
+        "stdout": "LISTEN 0      4096               *:31303            *:*",
+        "stderr": ""
+      },
+      "old_chain_preserved": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    "besu-validator-3": {
+      "service": {
+        "exit_code": 0,
+        "stdout": "active",
+        "stderr": ""
+      },
+      "version": {
+        "exit_code": 0,
+        "stdout": "besu/v26.5.0/linux-x86_64/openjdk-java-21",
+        "stderr": ""
+      },
+      "java": {
+        "exit_code": 0,
+        "stdout": "openjdk version \"21.0.11\" 2026-04-21",
+        "stderr": ""
+      },
+      "genesis_sha256": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "sha256sum: /etc/besu-formal/genesis.json: Permission denied"
+      },
+      "config_sha256": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "sha256sum: /etc/besu-formal/config.toml: Permission denied\nsha256sum: /etc/besu-formal/static-nodes.json: Permission denied"
+      },
+      "ports": {
+        "exit_code": 0,
+        "stdout": "LISTEN 0      4096               *:31303            *:*",
+        "stderr": ""
+      },
+      "old_chain_preserved": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    "besu-validator-4": {
+      "service": {
+        "exit_code": 0,
+        "stdout": "active",
+        "stderr": ""
+      },
+      "version": {
+        "exit_code": 0,
+        "stdout": "besu/v26.5.0/linux-x86_64/openjdk-java-21",
+        "stderr": ""
+      },
+      "java": {
+        "exit_code": 0,
+        "stdout": "openjdk version \"21.0.11\" 2026-04-21",
+        "stderr": ""
+      },
+      "genesis_sha256": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "sha256sum: /etc/besu-formal/genesis.json: Permission denied"
+      },
+      "config_sha256": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "sha256sum: /etc/besu-formal/config.toml: Permission denied\nsha256sum: /etc/besu-formal/static-nodes.json: Permission denied"
+      },
+      "ports": {
+        "exit_code": 0,
+        "stdout": "LISTEN 0      4096               *:31303            *:*",
+        "stderr": ""
+      },
+      "old_chain_preserved": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    "experiment-client": {
+      "service": {
+        "exit_code": 0,
+        "stdout": "active",
+        "stderr": ""
+      },
+      "version": {
+        "exit_code": 0,
+        "stdout": "besu/v26.5.0/linux-x86_64/openjdk-java-21",
+        "stderr": ""
+      },
+      "java": {
+        "exit_code": 0,
+        "stdout": "openjdk version \"21.0.11\" 2026-04-21",
+        "stderr": ""
+      },
+      "genesis_sha256": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "sha256sum: /etc/besu-formal/genesis.json: Permission denied"
+      },
+      "config_sha256": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "sha256sum: /etc/besu-formal/config.toml: Permission denied\nsha256sum: /etc/besu-formal/static-nodes.json: Permission denied"
+      },
+      "ports": {
+        "exit_code": 0,
+        "stdout": "LISTEN 0      4096                        *:31303            *:*          \nLISTEN 0      4096   [::ffff:192.168.6.133]:8645             *:*",
+        "stderr": ""
+      },
+      "old_chain_preserved": {
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": ""
+      }
+    }
+  },
+  "rpc": {
+    "web3_clientVersion": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"besu/v26.5.0/linux-x86_64/openjdk-java-21\"}",
+      "stderr": ""
+    },
+    "eth_chainId": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x78c36b45\"}",
+      "stderr": ""
+    },
+    "net_peerCount": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x4\"}",
+      "stderr": ""
+    },
+    "eth_blockNumber": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0xcd\"}",
+      "stderr": ""
+    },
+    "qbft_getValidatorsByBlockNumber": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":[\"0x4a9fe6affeeb4adcc656076ff141922eeefc759c\",\"0x4ab7535dfda9ffa87dc05456894ab50ad79b6183\",\"0x9f4b0718f1b71066294cb63c4cdc6ff1490412ed\",\"0xa5110773f0e5bf220b71b2b2cb67725ae04d530c\"]}",
+      "stderr": ""
+    },
+    "eth_gasPrice": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x7\"}",
+      "stderr": ""
+    },
+    "eth_getBlockByNumber": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"number\":\"0xce\",\"hash\":\"0x056e04683c243f5dc5ed2d60142940c5cfe0d3351ca63fbb8d53435bbad55cd5\",\"mixHash\":\"0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365\",\"parentHash\":\"0x4fcdd97e0f9e42a074e615d8ff66a31adadf9396701a364b6d1f0155c4f0cd11\",\"nonce\":\"0x0000000000000000\",\"sha3Uncles\":\"0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347\",\"logsBloom\":\"0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"transactionsRoot\":\"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421\",\"stateRoot\":\"0x08a047dd1d4fec9915b66f323167e390b95736c099563303aadf18101fd65da9\",\"receiptsRoot\":\"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421\",\"miner\":\"0x9f4b0718f1b71066294cb63c4cdc6ff1490412ed\",\"difficulty\":\"0x1\",\"totalDifficulty\":\"0xcf\",\"extraData\":\"0xf90144a0000000000000000000000000000000000000000000626573752032362e352e30f854944a9fe6affeeb4adcc656076ff141922eeefc759c944ab7535dfda9ffa87dc05456894ab50ad79b6183949f4b0718f1b71066294cb63c4cdc6ff1490412ed94a5110773f0e5bf220b71b2b2cb67725ae04d530cc080f8c9b8414203b98bcd6a7d66d17442dee5a6b35c01a7ee80d06d58ed44ef86c9a9e7d7a776b884b86338701c28ac268be1fb3f9d3bc3ad62638a24d5b28ec3df724a056800b841c28d2a5d5ebe2a08f1997be5f5adfcb71703065a621a2eecbb3e25fed9aaab553f04bbf6d100904c452aa26f93a6bba8b49c89a21c04d4471ade80d891358c9f00b841307126eadc3e9005373942ec539d21992a2d48e62240bfccf619eefb0b5d48440d2384a793985346ff449ee89e60dd03bf482824baedcd71b86f3c589fdd210200\",\"baseFeePerGas\":\"0x7\",\"size\":\"0x34b\",\"gasLimit\":\"0x1fffffffffffff\",\"gasUsed\":\"0x0\",\"timestamp\":\"0x6a6979da\",\"uncles\":[],\"transactions\":[]}}",
+      "stderr": ""
+    },
+    "eth_blockNumber_after_6s": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0xd1\"}",
+      "stderr": ""
+    },
+    "balance_BOOTSTRAP_FUNDER": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x56bc75e2d63100000\"}",
+      "stderr": ""
+    },
+    "balance_ADMIN": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x0\"}",
+      "stderr": ""
+    },
+    "balance_OWNER": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x0\"}",
+      "stderr": ""
+    },
+    "balance_AUTHORIZER": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x0\"}",
+      "stderr": ""
+    },
+    "balance_REVOCATION": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x0\"}",
+      "stderr": ""
+    },
+    "balance_AUDITOR": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x0\"}",
+      "stderr": ""
+    },
+    "balance_RPC_NODE": {
+      "exit_code": 0,
+      "stdout": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x0\"}",
+      "stderr": ""
+    }
+  }
+}

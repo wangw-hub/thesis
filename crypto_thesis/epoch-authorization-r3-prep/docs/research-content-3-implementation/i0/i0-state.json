@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "status": "I0_COMPLETED_AWAITING_I1_APPROVAL",
+  "date": "2026-07-30",
+  "rc2Reconciliation": "PASSED",
+  "keystoreDecision": "OPTION_A_APPROVED",
+  "i0Approved": true,
+  "i0Executed": true,
+  "i1Approved": false,
+  "i1Executed": false,
+  "implementationStarted": false,
+  "formalKeysGenerated": false,
+  "mainRepositoryModified": false,
+  "formalChainModified": false,
+  "selectedCandidates": {
+    "hpke": {"package":"cryptography","version":"49.0.0","status":"CANDIDATE_NOT_INSTALLED"},
+    "jcs": {"package":"rfc8785","version":"0.1.4","status":"CANDIDATE_NOT_INSTALLED"},
+    "web3": {"package":"web3","version":"7.16.0","status":"INSTALLED"},
+    "jsonschema": {"package":"jsonschema","version":"4.26.0","status":"INSTALLED"},
+    "postgresDriver": {"package":"psycopg","version":"3.3.4","status":"CANDIDATE_NOT_INSTALLED"}
+  },
+  "remoteSystemd": "NOT_VERIFIED_REMOTE_AUTH_UNAVAILABLE",
+  "review": {"fatal":0,"major":3,"minor":6,"editorial":3},
+  "nextGate": "EXPLICIT_I1_APPROVAL"
+}

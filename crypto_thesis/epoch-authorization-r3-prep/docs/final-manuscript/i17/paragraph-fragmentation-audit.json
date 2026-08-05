@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "ParagraphFragmentationAuditV1",
+  "rootCause": "source hard-wrap (~80 chars/line) + old assembler one-line-per-paragraph",
+  "v1ShortParagraphs": 154,
+  "v2": {
+    "bodyParagraphs": 287,
+    "oneSentence": 46,
+    "shortFragmented": 0,
+    "semanticallySplit": 0,
+    "normal": 241
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "source_git_head": "26ef5bc8dc7b09e683aae8c7d7012f779f6847ed",
+  "research_content_2_status": "COMPLETED_WITH_VALID_RERUN_EVIDENCE",
+  "core_protocol_claim_status": "SUPPORTED_WITH_TESTED_SCOPE",
+  "core_protocol_claim": "A five-node Besu QBFT authorization system binds CAP2 to chain, contract, resource policy/state and user-key versions, and uses atomic shared Nonce, multi-verifier coordination and fail-closed dependency handling for auditable replay rejection and state-race control.",
+  "performance_claims": [
+    {
+      "id": "RC2-PERF-CHAIN-READ",
+      "status": "SUPPORTED",
+      "claim": "Per-request live-chain reads account for approximately 98.66%-98.80% of end-to-end latency."
+    },
+    {
+      "id": "RC2-PERF-CONCURRENCY",
+      "status": "SUPPORTED",
+      "claim": "Concurrency is the principal observed end-to-end latency factor."
+    },
+    {
+      "id": "RC2-PERF-FRAGMENTATION",
+      "status": "SUPPORTED_WITH_LIMITATIONS",
+      "claim": "Fragmentation increases local matching cost, but the end-to-end effect is masked by chain reads."
+    },
+    {
+      "id": "RC2-PERF-LOCALITY",
+      "status": "SUPPORTED_WITH_LIMITATIONS",
+      "claim": "Hotspot locality raises cache-hit rate without a stable end-to-end latency reduction."
+    },
+    {
+      "id": "RC2-PERF-CACHE",
+      "status": "NOT_SUPPORTED",
+      "claim": "B1 and C1 have a stable engineering-significant cache advantage."
+    },
+    {
+      "id": "RC2-PERF-CP",
+      "status": "REFUTED",
+      "claim": "C(P) has a performance or protocol advantage unavailable to Baseline-I."
+    }
+  ],
+  "cp_position": "C(P)_DEMOTED_CONFIRMED_BY_VALID_RERUN",
+  "invalidated_run": {
+    "status": "INVALIDATED_PROTOCOL_DEVIATION",
+    "sha256": "64cc50e3a3495e04460040fbf6d9ae8b3459948c3fe2ccd24618f391b47e9e6e"
+  },
+  "valid_run": {
+    "name": "formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795",
+    "preregistration_commit": "8a3d795e22e5d9373c3053245e3b4040cd062dd5",
+    "experiment_code_commit": "8a3d795e22e5d9373c3053245e3b4040cd062dd5",
+    "factor_configurations": 108,
+    "seeded_configurations": 324,
+    "run_blocks": 9720,
+    "request_records": 77760,
+    "chain_read_records": 233280,
+    "raw_index_sha256": "3cb273c3d1938fb4af2dee4d9f0c78f69033380efd0c37f68ae3258990720680",
+    "requests_sha256": "00dbdc62c21a7c12143394118df5dc00bbe7108d822a4af41bd6a96aa89cc4ce"
+  }
+}

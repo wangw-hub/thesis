@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "FINALAuditsV1",
+  "auditDate": "2026-08-04",
+  "FORMULA_AUDIT": {
+    "count": 16,
+    "render_error": 0,
+    "semantic_error": 0,
+    "overflow": 0,
+    "placeholder": 0,
+    "eq10": "OMML eqArr aligned, single number",
+    "eq11": "argument order matches seal_base(pk_R, CK, info, aad); wrong info/AAD tests cited",
+    "eq15": "necessary condition only",
+    "eq16": "candidate-acceptable boundary kept"
+  },
+  "ALGORITHM_AUDIT": {
+    "count": 8,
+    "logic_error": 0,
+    "numbering_error": 0,
+    "interface_error": 0,
+    "algo2_max_block": "pos=0 -> 2^floor(log2 remaining); pos>0 -> lowbit(pos) shrunk; U validation-only",
+    "algo4_double_read": "two reads of latest confirmed block; state mismatch rejects",
+    "algo6_recipient_rebuild": true,
+    "algo8_disposition": true
+  },
+  "SYMBOL_AUDIT": {
+    "conflicts_found": 3,
+    "fixed": ["U -> U_u (user tuple)", "R -> R_d (redundancy)", "B -> B_cap (capability bytes)"],
+    "remaining_conflicts": 0
+  },
+  "CLAIM_AUDIT": {
+    "oauth_jwt_qualified": true,
+    "permissioned_ledger_terms": true,
+    "absolute_security_claims": 0,
+    "unsupported_claims": 0,
+    "forbidden_claims": 0,
+    "qbft_overclaim": 0,
+    "revocation_overclaim": 0,
+    "performance_overclaim": 0
+  },
+  "REFERENCE_AUDIT": {
+    "count": 34,
+    "access_date_visible": 0,
+    "ref25_metadata": "Cluster Computing, 2025, 28(7): 437",
+    "citation_semantic_errors": 0,
+    "order_errors": 0,
+    "missing": 0,
+    "orphan": 0,
+    "duplicate": 0,
+    "unverified": 0,
+    "year_2021_2026": 18,
+    "year_2024_2026": 9
+  },
+  "TABLE_AUDIT": {
+    "broken_table": 0,
+    "missing_continuation_title": 0,
+    "missing_repeat_header": 0,
+    "table7_complete": true,
+    "table7_rows": 8
+  },
+  "FIGURE_AUDIT": {
+    "broken_figure": 0,
+    "misleading_figure": 0,
+    "system_figure_redraw_count": 0,
+    "fig12": "0-100 full scale + 96-100 inset",
+    "fig17": "discrete dot plot, no connecting line",
+    "fig20": "comparable-scenario title; E5 C1/C5/C2/C6 mapping; Fail-Closed excluded"
+  },
+  "STAGE_RESULT_TRUTH_AUDIT": {
+    "paper_status": "正在形成论文稿，拟投稿《软件学报》",
+    "paper_draft_matching_title": false,
+    "patent1_status": "拟申请发明专利，文本撰写中",
+    "patent2_status": "拟申请发明专利，文本撰写中",
+    "fabricated_status": 0,
+    "user_confirmation_needed": "阶段性论文最终题目"
+  },
+  "PDF_VISUAL_QA": {
+    "pages": 37,
+    "cover_single_check": true,
+    "page2_blank": "OFFICIAL_TEMPLATE_REQUIRED_BLANK_PAGE",
+    "formula_anomalies": 0,
+    "algorithm_anomalies": 0,
+    "figure_anomalies": 0,
+    "table_anomalies": 0,
+    "orphan_headings": 0,
+    "page_number_anomalies": 0
+  }
+}

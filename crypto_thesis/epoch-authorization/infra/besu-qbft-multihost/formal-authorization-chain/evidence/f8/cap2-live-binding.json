@@ -1,0 +1,22 @@
+{
+  "B0": {
+    "issued": true,
+    "verified": true,
+    "version": 2,
+    "chain_id": 2026072901,
+    "contract_address": "9ef44cf538d0df457ba77c556d8785e48bfc436d",
+    "resource_state_version": 1,
+    "user_version": 1,
+    "has_cover_binding": false
+  },
+  "C0": {
+    "issued": true,
+    "verified": true,
+    "version": 2,
+    "chain_id": 2026072901,
+    "contract_address": "9ef44cf538d0df457ba77c556d8785e48bfc436d",
+    "resource_state_version": 1,
+    "user_version": 1,
+    "has_cover_binding": true
+  }
+}

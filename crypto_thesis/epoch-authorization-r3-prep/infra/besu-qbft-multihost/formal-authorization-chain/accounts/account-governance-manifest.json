@@ -1,0 +1,37 @@
+﻿{
+    "chain_id":  2026072901,
+    "roles":  {
+                  "value":  [
+                                {
+                                    "role":  "BOOTSTRAP_FUNDER",
+                                    "address":  "0xc347371416524Eb61AB871ac47043623b2C0038A"
+                                },
+                                {
+                                    "role":  "ADMIN",
+                                    "address":  "0xC422671d19aB3810B69B5f4e28EaA1655E92CeA6"
+                                },
+                                {
+                                    "role":  "OWNER",
+                                    "address":  "0x55Ad93F30fC82Af657026CE5D755a0292cD12c86"
+                                },
+                                {
+                                    "role":  "AUTHORIZER",
+                                    "address":  "0xc01BC223F7018B17FB8670c186d684C829755180"
+                                },
+                                {
+                                    "role":  "REVOCATION",
+                                    "address":  "0xd6207f065a3AE0D425AcDC406359dCC00F55536F"
+                                },
+                                {
+                                    "role":  "AUDITOR",
+                                    "address":  "0xe6EA2De2C6D4Da7A92658De606E13B8d828285CF"
+                                },
+                                {
+                                    "role":  "RPC_NODE",
+                                    "address":  "0x822C861BeEC7096E447184048E27f0e79aeafD00"
+                                }
+                            ],
+                  "Count":  7
+              },
+    "bootstrap_has_business_role":  false
+}

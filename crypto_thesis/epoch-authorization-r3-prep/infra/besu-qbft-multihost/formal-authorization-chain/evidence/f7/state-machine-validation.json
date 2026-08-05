@@ -1,0 +1,145 @@
+{
+  "chain_id": 2026072901,
+  "contract_address": "0x9ef44CF538D0df457Ba77C556D8785e48BfC436d",
+  "transactions": [
+    {
+      "role": "OWNER",
+      "function": "registerResource",
+      "expected_status": 1,
+      "actual_status": 1,
+      "transaction_hash": "0xd75dfd3204fec8dabe509678e70bd930b07b095cf9bb691ef77bef68afd12a50",
+      "block_number": "0x653",
+      "gas_used": "0x1c9c9"
+    },
+    {
+      "role": "AUDITOR",
+      "function": "registerResource",
+      "expected_status": 0,
+      "actual_status": 0,
+      "transaction_hash": "0x23df3fa622896c707d969671605d515eb411359d5de4c6539e6362b64304bceb",
+      "block_number": "0x654",
+      "gas_used": "0x6261"
+    },
+    {
+      "role": "AUTHORIZER",
+      "function": "advanceEpoch",
+      "expected_status": 1,
+      "actual_status": 1,
+      "transaction_hash": "0x55ee1339a7886a57a0c24135cbfb73f04872335f215edecef0caff1efc68ab0d",
+      "block_number": "0x656",
+      "gas_used": "0x95ea"
+    },
+    {
+      "role": "OWNER",
+      "function": "advanceEpoch",
+      "expected_status": 0,
+      "actual_status": 0,
+      "transaction_hash": "0x5eecf12138669f50093c32f68b0e980562dfd60823fd79a0105d46818fab6c8c",
+      "block_number": "0x658",
+      "gas_used": "0x6a27"
+    },
+    {
+      "role": "REVOCATION",
+      "function": "suspendResource",
+      "expected_status": 1,
+      "actual_status": 1,
+      "transaction_hash": "0x8e39a89a3ee5875bc9e72aed4c9e258c57017c581a319ded6496ebaba27a8881",
+      "block_number": "0x659",
+      "gas_used": "0x95e6"
+    },
+    {
+      "role": "REVOCATION",
+      "function": "activateResource",
+      "expected_status": 1,
+      "actual_status": 1,
+      "transaction_hash": "0x29575f0faf358bf6e4936915ee12249bfef21d9c8cc0d0edf4a33620dee00f04",
+      "block_number": "0x65b",
+      "gas_used": "0x95e9"
+    },
+    {
+      "role": "REVOCATION",
+      "function": "revokeResource",
+      "expected_status": 1,
+      "actual_status": 1,
+      "transaction_hash": "0x6701fc7fdbe4db252cebe1dab91f2480b458c2da3510b617c9996323eff8d71a",
+      "block_number": "0x65d",
+      "gas_used": "0x95ea"
+    },
+    {
+      "role": "REVOCATION",
+      "function": "activateResource",
+      "expected_status": 0,
+      "actual_status": 0,
+      "transaction_hash": "0x0692806dca475b501d8f8f0b773b9c57e41571590e5adea1494698a9c66b1784",
+      "block_number": "0x65e",
+      "gas_used": "0x6938"
+    },
+    {
+      "role": "ADMIN",
+      "function": "registerUser",
+      "expected_status": 1,
+      "actual_status": 1,
+      "transaction_hash": "0x300aaeae367d0d98831943f82adaf5b801d821e8ef2c24e7519ab1ae5c59b659",
+      "block_number": "0x660",
+      "gas_used": "0x1c87b"
+    },
+    {
+      "role": "ADMIN",
+      "function": "rotateUserKey",
+      "expected_status": 1,
+      "actual_status": 1,
+      "transaction_hash": "0xf9c3d23016edd2a840490d0cac819df77a70ad29ce47a332ea56b858dda4b5ec",
+      "block_number": "0x662",
+      "gas_used": "0xf49d"
+    },
+    {
+      "role": "ADMIN",
+      "function": "registerUser",
+      "expected_status": 0,
+      "actual_status": 0,
+      "transaction_hash": "0x11eb444544ad582cd1dd5f172ac2503d81d9042881b2455c5843e36d53192744",
+      "block_number": "0x663",
+      "gas_used": "0x73c1"
+    },
+    {
+      "role": "REVOCATION",
+      "function": "suspendUser",
+      "expected_status": 1,
+      "actual_status": 1,
+      "transaction_hash": "0xfebf676fe0b8d8ba242e8ee628158f47371e09a90d492cb6c73fdb4b5823331e",
+      "block_number": "0x664",
+      "gas_used": "0x80a0"
+    },
+    {
+      "role": "REVOCATION",
+      "function": "activateUser",
+      "expected_status": 1,
+      "actual_status": 1,
+      "transaction_hash": "0x8299daf56f120e8b18dde23446744bbc60691baf54607025687f64a4c8acdab7",
+      "block_number": "0x666",
+      "gas_used": "0x8096"
+    },
+    {
+      "role": "REVOCATION",
+      "function": "revokeUser",
+      "expected_status": 1,
+      "actual_status": 1,
+      "transaction_hash": "0xbbc2208f833e8deebfecfdd79fb1b753b896fe43f43870f3d06066dc636be6b3",
+      "block_number": "0x667",
+      "gas_used": "0x806d"
+    },
+    {
+      "role": "REVOCATION",
+      "function": "activateUser",
+      "expected_status": 0,
+      "actual_status": 0,
+      "transaction_hash": "0x25f08c6c3f837445373378ca45f42eca308a14b9e04f8a1779e3c1c1c43e4a71",
+      "block_number": "0x669",
+      "gas_used": "0x6909"
+    }
+  ],
+  "resource_raw": "0x00000000000000000000000055ad93f30fc82af657026ce5d755a0292cd12c86c4dc1d5ac6a6b53783cafe55608230e7a4bc4b7af798278d3618952e332a2b900000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000065d",
+  "user_raw": "0x000000000000000000000000e6ea2de2c6d4da7a92658de606e13b8d828285cf6fca85265b6338e754c480a916a16ae5a7003ecf3e1a18d8cd3e49dcdbc28c2b000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000000000667",
+  "unexpected_status_count": 0,
+  "permission_bypass_count": 0
+}

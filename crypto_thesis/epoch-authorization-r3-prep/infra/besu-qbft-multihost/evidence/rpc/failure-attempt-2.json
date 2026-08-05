@@ -1,0 +1,10 @@
+{
+  "stage": 5,
+  "attempt": 2,
+  "status": "FAILED_WITH_EPHEMERAL_KEY_BEFORE_INSTALLATION",
+  "cause": "Besu successfully parsed the newly generated temporary RPC key, but the duplicate-node check ran as thesis and could not read /etc/besu/validators.json.",
+  "remote_target_changes": false,
+  "temporary_private_key_path": "/tmp/besu-rpc-key",
+  "service_created": false,
+  "resolution": "Run the public Validator manifest comparison as the besu user. The next attempt deletes the unadopted temporary key before generating a replacement."
+}

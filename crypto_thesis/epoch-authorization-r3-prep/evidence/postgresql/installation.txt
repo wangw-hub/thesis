@@ -1,0 +1,18 @@
+﻿Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:1 http://mirrors.tuna.tsinghua.edu.cn/ubuntu noble InRelease
+Hit:2 http://mirrors.tuna.tsinghua.edu.cn/ubuntu noble-updates InRelease
+Hit:4 http://mirrors.tuna.tsinghua.edu.cn/ubuntu noble-backports InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+postgresql is already the newest version (16+257build1.1).
+postgresql-contrib is already the newest version (16+257build1.1).
+python3-psycopg is already the newest version (3.1.17-2).
+openssl is already the newest version (3.0.13-0ubuntu3.11).
+0 upgraded, 0 newly installed, 0 to remove and 132 not upgraded.
+postgresql_version=16.14
+config=/etc/postgresql/16/main/postgresql.conf
+hba=/etc/postgresql/16/main/pg_hba.conf
+secret_file=/etc/epoch-auth/postgres-password
+listen=localhost,192.168.6.133

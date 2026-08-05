@@ -1,0 +1,18 @@
+{
+  "schemaVersion":1,
+  "cap2Modification":"PROHIBITED_MODIFICATION",
+  "cap2ExtensionRequired":false,
+  "dependencies":{
+    "policyDigest":"FROZEN_DEPENDENCY",
+    "epoch":"FROZEN_DEPENDENCY",
+    "stateVersion":"FROZEN_DEPENDENCY",
+    "userVersion":"FROZEN_DEPENDENCY",
+    "resourceId":"FROZEN_DEPENDENCY",
+    "userKeyId":"FROZEN_DEPENDENCY",
+    "operation":"FROZEN_DEPENDENCY",
+    "nonceConsumption":"PROHIBITED_MODIFICATION",
+    "besuStateGateway":"FROZEN_DEPENDENCY",
+    "chainReadPerformance":"PENDING_V13_CONFIRMATION",
+    "headerAnchor":"REQUIRES_INTERFACE_EXTENSION"
+  }
+}

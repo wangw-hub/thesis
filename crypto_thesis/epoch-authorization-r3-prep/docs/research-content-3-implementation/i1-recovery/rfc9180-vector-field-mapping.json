@@ -1,0 +1,16 @@
+{
+  "vector": "RFC9180-A.1.1",
+  "mode": 0,
+  "kem_id": 32,
+  "kdf_id": 1,
+  "aead_id": 1,
+  "mapping": {
+    "info": "sender_and_recipient_context_setup",
+    "skEm_pkEm": "test_only_deterministic_ephemeral",
+    "enc": "exact_public_encapsulation_output",
+    "aad": "per_message_non_empty_associated_data",
+    "pt_ct": "per_sequence_exact_pair",
+    "exporter_context_L_exported_value": "public_context_export_exact_match"
+  },
+  "infoAndAadAreDistinct": true
+}

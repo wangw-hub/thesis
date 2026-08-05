@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "FormalTableIndexV1",
+  "tables": [
+    "table-environment-fingerprint.json",
+    "table-matched-local-kubo-recovery.json",
+    "table-release-decision-outcome.json",
+    "table-run-flow-eligibility.json",
+    "table-within-class-duration.json"
+  ]
+}

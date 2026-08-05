@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "FormalFigureIndexV1",
+  "figures": [
+    {
+      "file": "fig-rq2-header-only-duration.png",
+      "title": "E2: HEADER_ONLY within-class duration (n=5 per config)",
+      "source": "145 accepted measured RUNs (formal-analysis)",
+      "script": "scripts/r3_i11/generate_i12_package.py"
+    },
+    {
+      "file": "fig-rq3-body-rotation-duration.png",
+      "title": "E3: BODY_ROTATION within-class duration (n=5 per config)",
+      "source": "145 accepted measured RUNs (formal-analysis)",
+      "script": "scripts/r3_i11/generate_i12_package.py"
+    },
+    {
+      "file": "fig-rq5-recovery-local-kubo.png",
+      "title": "E5: matched LOCAL_ONLY vs KUBO_REPLICA recovery runs",
+      "source": "145 accepted measured RUNs (formal-analysis)",
+      "script": "scripts/r3_i11/generate_i12_package.py"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+﻿[
+    {
+        "host":  "besu-validator-1",
+        "exit_code":  0,
+        "remote_package_sha256":  "9ddbe9e94662459898ff7b3ff4439821eeeee3bc2ff961378604202fa7da09e6",
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\installation\\besu-validator-1.txt",
+        "evidence_sha256":  "57b75c15be9b1bde3c60b69840bbbf69aceb723382f45c38ccb6d9f7971cd5fc"
+    },
+    {
+        "host":  "besu-validator-2",
+        "exit_code":  0,
+        "remote_package_sha256":  "9ddbe9e94662459898ff7b3ff4439821eeeee3bc2ff961378604202fa7da09e6",
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\installation\\besu-validator-2.txt",
+        "evidence_sha256":  "7d444be4370ba32136604ec30869b84677c94fa893f7961d10016f90eb1bdd04"
+    },
+    {
+        "host":  "besu-validator-3",
+        "exit_code":  0,
+        "remote_package_sha256":  "9ddbe9e94662459898ff7b3ff4439821eeeee3bc2ff961378604202fa7da09e6",
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\installation\\besu-validator-3.txt",
+        "evidence_sha256":  "0631795527b74b997b9305a3e957e561633596079a14e21323621ab2f0927200"
+    },
+    {
+        "host":  "besu-validator-4",
+        "exit_code":  0,
+        "remote_package_sha256":  "9ddbe9e94662459898ff7b3ff4439821eeeee3bc2ff961378604202fa7da09e6",
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\installation\\besu-validator-4.txt",
+        "evidence_sha256":  "99eea7ce46477f9c260f839043805faef60ded94fec47561c2855a0089b24a4e"
+    },
+    {
+        "host":  "experiment-client",
+        "exit_code":  0,
+        "remote_package_sha256":  "9ddbe9e94662459898ff7b3ff4439821eeeee3bc2ff961378604202fa7da09e6",
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\installation\\experiment-client.txt",
+        "evidence_sha256":  "4876d1e8eb5e1ad8c97bf6a9712fbd4cf9c64044aaa2bff433e89657a7322e42"
+    }
+]

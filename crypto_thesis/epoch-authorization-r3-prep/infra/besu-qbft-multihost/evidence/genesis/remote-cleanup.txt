@@ -1,0 +1,3 @@
+exit_code=0
+stage2_remote_staging=absent
+

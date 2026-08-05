@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0",
+  "python": "3.13.11",
+  "pip": "25.3",
+  "environment": ".venv-r3-i1",
+  "source": "PyPI HTTPS",
+  "installedAt": "2026-07-30",
+  "command": "python -m pip install cryptography==49.0.0 rfc8785==0.1.4 jsonschema==4.26.0 pytest==8.4.2",
+  "note": "recordSha256 hashes installed distribution RECORD files; these are not wheel archive hashes",
+  "packages": [
+    {"name":"attrs","version":"26.1.0","license":"MIT","recordSha256":"d5e36b4e3a4f8f4eef148e133178740d9291a00515eb59ad678ade2474f85d30"},
+    {"name":"cffi","version":"2.1.0","license":"MIT-0","recordSha256":"1743bc0c9ed1666f1c6c6ba0337bd71ca66eb7c23a7df5e9353ae383a0123a56"},
+    {"name":"colorama","version":"0.4.6","license":"BSD-3-Clause","recordSha256":"a00810cb8417223350a348197c44128a10dc97be38eb84561d16f50b8ff23d44"},
+    {"name":"cryptography","version":"49.0.0","license":"Apache-2.0 OR BSD-3-Clause","recordSha256":"3b67ffbaafaac1970bfececb91768503635df69fa9984399c50bc80a6d520f9a"},
+    {"name":"iniconfig","version":"2.3.0","license":"MIT","recordSha256":"348cc4c88dc3fa87914c27041043157ef071fc8dcc167523730cbe117712df22"},
+    {"name":"jsonschema","version":"4.26.0","license":"MIT","recordSha256":"dd2a30ab1aead3c0ad05e4611bc16b3cf41454b0f4f10fbf35202efa3421b8db"},
+    {"name":"jsonschema-specifications","version":"2025.9.1","license":"MIT","recordSha256":"81556fd7fef103bebb3768a52c78676b124e96ecc61e13a5b0511ae02cb13cfd"},
+    {"name":"packaging","version":"26.2","license":"Apache-2.0 OR BSD-2-Clause","recordSha256":"f7922a7174dd56e2f7a1f3cf59219df532f10b2ff65227b41d78fd5506323809"},
+    {"name":"pluggy","version":"1.6.0","license":"MIT","recordSha256":"6b99bd450a1aee58cb086b6ef4539a29adcdce11cfd80e53781beeab1662313b"},
+    {"name":"pycparser","version":"3.0","license":"BSD-3-Clause","recordSha256":"6c2d4fe9905ea5e4b2f0a57faa47620780a239b62999949bcaa27b60aeaa72c7"},
+    {"name":"Pygments","version":"2.20.0","license":"BSD-2-Clause","recordSha256":"16dd58776b7557df8c69a691a918a1526e8e4393ddc2e465b698d6b2a38b99c9"},
+    {"name":"pytest","version":"8.4.2","license":"MIT","recordSha256":"7b7a8b6d0d2b931c437f58e9479dd4151c0cf274a8417b8ea8f0753f0fc7d243"},
+    {"name":"referencing","version":"0.37.0","license":"MIT","recordSha256":"1f000e19b89666cefa152e450750f87a2da152fc1f282f0ad85b1e9c67e7fe68"},
+    {"name":"rfc8785","version":"0.1.4","license":"Apache-2.0","recordSha256":"edb4738f7d9ce5e0a72e2674e6692913a6b17f49152ace5f0df711692b41c912"},
+    {"name":"rpds-py","version":"2026.6.3","license":"MIT","recordSha256":"006c151bdc8ebec965e2c75c21f515a4db29512ee8087b15c72af2f42ddf51fb"}
+  ]
+}
+

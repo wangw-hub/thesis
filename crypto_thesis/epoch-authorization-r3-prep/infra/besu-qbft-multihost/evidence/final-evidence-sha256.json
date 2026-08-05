@@ -1,0 +1,756 @@
+﻿{
+    "generated_at_utc":  "2026-07-29T02:39:29.4139639Z",
+    "file_count":  150,
+    "files":  [
+                  {
+                      "path":  "evidence/postgresql/acceptance.json",
+                      "sha256":  "8cc2eb18b11fd4810f2e51cb6e32baa1f22f2810f0df1523ade55a135c669445",
+                      "bytes":  2722
+                  },
+                  {
+                      "path":  "evidence/postgresql/concurrency.json",
+                      "sha256":  "a67e90cf64af47ef2c3a2a196aba36e65d2098376e02421e9cf4230f201b5bc1",
+                      "bytes":  525
+                  },
+                  {
+                      "path":  "evidence/postgresql/installation.txt",
+                      "sha256":  "ef7260bce3f6b7c0f71954e1fb2939cb74563ea6b41cd27d102871b7889f9d90",
+                      "bytes":  904
+                  },
+                  {
+                      "path":  "evidence/roles/funding-admission.json",
+                      "sha256":  "67e91028fdfeb90fdf7da56dc2189213d98c9891a37db2d35a16da323a955e98",
+                      "bytes":  1287
+                  },
+                  {
+                      "path":  "evidence/roles/post-hard-stop-health.json",
+                      "sha256":  "4ae5535109923fba51d027ad23cf90f8c7120cf3e16f324cd45caf54e388fa27",
+                      "bytes":  215
+                  },
+                  {
+                      "path":  "reports/stage-b-postgresql-and-nonce.md",
+                      "sha256":  "e01bff1ffe25852c8f59a66831eacf1366cda2c97a39e7253e47d75b63bb74c2",
+                      "bytes":  822
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/artifact-sha256.json",
+                      "sha256":  "b44ceb8e3986f0f07faca03406b9c293dee81f6483514bbd59afa1ce82cba062",
+                      "bytes":  48728
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/failure-attempt-1.json",
+                      "sha256":  "c35fa32b1ab763a3f49f6afe72efa473d9a6e06546952728411910b7f3f4850a",
+                      "bytes":  642
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/failure-attempt-2.json",
+                      "sha256":  "e3242268b7162ccfc5f142a00e2618b9395e1bfd3609358c9fd36d3866079b66",
+                      "bytes":  583
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/failure-attempt-3.json",
+                      "sha256":  "0a8cb09d98ce1f60826c18f847e522d4ab468dcd5327550f2cb78732592f6267",
+                      "bytes":  782
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/summary.json",
+                      "sha256":  "3c047854fee8a5e1b7f85da49fb4a47730e59d11bae08fceb7489dbcd822e203",
+                      "bytes":  2477
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-rpc-restart/besu-validator-1.txt",
+                      "sha256":  "778fc890029761a8d18730431c7c5b41b69410e8c6259e17774f633b8bb9242f",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-rpc-restart/besu-validator-2.txt",
+                      "sha256":  "811a6756f6aa0296637ec4e0497849a1e8ea157b6a0212d70058c756e9dea372",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-rpc-restart/besu-validator-3.txt",
+                      "sha256":  "3bb445c8273e12d531a6b096564e0da8ce80191e88ebdb0c58a2f2eef49a65cf",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-rpc-restart/besu-validator-4.txt",
+                      "sha256":  "939acd2323b500d0376750d57182b0ae5f02587ed11dabca0eabafc2bde72932",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-rpc-restart/experiment-client.txt",
+                      "sha256":  "c38558582993f1ed55bd9734aca00c54a2f71b76ee667159c716afe7f166d88f",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-rpc-restart/summary.json",
+                      "sha256":  "47c30013b317024841176549a71db59b0239aa91b28b4392b63315ff52495a53",
+                      "bytes":  6739
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-validator-restart/besu-validator-1.txt",
+                      "sha256":  "d735dfe8d2c582153a5001bbca8383790c97ca6141525ffc66dbe8e01f51402b",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-validator-restart/besu-validator-2.txt",
+                      "sha256":  "501398366631c0f8e016684edf2b89c15b7889759c837a6f37626a44b4790aef",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-validator-restart/besu-validator-3.txt",
+                      "sha256":  "97ca515c6d60f26f92c0ec4b9c8c955311b37352b772fd85d65e47687d667a62",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-validator-restart/besu-validator-4.txt",
+                      "sha256":  "c9dd142c12bc0bd031699648fc73c47c71c3f8c2e9283188727a42c329b24555",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-validator-restart/experiment-client.txt",
+                      "sha256":  "c23012b638ed9c29c4fde72fd70923c4d1a704e448d76786c75d32011ee72cc8",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/after-validator-restart/summary.json",
+                      "sha256":  "aa9cd43709aeb739c8733de9331650a7e1553cb07eaa3138d660f600b5016d84",
+                      "bytes":  6769
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/before/besu-validator-1.txt",
+                      "sha256":  "c0550828894392a9d59a227b52b3a10d12fd65c5851ca974516f9bad584fbe07",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/before/besu-validator-2.txt",
+                      "sha256":  "6915b76dbb0ff82cb431ca91c751d60c581085925327cf83b575bdbf8eafefda",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/before/besu-validator-3.txt",
+                      "sha256":  "ae7c8b4b509ab94f132f5a7b42cde97eda4e03bcfe54ed0a996357bf73d146ee",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/before/besu-validator-4.txt",
+                      "sha256":  "0389b8f6d7aff10175f7c63e0c25b9fccfa57886b74bde4b0ddf54522d5b50d4",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/before/experiment-client.txt",
+                      "sha256":  "78e709b31d7991a2889cbd355260e3c5ab22f5786ece3843549b4736039898bc",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/before/summary.json",
+                      "sha256":  "fc4faf6c641d7a0af96c7160def34bc0528050f6ee52db05afef3eceae909d2c",
+                      "bytes":  6684
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/growth/besu-validator-1.txt",
+                      "sha256":  "dda15a56a2b0183e1aa1144efcf532ec5d5c69a9efbbe21f52262d48ae3bd676",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/growth/besu-validator-2.txt",
+                      "sha256":  "10ed8047895ebafbee0545ced7e4a86041f984cb19541dd016d8a7726abcaa8a",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/growth/besu-validator-3.txt",
+                      "sha256":  "f98a9a4a98d56e030ae26d52642cb48bef931e6416d3edcc7d138b5c746ff4b2",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/growth/besu-validator-4.txt",
+                      "sha256":  "56060c939f80048e4b7d7e713464dc268ff9722bfd2ad6cfda1b37035e3bf614",
+                      "bytes":  3119
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/growth/experiment-client.txt",
+                      "sha256":  "2a93672074679ff5aee44f94f2b111384996ef2d330feb91a7cb29ae39083697",
+                      "bytes":  3124
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/acceptance/growth/summary.json",
+                      "sha256":  "ee211e27162af8c4093b8d976fac4cc56ed015cdffe0ab9fd757d4657f755e47",
+                      "bytes":  6684
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/faults/preparation-summary.json",
+                      "sha256":  "e76bc5d7b491a6f7d10632b4597a06ac938bd59b8d5ec54aa4725b9f684f0e02",
+                      "bytes":  1442
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/genesis/decoded-validators.txt",
+                      "sha256":  "0654db8b2dab1e3b99793836df3501f3cfea48e4c1e4387ea12fa3ea164fa128",
+                      "bytes":  176
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/genesis/failure-attempt-1.json",
+                      "sha256":  "c157838cf421c6ca53d8a47f34f40cb2475dc63ae06936aba098cd257eed1040",
+                      "bytes":  730
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/genesis/failure-attempt-2.json",
+                      "sha256":  "49ff7f665b61116893b0ddfdfc18ffc832f8df9a3ad3f9b15fb2e01055482be2",
+                      "bytes":  596
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/genesis/generation.txt",
+                      "sha256":  "8a7c0b780092113f05ed3307665e0dcf68ccacb210af853f638cf30a6bd7ce8d",
+                      "bytes":  1500
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/genesis/mapping-correction.json",
+                      "sha256":  "7b9cab7edaf203b8b0c5f5bfefbb5f2f96b28d3356a52c3e0323e4925103d47b",
+                      "bytes":  552
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/genesis/remote-cleanup.txt",
+                      "sha256":  "87f45a17065e64b4e79a2e9124788f619e05cb2b52967135f8c9979b152c9cd9",
+                      "bytes":  42
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/genesis/summary.json",
+                      "sha256":  "dda8c9da6a9767b57d8b9408f7e1f9fc730e47da8ee3c1668c120f39ae7e5eab",
+                      "bytes":  914
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/infrastructure-freeze/audit.json",
+                      "sha256":  "4d175c460ceae4bca4d2c0de6bddbd64d5472163ce0d6a62dd71937201f459f6",
+                      "bytes":  6311
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/infrastructure-freeze/failure-attempt-1.json",
+                      "sha256":  "17d82aea4771d09ac49a948cb24fcf460eb4e14e09eeda0034145f5dbfc42bc3",
+                      "bytes":  460
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/infrastructure-freeze/failure-attempt-2.json",
+                      "sha256":  "23d3d7e59f29998cb63fffdfa283aca2a0c14ca5917b5f848b939925ec25efb0",
+                      "bytes":  478
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/infrastructure-freeze/hard-stop-secret-tracked.json",
+                      "sha256":  "44f0e2998d0cbdd32f5ca8d61836668641c8687e090fec9c54936181a88f6bce",
+                      "bytes":  1405
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/infrastructure-freeze/post-remediation-audit.json",
+                      "sha256":  "4d175c460ceae4bca4d2c0de6bddbd64d5472163ce0d6a62dd71937201f459f6",
+                      "bytes":  6311
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/infrastructure-freeze/post-remediation-chain-health.json",
+                      "sha256":  "dde4722fe6254837e7fbf646243f6a72fcfe22020902bd112e5f5047a8425362",
+                      "bytes":  358
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/infrastructure-freeze/post-remediation-secret-summary.json",
+                      "sha256":  "80832b6790beb205a94777ebe5f206138d6cdf849f26ab6857ae21181ecd09c8",
+                      "bytes":  248
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/artifact-sha256.json",
+                      "sha256":  "6e90bde224e94cb7146c107fcc71e2acbf70f1db69eddc336ac57990686fd5e5",
+                      "bytes":  3880
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/besu-validator-1.txt",
+                      "sha256":  "57b75c15be9b1bde3c60b69840bbbf69aceb723382f45c38ccb6d9f7971cd5fc",
+                      "bytes":  661
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/besu-validator-2.txt",
+                      "sha256":  "7d444be4370ba32136604ec30869b84677c94fa893f7961d10016f90eb1bdd04",
+                      "bytes":  661
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/besu-validator-3.txt",
+                      "sha256":  "0631795527b74b997b9305a3e957e561633596079a14e21323621ab2f0927200",
+                      "bytes":  661
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/besu-validator-4.txt",
+                      "sha256":  "99eea7ce46477f9c260f839043805faef60ded94fec47561c2855a0089b24a4e",
+                      "bytes":  661
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/download-metadata.json",
+                      "sha256":  "41f8c51c8b177e35d078b47bd22d4334d453458f5c7892868ee5682c93776240",
+                      "bytes":  680
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/experiment-client.txt",
+                      "sha256":  "4876d1e8eb5e1ad8c97bf6a9712fbd4cf9c64044aaa2bff433e89657a7322e42",
+                      "bytes":  662
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/hash-verification.json",
+                      "sha256":  "59938f1482e748aecf245e7c1cd31dc62fd36bb579a4dfaf8eba7e05be3a11e2",
+                      "bytes":  2140
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/recheck/besu-validator-1.txt",
+                      "sha256":  "c0116ae4ad59becf016ad67a9f2a144bf003deb12628674abdacec386a091a28",
+                      "bytes":  330
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/recheck/besu-validator-2.txt",
+                      "sha256":  "da0936001171eaf89eb013ca77df71c8f151d05c9cad68c883752fb7115736e3",
+                      "bytes":  330
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/recheck/besu-validator-3.txt",
+                      "sha256":  "78b3c9fd23bbfec430c5659cc7c28341dec79be8385c20faf2b64131ca7c388b",
+                      "bytes":  330
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/recheck/besu-validator-4.txt",
+                      "sha256":  "70f02c4607417fecf3c0a94399c542c6a52ffd9078d1fef65f885a9da9b4d53a",
+                      "bytes":  330
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/recheck/experiment-client.txt",
+                      "sha256":  "99b73f91c207663ff00ff833ccd643180795a42924dbafcfc28c1dc0cc66ca41",
+                      "bytes":  332
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/installation/recheck/summary.json",
+                      "sha256":  "fb998bf32535e5135b23a404448f516d57d70f5fef46d63f390a225d30dc59ca",
+                      "bytes":  1800
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/besu-validator-1.json",
+                      "sha256":  "929a8f41320fbc67a5fb3356d43a79daf6986369415974527689398b674bf3ff",
+                      "bytes":  5883
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/besu-validator-1.txt",
+                      "sha256":  "42e607ad77b6ecedd9c0c32a3cbce1718160c0fb36553fa45903a88ead19fb33",
+                      "bytes":  4982
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/besu-validator-2.json",
+                      "sha256":  "34990fb121b37e7945dd66a20f11e1558a72ef6d26f5242b6836d924a9550087",
+                      "bytes":  5885
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/besu-validator-2.txt",
+                      "sha256":  "8285795bcc26c07d4d763b788b3f1b2693915ea7383afff607a3b15563fe9a8b",
+                      "bytes":  4984
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/besu-validator-3.json",
+                      "sha256":  "db74aaf28575cfc272083c351bcc6ec39be6f9e6f8b7529846198ada69db4211",
+                      "bytes":  5885
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/besu-validator-3.txt",
+                      "sha256":  "4e7f4cfb3e6709aabf7e49e9db2a5cc2e38ba7ddb6e7a75f26d2f53cc8a86ee9",
+                      "bytes":  4984
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/besu-validator-4.json",
+                      "sha256":  "ca36746bbdd7b6422be12a8af2f556c7027a37966cff72537dee9d38154b5d18",
+                      "bytes":  5885
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/besu-validator-4.txt",
+                      "sha256":  "e79b2839e19a402719487b6096d2a5d0a7323c08c1934a54a875bb1b416ed6dd",
+                      "bytes":  4984
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/experiment-client.json",
+                      "sha256":  "f77ec8be805310a655d0502fc603bbba47ce2705394e91f990b4aeec0f0282a5",
+                      "bytes":  5886
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/experiment-client.txt",
+                      "sha256":  "d415f08b30f1017bb51a2dd3b79173d759773e89a691fe25558be24e2110e1cd",
+                      "bytes":  4985
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/failure-20260728T092003Z.json",
+                      "sha256":  "532adf0c68f4834bfb9d2f5da77f7593eed609b025d2df361cb9c0f56a0b517f",
+                      "bytes":  676
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/failure-20260728T092003Z.txt",
+                      "sha256":  "295e53ac15e66eba4afc669d2ac852ddc8b6f7e44cf17220ade6d79e0b9aee8a",
+                      "bytes":  266
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/failure-20260728T092249Z.json",
+                      "sha256":  "541e3eefc7f3b503537c80e735d308c704fc5aa4b0728306a212320329276556",
+                      "bytes":  629
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/failure-20260728T092249Z.txt",
+                      "sha256":  "0f8e41c5c3ec5c0aada1fad8264e209260b09076913e20e152a39828d005a54d",
+                      "bytes":  268
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/failure-20260728T092436Z.json",
+                      "sha256":  "cd5e59fe0f9e7e9e98b2f693f9238169afba668e629659521f5973ed2334a8f0",
+                      "bytes":  676
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/failure-20260728T092436Z.txt",
+                      "sha256":  "2f0422458dc67e24be8edfc6910f1cf1632552c21f3126b74b6ba8953e808b7a",
+                      "bytes":  325
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/failure-20260728T092604Z.json",
+                      "sha256":  "a0c676102cfa307f6c40a7f55e9de8989822460de9eab95352754d49d2168cb9",
+                      "bytes":  587
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/failure-20260728T092604Z.txt",
+                      "sha256":  "7acbc4649a2e607b6502f3968b2271eb2eea8167e73822194e4cfe8ba0076537",
+                      "bytes":  307
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/failure-20260728T093002Z.json",
+                      "sha256":  "f40e06b7c2b5473176fb5f49e8f0096ce6e7eb7c20b8e59575f0261c9534c82c",
+                      "bytes":  983
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/failure-20260728T093300Z.json",
+                      "sha256":  "94fd1d09d3d1ed8244256bc9b0bdc8575237155b530748d28ea6cff93e0b725c",
+                      "bytes":  394
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/preflight/summary.json",
+                      "sha256":  "f789ea265272573fdd55c602520941015e08fc6acfd52ff41b3d9482f4353a3f",
+                      "bytes":  2934
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/recovery/besu-validator-1-cleanup.txt",
+                      "sha256":  "275f4b356927499ade09db99b617767691101f224296ae0aaadb0d36e3345727",
+                      "bytes":  355
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/recovery/besu-validator-2-cleanup.txt",
+                      "sha256":  "7e46e5aabef6b420923a78d89afbeeb7cac25895d1544859cdd99d73f08d7912",
+                      "bytes":  355
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/recovery/besu-validator-3-cleanup.txt",
+                      "sha256":  "3401a41a8831cfaa1c84eddfa604f1da11542d236051b7df18118c39bee08707",
+                      "bytes":  355
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/recovery/besu-validator-4-cleanup.txt",
+                      "sha256":  "27c14edaabb0d606dc790a1b665f8a35a413f30af2c9c64f718fac7b360714ca",
+                      "bytes":  355
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/recovery/summary.json",
+                      "sha256":  "e8aeb65f3f782b10440ebd8c07dbeeb54a56a129b4ccd016b3f4e291863b61a3",
+                      "bytes":  1280
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/acceptance.txt",
+                      "sha256":  "3db6616896bda0239f6bfa3f9c0a7746fe351a3fbafe230bcf7b6e6c101eb528",
+                      "bytes":  28829
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/failure-attempt-1.json",
+                      "sha256":  "e934b1d79eff3ce739db98bda4299145f246ace3b02c808920ef13ad05555ba1",
+                      "bytes":  572
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/failure-attempt-2.json",
+                      "sha256":  "9d976a168d53aaed6117a666633c134f917fd2cd10cbf96b3597bc3491bdcbc0",
+                      "bytes":  544
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/failure-attempt-3.json",
+                      "sha256":  "cae09e437bc25c5c269472da17e5376b8040703b4482f1efafd8112f1b112145",
+                      "bytes":  563
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/failure-attempt-4.json",
+                      "sha256":  "ce4078eddce3a1d8fe4ecc271814acdf82c0f650fce28c46038639dd62f3d944",
+                      "bytes":  539
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/failure-attempt-5.json",
+                      "sha256":  "4fec4af484b9400cae06f849382005d55568d9590e947aa8aaa0eadc6d75fb67",
+                      "bytes":  432
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/failure-attempt-6.json",
+                      "sha256":  "fd12420506846cfcdb74dac48f8ca84b66f9cee04e3a2b907f855150291c2f05",
+                      "bytes":  432
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/install.txt",
+                      "sha256":  "872900e52394b1cf9cb3dd178bc93bb41505374d4c3101685772b7289ce5a822",
+                      "bytes":  975
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/recovery-failure-1.json",
+                      "sha256":  "e9e37fa0f0a2d5c6bf08c6d195fda67b6aa09ceca1a1cc587aa9a04d3886dd72",
+                      "bytes":  340
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/recovery-failure-2.json",
+                      "sha256":  "d69bcd2dab80efb81e14868f8fc244726b8e919abc862d0dd6d0d4fa23e53916",
+                      "bytes":  407
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/summary.json",
+                      "sha256":  "843a4ea8f5293f1fbe0669b7975d49b9a552033c84542c6ec5448e3c04a14e8a",
+                      "bytes":  492
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/rpc/windows-web3-clientVersion.json",
+                      "sha256":  "938de3ca1ee25d1bc085ebfd45ad54e5b933864a0b25011c51865b52435f29a5",
+                      "bytes":  108
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/security-remediation/final-history-secret-scan.json",
+                      "sha256":  "407b9dace9b16ec12994c385625d215c099f0119e5c03ffb695f2309559c13c3",
+                      "bytes":  301
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/security-remediation/final-index-secret-scan.json",
+                      "sha256":  "dd0266ec606da5900d89985cb6e0c1beaa2c6b94ac75c9b40a80121ff41ed7b5",
+                      "bytes":  58313
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/security-remediation/final-object-secret-scan.json",
+                      "sha256":  "81e4a292cbf6bf2df6f97433212ba71bd5ea23398202bfe5ea49f7cc0386cd89",
+                      "bytes":  364
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/security-remediation/final-worktree-secret-scan.json",
+                      "sha256":  "865803bb998597378fb18edfa1694a6df044382e0d65dfa0b7bc52866e0b9a85",
+                      "bytes":  1333
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/security-remediation/git-object-cleanup-after.json",
+                      "sha256":  "2ff38d262a78d684672e123547fc809674c2740c441919dbbaace326d3261131",
+                      "bytes":  516
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/security-remediation/git-object-cleanup-before.json",
+                      "sha256":  "f7e631ad189baa4c5ef7efd59a53c9ce6793e7196961d2b82093d66cb83ea2b8",
+                      "bytes":  651
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/security-remediation/legacy-runtime-secret-inventory.json",
+                      "sha256":  "deb0f9c9269e1828d3f18c491ab811a9b72d1f3a33bb46d95ee993e22e467905",
+                      "bytes":  296
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/security-remediation/legacy-runtime-secret-removal.json",
+                      "sha256":  "978643509bfbfef4d2d67f4d45af4a2df1ab2887991e65d1c6c86a5726b54b51",
+                      "bytes":  256
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/security-remediation/secret-candidate-classification.json",
+                      "sha256":  "5b7190d0ac5d0f6a2eb88c36cc6db5d16d1cb5186ec71905a7c871d10f6aa081",
+                      "bytes":  49772
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/besu-validator-1.txt",
+                      "sha256":  "010db1e66af57682e0642c8038375d0296f15afd993fabfa8b0a39c384c26963",
+                      "bytes":  653
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/besu-validator-2.txt",
+                      "sha256":  "0197d968e2e55cdeee9113db38dfcdba8afb6a26b71f942006b0c2b33e13a133",
+                      "bytes":  593
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/besu-validator-3.txt",
+                      "sha256":  "509568f8cf7a47b5695eac15ca18b238889acd380f481ce313c5965a1a5c871e",
+                      "bytes":  593
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/besu-validator-4.txt",
+                      "sha256":  "b4e663537c760b3ec9c73d0326bb01213e08f5953feb5757787015eab9f1a99d",
+                      "bytes":  593
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/experiment-client.txt",
+                      "sha256":  "d79d49a7386b4b276f0d0833bf64890f9e4ed9a5c6bbd97a9051e2e0359a94a8",
+                      "bytes":  263
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/failure-attempt-1.json",
+                      "sha256":  "f61cae05d2783e5ee8874475235ecb40ddc46cef22e08009eff92c99662f4612",
+                      "bytes":  391
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/failure-attempt-2.json",
+                      "sha256":  "dce99198255bd335aee782ae558c072c72e96b64366db5486de1d474a79913e3",
+                      "bytes":  577
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/key-distribution.json",
+                      "sha256":  "35889a2914503aa8c3cda5efe62b1e29b98a7756d4fd26e698057f7e26329e5b",
+                      "bytes":  3352
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/summary.json",
+                      "sha256":  "5e901c273437a262b467f942289840d46055545121ee1b1e03294aa374a5d0f0",
+                      "bytes":  374
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/deployment/besu-validator-1-acceptance.txt",
+                      "sha256":  "1660bab9abb03d538a96a63b94c6bec27618fd18f9fd6a3d6b07d5f65d814143",
+                      "bytes":  21046
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/deployment/besu-validator-1-install.txt",
+                      "sha256":  "f4e3d16dea5b510eb51fc7e3cd3c54e606cdf095a33b745acf5c7d82c74478b1",
+                      "bytes":  210
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/deployment/besu-validator-2-acceptance.txt",
+                      "sha256":  "3a97b33335c029ad4f4f94c4f3ab2c20051861d323d33a71787fdb64d39f208c",
+                      "bytes":  21095
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/deployment/besu-validator-2-install.txt",
+                      "sha256":  "c9af29aa6cac78ae43abc8741c35a596f48f93b009fc7251ebe99a4bb7f82594",
+                      "bytes":  210
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/deployment/besu-validator-3-acceptance.txt",
+                      "sha256":  "21290677ea4d5fcd26b629c923f731327ce8811c72409b84615988f3e8502215",
+                      "bytes":  21057
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/deployment/besu-validator-3-install.txt",
+                      "sha256":  "c940c575891543dce162c834c22f017c45927b91f97446e767d773ed2edb2256",
+                      "bytes":  210
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/deployment/besu-validator-4-acceptance.txt",
+                      "sha256":  "5728b93d47c76590b3fccb0f2a9adb498cca7a455009cbdef29047c8845a0799",
+                      "bytes":  20912
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/deployment/besu-validator-4-install.txt",
+                      "sha256":  "5b54aa280e95da035b18fdde1e5e86d243e1e2e0529cfbb12935d979c2da6a76",
+                      "bytes":  210
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/deployment/failure-attempt-1.json",
+                      "sha256":  "1776a656181f1d3b5e9ff2a2db85a625772611ea132b099d904abbb6d0de9792",
+                      "bytes":  498
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/evidence/validators/deployment/summary.json",
+                      "sha256":  "37bb018b55a47a2802d15d0c0eea201514f1244733514e607f6f3a17f63acfb1",
+                      "bytes":  1676
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/Besu-QBFT五节点部署总验收报告.md",
+                      "sha256":  "d15a880ef3da96cc6c845661e12a0b459a4b48c1141c0ddd70ab8c4d17c9accf",
+                      "bytes":  4519
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/R5-A遗留秘密副本清退报告.md",
+                      "sha256":  "e01183993fdec9d594db787e4cef1f1be0db84afddcc0eb8124a4e757fbf3d68",
+                      "bytes":  660
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/R5-B最终秘密扫描报告.md",
+                      "sha256":  "ef8219ccdaa365b9e89da3c44d028a40d1143d33cc85da6d24e59552fd650c6e",
+                      "bytes":  655
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/R5-C Git对象清理报告.md",
+                      "sha256":  "17b52cb0777cddff6aedbdc42a625f53acc9f3116cb6589133df342f9377f63c",
+                      "bytes":  499
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/recovery-cleanup-20260728.md",
+                      "sha256":  "dc364e51d03e178821ea441972bef6dcc3b31f72a8631e2262d61afb9a817485",
+                      "bytes":  1570
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/sanitized-baseline-freeze-report.md",
+                      "sha256":  "12f537b212af71725173f6df676e8d54b30cfddbdb033e89e813ec9b0878d40b",
+                      "bytes":  531
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-0-preflight.md",
+                      "sha256":  "a33dec57bf44d0ba0ef8d45ddb1c4e826f22ae1fa5fddfdb51bd8fd800af94ea",
+                      "bytes":  5695
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-1-besu-installation.md",
+                      "sha256":  "9f40e2ebe53cacf81009580691c72ebf9667deb8219f180d2db0c98402237bfd",
+                      "bytes":  4000
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-2-qbft-genesis.md",
+                      "sha256":  "083e05dea3e65a71e7f8ee4a5cd7b114a6fbda55a66f9653360e413fd7fae395",
+                      "bytes":  2960
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-3-validator-keys.md",
+                      "sha256":  "b3adb9671f361fd07cd4ae23e8ff81444e2e18533b31f627c6e7d8afe4130b33",
+                      "bytes":  1875
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-4-validator-deployment.md",
+                      "sha256":  "02bc0cd250e7a4b687b6029a22fb5f8bc239700846eec5e063e7ae0d9c6692f6",
+                      "bytes":  1752
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-5-rpc-deployment.md",
+                      "sha256":  "7423bb7ccbe3c411e944a8070c0e0b09e1cc2508c9d660614e5e1d6804deaffd",
+                      "bytes":  1703
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-6-chain-acceptance.md",
+                      "sha256":  "e89b4499577d3423becda16a1e0077ec559cab12b14e0ffdadc5f523a8810679",
+                      "bytes":  1928
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-7-fault-test-plan.md",
+                      "sha256":  "6bc869905eb4a0604fe965578c06937d34e4c0be8922552c25fb04a13bd84da4",
+                      "bytes":  2602
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-a-infrastructure-freeze.md",
+                      "sha256":  "47bf9ae09a2662f8fc006931552ea8b9a9e62c62cf3c2b11ce089c9252dc876d",
+                      "bytes":  2097
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-a-post-remediation-validation.md",
+                      "sha256":  "291a13d080486d20bad887144ab2c70576d5a37f646accd44672432b4aa42b8f",
+                      "bytes":  723
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/reports/stage-c-funding-hard-stop.md",
+                      "sha256":  "fbccbed1b8d0a967682679bd26ee0cf0d4348c10c9ce48996bd57bd29357d4bb",
+                      "bytes":  669
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/state/continuous-execution-state.json",
+                      "sha256":  "85e46521ee1513bdb5d0a8fcde96232614513cc36575248b7a8be019f5876c61",
+                      "bytes":  3024
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/state/resume-checkpoint.md",
+                      "sha256":  "1872b7def7884768bcbfd38fa03569aaccb3cbe7acdf7a1e9df83076ae904c60",
+                      "bytes":  1528
+                  },
+                  {
+                      "path":  "infra/besu-qbft-multihost/state/security-remediation-hard-stop.json",
+                      "sha256":  "3259e291cdc1fd1dc22df27b725da50429df7a6dc3b92b7989b5b3556cc99637",
+                      "bytes":  567
+                  }
+              ]
+}

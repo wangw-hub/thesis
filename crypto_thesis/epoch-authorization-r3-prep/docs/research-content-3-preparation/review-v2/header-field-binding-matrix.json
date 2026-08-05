@@ -1,0 +1,27 @@
+{
+  "schemaVersion":1,
+  "default":{"canonical":true,"headerDigest":true,"secret":false,"clientVerified":true},
+  "fields":{
+    "schemaVersion":{"category":"A","hpkeInfo":true,"bodyAad":false,"chainVerified":false},
+    "suiteId":{"category":"F","hpkeInfo":true,"bodyAad":true,"chainVerified":false},
+    "chainId":{"category":"B","hpkeInfo":true,"bodyAad":true,"chainVerified":true},
+    "authorizationContract":{"category":"B","hpkeInfo":true,"bodyAad":true,"chainVerified":true},
+    "headerRegistry":{"category":"B","hpkeInfo":true,"bodyAad":false,"chainVerified":true},
+    "resourceId":{"category":"C","hpkeInfo":true,"bodyAad":true,"chainVerified":true},
+    "bodyReference":{"category":"C","hpkeInfo":false,"bodyAad":false,"chainVerified":false},
+    "bodyDigest":{"category":"C","hpkeInfo":true,"bodyAad":false,"chainVerified":false},
+    "bodyVersion":{"category":"C","hpkeInfo":true,"bodyAad":true,"chainVerified":false},
+    "policyDigest":{"category":"D","hpkeInfo":true,"bodyAad":true,"chainVerified":true},
+    "epoch":{"category":"D","hpkeInfo":true,"bodyAad":true,"chainVerified":true},
+    "stateVersion":{"category":"D","hpkeInfo":true,"bodyAad":false,"chainVerified":true},
+    "headerVersion":{"category":"D","hpkeInfo":true,"bodyAad":false,"chainVerified":true},
+    "keyVersion":{"category":"D","hpkeInfo":true,"bodyAad":false,"chainVerified":true},
+    "previousHeaderDigest":{"category":"D","hpkeInfo":false,"bodyAad":false,"chainVerified":true},
+    "recipientEnvelopes":{"category":"E","hpkeInfo":"PER_ITEM","bodyAad":false,"chainVerified":false},
+    "createdAt":{"category":"G","hpkeInfo":false,"bodyAad":false,"chainVerified":false},
+    "issuerId":{"category":"G","hpkeInfo":true,"bodyAad":false,"chainVerified":false},
+    "metadataDigest":{"category":"G","hpkeInfo":false,"bodyAad":false,"chainVerified":false},
+    "issuerSignature":{"category":"SIGNATURE","canonical":false,"headerDigest":false,"hpkeInfo":false,"bodyAad":false,"chainVerified":false,"clientVerified":true}
+  },
+  "nonDigestIndexes":["database.headerReference","database.jobStatus","database.storageHealth"]
+}

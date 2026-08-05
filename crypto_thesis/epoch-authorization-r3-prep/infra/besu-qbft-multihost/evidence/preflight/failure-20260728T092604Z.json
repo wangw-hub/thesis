@@ -1,0 +1,14 @@
+{
+  "stage": 0,
+  "attempt": 4,
+  "status": "FAILED_BEFORE_REMOTE_EXECUTION",
+  "failed_at_utc": "2026-07-28T09:26:04.4929425Z",
+  "host": null,
+  "exit_code": 1,
+  "stderr": "ProcessStartInfo does not expose StandardInputEncoding in the available Windows PowerShell runtime.",
+  "remote_changes": false,
+  "ssh_connections_started": false,
+  "stage_1_started": false,
+  "cause": "Local .NET API compatibility difference, not a remote host failure.",
+  "proposed_fix": "Remove the unsupported StandardInputEncoding assignment; the transmitted Bash payload is ASCII and LF-normalized."
+}

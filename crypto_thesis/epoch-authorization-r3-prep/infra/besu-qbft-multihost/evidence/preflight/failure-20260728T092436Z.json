@@ -1,0 +1,14 @@
+{
+  "stage": 0,
+  "attempt": 3,
+  "status": "FAILED_BEFORE_REMOTE_EXECUTION",
+  "failed_at_utc": "2026-07-28T09:24:36.8182374Z",
+  "host": null,
+  "exit_code": 1,
+  "stderr": "PowerShell ParserError: variable reference is not valid because a colon immediately followed $jsonExit and $textExit in interpolated strings.",
+  "remote_changes": false,
+  "ssh_connections_started": false,
+  "stage_1_started": false,
+  "cause": "Local PowerShell string interpolation syntax error in the new ProcessStartInfo error message.",
+  "proposed_fix": "Use ${jsonExit} and ${textExit} to delimit interpolated variables before the colon, then parse the script locally before retrying SSH."
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "PREPARATION_COMPLETE_AWAITING_ENTRY_DECISION",
+  "base_commit": "8a3d795e22e5d9373c3053245e3b4040cd062dd5",
+  "research_content_2": "FORMAL_EVIDENCE_REQUIRES_RERUN",
+  "fatal": 0,
+  "major": 7,
+  "open_decisions": 14,
+  "formal_implementation_started": false,
+  "ipfs_started": false,
+  "chain_transaction_submitted": false,
+  "research_content_2_environment_modified": false
+}

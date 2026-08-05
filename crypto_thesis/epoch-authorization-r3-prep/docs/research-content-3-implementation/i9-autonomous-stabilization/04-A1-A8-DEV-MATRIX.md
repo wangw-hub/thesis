@@ -1,0 +1,5 @@
+# A1-A8 Development Matrix
+
+Authoritative pre-freeze run: `DEV_P9A_20260801T141600Z_26cc5e9`, Git `26cc5e978f712973bd88c4f3f02eff79c5136bbd`.
+
+A1 INITIAL PASS; A2 HEADER_ONLY PASS; A3 BODY_ROTATION PASS; A4 IPFS_REPLICATION PASS; A5 IPFS_RESTORE PASS; A6 HEADER_UPDATE_PENDING PASS; A7 REVOCATION_AGENT PASS; A8 RECOVERY_RECONCILIATION PASS. Planned=8, actual=8, valid=8; raw SHA errors=0; identity duplicates=0; DB/chain/material violations=0.

@@ -1,0 +1,29 @@
+﻿{
+    "stage":  7,
+    "passed":  true,
+    "destructive_tests_executed":  false,
+    "scripts_require_explicit_execute_switch":  true,
+    "artifacts":  [
+                      {
+                          "path":  "scripts\\powershell\\fault-stop-one-validator.ps1",
+                          "sha256":  "cf648b8208fab5819718a287d705b86beb9060bdcee613be596f9ac0b78e6b7e"
+                      },
+                      {
+                          "path":  "scripts\\powershell\\fault-recover-validator.ps1",
+                          "sha256":  "13eaf9b2180def3314a459dcecb224d9ea7621fb1399151ab6f22d9d19af21bc"
+                      },
+                      {
+                          "path":  "scripts\\powershell\\fault-stop-rpc.ps1",
+                          "sha256":  "6624d38558e1f66411d55159cc2c6d1ea91d3de7eb61ddd1e11b1754bd9b5a35"
+                      },
+                      {
+                          "path":  "scripts\\powershell\\fault-recover-rpc.ps1",
+                          "sha256":  "10727f68cf4fccee03b886423fadefeed6ccab0220e3d7bc58c47244c49458f5"
+                      },
+                      {
+                          "path":  "scripts\\remote\\collect-node-state.sh",
+                          "sha256":  "88e15bb26e6dc1a5ab5251bdd4c163f33e8d41c1969e3f3d0871b2e9982d81ce"
+                      }
+                  ],
+    "completed_at_utc":  "2026-07-28T11:14:43.1607631Z"
+}

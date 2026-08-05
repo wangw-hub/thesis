@@ -1,0 +1,10 @@
+{
+  "stage": 5,
+  "status": "RECOVERY_PARTIAL",
+  "cause": "The audited JNA cache was removed, but /tmp sticky-bit rules prevented thesis from deleting temporary files owned by besu.",
+  "remaining_targets": [
+    "/tmp/besu-rpc-key",
+    "/tmp/besu-rpc-key.pub"
+  ],
+  "resolution": "Use sudo -n rm for these two exact temporary files."
+}

@@ -1,0 +1,12 @@
+host=besu-validator-2
+exit_code=0
+--- stdout ---
+hostname=besu-validator-2
+java_version=openjdk version "21.0.11" 2026-04-21
+besu_version=besu/v26.5.0/linux-x86_64/openjdk-java-21
+besu_target=/opt/besu-26.5.0
+besu_user=uid=999(besu) gid=988(besu) groups=988(besu)
+unexpected_processes=false
+unexpected_units=false
+
+--- stderr ---

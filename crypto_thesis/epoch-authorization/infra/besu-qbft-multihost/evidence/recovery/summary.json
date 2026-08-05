@@ -1,0 +1,26 @@
+﻿[
+    {
+        "host":  "besu-validator-1",
+        "exit_code":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\recovery\\besu-validator-1-cleanup.txt",
+        "sha256":  "275F4B356927499ADE09DB99B617767691101F224296AE0AAADB0D36E3345727"
+    },
+    {
+        "host":  "besu-validator-2",
+        "exit_code":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\recovery\\besu-validator-2-cleanup.txt",
+        "sha256":  "7E46E5AABEF6B420923A78D89AFBEEB7CAC25895D1544859CDD99D73F08D7912"
+    },
+    {
+        "host":  "besu-validator-3",
+        "exit_code":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\recovery\\besu-validator-3-cleanup.txt",
+        "sha256":  "3401A41A8831CFAA1C84EDDFA604F1DA11542D236051B7DF18118C39BEE08707"
+    },
+    {
+        "host":  "besu-validator-4",
+        "exit_code":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\recovery\\besu-validator-4-cleanup.txt",
+        "sha256":  "27C14EDAABB0D606DC790A1B665F8A35A413F30AF2C9C64F718FAC7B360714CA"
+    }
+]

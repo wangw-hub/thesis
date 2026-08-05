@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "FinalTableRegistryV1",
+  "captionedTables": [
+    "表4-1",
+    "表4-2",
+    "表4-3",
+    "表4-4",
+    "表4-5",
+    "表5-1",
+    "表5-2",
+    "表6-1",
+    "表6-2",
+    "表6-3",
+    "表6-4",
+    "表6-5"
+  ],
+  "uncaptionedFrozenTables": [
+    "NTP1 编码字段表(4.3.4)",
+    "复杂度表(4.5)",
+    "场景对比表(4.7.5)",
+    "安全属性表(5.8)"
+  ],
+  "totalWordTables": 16,
+  "missing": 0,
+  "broken": 0
+}

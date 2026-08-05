@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "CitationClaimVerificationV1",
+  "citations": [
+    {
+      "REF-01": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-02": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "REF-03": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-04": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-05": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-06": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-07": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-08": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-09": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-10": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-11": "BACKGROUND_ONLY"
+    },
+    {
+      "REF-12": "BACKGROUND_ONLY"
+    },
+    {
+      "REF-13": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-14": "DIRECTLY_SUPPORTED"
+    },
+    {
+      "REF-15": "BACKGROUND_ONLY"
+    },
+    {
+      "REF-16": "DIRECTLY_SUPPORTED"
+    }
+  ]
+}

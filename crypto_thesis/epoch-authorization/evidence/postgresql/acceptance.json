@@ -1,0 +1,50 @@
+﻿{
+    "checked_at_utc":  "2026-07-29T02:34:04.4151609Z",
+    "host":  "experiment-client",
+    "service_active":  true,
+    "outage_failed_closed":  true,
+    "persisted_rows":  6,
+    "concurrency":  {
+                        "persisted_nonce_rows":  6,
+                        "reconcile":  {
+                                          "database_next_nonce":  75,
+                                          "reserved_nonce":  75,
+                                          "rpc_pending_nonce":  50,
+                                          "unknown_broadcast_nonce_reused":  false
+                                      },
+                        "shared_nonce":  [
+                                             {
+                                                 "accepted":  1,
+                                                 "concurrency":  50,
+                                                 "rejected":  49,
+                                                 "rows":  1
+                                             },
+                                             {
+                                                 "accepted":  1,
+                                                 "concurrency":  100,
+                                                 "rejected":  99,
+                                                 "rows":  1
+                                             },
+                                             {
+                                                 "accepted":  1,
+                                                 "concurrency":  500,
+                                                 "rejected":  499,
+                                                 "rows":  1
+                                             }
+                                         ],
+                        "transaction_nonce":  [
+                                                  {
+                                                      "concurrency":  20,
+                                                      "maximum":  39,
+                                                      "minimum":  20,
+                                                      "unique":  20
+                                                  },
+                                                  {
+                                                      "concurrency":  50,
+                                                      "maximum":  99,
+                                                      "minimum":  50,
+                                                      "unique":  50
+                                                  }
+                                              ]
+                    }
+}

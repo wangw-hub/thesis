@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-07-30",
+  "scope": "research-content-3-i0",
+  "artifacts": [
+    {"path": "00-I0-ENTRY-DECISION.md", "sha256": "f9da88e33c67a1b26fb83ee9850efa116e1d40e4734c6ee8fb8c80a236c97fcc"},
+    {"path": "01-RC2-INTERFACE-BASELINE.md", "sha256": "25246e15088732db749a77434d237d702116ff056becba002651de4fc253d14f"},
+    {"path": "02-ENVIRONMENT-INVENTORY.md", "sha256": "732f20e575ed67912614e9fb72701829c112d2118cf917a0aba8414b87c6af63"},
+    {"path": "03-DEPENDENCY-CANDIDATES.md", "sha256": "a2e0ae7291865ba245eb18aac4924e6f11dd4b7de19a197d14c4c34c2c05a693"},
+    {"path": "04-LICENSE-REVIEW.md", "sha256": "f2f460c12cffd1a664ec96bff792cf9f8f56f08f7066b127f53f25117d12b94e"},
+    {"path": "05-HPKE-LIBRARY-CANDIDATES.md", "sha256": "cbf482c3430a8719979be8337cbc63cb99ce2fc857d6bd1ffa388891306604d7"},
+    {"path": "06-JCS-LIBRARY-CANDIDATES.md", "sha256": "b2d436cfdcab6cdb335ed69be7663a6e38797fa8b3e025e0d1dcb39e92683ab5"},
+    {"path": "07-DIRECTORY-AND-MODULE-BASELINE.md", "sha256": "4ebfa2749f8b3b9666244ee3ca6b6280d734a2465ee8b9a168f9de1b9f3a4821"},
+    {"path": "08-KEYSTORE-OPTION-A-BASELINE.md", "sha256": "ed76b1840a50e570e846c5843f9c026b6f06f217bee5d5a3c6e9ab7527edd4d6"},
+    {"path": "09-SECRET-INJECTION-PLAN.md", "sha256": "63cc56f2d7f5ffffb231334ad0d7a00bb05e2e59b55d3f651e5e96ac50b916b1"},
+    {"path": "10-LOG-REDACTION-RULES.md", "sha256": "7f3c1da9967428f49a35f6b51f0006523a1f260327e9d9ea8ba8e66573c741e0"},
+    {"path": "11-THREAT-BOUNDARY-FREEZE.md", "sha256": "2944a6dcc15f29d7ed0883a5a41b8a79271a64218feead007bf870145d180df8"},
+    {"path": "12-I1-TEST-VECTOR-REGISTER.md", "sha256": "27800ef788b580c5dcf813321f7cd32b1d54e1cdc1f9a7ae1fa6e0e02fa2f5f1"},
+    {"path": "13-I1-ENTRY-CHECKLIST.md", "sha256": "d7a2fb981c95226488f18c9584a8a39b20f11e3b323d508631684bf4b6a28abf"},
+    {"path": "14-I0-FINAL-REVIEW.md", "sha256": "0df8cdb5b623fd6d910ab70280d0f402661fa04b0dd363d3a1890a591d04ecc0"},
+    {"path": "i0-state.json", "sha256": "2ab77dcb06c1b0ad14e157b447bca3465e19db74bec4273315d32a7019ffac15"},
+    {"path": "requirements-r3-candidate.txt", "sha256": "7cc914a485ab6604c0e524ccda27b9990129a02bf97bbcaba37f74f8a2342f87"}
+  ]
+}

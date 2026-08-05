@@ -1,0 +1,16 @@
+{
+  "stage": 6,
+  "attempt": 3,
+  "operation": "validator-4 restart recovery acceptance",
+  "exit_code": 1,
+  "reason": "At the 15-second sample, validator-4 was active and caught up but had three of four expected peers; the RPC node also temporarily observed three peers.",
+  "observed_facts": {
+    "validator_4_active": true,
+    "validator_4_caught_up": true,
+    "network_continued_block_production": true,
+    "fixed_height_block_hash_consistent": true,
+    "recent_service_errors": 0
+  },
+  "impact": "No destructive action occurred. The authorized validator restart completed, but the strict full-peer acceptance window was too short.",
+  "resolution": "Use a 30-second recovery window, covering multiple 2-second QBFT block periods, before strict peer-count acceptance."
+}

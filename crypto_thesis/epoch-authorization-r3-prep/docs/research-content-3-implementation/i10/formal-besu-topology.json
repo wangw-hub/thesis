@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "R3FormalBesuTopologyV1",
+  "status": "DESIGNED_NOT_DEPLOYED",
+  "nodes": [
+    {
+      "role": "Validator",
+      "count": 4
+    },
+    {
+      "role": "RPC_CLIENT",
+      "count": 1
+    }
+  ],
+  "independenceRequirements": [
+    "new genesis",
+    "new chainId",
+    "new account and node keys",
+    "new roles",
+    "new contract deployments",
+    "new data directories",
+    "new systemd units",
+    "new ports",
+    "new evidence root"
+  ],
+  "forbiddenReuse": [
+    "r3_i5 Pilot chain 2026073005",
+    "RC2 formal chain",
+    "Pilot keys",
+    "Pilot raw",
+    "Validator services"
+  ],
+  "deployed": false
+}

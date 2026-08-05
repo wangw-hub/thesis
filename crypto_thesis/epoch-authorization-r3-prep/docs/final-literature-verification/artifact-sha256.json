@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "I15ArtifactSha256V1",
+  "generatedAt": "2026-08-02T12:41:43.168910+00:00",
+  "selfIncluded": false,
+  "files": [
+    {
+      "path": "00-I15-ENTRY.md",
+      "sha256": "9009a82bf39157d01390694287163936265fbf36dcc36937980af71fe4a557fc"
+    },
+    {
+      "path": "01-VERIFICATION-QUEUE-BASELINE.md",
+      "sha256": "e79a6f8d9747500334b7c29de1374fdb95af1f2871692c71543c50d86f98ab5a"
+    },
+    {
+      "path": "02-BIBLIOGRAPHIC-VERIFICATION.md",
+      "sha256": "3a1cbcc38c54c8a37ef0dcbf63e850614dd511b1891bafb160c91d75eef2d7b4"
+    },
+    {
+      "path": "03-DOI-METADATA-AUDIT.md",
+      "sha256": "40b1cf17f7c9f802005caea826ee0383024ee825a04a5b5ccbf2c08f9b9f82f2"
+    },
+    {
+      "path": "04-PUBLICATION-STATUS-AUDIT.md",
+      "sha256": "8ce9c1740862c3f986004ac7479e79097062fd59f61e7d958c2c81d93ba4066b"
+    },
+    {
+      "path": "05-CITATION-CLAIM-VERIFICATION.md",
+      "sha256": "9510e45efe17bc5f12a16f779255b0a6ddb7d6f16e7b2cf1bb18e177d53bf706"
+    },
+    {
+      "path": "06-INNOVATION-CLAIM-AUDIT.md",
+      "sha256": "6d2f82e91462107086c6e139ae9eea0f444334220f23a50923dc595c1fe91320"
+    },
+    {
+      "path": "07-RELATED-WORK-COVERAGE-AUDIT.md",
+      "sha256": "05d3e4a336fcaeb0108bb19b23323dbe20930a487a91e4d9c3b00615ef697250"
+    },
+    {
+      "path": "08-REFERENCE-CLOSURE-AUDIT.md",
+      "sha256": "df700b0db9580110f65079028f3147ece5da2434783a6a4f45132e65170a2822"
+    },
+    {
+      "path": "09-LITERATURE-CORRECTION-MANIFEST.md",
+      "sha256": "4dace69844ad6eda2542aa04739211aec635feba61ddddc11582f627dfecb403"
+    },
+    {
+      "path": "10-FINAL-VERIFIED-REFERENCE-REGISTRY.md",
+      "sha256": "b8a12b7f6543cf1e4ce112be1c54c759a7f34a0bac01eb86f8fa80914734ed76"
+    },
+    {
+      "path": "11-I15-STRICT-REVIEW.md",
+      "sha256": "ae40125bd6086fcd43790264d7793c1b866dcf832cff33bea33f36bdcabc444a"
+    },
+    {
+      "path": "12-I15-FINAL-DECISION.md",
+      "sha256": "3b050627d44e48b568a55a434ef344e6d35fb67fa75348bbb93372ec1daf6503"
+    },
+    {
+      "path": "13-NEXT-STAGE-ENTRY.md",
+      "sha256": "8173a25f9513eb2ceb4e790ef18565917055bb4128e4daea5ac3f4cb3dd4006e"
+    },
+    {
+      "path": "citation-claim-verification.json",
+      "sha256": "7a3c7117f157171e7ba12f612a008f1188d9ad75663d08c048746fe21128a979"
+    },
+    {
+      "path": "evidence/REF-01-verification.json",
+      "sha256": "42a505c710adf7e1ce17d96088d6ae829b777cc219dc96ddc32aa73163a66050"
+    },
+    {
+      "path": "evidence/REF-01-verification.md",
+      "sha256": "d9f43f384ee3a79c82430c7e98a63cd581f80759de4c56716dfc4686124cf241"
+    },
+    {
+      "path": "evidence/REF-02-verification.json",
+      "sha256": "2b7374f6548b877da279048729139fa91c956bfa709c14b2f691eb1259908659"
+    },
+    {
+      "path": "evidence/REF-02-verification.md",
+      "sha256": "b3c7924e2642a4a152af88481d7c6b84b0036161da1fd7c412c9c0e3f0f67c03"
+    },
+    {
+      "path": "evidence/REF-03-verification.json",
+      "sha256": "758698b4c14d6ae0d53e71aa36ac435ae44d118f0ae5cba774c99ca036d84d0e"
+    },
+    {
+      "path": "evidence/REF-03-verification.md",
+      "sha256": "3a7479a1f26a1cc51fa11138f6f36118cc4dd488eee4409db56af63236cf3b4b"
+    },
+    {
+      "path": "evidence/REF-04-verification.json",
+      "sha256": "3ef7817a695e5be002837d5f618666a0a4ac4f64021736acf43015aa616f052b"
+    },
+    {
+      "path": "evidence/REF-04-verification.md",
+      "sha256": "436235ae8d3deaf3e09beb2cc0e59ff5469d170774db2d8d38d7d155102f51be"
+    },
+    {
+      "path": "evidence/REF-05-verification.json",
+      "sha256": "a68577b9319fbec1f7acea1b9b616e281ac77f0bf014b3bdbd131ec9203e2fe0"
+    },
+    {
+      "path": "evidence/REF-05-verification.md",
+      "sha256": "a5e695dcaff1f36bd38a319e0da61afd08dcfcabd8e8a02df69ee9aba920b554"
+    },
+    {
+      "path": "evidence/REF-06-verification.json",
+      "sha256": "d3901368a4a260ca99139362ba458279d44dc951c4bb1f0a3afe420163e7ef81"
+    },
+    {
+      "path": "evidence/REF-06-verification.md",
+      "sha256": "482a1b5d96c9a1fff4a830c607d4e19469e525bfec15b67391b0fc543cc52072"
+    },
+    {
+      "path": "evidence/REF-07-verification.json",
+      "sha256": "19ac4bd4de36dcbf6949f7d1726b8df602e75b89f4d846e28f0539b229e41ac9"
+    },
+    {
+      "path": "evidence/REF-07-verification.md",
+      "sha256": "04e0b99caee13adc490ce5905cb18c45d13fb737c6743e7a7f134554d66ef903"
+    },
+    {
+      "path": "evidence/REF-08-verification.json",
+      "sha256": "bd29c78d8d98b70238910a45535b27c5554103bd6f2accfa591c7106ad117c45"
+    },
+    {
+      "path": "evidence/REF-08-verification.md",
+      "sha256": "8e6c5d21aad656cdaf070dae04c8981058c33fbfe4581bebaecd1db8c77df9ea"
+    },
+    {
+      "path": "evidence/REF-09-verification.json",
+      "sha256": "86b4ecc55519ea30a3fe91f6da5c8c84f54eef6a65dceb5e09d1a4915c04dc28"
+    },
+    {
+      "path": "evidence/REF-09-verification.md",
+      "sha256": "60223d07d05e8937af7add71462063e0e2ddc52eac264a9578268224aa48e84a"
+    },
+    {
+      "path": "evidence/REF-10-verification.json",
+      "sha256": "8ad44e69bd2c2f30c77ce6296bc696130368fab234d2e0e7e76be4ec318926ec"
+    },
+    {
+      "path": "evidence/REF-10-verification.md",
+      "sha256": "de7b4bdf265ac106f65a5e15297667600b2f5ce61c58da792fc0409c75ec9804"
+    },
+    {
+      "path": "evidence/REF-11-verification.json",
+      "sha256": "359fb439679c4e6ee234c8ba9f11ceecedd1dedbb07e37690f7ab9f94d4ff79c"
+    },
+    {
+      "path": "evidence/REF-11-verification.md",
+      "sha256": "1d5ed6344e757110eb032a652ff098022886e2b08aaaa5aa58e2c3d8a5cc60c4"
+    },
+    {
+      "path": "evidence/REF-12-verification.json",
+      "sha256": "3301095223e3c1824a4b68e099cce8ee083ebac3aa89b7db17f7741f5c86e901"
+    },
+    {
+      "path": "evidence/REF-12-verification.md",
+      "sha256": "d01f35997ff88c2c065f04293391efad32b1c98ce26f54a92717f0b13179720c"
+    },
+    {
+      "path": "evidence/REF-13-verification.json",
+      "sha256": "4d4eb3dde224e64b5a73380cff39fe1f8f9648d5016d22d03b15164746a4bd39"
+    },
+    {
+      "path": "evidence/REF-13-verification.md",
+      "sha256": "1cd3435704205b064c7938e931a004af0fad47c96fcae6110e2ae5fa6eb050b4"
+    },
+    {
+      "path": "evidence/REF-14-verification.json",
+      "sha256": "bcebbd9265f06109741c7b4c1db7ef9e393c67c6f94895c5408d1fc99e8118c0"
+    },
+    {
+      "path": "evidence/REF-14-verification.md",
+      "sha256": "dc099018011053487761a315cb9d795803f307da77ab3bf0987cc4d10bffae65"
+    },
+    {
+      "path": "evidence/REF-15-verification.json",
+      "sha256": "a6949b20ef29aa941c4c0dba8a8821ce4a86a152904d70e572403a519a50a1f2"
+    },
+    {
+      "path": "evidence/REF-15-verification.md",
+      "sha256": "fdb7cc0809992b23639118a76d8922108742abb480912b12a533a2b74e8204cb"
+    },
+    {
+      "path": "evidence/REF-16-verification.json",
+      "sha256": "0d98ed8e399804d3ed3015cbfbf3e6f0504b67e82ff7dceed1ae9e64ee90a0a0"
+    },
+    {
+      "path": "evidence/REF-16-verification.md",
+      "sha256": "daac6d6537156584d30051870d89cd6200d79bdfe12f8452e6d946482026be6a"
+    },
+    {
+      "path": "final-citation-closure-audit.json",
+      "sha256": "ef9b96d33e6fc86c7a27b21a167776ac95cb87a41a4cf7654c649b5c562be34e"
+    },
+    {
+      "path": "final-reference-registry.json",
+      "sha256": "d532624d3586bf0d5e6589ef45c9e33dcf482d907f20629ace70afec9c96c354"
+    },
+    {
+      "path": "i15-state.json",
+      "sha256": "c6c4defb632b1ed36051ea8720181f57caac7ae83114692d7071021f4ea63207"
+    },
+    {
+      "path": "innovation-claim-audit.json",
+      "sha256": "f7540a3cb84c7a8a418e40a7d2771c848e38e11961db694bf33c175a9d86ef7c"
+    },
+    {
+      "path": "literature-correction-manifest.json",
+      "sha256": "a0b252577eea3aa9ea0604df67558cf72fc011e2b0d00e02a2720a387907bf2a"
+    },
+    {
+      "path": "literature-verification-results.json",
+      "sha256": "b1af3f82609c37f681c8b9e4fcfc47373918140bafa495cfa2190e760010d2ae"
+    },
+    {
+      "path": "related-work-coverage.json",
+      "sha256": "aa80d63bd6695ad15e306aec4e827bcb82fd5467003d5606ac33048dc14dead7"
+    }
+  ]
+}

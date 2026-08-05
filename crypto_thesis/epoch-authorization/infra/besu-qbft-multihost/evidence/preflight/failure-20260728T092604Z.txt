@@ -1,0 +1,9 @@
+UTC: 2026-07-28T09:26:04.4929425Z
+Stage: 0
+Attempt: 4
+Failure location: local ProcessStartInfo initialization before any SSH connection
+Exit code: 1
+Error: StandardInputEncoding property is unavailable in this Windows PowerShell runtime.
+Remote changes: none
+SSH connections started: no
+Stage 1 started: no

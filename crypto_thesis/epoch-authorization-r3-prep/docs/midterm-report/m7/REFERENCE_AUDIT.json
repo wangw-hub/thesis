@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "M7ReferenceAuditV1",
+  "auditDate": "2026-08-04",
+  "targets": {
+    "REFERENCE_COUNT_31_34": true,
+    "REFERENCE_2021_2026_RATIO_GE_0_50": true,
+    "REFERENCE_2024_2026_COUNT_GE_8": true,
+    "MISSING_REFERENCE": 0,
+    "ORPHAN_REFERENCE": 0,
+    "DUPLICATE_REFERENCE": 0,
+    "CITATION_ORDER_ERROR": 0,
+    "UNVERIFIED_NEW_REFERENCE": 0
+  },
+  "counts": {
+    "total": 34,
+    "year_2021_2026": 21,
+    "year_2021_2026_ratio": 0.618,
+    "year_2024_2026": 12,
+    "m6_total": 31,
+    "m6_year_2021_2026": 18,
+    "m6_year_2024_2026": 8
+  },
+  "citationSemanticsFixes": [
+    {
+      "refNo": 26,
+      "ref": "QuickCheck (Claessen & Hughes 2000)",
+      "m6Error": "被用于支撑“15120 条正式记录”",
+      "m7Fix": "改为支撑性质测试方法（规范化幂等性、输入置换不变性等）；“正式实验共获得 15120 条有效记录”不再附带该文献引用。"
+    },
+    {
+      "refNo": 33,
+      "ref": "JCS (RFC 8785)",
+      "m6Error": "被用于支撑研究内容一的固定宽度大端规范编码",
+      "m7Fix": "删除研究内容一处的 JCS 引用；移至研究内容三“密文头部使用 JCS 规范序列化[33]并以 Ed25519 签名”处，与冻结实现（HeaderCore.to_canonical_bytes 使用 JCS canonicalize）一致。"
+    }
+  ],
+  "newReferences": [
+    {
+      "refNo": 14,
+      "gb7714": "Zhang Q, Yuan L, Xie T, et al. Auditable and dynamic access control scheme with behavior and identity tracing[J]. Computer Networks, 2024, 251: 110623.",
+      "doi": "10.1016/j.comnet.2024.110623",
+      "year": 2024,
+      "sources": ["ScienceDirect (S1389128624004559)", "ACM DL", "x-mol"],
+      "verified": true,
+      "anchor": "背景“兼具行为与身份追溯的动态访问控制”"
+    },
+    {
+      "refNo": 16,
+      "gb7714": "Ruan C, Hu C, Li X, et al. A revocable and fair outsourcing attribute-based access control scheme in metaverse[J]. IEEE Transactions on Consumer Electronics, 2024, 70(1): 3781-3791.",
+      "doi": "10.1109/TCE.2024.3377107",
+      "year": 2024,
+      "sources": ["IEEE Xplore (10472315)", "ACM DL (DOI)", "《软件学报》引用著录"],
+      "verified": true,
+      "anchor": "背景“面向元数据场景的可撤销公平外包属性访问控制方案”"
+    },
+    {
+      "refNo": 22,
+      "gb7714": "Li K, Pan H, Zhang Y, et al. A blockchain-enabled decentralized autonomous access control scheme for data sharing[J]. Mathematics, 2025, 13(17): 2712.",
+      "doi": "10.3390/math13172712",
+      "year": 2025,
+      "sources": ["MDPI (2227-7390/13/17/2712)", "OUCI/Crossref (DOI)", "RePEc/EconPapers"],
+      "verified": true,
+      "anchor": "背景“面向数据共享的去中心化自治访问控制”"
+    }
+  ],
+  "references": [
+    {"n": 1, "authors": "Sandhu R S, et al.", "year": 1996, "sources": ["dblp", "IEEE Xplore"]},
+    {"n": 2, "authors": "Bertino E, et al.", "year": 2001, "sources": ["dblp", "ACM DL"]},
+    {"n": 3, "authors": "Panda S, et al.", "year": 2024, "sources": ["researchr", "NSTL"]},
+    {"n": 4, "authors": "Bethencourt J, et al.", "year": 2007, "sources": ["dblp", "Crossref"]},
+    {"n": 5, "authors": "Hardt D.", "year": 2012, "sources": ["RFC Editor", "IETF Datatracker"]},
+    {"n": 6, "authors": "Jones M, et al.", "year": 2015, "sources": ["RFC Editor", "IETF Datatracker"]},
+    {"n": 7, "authors": "Nakamoto S.", "year": 2008, "sources": ["bitcoin.org"]},
+    {"n": 8, "authors": "Androulaki E, et al.", "year": 2018, "sources": ["ACM DL", "dblp"]},
+    {"n": 9, "authors": "Rouhani S, et al.", "year": 2021, "sources": ["Crossref", "Springer", "dblp"]},
+    {"n": 10, "authors": "Singh R, et al.", "year": 2022, "sources": ["Frontiers", "dblp"]},
+    {"n": 11, "authors": "Wang P, et al.", "year": 2022, "sources": ["IEEE Xplore", "dblp", "researchr"]},
+    {"n": 12, "authors": "Sun L, et al.", "year": 2023, "sources": ["IEEE Xplore", "dblp", "DOAJ"]},
+    {"n": 13, "authors": "Akhtar M, et al.", "year": 2024, "sources": ["IEEE Xplore/ACM DL", "Cardiff ORCA"]},
+    {"n": 14, "authors": "Zhang Q, et al.", "year": 2024, "sources": ["ScienceDirect", "ACM DL"]},
+    {"n": 15, "authors": "Guo Y, et al.", "year": 2023, "sources": ["IEEE/ACM DL", "Crossref", "researchr"]},
+    {"n": 16, "authors": "Ruan C, et al.", "year": 2024, "sources": ["IEEE Xplore", "ACM DL", "JOS著录"]},
+    {"n": 17, "authors": "Wang S, et al.", "year": 2024, "sources": ["ACM DL", "Elsevier", "PolyU Research"]},
+    {"n": 18, "authors": "Nguyen L D, et al.", "year": 2023, "sources": ["IEEE Xplore", "researchr"]},
+    {"n": 19, "authors": "Xu Z, et al.", "year": 2022, "sources": ["IEEE Xplore", "dblp", "researchr"]},
+    {"n": 20, "authors": "Tran-Truong P T, et al.", "year": 2025, "sources": ["ScienceDirect", "PlumX"]},
+    {"n": 21, "authors": "Zhang X, et al.", "year": 2023, "sources": ["Springer", "EBSCO", "dblp"]},
+    {"n": 22, "authors": "Li K, et al.", "year": 2025, "sources": ["MDPI", "Crossref/OUCI", "RePEc"]},
+    {"n": 23, "authors": "Slamanig D, et al.", "year": 2023, "sources": ["researchr", "AIT Publications", "IACR"]},
+    {"n": 24, "authors": "Zhou Y, et al.", "year": 2024, "sources": ["Springer", "EBSCO", "x-mol"]},
+    {"n": 25, "authors": "Hameed Z, et al.", "year": 2025, "sources": ["Springer", "ACM DL", "EBSCO"]},
+    {"n": 26, "authors": "Claessen K, Hughes J.", "year": 2000, "sources": ["ACM DL", "dblp"]},
+    {"n": 27, "authors": "Hyperledger Besu Documentation", "year": 2026, "sources": ["besu.hyperledger.org"]},
+    {"n": 28, "authors": "Josefsson S, Liusvaara I.", "year": 2017, "sources": ["RFC Editor", "IETF Datatracker"]},
+    {"n": 29, "authors": "PostgreSQL Global Development Group", "year": 2026, "sources": ["postgresql.org"]},
+    {"n": 30, "authors": "Efron B.", "year": 1979, "sources": ["Project Euclid", "dblp"]},
+    {"n": 31, "authors": "Dworkin M.", "year": 2007, "sources": ["NIST"]},
+    {"n": 32, "authors": "Barnes R, et al.", "year": 2022, "sources": ["RFC Editor", "IETF Datatracker"]},
+    {"n": 33, "authors": "Rundgren A, et al.", "year": 2020, "sources": ["RFC Editor", "IETF Datatracker"]},
+    {"n": 34, "authors": "Benet J.", "year": 2014, "sources": ["arXiv"]}
+  ]
+}

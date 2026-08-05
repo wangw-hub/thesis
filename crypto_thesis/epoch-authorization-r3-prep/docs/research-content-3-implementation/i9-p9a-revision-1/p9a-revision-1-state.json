@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "attemptId": "I9_P9A_20260801T090301Z_8ea8b4a",
+  "softwareCommit": "8ea8b4af642889ea1fd559d13584908b1469e90a",
+  "plannedRuns": 8,
+  "actualRuns": 6,
+  "validRuns": 5,
+  "unexpectedInvalidRuns": 1,
+  "failedScenario": "A6_HEADER_UPDATE_PENDING",
+  "failureCode": "COMPOSITE_STATE_MISSING",
+  "a7Executed": false,
+  "a8Executed": false,
+  "p9aState": "P9_A_FAILED",
+  "researchContent3State": "I9_P9_A_REQUIRES_REVISION",
+  "p9bGate": "NOT_READY",
+  "p9bTasksCreated": false,
+  "remoteLocalArchiveSha256": "1c3ef99ceb932d51d471ea4328d24f925545884c9d820c1a9b5ee3a92cf5446f",
+  "trueSecret": 0,
+  "unclassified": 0,
+  "fatal": 0,
+  "major": 1,
+  "minor": 0
+}

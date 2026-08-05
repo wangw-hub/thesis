@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "MidtermContentSourceMapV1",
+  "sources": {
+    "finalDraft": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\midterm-report\\MIDTERM-REPORT-FINAL-DRAFT.md",
+      "sha256": "2FE31F41A32D02DC129BD79B8274B8874B84C7AD90F82373851E8D783BFD49DA"
+    },
+    "docxCandidate": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\midterm-report\\output\\王威-专业学位研究生学位论文中期考评表-候选稿.docx",
+      "sha256": "9277AB46C163A6AD9E709317A7CEC8795AF3B766BFFF1B36E97380E78EA70B5E"
+    },
+    "pdfCandidate": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\midterm-report\\output\\王威-专业学位研究生学位论文中期考评表-候选稿.pdf",
+      "sha256": "D4754C5D0F053849FCF577CD23EABD092B9D8423CD37F0805C7D4CA2C566B9B8"
+    },
+    "userForm": {
+      "path": "D:\\Users\\wangw\\Desktop\\中期和小论文\\王威专业学位研究生学位论文中期考评表.docx",
+      "sha256": "C631B8806887ACAC5FC4EA2D4EC4813BCD34D7A2FA85B03090720C731E6948D5"
+    },
+    "userProgressReport": {
+      "path": "D:\\Users\\wangw\\Desktop\\中期和小论文\\王威-专业学位研究生学位论文中期考核研究进展报告-完整定稿版.docx",
+      "sha256": "9EAC725F17D31F93E083B6DB1D2B3BF465D14B7A1D5BDED3D344CF714DCCF3EA"
+    },
+    "officialEmptyTemplate": {
+      "path": "D:\\Users\\wangw\\Documents\\xwechat_files\\wxid_qxnxx2moo0vz22_5966\\msg\\file\\2026-08\\附件2：专业学位研究生学位论文中期考评表-2023版.docx",
+      "sha256": "A5C1545A69843692AE83147A4D2F53EE7C22DC3C9CD96DFC63E1E4991A7F2D48"
+    },
+    "referenceReport": {
+      "path": "D:\\Users\\wangw\\Desktop\\中期和小论文\\shy-专业学位研究生学位论文中期考评表.docx",
+      "sha256": "D881621988F6F36873FF24B1F70718DF69FB669255FFAFE20673E2736DE9FB18"
+    },
+    "openingForm": {
+      "path": "D:\\Research\\heart_thesis\\开题报告表-王威-1 (2).docx",
+      "sha256": "CCE14F6A4815C2F3138C57CBDA091ACD0705783031FAAC3139C1B1D9729FD2E0"
+    },
+    "thesisV2": {
+      "path": "D:\\Research\\crypto_thesis\\epoch-authorization-r3-prep\\docs\\final-manuscript\\output\\THESIS-FORMAT-CANDIDATE-V2.docx",
+      "sha256": "72BF70AEFAD002C9F46ACF0E3D958FD8C7F3E9402310F70DE9FF3278B1D3667A"
+    }
+  },
+  "contentBasis": "THESIS-FORMAT-CANDIDATE-V2.docx + I9-I17 frozen evidence; user's own midterm form as authoritative template"
+}

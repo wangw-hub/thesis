@@ -1,0 +1,9 @@
+exit_code=0
+--- stdout ---
+hostname=experiment-client
+genesis_sha256=7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a
+644 root:besu /etc/besu/genesis.json
+644 root:besu /etc/besu/validators.json
+validator_private_key_present=false
+
+--- stderr ---

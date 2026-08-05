@@ -1,0 +1,12 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "00-I5-ENTRY-AUDIT.md": "91fa8cb81563c4f53fc2a3e8db94a9bd88ea4ed803ea413a3e646d6f2a6bc80f",
+    "02-I5-ISOLATED-BESU-CHAIN.md": "ed55ab0fa3eb9d6d1691f33e71c00686181ddc83c39c4ae60c6a3339c96791d1",
+    "03-AUTHORIZATION-STATE-INTERFACE-GAP.md": "39281e8663507472ae8b2ed7f801b1976eceeb19aa879a5c48a3ec60bd5459f6",
+    "20-I5-ISSUE-TRACKER.md": "10a6d576917b1f2fe04f5303f5f91f8b3908fcdcd7f90b3eb60568db68c269e2",
+    "21-I5-FINAL-DECISION.md": "46d825f9aa3ce5110711dd064a1102283806b934d26513544c0124ea3e5f1f15",
+    "i5-state.json": "8b3c1e68ed5a03f2ba0afc51a02dd24a78a77ccf15dc787a2ab03cbe86bb4833"
+  },
+  "note": "Pre-revision hard-stop hash entries preserved verbatim."
+}

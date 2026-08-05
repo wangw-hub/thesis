@@ -1,0 +1,56 @@
+{
+  "random_requests": 1000,
+  "semantic_differences": 0,
+  "attack_cases": [
+    {
+      "attack": "wrong_signature",
+      "accepted": false,
+      "code": "INVALID_SIGNATURE"
+    },
+    {
+      "attack": "cross_chain",
+      "accepted": false,
+      "code": "CHAIN_CONTEXT_MISMATCH"
+    },
+    {
+      "attack": "cross_contract",
+      "accepted": false,
+      "code": "CHAIN_CONTEXT_MISMATCH"
+    },
+    {
+      "attack": "operation_substitution",
+      "accepted": false,
+      "code": "OPERATION_MISMATCH"
+    },
+    {
+      "attack": "expired",
+      "accepted": false,
+      "code": "EXPIRED"
+    },
+    {
+      "attack": "not_yet_valid",
+      "accepted": false,
+      "code": "NOT_YET_VALID"
+    },
+    {
+      "attack": "serial_replay",
+      "first_accepted": true,
+      "second_code": "NONCE_REPLAY"
+    }
+  ],
+  "attack_error_accepts": 0,
+  "baseline_cache": {
+    "hits": 999,
+    "misses": 1,
+    "evictions": 0,
+    "invalidations": 0,
+    "entries": 1
+  },
+  "proposed_cache": {
+    "hits": 996,
+    "misses": 4,
+    "evictions": 0,
+    "invalidations": 0,
+    "entries": 4
+  }
+}

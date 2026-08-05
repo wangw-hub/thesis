@@ -1,0 +1,9 @@
+{
+  "stage": 3,
+  "attempt": 1,
+  "status": "FAILED_BEFORE_REMOTE_CHANGES",
+  "cause": "Windows PowerShell 5 returned the top-level JSON array as one array object, and an additional @() wrapper produced a nested array with Count=1.",
+  "remote_changes": false,
+  "private_keys_transferred": false,
+  "resolution": "Remove the redundant array wrapper while preserving the frozen manifest."
+}

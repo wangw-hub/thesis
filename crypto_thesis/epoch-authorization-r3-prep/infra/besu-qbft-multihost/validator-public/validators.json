@@ -1,0 +1,34 @@
+﻿[
+    {
+        "index":  1,
+        "host":  "besu-validator-1",
+        "address":  "0x6e86edb3d714dc28e149edd280625ded1436fadf",
+        "node_id":  "45835af724311e3da282f7c376f448ba820f30ba01c4660ff6f88bb0261fb10073c8d48dbe9bc4f1876b67b6a23a1671f176cfa95a95c44de7789e9700c9487b",
+        "public_key_file":  "validator-public/besu-validator-1.pub",
+        "generated_directory":  "0x6e86edb3d714dc28e149edd280625ded1436fadf"
+    },
+    {
+        "index":  2,
+        "host":  "besu-validator-2",
+        "address":  "0x1583e3922a8b9477d08e00919418a30e619ed49c",
+        "node_id":  "2c83db62d7580d1e7086d81024e1a2dfb05d10de0df9ec5e0a2b1266f07e18a090dcb94772376df762d405b3350d33466c2bb7b671473cbc5fff6dbe6be6ff03",
+        "public_key_file":  "validator-public/besu-validator-2.pub",
+        "generated_directory":  "0x1583e3922a8b9477d08e00919418a30e619ed49c"
+    },
+    {
+        "index":  3,
+        "host":  "besu-validator-3",
+        "address":  "0x599d6230371a00524208ad63164aae5f90ab5d36",
+        "node_id":  "7d8348834e08d141ab776c9628ee82ff91620c1637862decce9d01cfb0b3f55f48c1809ab5eaca058ed515d9f2c2300aeaee3b7914c4ea00418db2cce073d932",
+        "public_key_file":  "validator-public/besu-validator-3.pub",
+        "generated_directory":  "0x599d6230371a00524208ad63164aae5f90ab5d36"
+    },
+    {
+        "index":  4,
+        "host":  "besu-validator-4",
+        "address":  "0xd7716b03e26dba82368fd4bf2c263da6a76e086b",
+        "node_id":  "fc0678110ce00588367df96a799f828e12e1729fb1bb8ec5f508a8ab28cabc8acf748f558650ccb5abfcef8746c58472d5e79864d026dabd88492300282d8433",
+        "public_key_file":  "validator-public/besu-validator-4.pub",
+        "generated_directory":  "0xd7716b03e26dba82368fd4bf2c263da6a76e086b"
+    }
+]

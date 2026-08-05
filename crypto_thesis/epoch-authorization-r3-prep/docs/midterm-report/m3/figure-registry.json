@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "M3FigurePlanV1",
+  "count": 19,
+  "style": "black-white/grayscale academic",
+  "figures": [
+    {
+      "file": "m3-exp-fig10-match.png",
+      "sha256": "4973921E79F7C6621C3E90D9A9347A72E3CCD6EAEE85BB1672B18E1F6372704A"
+    },
+    {
+      "file": "m3-exp-fig11-boundary.png",
+      "sha256": "912F702BA9D2D98E3BB5D378D6EBE573B7685177D8BF0130DA95532FCBA631BC"
+    },
+    {
+      "file": "m3-exp-fig12-run-latency.png",
+      "sha256": "9EC0FCF325433AF15D92040BAE008191A8D2FAF286E800675833779BC234AC35"
+    },
+    {
+      "file": "m3-exp-fig13-stage-share.png",
+      "sha256": "48B78FF6711BB4C28208C0E3853AC5C76EFE29CFCC4C07AB31378A338E8A67E7"
+    },
+    {
+      "file": "m3-exp-fig14-paired.png",
+      "sha256": "2F4BD88FAF7026245C90725652583E3294AC1890BC9C2CCA1A3C1DFFC7C995CA"
+    },
+    {
+      "file": "m3-exp-fig15-concurrency.png",
+      "sha256": "57D5145F24D16FAA7654A1FFEA571FDA2F29D0887F13926375B7FCB73BEC8C4E"
+    },
+    {
+      "file": "m3-exp-fig16-fragmentation.png",
+      "sha256": "CA85171ABF18D36DF397E5CA9920FB4B7E4693EF7DAA2D86CD73628BEA6EA0AE"
+    },
+    {
+      "file": "m3-exp-fig17-locality.png",
+      "sha256": "2AEB794C6A751D7A4B1EFAD3A3F0A78E856AC6D65EAD32B4C5DC1942B0C048D4"
+    },
+    {
+      "file": "m3-exp-fig18-header-only.png",
+      "sha256": "3BFCFF598CF81F11E6E4922E12EC7B870FAD86CEFD9B8C6FB96F5F51816EA26A"
+    },
+    {
+      "file": "m3-exp-fig19-body-rotation.png",
+      "sha256": "0EB186AC4E80F0E2C5190CBB0A3264F1B42ADCDEDD762698B33A959FCBBD707C"
+    },
+    {
+      "file": "m3-exp-fig20-recovery.png",
+      "sha256": "2A44A47807B303DC8B409124BEB4623DFAE46E96796562DE855BDF08ED3CB64A"
+    },
+    {
+      "file": "m3-exp-fig8-rep-size.png",
+      "sha256": "CA77828F54DDE914CAFE1B4CBFF3D69915DBC95D3A299D337DB9955EC975E7DC"
+    },
+    {
+      "file": "m3-fig1-technical-route.png",
+      "sha256": "2738FE284E0722DFB2204CBCFF981098D96E05C50DADA2C134105525AF0548BA"
+    },
+    {
+      "file": "m3-fig2-compile-flow.png",
+      "sha256": "92A286C859EF8D21272BAC8160FEB68C8CCA1818FFB8E7EC1190E09C2E33D2B4"
+    },
+    {
+      "file": "m3-fig3-ir-relation.png",
+      "sha256": "F2ACECB137C47D3E1821FA3638923C2F273BB6BA0B6CFAE4DC52BAAE60C2E180"
+    },
+    {
+      "file": "m3-fig4-arch.png",
+      "sha256": "653F4E253DC91957323C30DF55E62F83800A0836F43A28294C6D60713770395B"
+    },
+    {
+      "file": "m3-fig5-cap2-swimlane.png",
+      "sha256": "FE611A121DECFD5915AE6D15FFD6D5783170C021BC494C365ABF54C5D0E863DF"
+    },
+    {
+      "file": "m3-fig6-object-structure.png",
+      "sha256": "5723232F19E3D29616E2BEA6D739E0B0E345FDCCE8772AF849D34EA23C1C9A79"
+    },
+    {
+      "file": "m3-fig7-three-layer-closure.png",
+      "sha256": "BCDDEB68CAF16DC3793C45B2A3A4B9BB2A88611E2E7F831A4FB6F25C3609FD33"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "LiteratureVerificationRecordV1",
+  "referenceId": "REF-05",
+  "citationKey": "[5]",
+  "currentBibliographyEntry": "[5] Saltzer J H, Schroeder M D. The protection of information in computer systems. Proceedings of the IEEE, 1975.",
+  "title": "The protection of information in computer systems",
+  "authors": "Saltzer J H, Schroeder M D",
+  "year": 1975,
+  "venue": "Proceedings of the IEEE",
+  "publicationType": "JOURNAL_ARTICLE",
+  "volume": 63,
+  "issue": 9,
+  "pages": "1278-1308",
+  "publisher": "IEEE",
+  "DOI": "10.1109/PROC.1975.9939",
+  "URL": null,
+  "formalPublicationStatus": "JOURNAL/CONFERENCE/RFC/ENGINEERING",
+  "preprintStatus": false,
+  "officialSource": "https://dblp.org/search?q=Protection+of+Information",
+  "secondarySources": [
+    "https://ieeexplore.ieee.org/document/1451609"
+  ],
+  "metadataMatch": true,
+  "claimSupport": "DIRECTLY_SUPPORTED",
+  "claimSupportLevel": "DIRECTLY_SUPPORTED",
+  "verificationStatus": "VERIFIED",
+  "recommendedAction": "采纳（必要时按 correction 修正）",
+  "notes": "",
+  "accessDate": "2026-08-02"
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "M3EquationRegistryV1",
+  "invented": 0,
+  "equations": [
+    {
+      "no": 1,
+      "name": "真实时间域",
+      "latex": "\\mathcal{D}=[t_0,t_0+U\\Delta),"
+    },
+    {
+      "no": 2,
+      "name": "基本 Epoch 映射",
+      "latex": "\\phi(t)=\\lfloor\\frac{t-t_0}{\\Delta}\\rfloor."
+    },
+    {
+      "no": 3,
+      "name": "离散时间域",
+      "latex": "T=\\{0,1,\\ldots,U-1\\}."
+    },
+    {
+      "no": 4,
+      "name": "允许槽集合",
+      "latex": "S(P)=\\bigcup_{i=1}^{n}\\{x\\in T\\mid l_i\\le x<r_i\\}."
+    },
+    {
+      "no": 5,
+      "name": "唯一语义表示",
+      "latex": "I^*=\\operatorname{Normalize}(P)=\\langle[a_1,b_1),\\ldots,[a_k,b_k)\\rangle."
+    },
+    {
+      "no": 6,
+      "name": "层次覆盖根区间",
+      "latex": "L=2^{\\lceil\\log_2 U\\rceil}."
+    },
+    {
+      "no": 7,
+      "name": "二进制对齐节点",
+      "latex": "D(j,s)=[j2^s,(j+1)2^s)."
+    },
+    {
+      "no": 8,
+      "name": "全策略覆盖",
+      "latex": "C(P)=\\bigcup_{I\\in I^*}C(I),\\qquad c=|C(P)|."
+    },
+    {
+      "no": 9,
+      "name": "规范字节串",
+      "latex": "B(P)=\\operatorname{CanonicalSerialize}(t_0,\\Delta,U,I^*)."
+    },
+    {
+      "no": 10,
+      "name": "策略摘要",
+      "latex": "pd=\\operatorname{SHA256}(B(P))."
+    },
+    {
+      "no": 11,
+      "name": "编译复杂度",
+      "latex": "T(n,c)=O(n\\log n+c)."
+    },
+    {
+      "no": 12,
+      "name": "资源状态",
+      "latex": "R=(owner,policyDigest,epoch,status,policyVersion,stateVersion,updatedAtBlock)."
+    },
+    {
+      "no": 13,
+      "name": "用户状态",
+      "latex": "U=(account,userKeyId,status,userVersion,updatedAtBlock)."
+    },
+    {
+      "no": 14,
+      "name": "能力编码",
+      "latex": "B=\\operatorname{Encode}_{CAP2}(F_1\\Vert F_2\\Vert\\cdots\\Vert F_n)."
+    },
+    {
+      "no": 15,
+      "name": "能力签名",
+      "latex": "\\sigma=\\operatorname{Ed25519.Sign}(sk_I,B)."
+    },
+    {
+      "no": 16,
+      "name": "一次性消费条件",
+      "latex": "\\text{INSERT }(k)\\text{ returns 1 }\\Leftrightarrow k\\notin consumed, \\quad k=(chain,contract,resource,epoch,nonce)."
+    },
+    {
+      "no": 17,
+      "name": "版本单调约束",
+      "latex": "stateVersion'=stateVersion+1 \\ \\wedge\\ REVOKED \\text{ 为终态}."
+    },
+    {
+      "no": 18,
+      "name": "Fail-Closed 判定",
+      "latex": "\\text{release}\\Rightarrow status=ACTIVE \\wedge \\text{dbAvailable}."
+    },
+    {
+      "no": 19,
+      "name": "V1 密钥版本关系",
+      "latex": "keyVersion=bodyVersion."
+    },
+    {
+      "no": 20,
+      "name": "HEADER_ONLY 状态变换",
+      "latex": "(h,b,k)\\mapsto(h+1,b,k)."
+    },
+    {
+      "no": 21,
+      "name": "BODY_ROTATION 状态变换",
+      "latex": "(h,b,k)\\mapsto(h+1,b+1,k+1)."
+    },
+    {
+      "no": 22,
+      "name": "Body 加密关系",
+      "latex": "C_{body}=\\operatorname{AES-256-GCM}(K,N,M)."
+    },
+    {
+      "no": 23,
+      "name": "HPKE 封装关系",
+      "latex": "EK_{R}=\\operatorname{HPKE.Seal}(pk_R, CK)."
+    },
+    {
+      "no": 24,
+      "name": "Header 摘要绑定",
+      "latex": "hdrHash=\\operatorname{SHA256}(\\operatorname{Canonical}(Header)),\\quad HeaderRegistry\\gets(hdrHash,objHash)."
+    },
+    {
+      "no": 25,
+      "name": "材料释放条件",
+      "latex": "\\text{release iff } status=ACTIVE \\wedge t\\in S(I^*) \\wedge hdrValid."
+    },
+    {
+      "no": 26,
+      "name": "恢复一致性条件",
+      "latex": "\\text{restore iff } \\operatorname{SHA256}(candidate)=objHash \\wedge structuralValid."
+    }
+  ],
+  "source": "frozen protocol/design documents (RC1/RC2/RC3) reproduced from M2 equations"
+}

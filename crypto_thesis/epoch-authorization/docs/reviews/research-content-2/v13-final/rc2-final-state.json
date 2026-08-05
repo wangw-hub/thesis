@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "updated_at_utc": "2026-07-30T00:00:00Z",
+  "source_git_head": "26ef5bc8dc7b09e683aae8c7d7012f779f6847ed",
+  "status": "COMPLETED_WITH_VALID_RERUN_EVIDENCE",
+  "evidence_audit": "VALIDATED",
+  "statistical_review": "VALIDATED_WITH_LIMITATIONS",
+  "interface_freeze": "FROZEN",
+  "rerun_required": false,
+  "formal_chain_modified": false,
+  "v13_raw_data_modified": false,
+  "research_content_3_worktree_modified": false,
+  "research_content_3_status": "PREPARATION_COMPLETE_AWAITING_ENTRY_DECISION",
+  "next_action": "In the research-content-3-preparation worktree, perform a read-only V13 reconciliation against rc2-interface-manifest.json; after the KeyStore user decision, decide whether to approve RC3 I0."
+}

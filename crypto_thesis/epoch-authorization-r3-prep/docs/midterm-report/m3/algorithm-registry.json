@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "M3AlgorithmRegistryV1",
+  "invented": 0,
+  "algorithms": [
+    {
+      "no": 1,
+      "name": "算法1 非连续时间策略规范化",
+      "source": "frozen implementation/design",
+      "blocks": "算法1 非连续时间策略规范化（Normalize）"
+    },
+    {
+      "no": 2,
+      "name": "算法2 Dyadic 层次覆盖生成",
+      "source": "frozen implementation/design",
+      "blocks": "算法2 Dyadic 层次覆盖生成（Cover）"
+    },
+    {
+      "no": 3,
+      "name": "算法3 确定性策略编译与摘要",
+      "source": "frozen implementation/design",
+      "blocks": "算法3 确定性策略编译与摘要生成（PolicyCompile）"
+    },
+    {
+      "no": 4,
+      "name": "算法4 CAP2 能力签发",
+      "source": "frozen implementation/design",
+      "blocks": "算法4 CAP2 能力签发（Issue）"
+    },
+    {
+      "no": 5,
+      "name": "算法5 CAP2 验证与共享 Nonce 消费",
+      "source": "frozen implementation/design",
+      "blocks": "算法5 CAP2 验证与共享 Nonce 消费（Verify）"
+    },
+    {
+      "no": 6,
+      "name": "算法6 HEADER_ONLY 更新流程",
+      "source": "frozen implementation/design",
+      "blocks": "算法6 HEADER_ONLY 更新流程"
+    },
+    {
+      "no": 7,
+      "name": "算法7 BODY_ROTATION 流程",
+      "source": "frozen implementation/design",
+      "blocks": "算法7 BODY_ROTATION 流程"
+    },
+    {
+      "no": 8,
+      "name": "算法8 RecoveryCoordinator 故障恢复",
+      "source": "frozen implementation/design",
+      "blocks": "算法8 RecoveryCoordinator 故障恢复"
+    }
+  ]
+}

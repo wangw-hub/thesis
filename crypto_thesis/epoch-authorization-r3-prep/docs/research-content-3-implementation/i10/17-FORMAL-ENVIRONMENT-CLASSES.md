@@ -1,0 +1,3 @@
+# Formal Environment Classes
+
+F1 is isolated functional/crypto/object/recovery validation. F2 is single-RPC end-to-end contract/state validation on a future independent Formal chain. F3 is a multi-node QBFT system-performance class and is not admitted for RC3 claims. F4 is controlled fault/recovery with selected storage, database, chain, and service faults. Every class requires a complete `R3FormalEnvironmentFingerprintV1` including host, CPU, RAM, storage, OS/kernel/virtualization/network, Python/Java/Besu/PostgreSQL/Kubo/Web3.py/cryptography/compiler/runtime, Git SHA, contract bytecode digest, and dependency-lock digest.

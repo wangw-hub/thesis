@@ -1,0 +1,14 @@
+{
+  "schemaVersion":1,
+  "invariants":[
+    {"id":"DB-I1","statement":"one chain event per chain authorization contract txHash logIndex","enforcedBy":"UNIQUE"},
+    {"id":"DB-I2","statement":"one job per operationId","enforcedBy":"PRIMARY_KEY"},
+    {"id":"DB-I3","statement":"at most one ACTIVE header per resource","enforcedBy":"PARTIAL_UNIQUE_INDEX"},
+    {"id":"DB-I4","statement":"state transitions require expected rowVersion","enforcedBy":"APPLICATION_CAS_ROWCOUNT_ONE"},
+    {"id":"DB-I5","statement":"cursor advances only after complete safe range","enforcedBy":"RANGE_TRANSACTION_AND_CAS"},
+    {"id":"DB-I6","statement":"SKIP LOCKED is used only for queue claiming","enforcedBy":"QUERY_SCOPE"},
+    {"id":"DB-I7","statement":"unknown transaction cannot allocate a semantic successor before reconciliation","enforcedBy":"JOB_STATE_MACHINE"},
+    {"id":"DB-I8","statement":"R2 nonce tables are not modified","enforcedBy":"SEPARATE_SCHEMA_AND_MIGRATION_SCOPE"}
+  ],
+  "retention":{"chainEvents":"THESIS_EVIDENCE_LIFETIME","recoveryAudit":"THESIS_EVIDENCE_LIFETIME","deadLetters":"UNTIL_MANUAL_DISPOSITION_PLUS_EVIDENCE_RETENTION","orphanObjects":"QUARANTINE_THEN_REFERENCE_AND_RECEIPT_SCAN"}
+}

@@ -1,0 +1,875 @@
+﻿{
+    "generated_at_utc":  "2026-07-28T11:16:23.2151102Z",
+    "excluded":  [
+                     "private/",
+                     "evidence/artifact-sha256.json"
+                 ],
+    "artifact_count":  173,
+    "artifacts":  [
+                      {
+                          "path":  "README.md",
+                          "sha256":  "3b5ddc9b8ed42d48f14680331cdb21af50edfaa1c8bd68df02bfb7eca1276426",
+                          "bytes":  593
+                      },
+                      {
+                          "path":  "configs/besu-validator-1.toml",
+                          "sha256":  "fe42a6faec64ab3ef2e69a12140e65b01d6953b934a845c9c763b79e4652b189",
+                          "bytes":  410
+                      },
+                      {
+                          "path":  "configs/besu-validator-2.toml",
+                          "sha256":  "7c9e26c9bc4d37eeaf7edfdb03441a8a3fdf164e9354ce39a49194e87ac68ffe",
+                          "bytes":  410
+                      },
+                      {
+                          "path":  "configs/besu-validator-3.toml",
+                          "sha256":  "a58f3b975271626428db431bb421dc826b3cfd4921b8bfcce6d4909c46f6a129",
+                          "bytes":  410
+                      },
+                      {
+                          "path":  "configs/besu-validator-4.toml",
+                          "sha256":  "45690c65210d2f7376ec82c28ce03f06ebb5d9e32fc4f817c232dc7778f43efb",
+                          "bytes":  410
+                      },
+                      {
+                          "path":  "configs/experiment-client.toml",
+                          "sha256":  "820a2f447c521fd23d5977e89bf29dd857d40124712338fc581023b98e8ef1b0",
+                          "bytes":  425
+                      },
+                      {
+                          "path":  "configs/static-nodes-rpc.json",
+                          "sha256":  "f252d0820a85895842c4be76b216c9ea3ba602e1324c570f36fbe43d9c768036",
+                          "bytes":  651
+                      },
+                      {
+                          "path":  "configs/static-nodes-validators.json",
+                          "sha256":  "f252d0820a85895842c4be76b216c9ea3ba602e1324c570f36fbe43d9c768036",
+                          "bytes":  651
+                      },
+                      {
+                          "path":  "downloads/besu-26.5.0.zip",
+                          "sha256":  "9ddbe9e94662459898ff7b3ff4439821eeeee3bc2ff961378604202fa7da09e6",
+                          "bytes":  200010413
+                      },
+                      {
+                          "path":  "downloads/besu-26.5.0.zip.sha256",
+                          "sha256":  "b5cebf311a7151078af005fc1141e034670ae9a23cd38258df1b9e6997a4e63b",
+                          "bytes":  82
+                      },
+                      {
+                          "path":  "evidence/acceptance/failure-attempt-1.json",
+                          "sha256":  "c35fa32b1ab763a3f49f6afe72efa473d9a6e06546952728411910b7f3f4850a",
+                          "bytes":  642
+                      },
+                      {
+                          "path":  "evidence/acceptance/failure-attempt-2.json",
+                          "sha256":  "e3242268b7162ccfc5f142a00e2618b9395e1bfd3609358c9fd36d3866079b66",
+                          "bytes":  583
+                      },
+                      {
+                          "path":  "evidence/acceptance/failure-attempt-3.json",
+                          "sha256":  "0a8cb09d98ce1f60826c18f847e522d4ab468dcd5327550f2cb78732592f6267",
+                          "bytes":  782
+                      },
+                      {
+                          "path":  "evidence/acceptance/summary.json",
+                          "sha256":  "3c047854fee8a5e1b7f85da49fb4a47730e59d11bae08fceb7489dbcd822e203",
+                          "bytes":  2477
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-rpc-restart/besu-validator-1.txt",
+                          "sha256":  "778fc890029761a8d18730431c7c5b41b69410e8c6259e17774f633b8bb9242f",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-rpc-restart/besu-validator-2.txt",
+                          "sha256":  "811a6756f6aa0296637ec4e0497849a1e8ea157b6a0212d70058c756e9dea372",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-rpc-restart/besu-validator-3.txt",
+                          "sha256":  "3bb445c8273e12d531a6b096564e0da8ce80191e88ebdb0c58a2f2eef49a65cf",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-rpc-restart/besu-validator-4.txt",
+                          "sha256":  "939acd2323b500d0376750d57182b0ae5f02587ed11dabca0eabafc2bde72932",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-rpc-restart/experiment-client.txt",
+                          "sha256":  "c38558582993f1ed55bd9734aca00c54a2f71b76ee667159c716afe7f166d88f",
+                          "bytes":  3124
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-rpc-restart/summary.json",
+                          "sha256":  "47c30013b317024841176549a71db59b0239aa91b28b4392b63315ff52495a53",
+                          "bytes":  6739
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-validator-restart/besu-validator-1.txt",
+                          "sha256":  "d735dfe8d2c582153a5001bbca8383790c97ca6141525ffc66dbe8e01f51402b",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-validator-restart/besu-validator-2.txt",
+                          "sha256":  "501398366631c0f8e016684edf2b89c15b7889759c837a6f37626a44b4790aef",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-validator-restart/besu-validator-3.txt",
+                          "sha256":  "97ca515c6d60f26f92c0ec4b9c8c955311b37352b772fd85d65e47687d667a62",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-validator-restart/besu-validator-4.txt",
+                          "sha256":  "c9dd142c12bc0bd031699648fc73c47c71c3f8c2e9283188727a42c329b24555",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-validator-restart/experiment-client.txt",
+                          "sha256":  "c23012b638ed9c29c4fde72fd70923c4d1a704e448d76786c75d32011ee72cc8",
+                          "bytes":  3124
+                      },
+                      {
+                          "path":  "evidence/acceptance/after-validator-restart/summary.json",
+                          "sha256":  "aa9cd43709aeb739c8733de9331650a7e1553cb07eaa3138d660f600b5016d84",
+                          "bytes":  6769
+                      },
+                      {
+                          "path":  "evidence/acceptance/before/besu-validator-1.txt",
+                          "sha256":  "c0550828894392a9d59a227b52b3a10d12fd65c5851ca974516f9bad584fbe07",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/before/besu-validator-2.txt",
+                          "sha256":  "6915b76dbb0ff82cb431ca91c751d60c581085925327cf83b575bdbf8eafefda",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/before/besu-validator-3.txt",
+                          "sha256":  "ae7c8b4b509ab94f132f5a7b42cde97eda4e03bcfe54ed0a996357bf73d146ee",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/before/besu-validator-4.txt",
+                          "sha256":  "0389b8f6d7aff10175f7c63e0c25b9fccfa57886b74bde4b0ddf54522d5b50d4",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/before/experiment-client.txt",
+                          "sha256":  "78e709b31d7991a2889cbd355260e3c5ab22f5786ece3843549b4736039898bc",
+                          "bytes":  3124
+                      },
+                      {
+                          "path":  "evidence/acceptance/before/summary.json",
+                          "sha256":  "fc4faf6c641d7a0af96c7160def34bc0528050f6ee52db05afef3eceae909d2c",
+                          "bytes":  6684
+                      },
+                      {
+                          "path":  "evidence/acceptance/growth/besu-validator-1.txt",
+                          "sha256":  "dda15a56a2b0183e1aa1144efcf532ec5d5c69a9efbbe21f52262d48ae3bd676",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/growth/besu-validator-2.txt",
+                          "sha256":  "10ed8047895ebafbee0545ced7e4a86041f984cb19541dd016d8a7726abcaa8a",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/growth/besu-validator-3.txt",
+                          "sha256":  "f98a9a4a98d56e030ae26d52642cb48bef931e6416d3edcc7d138b5c746ff4b2",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/growth/besu-validator-4.txt",
+                          "sha256":  "56060c939f80048e4b7d7e713464dc268ff9722bfd2ad6cfda1b37035e3bf614",
+                          "bytes":  3119
+                      },
+                      {
+                          "path":  "evidence/acceptance/growth/experiment-client.txt",
+                          "sha256":  "2a93672074679ff5aee44f94f2b111384996ef2d330feb91a7cb29ae39083697",
+                          "bytes":  3124
+                      },
+                      {
+                          "path":  "evidence/acceptance/growth/summary.json",
+                          "sha256":  "ee211e27162af8c4093b8d976fac4cc56ed015cdffe0ab9fd757d4657f755e47",
+                          "bytes":  6684
+                      },
+                      {
+                          "path":  "evidence/faults/preparation-summary.json",
+                          "sha256":  "e76bc5d7b491a6f7d10632b4597a06ac938bd59b8d5ec54aa4725b9f684f0e02",
+                          "bytes":  1442
+                      },
+                      {
+                          "path":  "evidence/genesis/decoded-validators.txt",
+                          "sha256":  "0654db8b2dab1e3b99793836df3501f3cfea48e4c1e4387ea12fa3ea164fa128",
+                          "bytes":  176
+                      },
+                      {
+                          "path":  "evidence/genesis/failure-attempt-1.json",
+                          "sha256":  "c157838cf421c6ca53d8a47f34f40cb2475dc63ae06936aba098cd257eed1040",
+                          "bytes":  730
+                      },
+                      {
+                          "path":  "evidence/genesis/failure-attempt-2.json",
+                          "sha256":  "49ff7f665b61116893b0ddfdfc18ffc832f8df9a3ad3f9b15fb2e01055482be2",
+                          "bytes":  596
+                      },
+                      {
+                          "path":  "evidence/genesis/generation.txt",
+                          "sha256":  "8a7c0b780092113f05ed3307665e0dcf68ccacb210af853f638cf30a6bd7ce8d",
+                          "bytes":  1500
+                      },
+                      {
+                          "path":  "evidence/genesis/mapping-correction.json",
+                          "sha256":  "7b9cab7edaf203b8b0c5f5bfefbb5f2f96b28d3356a52c3e0323e4925103d47b",
+                          "bytes":  552
+                      },
+                      {
+                          "path":  "evidence/genesis/remote-cleanup.txt",
+                          "sha256":  "87f45a17065e64b4e79a2e9124788f619e05cb2b52967135f8c9979b152c9cd9",
+                          "bytes":  42
+                      },
+                      {
+                          "path":  "evidence/genesis/summary.json",
+                          "sha256":  "dda8c9da6a9767b57d8b9408f7e1f9fc730e47da8ee3c1668c120f39ae7e5eab",
+                          "bytes":  914
+                      },
+                      {
+                          "path":  "evidence/installation/artifact-sha256.json",
+                          "sha256":  "6e90bde224e94cb7146c107fcc71e2acbf70f1db69eddc336ac57990686fd5e5",
+                          "bytes":  3880
+                      },
+                      {
+                          "path":  "evidence/installation/besu-validator-1.txt",
+                          "sha256":  "57b75c15be9b1bde3c60b69840bbbf69aceb723382f45c38ccb6d9f7971cd5fc",
+                          "bytes":  661
+                      },
+                      {
+                          "path":  "evidence/installation/besu-validator-2.txt",
+                          "sha256":  "7d444be4370ba32136604ec30869b84677c94fa893f7961d10016f90eb1bdd04",
+                          "bytes":  661
+                      },
+                      {
+                          "path":  "evidence/installation/besu-validator-3.txt",
+                          "sha256":  "0631795527b74b997b9305a3e957e561633596079a14e21323621ab2f0927200",
+                          "bytes":  661
+                      },
+                      {
+                          "path":  "evidence/installation/besu-validator-4.txt",
+                          "sha256":  "99eea7ce46477f9c260f839043805faef60ded94fec47561c2855a0089b24a4e",
+                          "bytes":  661
+                      },
+                      {
+                          "path":  "evidence/installation/download-metadata.json",
+                          "sha256":  "41f8c51c8b177e35d078b47bd22d4334d453458f5c7892868ee5682c93776240",
+                          "bytes":  680
+                      },
+                      {
+                          "path":  "evidence/installation/experiment-client.txt",
+                          "sha256":  "4876d1e8eb5e1ad8c97bf6a9712fbd4cf9c64044aaa2bff433e89657a7322e42",
+                          "bytes":  662
+                      },
+                      {
+                          "path":  "evidence/installation/hash-verification.json",
+                          "sha256":  "59938f1482e748aecf245e7c1cd31dc62fd36bb579a4dfaf8eba7e05be3a11e2",
+                          "bytes":  2140
+                      },
+                      {
+                          "path":  "evidence/installation/recheck/besu-validator-1.txt",
+                          "sha256":  "c0116ae4ad59becf016ad67a9f2a144bf003deb12628674abdacec386a091a28",
+                          "bytes":  330
+                      },
+                      {
+                          "path":  "evidence/installation/recheck/besu-validator-2.txt",
+                          "sha256":  "da0936001171eaf89eb013ca77df71c8f151d05c9cad68c883752fb7115736e3",
+                          "bytes":  330
+                      },
+                      {
+                          "path":  "evidence/installation/recheck/besu-validator-3.txt",
+                          "sha256":  "78b3c9fd23bbfec430c5659cc7c28341dec79be8385c20faf2b64131ca7c388b",
+                          "bytes":  330
+                      },
+                      {
+                          "path":  "evidence/installation/recheck/besu-validator-4.txt",
+                          "sha256":  "70f02c4607417fecf3c0a94399c542c6a52ffd9078d1fef65f885a9da9b4d53a",
+                          "bytes":  330
+                      },
+                      {
+                          "path":  "evidence/installation/recheck/experiment-client.txt",
+                          "sha256":  "99b73f91c207663ff00ff833ccd643180795a42924dbafcfc28c1dc0cc66ca41",
+                          "bytes":  332
+                      },
+                      {
+                          "path":  "evidence/installation/recheck/summary.json",
+                          "sha256":  "fb998bf32535e5135b23a404448f516d57d70f5fef46d63f390a225d30dc59ca",
+                          "bytes":  1800
+                      },
+                      {
+                          "path":  "evidence/preflight/besu-validator-1.json",
+                          "sha256":  "929a8f41320fbc67a5fb3356d43a79daf6986369415974527689398b674bf3ff",
+                          "bytes":  5883
+                      },
+                      {
+                          "path":  "evidence/preflight/besu-validator-1.txt",
+                          "sha256":  "42e607ad77b6ecedd9c0c32a3cbce1718160c0fb36553fa45903a88ead19fb33",
+                          "bytes":  4982
+                      },
+                      {
+                          "path":  "evidence/preflight/besu-validator-2.json",
+                          "sha256":  "34990fb121b37e7945dd66a20f11e1558a72ef6d26f5242b6836d924a9550087",
+                          "bytes":  5885
+                      },
+                      {
+                          "path":  "evidence/preflight/besu-validator-2.txt",
+                          "sha256":  "8285795bcc26c07d4d763b788b3f1b2693915ea7383afff607a3b15563fe9a8b",
+                          "bytes":  4984
+                      },
+                      {
+                          "path":  "evidence/preflight/besu-validator-3.json",
+                          "sha256":  "db74aaf28575cfc272083c351bcc6ec39be6f9e6f8b7529846198ada69db4211",
+                          "bytes":  5885
+                      },
+                      {
+                          "path":  "evidence/preflight/besu-validator-3.txt",
+                          "sha256":  "4e7f4cfb3e6709aabf7e49e9db2a5cc2e38ba7ddb6e7a75f26d2f53cc8a86ee9",
+                          "bytes":  4984
+                      },
+                      {
+                          "path":  "evidence/preflight/besu-validator-4.json",
+                          "sha256":  "ca36746bbdd7b6422be12a8af2f556c7027a37966cff72537dee9d38154b5d18",
+                          "bytes":  5885
+                      },
+                      {
+                          "path":  "evidence/preflight/besu-validator-4.txt",
+                          "sha256":  "e79b2839e19a402719487b6096d2a5d0a7323c08c1934a54a875bb1b416ed6dd",
+                          "bytes":  4984
+                      },
+                      {
+                          "path":  "evidence/preflight/experiment-client.json",
+                          "sha256":  "f77ec8be805310a655d0502fc603bbba47ce2705394e91f990b4aeec0f0282a5",
+                          "bytes":  5886
+                      },
+                      {
+                          "path":  "evidence/preflight/experiment-client.txt",
+                          "sha256":  "d415f08b30f1017bb51a2dd3b79173d759773e89a691fe25558be24e2110e1cd",
+                          "bytes":  4985
+                      },
+                      {
+                          "path":  "evidence/preflight/failure-20260728T092003Z.json",
+                          "sha256":  "532adf0c68f4834bfb9d2f5da77f7593eed609b025d2df361cb9c0f56a0b517f",
+                          "bytes":  676
+                      },
+                      {
+                          "path":  "evidence/preflight/failure-20260728T092003Z.txt",
+                          "sha256":  "295e53ac15e66eba4afc669d2ac852ddc8b6f7e44cf17220ade6d79e0b9aee8a",
+                          "bytes":  266
+                      },
+                      {
+                          "path":  "evidence/preflight/failure-20260728T092249Z.json",
+                          "sha256":  "541e3eefc7f3b503537c80e735d308c704fc5aa4b0728306a212320329276556",
+                          "bytes":  629
+                      },
+                      {
+                          "path":  "evidence/preflight/failure-20260728T092249Z.txt",
+                          "sha256":  "0f8e41c5c3ec5c0aada1fad8264e209260b09076913e20e152a39828d005a54d",
+                          "bytes":  268
+                      },
+                      {
+                          "path":  "evidence/preflight/failure-20260728T092436Z.json",
+                          "sha256":  "cd5e59fe0f9e7e9e98b2f693f9238169afba668e629659521f5973ed2334a8f0",
+                          "bytes":  676
+                      },
+                      {
+                          "path":  "evidence/preflight/failure-20260728T092436Z.txt",
+                          "sha256":  "2f0422458dc67e24be8edfc6910f1cf1632552c21f3126b74b6ba8953e808b7a",
+                          "bytes":  325
+                      },
+                      {
+                          "path":  "evidence/preflight/failure-20260728T092604Z.json",
+                          "sha256":  "a0c676102cfa307f6c40a7f55e9de8989822460de9eab95352754d49d2168cb9",
+                          "bytes":  587
+                      },
+                      {
+                          "path":  "evidence/preflight/failure-20260728T092604Z.txt",
+                          "sha256":  "7acbc4649a2e607b6502f3968b2271eb2eea8167e73822194e4cfe8ba0076537",
+                          "bytes":  307
+                      },
+                      {
+                          "path":  "evidence/preflight/failure-20260728T093002Z.json",
+                          "sha256":  "f40e06b7c2b5473176fb5f49e8f0096ce6e7eb7c20b8e59575f0261c9534c82c",
+                          "bytes":  983
+                      },
+                      {
+                          "path":  "evidence/preflight/failure-20260728T093300Z.json",
+                          "sha256":  "94fd1d09d3d1ed8244256bc9b0bdc8575237155b530748d28ea6cff93e0b725c",
+                          "bytes":  394
+                      },
+                      {
+                          "path":  "evidence/preflight/summary.json",
+                          "sha256":  "f789ea265272573fdd55c602520941015e08fc6acfd52ff41b3d9482f4353a3f",
+                          "bytes":  2934
+                      },
+                      {
+                          "path":  "evidence/recovery/besu-validator-1-cleanup.txt",
+                          "sha256":  "275f4b356927499ade09db99b617767691101f224296ae0aaadb0d36e3345727",
+                          "bytes":  355
+                      },
+                      {
+                          "path":  "evidence/recovery/besu-validator-2-cleanup.txt",
+                          "sha256":  "7e46e5aabef6b420923a78d89afbeeb7cac25895d1544859cdd99d73f08d7912",
+                          "bytes":  355
+                      },
+                      {
+                          "path":  "evidence/recovery/besu-validator-3-cleanup.txt",
+                          "sha256":  "3401a41a8831cfaa1c84eddfa604f1da11542d236051b7df18118c39bee08707",
+                          "bytes":  355
+                      },
+                      {
+                          "path":  "evidence/recovery/besu-validator-4-cleanup.txt",
+                          "sha256":  "27c14edaabb0d606dc790a1b665f8a35a413f30af2c9c64f718fac7b360714ca",
+                          "bytes":  355
+                      },
+                      {
+                          "path":  "evidence/recovery/summary.json",
+                          "sha256":  "e8aeb65f3f782b10440ebd8c07dbeeb54a56a129b4ccd016b3f4e291863b61a3",
+                          "bytes":  1280
+                      },
+                      {
+                          "path":  "evidence/rpc/acceptance.txt",
+                          "sha256":  "3db6616896bda0239f6bfa3f9c0a7746fe351a3fbafe230bcf7b6e6c101eb528",
+                          "bytes":  28829
+                      },
+                      {
+                          "path":  "evidence/rpc/failure-attempt-1.json",
+                          "sha256":  "e934b1d79eff3ce739db98bda4299145f246ace3b02c808920ef13ad05555ba1",
+                          "bytes":  572
+                      },
+                      {
+                          "path":  "evidence/rpc/failure-attempt-2.json",
+                          "sha256":  "9d976a168d53aaed6117a666633c134f917fd2cd10cbf96b3597bc3491bdcbc0",
+                          "bytes":  544
+                      },
+                      {
+                          "path":  "evidence/rpc/failure-attempt-3.json",
+                          "sha256":  "cae09e437bc25c5c269472da17e5376b8040703b4482f1efafd8112f1b112145",
+                          "bytes":  563
+                      },
+                      {
+                          "path":  "evidence/rpc/failure-attempt-4.json",
+                          "sha256":  "ce4078eddce3a1d8fe4ecc271814acdf82c0f650fce28c46038639dd62f3d944",
+                          "bytes":  539
+                      },
+                      {
+                          "path":  "evidence/rpc/failure-attempt-5.json",
+                          "sha256":  "4fec4af484b9400cae06f849382005d55568d9590e947aa8aaa0eadc6d75fb67",
+                          "bytes":  432
+                      },
+                      {
+                          "path":  "evidence/rpc/failure-attempt-6.json",
+                          "sha256":  "fd12420506846cfcdb74dac48f8ca84b66f9cee04e3a2b907f855150291c2f05",
+                          "bytes":  432
+                      },
+                      {
+                          "path":  "evidence/rpc/install.txt",
+                          "sha256":  "872900e52394b1cf9cb3dd178bc93bb41505374d4c3101685772b7289ce5a822",
+                          "bytes":  975
+                      },
+                      {
+                          "path":  "evidence/rpc/recovery-failure-1.json",
+                          "sha256":  "e9e37fa0f0a2d5c6bf08c6d195fda67b6aa09ceca1a1cc587aa9a04d3886dd72",
+                          "bytes":  340
+                      },
+                      {
+                          "path":  "evidence/rpc/recovery-failure-2.json",
+                          "sha256":  "d69bcd2dab80efb81e14868f8fc244726b8e919abc862d0dd6d0d4fa23e53916",
+                          "bytes":  407
+                      },
+                      {
+                          "path":  "evidence/rpc/summary.json",
+                          "sha256":  "843a4ea8f5293f1fbe0669b7975d49b9a552033c84542c6ec5448e3c04a14e8a",
+                          "bytes":  492
+                      },
+                      {
+                          "path":  "evidence/rpc/windows-web3-clientVersion.json",
+                          "sha256":  "938de3ca1ee25d1bc085ebfd45ad54e5b933864a0b25011c51865b52435f29a5",
+                          "bytes":  108
+                      },
+                      {
+                          "path":  "evidence/validators/besu-validator-1.txt",
+                          "sha256":  "010db1e66af57682e0642c8038375d0296f15afd993fabfa8b0a39c384c26963",
+                          "bytes":  653
+                      },
+                      {
+                          "path":  "evidence/validators/besu-validator-2.txt",
+                          "sha256":  "0197d968e2e55cdeee9113db38dfcdba8afb6a26b71f942006b0c2b33e13a133",
+                          "bytes":  593
+                      },
+                      {
+                          "path":  "evidence/validators/besu-validator-3.txt",
+                          "sha256":  "509568f8cf7a47b5695eac15ca18b238889acd380f481ce313c5965a1a5c871e",
+                          "bytes":  593
+                      },
+                      {
+                          "path":  "evidence/validators/besu-validator-4.txt",
+                          "sha256":  "b4e663537c760b3ec9c73d0326bb01213e08f5953feb5757787015eab9f1a99d",
+                          "bytes":  593
+                      },
+                      {
+                          "path":  "evidence/validators/experiment-client.txt",
+                          "sha256":  "d79d49a7386b4b276f0d0833bf64890f9e4ed9a5c6bbd97a9051e2e0359a94a8",
+                          "bytes":  263
+                      },
+                      {
+                          "path":  "evidence/validators/failure-attempt-1.json",
+                          "sha256":  "f61cae05d2783e5ee8874475235ecb40ddc46cef22e08009eff92c99662f4612",
+                          "bytes":  391
+                      },
+                      {
+                          "path":  "evidence/validators/failure-attempt-2.json",
+                          "sha256":  "dce99198255bd335aee782ae558c072c72e96b64366db5486de1d474a79913e3",
+                          "bytes":  577
+                      },
+                      {
+                          "path":  "evidence/validators/key-distribution.json",
+                          "sha256":  "35889a2914503aa8c3cda5efe62b1e29b98a7756d4fd26e698057f7e26329e5b",
+                          "bytes":  3352
+                      },
+                      {
+                          "path":  "evidence/validators/summary.json",
+                          "sha256":  "5e901c273437a262b467f942289840d46055545121ee1b1e03294aa374a5d0f0",
+                          "bytes":  374
+                      },
+                      {
+                          "path":  "evidence/validators/deployment/besu-validator-1-acceptance.txt",
+                          "sha256":  "1660bab9abb03d538a96a63b94c6bec27618fd18f9fd6a3d6b07d5f65d814143",
+                          "bytes":  21046
+                      },
+                      {
+                          "path":  "evidence/validators/deployment/besu-validator-1-install.txt",
+                          "sha256":  "f4e3d16dea5b510eb51fc7e3cd3c54e606cdf095a33b745acf5c7d82c74478b1",
+                          "bytes":  210
+                      },
+                      {
+                          "path":  "evidence/validators/deployment/besu-validator-2-acceptance.txt",
+                          "sha256":  "3a97b33335c029ad4f4f94c4f3ab2c20051861d323d33a71787fdb64d39f208c",
+                          "bytes":  21095
+                      },
+                      {
+                          "path":  "evidence/validators/deployment/besu-validator-2-install.txt",
+                          "sha256":  "c9af29aa6cac78ae43abc8741c35a596f48f93b009fc7251ebe99a4bb7f82594",
+                          "bytes":  210
+                      },
+                      {
+                          "path":  "evidence/validators/deployment/besu-validator-3-acceptance.txt",
+                          "sha256":  "21290677ea4d5fcd26b629c923f731327ce8811c72409b84615988f3e8502215",
+                          "bytes":  21057
+                      },
+                      {
+                          "path":  "evidence/validators/deployment/besu-validator-3-install.txt",
+                          "sha256":  "c940c575891543dce162c834c22f017c45927b91f97446e767d773ed2edb2256",
+                          "bytes":  210
+                      },
+                      {
+                          "path":  "evidence/validators/deployment/besu-validator-4-acceptance.txt",
+                          "sha256":  "5728b93d47c76590b3fccb0f2a9adb498cca7a455009cbdef29047c8845a0799",
+                          "bytes":  20912
+                      },
+                      {
+                          "path":  "evidence/validators/deployment/besu-validator-4-install.txt",
+                          "sha256":  "5b54aa280e95da035b18fdde1e5e86d243e1e2e0529cfbb12935d979c2da6a76",
+                          "bytes":  210
+                      },
+                      {
+                          "path":  "evidence/validators/deployment/failure-attempt-1.json",
+                          "sha256":  "1776a656181f1d3b5e9ff2a2db85a625772611ea132b099d904abbb6d0de9792",
+                          "bytes":  498
+                      },
+                      {
+                          "path":  "evidence/validators/deployment/summary.json",
+                          "sha256":  "37bb018b55a47a2802d15d0c0eea201514f1244733514e607f6f3a17f63acfb1",
+                          "bytes":  1676
+                      },
+                      {
+                          "path":  "genesis/genesis.json",
+                          "sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+                          "bytes":  745
+                      },
+                      {
+                          "path":  "genesis/genesis.sha256",
+                          "sha256":  "91c8ce148cfc1249717252d3eaa42f370656cb2f70f4f70f27e46d13703df4f0",
+                          "bytes":  79
+                      },
+                      {
+                          "path":  "genesis/parameter-freeze.json",
+                          "sha256":  "567b2d075409913e3e2340080a413fa4696d1eabc0150aca95064406ad166aec",
+                          "bytes":  841
+                      },
+                      {
+                          "path":  "genesis/qbftConfigFile.json",
+                          "sha256":  "dd95c23bccb83f3c8bb7d21c1f2c29e04a2e71fa02ed446f03bd31f371204de2",
+                          "bytes":  598
+                      },
+                      {
+                          "path":  "inventory/frozen-topology.json",
+                          "sha256":  "38248ec9ff2c73a8f1cb2664d5c72a224f134f285550f90dbd88e068e45f6eee",
+                          "bytes":  1104
+                      },
+                      {
+                          "path":  "reports/Besu-QBFT五节点部署总验收报告.md",
+                          "sha256":  "d15a880ef3da96cc6c845661e12a0b459a4b48c1141c0ddd70ab8c4d17c9accf",
+                          "bytes":  4519
+                      },
+                      {
+                          "path":  "reports/recovery-cleanup-20260728.md",
+                          "sha256":  "dc364e51d03e178821ea441972bef6dcc3b31f72a8631e2262d61afb9a817485",
+                          "bytes":  1570
+                      },
+                      {
+                          "path":  "reports/stage-0-preflight.md",
+                          "sha256":  "a33dec57bf44d0ba0ef8d45ddb1c4e826f22ae1fa5fddfdb51bd8fd800af94ea",
+                          "bytes":  5695
+                      },
+                      {
+                          "path":  "reports/stage-1-besu-installation.md",
+                          "sha256":  "9f40e2ebe53cacf81009580691c72ebf9667deb8219f180d2db0c98402237bfd",
+                          "bytes":  4000
+                      },
+                      {
+                          "path":  "reports/stage-2-qbft-genesis.md",
+                          "sha256":  "083e05dea3e65a71e7f8ee4a5cd7b114a6fbda55a66f9653360e413fd7fae395",
+                          "bytes":  2960
+                      },
+                      {
+                          "path":  "reports/stage-3-validator-keys.md",
+                          "sha256":  "b3adb9671f361fd07cd4ae23e8ff81444e2e18533b31f627c6e7d8afe4130b33",
+                          "bytes":  1875
+                      },
+                      {
+                          "path":  "reports/stage-4-validator-deployment.md",
+                          "sha256":  "02bc0cd250e7a4b687b6029a22fb5f8bc239700846eec5e063e7ae0d9c6692f6",
+                          "bytes":  1752
+                      },
+                      {
+                          "path":  "reports/stage-5-rpc-deployment.md",
+                          "sha256":  "7423bb7ccbe3c411e944a8070c0e0b09e1cc2508c9d660614e5e1d6804deaffd",
+                          "bytes":  1703
+                      },
+                      {
+                          "path":  "reports/stage-6-chain-acceptance.md",
+                          "sha256":  "e89b4499577d3423becda16a1e0077ec559cab12b14e0ffdadc5f523a8810679",
+                          "bytes":  1928
+                      },
+                      {
+                          "path":  "reports/stage-7-fault-test-plan.md",
+                          "sha256":  "6bc869905eb4a0604fe965578c06937d34e4c0be8922552c25fb04a13bd84da4",
+                          "bytes":  2602
+                      },
+                      {
+                          "path":  "scripts/powershell/00-preflight.ps1",
+                          "sha256":  "f9497a5a96fb24cb0dc3162b8397e59cf56f94fe13b7d29ef4c82050398c0cc4",
+                          "bytes":  6015
+                      },
+                      {
+                          "path":  "scripts/powershell/00-recover-clean-legacy-besu.ps1",
+                          "sha256":  "0343b713fb82c13743efe45d2612b8ff19058e8574bcce7a330012746707fd9c",
+                          "bytes":  2431
+                      },
+                      {
+                          "path":  "scripts/powershell/01-install-besu.ps1",
+                          "sha256":  "1440967fefc4089f7aea028f84cbccfeb1edcca3bcb06698b62843244a1bb742",
+                          "bytes":  5251
+                      },
+                      {
+                          "path":  "scripts/powershell/01-recheck-stage1.ps1",
+                          "sha256":  "34ff571d82bcfd68669ec79d3d753bae31b267d73af4c5f88ad400f1faf60ea1",
+                          "bytes":  2843
+                      },
+                      {
+                          "path":  "scripts/powershell/02-generate-qbft-genesis.ps1",
+                          "sha256":  "11a2d2b4b139953f5f4d86003bf4df005715e08e72fea39e2bb3518ce3ed6e2b",
+                          "bytes":  9748
+                      },
+                      {
+                          "path":  "scripts/powershell/02-reconcile-validator-order.ps1",
+                          "sha256":  "dc7224a8168b585b0ab0085e66c525facf7e972f799ef13c4ae8f58911ff2bee",
+                          "bytes":  2917
+                      },
+                      {
+                          "path":  "scripts/powershell/03-distribute-validator-keys.ps1",
+                          "sha256":  "031af94e743fb4aaa357ac65f9624f54a320a3f1e4ff7b141f73b2e98c796868",
+                          "bytes":  6610
+                      },
+                      {
+                          "path":  "scripts/powershell/04-deploy-validators.ps1",
+                          "sha256":  "6ddaf1af65b07179fab22ba0836eddf7a5b5fe8aa441d1b1e6add5a3a615bc3e",
+                          "bytes":  5224
+                      },
+                      {
+                          "path":  "scripts/powershell/05-deploy-rpc.ps1",
+                          "sha256":  "7ed56c2a9d7d875b384cc74826a4c955191769a528eb66af0379f33ed61d38cf",
+                          "bytes":  6421
+                      },
+                      {
+                          "path":  "scripts/powershell/06-chain-acceptance.ps1",
+                          "sha256":  "9c7c5c56079c81bfc342a61489e0fd4588a5428f79e8d4b76941bd02b5f7f4d2",
+                          "bytes":  10321
+                      },
+                      {
+                          "path":  "scripts/powershell/07-fault-test-prepare.ps1",
+                          "sha256":  "1be672cedae4bafa4de5ceb8ab2590c37c07318142fd2ee79f32bf4d844796b8",
+                          "bytes":  1511
+                      },
+                      {
+                          "path":  "scripts/powershell/fault-recover-rpc.ps1",
+                          "sha256":  "10727f68cf4fccee03b886423fadefeed6ccab0220e3d7bc58c47244c49458f5",
+                          "bytes":  1073
+                      },
+                      {
+                          "path":  "scripts/powershell/fault-recover-validator.ps1",
+                          "sha256":  "13eaf9b2180def3314a459dcecb224d9ea7621fb1399151ab6f22d9d19af21bc",
+                          "bytes":  1358
+                      },
+                      {
+                          "path":  "scripts/powershell/fault-stop-one-validator.ps1",
+                          "sha256":  "cf648b8208fab5819718a287d705b86beb9060bdcee613be596f9ac0b78e6b7e",
+                          "bytes":  1239
+                      },
+                      {
+                          "path":  "scripts/powershell/fault-stop-rpc.ps1",
+                          "sha256":  "6624d38558e1f66411d55159cc2c6d1ea91d3de7eb61ddd1e11b1754bd9b5a35",
+                          "bytes":  1136
+                      },
+                      {
+                          "path":  "scripts/powershell/New-Stage1ArtifactManifest.ps1",
+                          "sha256":  "7877001c6417f4d4fcacdc2043bee11779c07fe84bd456548204e71c7e42fd9c",
+                          "bytes":  1739
+                      },
+                      {
+                          "path":  "scripts/remote/cleanup-legacy-besu.sh",
+                          "sha256":  "b75fa645ea4e1b264f46eeac956458d452818746482d9e7f14f74d4a97898ff9",
+                          "bytes":  1459
+                      },
+                      {
+                          "path":  "scripts/remote/cleanup-rpc-key-staging.sh",
+                          "sha256":  "b1619e26eeeb91fb83dfc86024c794f0fde1250a29f8159c789eb8948d48d0d0",
+                          "bytes":  667
+                      },
+                      {
+                          "path":  "scripts/remote/cleanup-stage2-staging.sh",
+                          "sha256":  "583854311fa228ecbf2c9f86231c7d3aa76bd003d4b23bae2c654e2029a7887f",
+                          "bytes":  513
+                      },
+                      {
+                          "path":  "scripts/remote/collect-chain-state.sh",
+                          "sha256":  "4e6d6a365a8e50d97d2ac664b0669e2779fa218ea2ddacaaf8527484aec49cab",
+                          "bytes":  1839
+                      },
+                      {
+                          "path":  "scripts/remote/collect-node-state.sh",
+                          "sha256":  "88e15bb26e6dc1a5ab5251bdd4c163f33e8d41c1969e3f3d0871b2e9982d81ce",
+                          "bytes":  791
+                      },
+                      {
+                          "path":  "scripts/remote/collect-preflight.sh",
+                          "sha256":  "9e8bbf6fab0324d2a10d613170978720de4e9e50c3668963f7a2295ff6e47a95",
+                          "bytes":  4542
+                      },
+                      {
+                          "path":  "scripts/remote/collect-rpc-acceptance.sh",
+                          "sha256":  "659e313bf92bc446a3437180fdebfaba2a3d3c483fe75efcd831edadd7d9dbc9",
+                          "bytes":  1337
+                      },
+                      {
+                          "path":  "scripts/remote/collect-validator-acceptance.sh",
+                          "sha256":  "a62302e7fba21762c5c5f8adc1babdc4b811b802dc302539bbd89fc852714ed8",
+                          "bytes":  1375
+                      },
+                      {
+                          "path":  "scripts/remote/generate-qbft-network.sh",
+                          "sha256":  "292bdc1ce4e258b9a13be1501b422bd6e4b180bf119283adcc929234193f8bef",
+                          "bytes":  1905
+                      },
+                      {
+                          "path":  "scripts/remote/install-besu-26.5.0.sh",
+                          "sha256":  "8d75f1d762f62c8fdffb87b065d4649cf40ab8bee10b9a7824f05ab21bb51f21",
+                          "bytes":  2618
+                      },
+                      {
+                          "path":  "scripts/remote/install-public-network-material.sh",
+                          "sha256":  "3a81a13af3b1b708ccf437231dd9ec86076da6c996ec746b8e758ef741c8e2fa",
+                          "bytes":  1302
+                      },
+                      {
+                          "path":  "scripts/remote/install-rpc-service.sh",
+                          "sha256":  "f484d3bc9fa8d1e3d932099454ad2e32c1bb9d9a5c101ea841c4cbfa307ea381",
+                          "bytes":  2796
+                      },
+                      {
+                          "path":  "scripts/remote/install-validator-material.sh",
+                          "sha256":  "df7613d68055a1254e64a346d84edbfe9bc933203b885ff15ba19544ce53ac54",
+                          "bytes":  2949
+                      },
+                      {
+                          "path":  "scripts/remote/install-validator-service.sh",
+                          "sha256":  "c07a1970e8453d88c53bde74873219bb7feb929f13069b715b5d847f85524b33",
+                          "bytes":  1370
+                      },
+                      {
+                          "path":  "scripts/remote/recheck-stage1.sh",
+                          "sha256":  "71bc939b7cc4179830ec35972d7f7e7571aca5e8b3a696f6a637a90cb2c6e997",
+                          "bytes":  642
+                      },
+                      {
+                          "path":  "systemd/besu-rpc.service",
+                          "sha256":  "d7ad2bd0e377076ff2fe8ab2db1e9b2826728db432a9d44323d1fdf8592e86b2",
+                          "bytes":  510
+                      },
+                      {
+                          "path":  "systemd/besu.service",
+                          "sha256":  "28f5429a59a64387591a683eeffd510cf8247cc9b626991fe7181a9c149f432e",
+                          "bytes":  498
+                      },
+                      {
+                          "path":  "validator-public/besu-validator-1.pub",
+                          "sha256":  "74138f398ad8f23a68f790390f4e7f6b713569cd9e90999032f303ed67c8b8f8",
+                          "bytes":  129
+                      },
+                      {
+                          "path":  "validator-public/besu-validator-2.pub",
+                          "sha256":  "d1764f705a4cd6ba56b64ed8e0834376ff8bc2165c045a1dd61ddcc00c157e5d",
+                          "bytes":  129
+                      },
+                      {
+                          "path":  "validator-public/besu-validator-3.pub",
+                          "sha256":  "620ca00205cfe27adeb98533543ea96e07da93b8186ff8ed2073032a2a2c0e72",
+                          "bytes":  129
+                      },
+                      {
+                          "path":  "validator-public/besu-validator-4.pub",
+                          "sha256":  "6ec705bf44c5bb9edcdca2bdba219d6b94699d5258006f82437e4cbda868aa3a",
+                          "bytes":  129
+                      },
+                      {
+                          "path":  "validator-public/experiment-client.pub",
+                          "sha256":  "036c2a1b9a2fa80d18975e3c36ce1fce9087a64e8ab55970c2d70c6586421c04",
+                          "bytes":  129
+                      },
+                      {
+                          "path":  "validator-public/node-ids.txt",
+                          "sha256":  "e26cd8fe03bcf145038f4c65e323555f1649f56250248577cf29137abd5c2644",
+                          "bytes":  520
+                      },
+                      {
+                          "path":  "validator-public/validator-addresses.txt",
+                          "sha256":  "089b7028af07efb6a9dfd9c695578dcc93ac6965b63348de93e0f7057b9ed70a",
+                          "bytes":  176
+                      },
+                      {
+                          "path":  "validator-public/validators.json",
+                          "sha256":  "d258a1ba732158fecbfcd8ee5cf0208f7a67325da1bfdf0f6d07f1b8f80ea05f",
+                          "bytes":  1780
+                      }
+                  ]
+}

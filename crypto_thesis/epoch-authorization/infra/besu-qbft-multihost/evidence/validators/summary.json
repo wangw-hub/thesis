@@ -1,0 +1,10 @@
+﻿{
+    "stage":  3,
+    "passed":  true,
+    "validator_count":  4,
+    "validator_private_hashes_unique":  true,
+    "validator_node_ids_unique":  true,
+    "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+    "experiment_client_has_validator_private_key":  false,
+    "completed_at_utc":  "2026-07-28T10:44:03.2127326Z"
+}

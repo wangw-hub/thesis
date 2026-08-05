@@ -1,0 +1,126 @@
+﻿[
+    {
+        "path":  "00-I9-ENTRY-AUDIT.md",
+        "sha256":  "bee46abe8426b29a062db827bf2843abd4537d0d86ceb56f842efab89d0b87bf"
+    },
+    {
+        "path":  "01-I8-MINOR-DISPOSITION.md",
+        "sha256":  "add9ee38722c42840bd9a36f44662f0089b50790e8bcec632bcc3f453108b25b"
+    },
+    {
+        "path":  "02-I9-SCOPE-AND-NON-GOALS.md",
+        "sha256":  "298c794872a79b7bac037655c95284d8f2dc51ffb27230ebf11b5f401bce0496"
+    },
+    {
+        "path":  "03-PILOT-ENVIRONMENT-ISOLATION.md",
+        "sha256":  "1ec17a9fcc572336fd602d7b3b6a4bcff8acc6b724afddfd33c4e5fd0b98e43b"
+    },
+    {
+        "path":  "04-R3-PILOT-CONFIG-V1.md",
+        "sha256":  "bff0d5c548e0f182055d2261e7f15f63a9dce502f5f1e7d5d86600b0deea7f94"
+    },
+    {
+        "path":  "05-PILOT-RUN-IDENTITY-AND-SEEDS.md",
+        "sha256":  "e04bb225c10fa18e0697e941e464f48abfa247fe1b6f6f1d6d8e2975b02d73c9"
+    },
+    {
+        "path":  "06-PILOT-WORKLOAD-GENERATOR.md",
+        "sha256":  "318fe364914a32ad302629614a6e3cc81adff8992860b7d8b78c6062918e5a5e"
+    },
+    {
+        "path":  "07-PILOT-RUN-STATE-MACHINE.md",
+        "sha256":  "29b5a742e46521f074a62779bc7793705d693a43288bb2bbedc6d75f73f81a59"
+    },
+    {
+        "path":  "08-PILOT-INSTRUMENTATION.md",
+        "sha256":  "ff1a926dc91b8ddd5769d6deef8c57a5b2f9d1f51c207c5dc805ecb0457f84b7"
+    },
+    {
+        "path":  "09-PILOT-RAW-DATA-CONTRACT.md",
+        "sha256":  "0bbb80691768e568eb9098118e661e64ac0c1424ecad18f8758a9c1dc3677154"
+    },
+    {
+        "path":  "10-PILOT-DATA-QUALITY-RULES.md",
+        "sha256":  "e60d98d8b0ffa27f4842f8491a5103f28874536956e5f104f7ffc22ad1870b06"
+    },
+    {
+        "path":  "11-PILOT-RESET-PROTOCOL.md",
+        "sha256":  "b551ef5355c9c807beeac7510ac78768c1e1c340badf8a1f8675024cf282cdb0"
+    },
+    {
+        "path":  "12-P9-A-SMOKE-RESULTS.md",
+        "sha256":  "36678b20f5fb430c4074d4ed036aefeac3c37a1d575b568022f5efe987f62c10"
+    },
+    {
+        "path":  "13-P9-B-UPDATE-PATH-RESULTS.md",
+        "sha256":  "0793661c017b54752da82f24a96e56e773c69bb704e2a03dc76c667e2e0be982"
+    },
+    {
+        "path":  "14-P9-C-STORAGE-RECOVERY-RESULTS.md",
+        "sha256":  "c2e5c17a077943a7c4ff761d8ab0323bbcf641d03685d068b50ca311af730ad1"
+    },
+    {
+        "path":  "15-P9-D-FAULT-RESULTS.md",
+        "sha256":  "8f3215d845e02b47be14b0223af3ebb20f8b68c593f6032ad59894e75954caa6"
+    },
+    {
+        "path":  "16-PILOT-PAIRING-DESIGN.md",
+        "sha256":  "b45fd6ef1ddd423c677772c41649912535999b144416a69911a1885621a43cc3"
+    },
+    {
+        "path":  "17-PILOT-STATISTICAL-PIPELINE.md",
+        "sha256":  "1eff296a7750b93c6824a65bd3a040946f5732056b3d89d7b79a0c462e66c0a1"
+    },
+    {
+        "path":  "18-PILOT-EXCLUSION-RULES.md",
+        "sha256":  "d7a548d7eee8609ec5fbc525316ac7731d5d1f116c266a00550ee1adacee52c9"
+    },
+    {
+        "path":  "19-PILOT-FACTOR-LEVEL-REVIEW.md",
+        "sha256":  "65a465dd8cce0055e24d68e734dc4af8a0188a49238558b316bf0449dbe31f69"
+    },
+    {
+        "path":  "20-FORMAL-RESEARCH-QUESTION-CANDIDATES.md",
+        "sha256":  "ce4d50e5ab5e301b7505c6b65406be912dc7914ccf23951177bc64e0be641e57"
+    },
+    {
+        "path":  "21-FORMAL-FACTOR-CANDIDATES.md",
+        "sha256":  "6b2c902df100f08f4f81da6d5412be831800b8809f166d40fbf86082de1b134c"
+    },
+    {
+        "path":  "22-FORMAL-METRIC-CANDIDATES.md",
+        "sha256":  "88842f39b21c498e3fbdbf96311e0c8f24f36220a6bcd5f71f50dadec032e299"
+    },
+    {
+        "path":  "23-FORMAL-RESOURCE-ESTIMATE.md",
+        "sha256":  "1fd2ebf996293d4e3d98cb776b62b94282555a7abc1453f793fc677ea84a6957"
+    },
+    {
+        "path":  "24-MULTI-NODE-FORMAL-ENVIRONMENT-DECISION.md",
+        "sha256":  "218c8b3bb134d18af1ddb2fadaebbcc557fb38242d97839eb407f7945949805b"
+    },
+    {
+        "path":  "25-I9-INVARIANT-REPORT.md",
+        "sha256":  "b88b82d7221a869eadcee9ffb0379ee3271cc41f744ce71783fe333be1cf0ed7"
+    },
+    {
+        "path":  "26-I9-STRICT-PEER-REVIEW.md",
+        "sha256":  "733b644f0913bdc1030098b1c154a5faddb56dd3d73d9f4685476e140d65218a"
+    },
+    {
+        "path":  "27-I9-ISSUE-TRACKER.md",
+        "sha256":  "07e1cc8a3dbc3a0cd2775b7d6b87552911af93fe9458ca0b555798d447d3d159"
+    },
+    {
+        "path":  "28-I9-FINAL-DECISION.md",
+        "sha256":  "fc5d2cdffac08130de86d7d8079c2711b5d4ce9efff26adc1f5f7f4a1fa5fbb5"
+    },
+    {
+        "path":  "29-I10-ENTRY-CHECKLIST.md",
+        "sha256":  "6a689978d57d33855a85923fe94d280a9092e6eb485764e07c6665ee6508105e"
+    },
+    {
+        "path":  "i9-state.json",
+        "sha256":  "0ef3ac6669f0fd96c83a789a7cc4ecf907a06718b4c92e5eb4e0a1491a8163fb"
+    }
+]

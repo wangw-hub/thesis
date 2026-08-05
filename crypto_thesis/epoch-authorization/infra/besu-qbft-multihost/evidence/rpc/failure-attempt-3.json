@@ -1,0 +1,9 @@
+{
+  "stage": 5,
+  "attempt": 3,
+  "status": "REFUSED_BEFORE_NEW_KEY_GENERATION",
+  "cause": "The previous Besu public-key export used HOME=/var/lib/besu and created an empty .cache/JNA/temp directory, so the non-empty data-directory guard refused deployment.",
+  "audit": "Only directories existed under /var/lib/besu/.cache; no files, database, chain data, or unknown material were present.",
+  "target_service_changes": false,
+  "resolution": "Remove the exact empty cache tree and unadopted temporary key, then use a dedicated /tmp home for key validation."
+}

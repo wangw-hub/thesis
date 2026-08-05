@@ -1,0 +1,86 @@
+{
+  "started_at_unix": 1785301342,
+  "validator_stop": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "validator_start": {
+    "exit_code": 0,
+    "stdout": "active",
+    "stderr": ""
+  },
+  "validator_fault": {
+    "before_height": 2029,
+    "during_height": 2032,
+    "after_height": 2036,
+    "continued_production": true,
+    "recovered": true
+  },
+  "rpc_stop": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "rpc_fault": {
+    "issuer_log": {
+      "exit_code": 0,
+      "stdout": "{\"instance_id\": \"Issuer-1\", \"kind\": \"issuer\", \"healthy\": true, \"fail_closed\": false, \"checked_at_unix\": 1785301347}\n{\"instance_id\": \"Issuer-1\", \"kind\": \"issuer\", \"healthy\": true, \"fail_closed\": false, \"checked_at_unix\": 1785301352}\n{\"instance_id\": \"Issuer-1\", \"kind\": \"issuer\", \"healthy\": true, \"fail_closed\": false, \"checked_at_unix\": 1785301357}\n{\"instance_id\": \"Issuer-1\", \"kind\": \"issuer\", \"healthy\": true, \"fail_closed\": false, \"checked_at_unix\": 1785301362}\n{\"instance_id\": \"Issuer-1\", \"kind\": \"issuer\", \"healthy\": true, \"fail_closed\": false, \"checked_at_unix\": 1785301367}\nStopping epoch-auth-issuer.service - Formal Authorization Issuer-1...\nepoch-auth-issuer.service: Deactivated successfully.\nStopped epoch-auth-issuer.service - Formal Authorization Issuer-1.",
+      "stderr": ""
+    },
+    "issuer_state": {
+      "exit_code": 0,
+      "stdout": "inactive",
+      "stderr": ""
+    },
+    "fail_closed_observed": true
+  },
+  "rpc_start": {
+    "exit_code": 0,
+    "stdout": "active",
+    "stderr": ""
+  },
+  "postgres_stop": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "postgres_fault": {
+    "verifier_log": {
+      "exit_code": 0,
+      "stdout": "epoch-auth-verifier-1.service: Deactivated successfully.\nStopped epoch-auth-verifier-1.service - Formal Authorization Verifier-1.\nStarted epoch-auth-verifier-1.service - Formal Authorization Verifier-1.\nStarted epoch-auth-verifier-2.service - Formal Authorization Verifier-2.\nStopping epoch-auth-verifier-1.service - Formal Authorization Verifier-1...\nStopping epoch-auth-verifier-2.service - Formal Authorization Verifier-2...\n{\"instance_id\": \"Verifier-1\", \"kind\": \"verifier\", \"healthy\": true, \"fail_closed\": false, \"checked_at_unix\": 1785301392}\n{\"instance_id\": \"Verifier-2\", \"kind\": \"verifier\", \"healthy\": true, \"fail_closed\": false, \"checked_at_unix\": 1785301392}\nepoch-auth-verifier-1.service: Deactivated successfully.\nStopped epoch-auth-verifier-1.service - Formal Authorization Verifier-1.\nepoch-auth-verifier-2.service: Deactivated successfully.\nStopped epoch-auth-verifier-2.service - Formal Authorization Verifier-2.",
+      "stderr": ""
+    },
+    "verifier_state": {
+      "exit_code": 0,
+      "stdout": "inactive\ninactive",
+      "stderr": ""
+    },
+    "fail_closed_observed": true
+  },
+  "postgres_start": {
+    "exit_code": 0,
+    "stdout": "active",
+    "stderr": ""
+  },
+  "verifier_restart": {
+    "exit_code": 0,
+    "stdout": "active",
+    "stderr": ""
+  },
+  "verifier_recovery": {
+    "rows_before": {
+      "exit_code": 0,
+      "stdout": "3",
+      "stderr": ""
+    },
+    "rows_after": {
+      "exit_code": 0,
+      "stdout": "3",
+      "stderr": ""
+    },
+    "nonce_persisted": true,
+    "service_active": true
+  },
+  "finished_at_unix": 1785301425
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-07-30T00:00:00Z",
+  "file_count": 9,
+  "files": [
+    {
+      "path": "00-V13-FINAL-EVIDENCE-AUDIT.md",
+      "size": 3106,
+      "sha256": "8ecb38615778e0683cfecfc059dfb7427a3201ad7cbb885f90a9176d2ea58820"
+    },
+    {
+      "path": "01-V13-STATISTICAL-CLAIM-REVIEW.md",
+      "size": 2816,
+      "sha256": "7bbad7d6806ed8344d631aea37d85d87f403715007fb24fb9fecce5c6de44023"
+    },
+    {
+      "path": "02-V13-THESIS-WORDING-FREEZE.md",
+      "size": 2023,
+      "sha256": "72efd65244cd0bffc0b3a60be3ee09f0902f98855cd21c718089b5e33a969b5b"
+    },
+    {
+      "path": "03-RC2-INTERFACE-FREEZE.md",
+      "size": 4809,
+      "sha256": "8724440ce62160e04c15ec616583dcf7985ca7dbbb48d14e34cfc612c6d69754"
+    },
+    {
+      "path": "04-RC2-TO-RC3-DEPENDENCY-CONTRACT.md",
+      "size": 1627,
+      "sha256": "298c9ffd10857c826cca554af4305b433c4a2369c59d140ae2091abab6171984"
+    },
+    {
+      "path": "05-RC2-FINAL-DECISION.md",
+      "size": 757,
+      "sha256": "21046c8cac40809f3ac29512447cc12e08a1684abf130af4dd2f50bf91dfa203"
+    },
+    {
+      "path": "rc2-claim-manifest.json",
+      "size": 2411,
+      "sha256": "cc1fb69df5b242f958f58feb9698d28f238f67bfd33b740ec2f17e237af078a2"
+    },
+    {
+      "path": "rc2-final-state.json",
+      "size": 740,
+      "sha256": "242d32567b70d84eae13c75dec6f41bea9dfb0d61e00baa653fd1e60de060b0c"
+    },
+    {
+      "path": "rc2-interface-manifest.json",
+      "size": 8890,
+      "sha256": "15e958a87e4e6b77711556f2554100d4b614763170890f96c8d6311ea8349898"
+    }
+  ]
+}

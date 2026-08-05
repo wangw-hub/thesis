@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "I15StateV1",
+  "state": "I15_FINAL_LITERATURE_VERIFICATION_COMPLETED",
+  "initialReferences": 10,
+  "finalVerifiedReferences": 16,
+  "queuePlanned": 6,
+  "queueVerified": 6,
+  "unverifiable": 0,
+  "falseReferences": 0,
+  "verified": 11,
+  "verifiedWithCorrection": 5,
+  "replacementReferences": 0,
+  "rejectedFalseReferences": 0,
+  "doiMismatches": 0,
+  "doiCorrections": 2,
+  "authorMismatches": 0,
+  "titleMismatches": 0,
+  "venueMismatches": 0,
+  "yearMismatches": 0,
+  "publicationStatusCorrections": 1,
+  "citationClaimsAudited": 16,
+  "directlySupported": 12,
+  "partiallySupported": 1,
+  "backgroundOnly": 3,
+  "notSupported": 0,
+  "unsupportedInnovationClaims": 0,
+  "coverage": "MINIMALLY_SUFFICIENT",
+  "literatureExpansionRequired": false,
+  "fatal": 0,
+  "major": 0,
+  "minor": 2,
+  "findings": [
+    {
+      "id": "MINOR-01",
+      "scope": "REF-02 引用措辞",
+      "detail": "冻结第四章 4.1 将最小 dyadic cover 定义归因于 REF-02（Abiteboul 2008），建议改为“分布式环境下 XML 等半结构化数据的分区与索引处理[2]”；冻结章节，定稿排版阶段处理",
+      "action": "DEFER_TO_FORMATTING_STAGE"
+    },
+    {
+      "id": "MINOR-02",
+      "scope": "4.9 引用键",
+      "detail": "集成母本 4.9 局限第 4 条将“ACM 工件原则”归于 [5]（Saltzer & Schroeder 1975），语义不匹配；建议替换为 ACM 官方工件政策来源或删除引用，定稿排版阶段统一编号",
+      "action": "DEFER_TO_FORMATTING_STAGE"
+    }
+  ],
+  "modifiedExperimentData": false,
+  "modifiedI9I12": false,
+  "modifiedTechnicalScheme": false,
+  "enteredWordTypesetting": false,
+  "pushed": false,
+  "createdAt": "2026-08-02T12:41:43.168910+00:00"
+}

@@ -1,0 +1,37 @@
+﻿[
+    {
+        "host":  "besu-validator-1",
+        "exit_code":  0,
+        "passed":  true,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\installation\\recheck\\besu-validator-1.txt",
+        "evidence_sha256":  "c0116ae4ad59becf016ad67a9f2a144bf003deb12628674abdacec386a091a28"
+    },
+    {
+        "host":  "besu-validator-2",
+        "exit_code":  0,
+        "passed":  true,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\installation\\recheck\\besu-validator-2.txt",
+        "evidence_sha256":  "da0936001171eaf89eb013ca77df71c8f151d05c9cad68c883752fb7115736e3"
+    },
+    {
+        "host":  "besu-validator-3",
+        "exit_code":  0,
+        "passed":  true,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\installation\\recheck\\besu-validator-3.txt",
+        "evidence_sha256":  "78b3c9fd23bbfec430c5659cc7c28341dec79be8385c20faf2b64131ca7c388b"
+    },
+    {
+        "host":  "besu-validator-4",
+        "exit_code":  0,
+        "passed":  true,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\installation\\recheck\\besu-validator-4.txt",
+        "evidence_sha256":  "70f02c4607417fecf3c0a94399c542c6a52ffd9078d1fef65f885a9da9b4d53a"
+    },
+    {
+        "host":  "experiment-client",
+        "exit_code":  0,
+        "passed":  true,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\installation\\recheck\\experiment-client.txt",
+        "evidence_sha256":  "99b73f91c207663ff00ff833ccd643180795a42924dbafcfc28c1dc0cc66ca41"
+    }
+]

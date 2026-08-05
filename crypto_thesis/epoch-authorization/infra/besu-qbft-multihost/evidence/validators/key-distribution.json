@@ -1,0 +1,46 @@
+﻿[
+    {
+        "host":  "besu-validator-1",
+        "address":  "0x6e86edb3d714dc28e149edd280625ded1436fadf",
+        "node_id":  "45835af724311e3da282f7c376f448ba820f30ba01c4660ff6f88bb0261fb10073c8d48dbe9bc4f1876b67b6a23a1671f176cfa95a95c44de7789e9700c9487b",
+        "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+        "private_key_sha256":  "745e77221c69dc56c0c3be280554b7314426cb782ee69ab0d20fea29cf704c64",
+        "public_key_sha256":  "b14a5fa3e2bbed52f05273b5acc1762572eaa12aecfd45eb8ed4c2a63e3ff790",
+        "exit_code":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\validators\\besu-validator-1.txt",
+        "evidence_sha256":  "010db1e66af57682e0642c8038375d0296f15afd993fabfa8b0a39c384c26963"
+    },
+    {
+        "host":  "besu-validator-2",
+        "address":  "0x1583e3922a8b9477d08e00919418a30e619ed49c",
+        "node_id":  "2c83db62d7580d1e7086d81024e1a2dfb05d10de0df9ec5e0a2b1266f07e18a090dcb94772376df762d405b3350d33466c2bb7b671473cbc5fff6dbe6be6ff03",
+        "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+        "private_key_sha256":  "7a058f1c2f2ddf6dae039b2fc46b7094b9bd98165e627f3903ea051a0bfb3802",
+        "public_key_sha256":  "9be66b3b672fff3ed1bb0272cd891233616727277c70f332ab4e3c5e22ef34f5",
+        "exit_code":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\validators\\besu-validator-2.txt",
+        "evidence_sha256":  "0197d968e2e55cdeee9113db38dfcdba8afb6a26b71f942006b0c2b33e13a133"
+    },
+    {
+        "host":  "besu-validator-3",
+        "address":  "0x599d6230371a00524208ad63164aae5f90ab5d36",
+        "node_id":  "7d8348834e08d141ab776c9628ee82ff91620c1637862decce9d01cfb0b3f55f48c1809ab5eaca058ed515d9f2c2300aeaee3b7914c4ea00418db2cce073d932",
+        "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+        "private_key_sha256":  "00699a594adae9a553219cd5e3576d00de60ed057df156a066e4d878e08c39a0",
+        "public_key_sha256":  "6730d2159b5e35bce75410fa0217186a69de1a41de5f6b0d7503f3e1fabc8c56",
+        "exit_code":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\validators\\besu-validator-3.txt",
+        "evidence_sha256":  "509568f8cf7a47b5695eac15ca18b238889acd380f481ce313c5965a1a5c871e"
+    },
+    {
+        "host":  "besu-validator-4",
+        "address":  "0xd7716b03e26dba82368fd4bf2c263da6a76e086b",
+        "node_id":  "fc0678110ce00588367df96a799f828e12e1729fb1bb8ec5f508a8ab28cabc8acf748f558650ccb5abfcef8746c58472d5e79864d026dabd88492300282d8433",
+        "genesis_sha256":  "7ad57e14684a1e7b224ab3b83078bb59eee0e63d438ad2243339a6f5e8a7155a",
+        "private_key_sha256":  "8993119dd52b72697b7ff95f6f3c6e49704d30aff2ae3e90e9d432b4ac9b5efb",
+        "public_key_sha256":  "12ed4424d94220606bb9e31bed5a301f5932fc8d0ff35a5e5436ed7ed28688c2",
+        "exit_code":  0,
+        "evidence":  "D:\\Research\\crypto_thesis\\epoch-authorization\\infra\\besu-qbft-multihost\\evidence\\validators\\besu-validator-4.txt",
+        "evidence_sha256":  "b4e663537c760b3ec9c73d0326bb01213e08f5953feb5757787015eab9f1a99d"
+    }
+]

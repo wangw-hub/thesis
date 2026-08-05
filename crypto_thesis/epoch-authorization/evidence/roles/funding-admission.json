@@ -1,0 +1,30 @@
+﻿{
+    "checked_at_utc":  "2026-07-29T02:36:11.6587202Z",
+    "chain_id":  2026072801,
+    "genesis_alloc_empty":  true,
+    "rpc_unlocked_accounts":  [
+
+                              ],
+    "latest_base_fee_hex":  "0x7",
+    "gas_price_hex":  "0x7",
+    "validator_balances":  [
+                               {
+                                   "address":  "0x6e86edb3d714dc28e149edd280625ded1436fadf",
+                                   "balance_hex":  "0x0"
+                               },
+                               {
+                                   "address":  "0x1583e3922a8b9477d08e00919418a30e619ed49c",
+                                   "balance_hex":  "0x0"
+                               },
+                               {
+                                   "address":  "0x599d6230371a00524208ad63164aae5f90ab5d36",
+                                   "balance_hex":  "0x0"
+                               },
+                               {
+                                   "address":  "0xd7716b03e26dba82368fd4bf2c263da6a76e086b",
+                                   "balance_hex":  "0x0"
+                               }
+                           ],
+    "funded_source_available":  false,
+    "requires_genesis_change":  true
+}

@@ -1,0 +1,10 @@
+{
+  "raw_sha256_expected": "64cc50e3a3495e04460040fbf6d9ae8b3459948c3fe2ccd24618f391b47e9e6e",
+  "raw_sha256_actual": "64cc50e3a3495e04460040fbf6d9ae8b3459948c3fe2ccd24618f391b47e9e6e",
+  "raw_read_only": true,
+  "records": 103680,
+  "pilot_mixed": 0,
+  "chain_id_errors": 0,
+  "contract_address_errors": 0,
+  "evidence_chain_passed": true
+}

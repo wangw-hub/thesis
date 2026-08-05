@@ -1,0 +1,12 @@
+{
+  "chain_id": 2026072901,
+  "contract_name": "AuthorizationState",
+  "contract_address": "0x9ef44cf538d0df457ba77c556d8785e48bfc436d",
+  "deployer": "0xC422671d19aB3810B69B5f4e28EaA1655E92CeA6",
+  "transaction_hash": "0x725c35f2df0934132841ea59f42b21cba4910abceacee3b475e9b105f6f19201",
+  "deployment_block": "0x5cb",
+  "gas_used": "0x187922",
+  "gas_limit": "0x1d9f4c",
+  "gas_estimate": "0x18af6a",
+  "status": "0x1"
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "FinalManuscriptStateV1",
+  "state": "I16_FORMAT_CANDIDATE_COMPLETED_AWAITING_OFFICIAL_TEMPLATE",
+  "formatStatus": "AWAITING_OFFICIAL_TEMPLATE_VERIFICATION",
+  "submissionReady": false,
+  "i15RemainingMinor": 0,
+  "contentFreeze": "PASS",
+  "officialTemplate": "NOT_FOUND",
+  "formattingGuide": "NOT_FOUND",
+  "contentDrift": 0,
+  "numericErrors": 0,
+  "terminologyConflicts": 0,
+  "unsupportedClaims": 0,
+  "forbiddenClaims": 0,
+  "references": {
+    "total": 16,
+    "verified": 16,
+    "missing": 0,
+    "orphan": 0,
+    "duplicate": 0,
+    "doiMismatch": 0,
+    "citationMappingErrors": 0
+  },
+  "figures": {
+    "total": 16,
+    "missing": 0,
+    "broken": 0
+  },
+  "tables": {
+    "total": 16,
+    "missing": 0,
+    "broken": 0
+  },
+  "equations": {
+    "total": 209,
+    "broken": 0,
+    "numbering": "4-1..4-16,5-1..5-3"
+  },
+  "algorithms": {
+    "total": 5,
+    "formattingErrors": 0
+  },
+  "crossReferences": "PASS",
+  "toc": "PASS",
+  "visualInspection": "PARTIAL_AUTOMATED_TEXT_LAYER",
+  "docxRender": "PASS",
+  "fatal": 0,
+  "major": 0,
+  "minor": 4,
+  "userInputRequired": [
+    "提交日期",
+    "封面确认",
+    "学校官方模板/格式规范"
+  ],
+  "officialTemplateRequired": true,
+  "modifiedExperimentData": false,
+  "addedExperiments": false,
+  "modifiedI9I12": false,
+  "modifiedThesisTitle": false,
+  "expandedUnverifiedLiterature": false,
+  "pushed": false,
+  "generatedAt": "2026-08-02T13:17:11.503038+00:00",
+  "hashes": {
+    "integratedMaster": "6D1D1B9D7BAD385CCF3515983E0A32E2931FD03DC25880AD419BF8CFA5FC3303",
+    "masterSource": "FBB24BFFCCB2EE61F145C9DEA5FCB0343CCF05A79054CE9F37BF3EA671C90B99",
+    "referenceRegistry": "D532624D3586BF0D5E6589EF45C9E33DCF482D907F20629ACE70AFEC9C96C354",
+    "rc1Source": "B09982333B56C97E9777A4DABA6DE174256CBB24DE352099135E14252E10A522",
+    "rc2Source": "0AA2ABDB7E7FD00FBFF710F839D3122A6B561F0FCB9EAE147CF527A1414A45B6",
+    "rc3Source": "D9594005E1D029F4F5AFC4CF37CD429B5A4162FBFED92F0330F2E311E54469B5",
+    "figureRegistry": "6389EEB017123921FB3E2E936AE6D8EB33FB444D091A4F9E1B3C0F49AE3C8765",
+    "tableRegistry": "03C5CFAC09643F81872C49361757B975A0C7FB824C72FD3B7B2F85197D7D272A",
+    "docxCandidate": "984ED384390BA256EF90854721C6DE8EEFF3D2E753FD01995741F05BC1F10C56",
+    "pdfCandidate": "21B9A20ACFC8731CB6A593834828C8F98999E96D123A25B2FA53DFBA36040457",
+    "openingReport": "CCE14F6A4815C2F3138C57CBDA091ACD0705783031FAAC3139C1B1D9729FD2E0"
+  }
+}

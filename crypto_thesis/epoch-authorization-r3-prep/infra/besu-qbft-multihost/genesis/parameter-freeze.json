@@ -1,0 +1,28 @@
+{
+  "schema": "BESU-QBFT-PARAMETER-FREEZE-1",
+  "frozen_at": "2026-07-28",
+  "besu_version": "26.5.0",
+  "network_scope": "formal-multihost-pilot",
+  "chainId": 2026072801,
+  "chainId_rationale": "No formal multihost chainId existed; selected an unused value distinct from controlled-development chainId 20260728.",
+  "consensus": "qbft",
+  "blockperiodseconds": 2,
+  "requesttimeoutseconds": 4,
+  "epochlength": 30000,
+  "gasLimit": "0x1fffffffffffff",
+  "zeroBaseFee": false,
+  "initial_validator_count": 4,
+  "alloc": {},
+  "source_design": {
+    "document": "研究内容二Besu架构设计V1.1.md",
+    "preserved_parameters": [
+      "consensus",
+      "blockperiodseconds",
+      "requesttimeoutseconds",
+      "epochlength",
+      "gasLimit",
+      "initial_validator_count"
+    ],
+    "replaced_development_chainId": 20260728
+  }
+}

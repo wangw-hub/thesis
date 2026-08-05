@@ -1,0 +1,18 @@
+{
+  "chain_id": 2026072901,
+  "contract_address": "0x9ef44cf538d0df457ba77c556d8785e48bfc436d",
+  "rpc_url": "http://192.168.6.133:8645",
+  "confirmations": 1,
+  "issuer_private_key_file": "/etc/epoch-auth-formal/private/issuer-ed25519-private.raw",
+  "postgres_password_file": "/etc/epoch-auth-formal/private/postgres-password",
+  "nonce_backend": "PostgreSQL",
+  "process_local_nonce_fallback": false,
+  "primary_methods": [
+    "Baseline-I",
+    "Baseline-I-Cache"
+  ],
+  "comparison_methods": [
+    "Proposed-C",
+    "Proposed-C-Cache"
+  ]
+}

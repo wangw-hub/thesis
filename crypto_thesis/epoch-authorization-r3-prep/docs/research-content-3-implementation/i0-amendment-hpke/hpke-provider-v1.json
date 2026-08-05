@@ -1,0 +1,16 @@
+{
+  "decision": "HPKE_PROVIDER_V1_SELECTED",
+  "provider": "pyhpke",
+  "version": "0.6.4",
+  "releaseType": "STABLE",
+  "python": "3.13.11",
+  "suite": {"mode": 0, "kem": 32, "kdf": 1, "aead": 1},
+  "publicApiOnly": true,
+  "explicitInfo": true,
+  "explicitAad": true,
+  "deterministicEphemeralTestApi": true,
+  "exporter": true,
+  "rfcVectorIds": ["RFC9180-A.1.1"],
+  "license": "MIT",
+  "knownLimitations": ["provider_not_formally_audited"]
+}

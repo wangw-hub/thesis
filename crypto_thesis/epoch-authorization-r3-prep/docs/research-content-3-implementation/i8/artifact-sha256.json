@@ -1,0 +1,110 @@
+﻿[
+    {
+        "path":  "00-I8-ENTRY-AUDIT.md",
+        "sha256":  "62cd4a88647c3c307c772d958492a6741d833a17a78df3f3bd12ede2cedc886b"
+    },
+    {
+        "path":  "01-I7-MINOR-DISPOSITION.md",
+        "sha256":  "31a612da92c6736ea1b7e3939c71604cdfb197943e671043d75d7cd6df13e7c2"
+    },
+    {
+        "path":  "02-I7-STORAGE-REPLICA-AUTHORITY-AMENDMENT.md",
+        "sha256":  "506f2dd044705679a368de9d68ee2cf382be61276ece1543d124f6e32773def3"
+    },
+    {
+        "path":  "02-I8-REMOTE-PROVISIONING-AUDIT.md",
+        "sha256":  "d5595121fd429c2fff848000f5d0811091ad966832e54c4aa6b6acf6569e5979"
+    },
+    {
+        "path":  "03-I8-KUBO-ISOLATION-AUDIT.md",
+        "sha256":  "9d2bd0612ee97b1d7339d577f8db980284a732990852dc9d86d21a18f470dfde"
+    },
+    {
+        "path":  "03-I8-SCOPE-AND-NON-GOALS.md",
+        "sha256":  "44bedf07622194ddfeb3c7a1893adbefbd847e61e4402130a1d077b175dff317"
+    },
+    {
+        "path":  "04-KUBO-SUPPLY-CHAIN-AUDIT.md",
+        "sha256":  "95014f79a7a0f77f1e5527da9b146e656980a8def12478a79a702c7703f210c0"
+    },
+    {
+        "path":  "05-KUBO-ISOLATION-AND-NETWORK-BOUNDARY.md",
+        "sha256":  "33aed68361e65d1c21f2b3279355f9ac2e0a1fdec741f984ed67da91dccdff92"
+    },
+    {
+        "path":  "06-IPFS-ADD-PROFILE-V1.md",
+        "sha256":  "ae564b54601ee9da7d7b819bfde0fd43182b40088f1b5d8e0b2f962da33cbea6"
+    },
+    {
+        "path":  "07-STORAGE-REPLICA-RECORD-V1.md",
+        "sha256":  "9ff8682e2034fda45de9e6e22fccca4d5288eb6daf4ab21c9aa53298d4b00729"
+    },
+    {
+        "path":  "08-IPFS-REPLICA-GATEWAY-V1.md",
+        "sha256":  "1e5d22d823b98ccf161a0aba1b00746593e0e8df7b39ea55aa7d104f6875f037"
+    },
+    {
+        "path":  "09-CID-AND-OBJECT-DIGEST-BOUNDARY.md",
+        "sha256":  "916ae9fbc17f81384994632a14be698538b7feadb11df7794656ed1d14fcbc06"
+    },
+    {
+        "path":  "10-IPFS-REPLICA-DATABASE-MAPPING.md",
+        "sha256":  "4d577f348cd7884bcf85301aa83e83bc75cda303c1a3aebc41b5f82c804e26ee"
+    },
+    {
+        "path":  "11-HEADER-AND-BODY-REPLICATION.md",
+        "sha256":  "534a206eec313764d50814be6b1fe364db3900252b45fbb4a8cbf971b874a6d7"
+    },
+    {
+        "path":  "12-IPFS-READBACK-VERIFICATION.md",
+        "sha256":  "8783cf911b661a0d3bc9fe547d5b493786c4551bfeacc00b674200f2c8e6036c"
+    },
+    {
+        "path":  "13-PINNING-AND-RESTART.md",
+        "sha256":  "00ce1625d9dece14721250fb2ee5d60d227e55f273ec58ffd7efcf80ea89b479"
+    },
+    {
+        "path":  "14-LOCAL-OBJECT-RESTORE-FROM-IPFS.md",
+        "sha256":  "68c86dc6bb6b2408979549989cd508042a068223d6d00ede9f633d5e637923db"
+    },
+    {
+        "path":  "15-IPFS-RECOVERY-COORDINATOR-INTEGRATION.md",
+        "sha256":  "92508cf8a01a5e85e90c628afff3e888a217c88237c187865abc2c7daf391b4c"
+    },
+    {
+        "path":  "16-I8-FAILURE-AND-ATTACK-MATRIX.md",
+        "sha256":  "88e492b3da7468972581cc7bbc9acc09b12d450a018ff0de2515b35e371a7e07"
+    },
+    {
+        "path":  "17-I8-INVARIANT-REPORT.md",
+        "sha256":  "a3e185c318193b2e5036f6bd9f1b0e30ec06ec74c87429c12ad9d879d8dfa263"
+    },
+    {
+        "path":  "18-I8-REPRODUCIBILITY-REPORT.md",
+        "sha256":  "56263d5c943481af3767bf16a53cefb26c4434fd2a6acd4e5051aac17706a1f8"
+    },
+    {
+        "path":  "19-I8-STRICT-PEER-REVIEW.md",
+        "sha256":  "2af133ef7d7f6b837a28ff94880adca64dfc64eb5d68163c86f338db6bd3c6f0"
+    },
+    {
+        "path":  "20-I8-ISSUE-TRACKER.md",
+        "sha256":  "68dfd804e5d9268e296cd7c0baabbef96ac60f9c6e43837cbfb5dd0d74d533d2"
+    },
+    {
+        "path":  "21-I8-FINAL-DECISION.md",
+        "sha256":  "27e5369e1d40937a19071ed0687a20e66c220eb091c39ffe52d4002a57c0fce3"
+    },
+    {
+        "path":  "22-I9-ENTRY-CHECKLIST.md",
+        "sha256":  "e0c012ee2012452c0f609161eb67fd3b31c6676ce1de992f4d412fb2ad17a3ab"
+    },
+    {
+        "path":  "i8-state.json",
+        "sha256":  "3e165c72c4d6890e8bf3bee8d5adfbeac473998b51481cff4afa7be77dff28ed"
+    },
+    {
+        "path":  "RECOVERY-RUNBOOK-V1-IPFS-ADDENDUM.md",
+        "sha256":  "ad2b831866c76b5e56f97c1b4545db80f458f585f67e6f5769c17d0f928b54ef"
+    }
+]

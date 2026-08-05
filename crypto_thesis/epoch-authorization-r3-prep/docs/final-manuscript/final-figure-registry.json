@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "FinalFigureRegistryV1",
+  "figures": [
+    {
+      "id": "图4-1",
+      "chapter": 4,
+      "source": "RC1 frozen figures"
+    },
+    {
+      "id": "图4-2",
+      "chapter": 4,
+      "source": "RC1 frozen figures"
+    },
+    {
+      "id": "图4-3",
+      "chapter": 4,
+      "source": "RC1 frozen figures"
+    },
+    {
+      "id": "图4-4",
+      "chapter": 4,
+      "source": "RC1 frozen figures"
+    },
+    {
+      "id": "图4-5",
+      "chapter": 4,
+      "source": "RC1 frozen figures"
+    },
+    {
+      "id": "图5-1",
+      "chapter": 5,
+      "source": "RC2 frozen figures"
+    },
+    {
+      "id": "图5-2",
+      "chapter": 5,
+      "source": "RC2 frozen figures"
+    },
+    {
+      "id": "图5-3",
+      "chapter": 5,
+      "source": "RC2 frozen figures"
+    },
+    {
+      "id": "图5-4",
+      "chapter": 5,
+      "source": "RC2 frozen figures"
+    },
+    {
+      "id": "图5-5",
+      "chapter": 5,
+      "source": "RC2 frozen figures"
+    },
+    {
+      "id": "图5-6",
+      "chapter": 5,
+      "source": "RC2 frozen figures"
+    },
+    {
+      "id": "图5-7",
+      "chapter": 5,
+      "source": "RC2 frozen figures"
+    },
+    {
+      "id": "图5-8",
+      "chapter": 5,
+      "source": "RC2 frozen figures"
+    },
+    {
+      "id": "图6-1",
+      "chapter": 6,
+      "source": "RC3 i12-final frozen PNG"
+    },
+    {
+      "id": "图6-2",
+      "chapter": 6,
+      "source": "RC3 i12-final frozen PNG"
+    },
+    {
+      "id": "图6-3",
+      "chapter": 6,
+      "source": "RC3 i12-final frozen PNG"
+    },
+    {
+      "id": "图5-A",
+      "chapter": 5,
+      "source": "RC2 mermaid text diagram (text box)"
+    },
+    {
+      "id": "图5-B",
+      "chapter": 5,
+      "source": "RC2 mermaid text diagram (text box)"
+    }
+  ],
+  "total": 18,
+  "missing": 0,
+  "broken": 0
+}

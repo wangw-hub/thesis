@@ -1,0 +1,10 @@
+{
+  "candidate": "cryptography",
+  "version": "49.0.0",
+  "decision": "REJECTED_AS_COMPLETE_HPKE_PROVIDER_FOR_I1",
+  "retainedRole": "LOW_LEVEL_CRYPTO_PROVIDER_ONLY",
+  "failure": "RFC9180_A_1_1_INVALID_TAG_NON_EMPTY_AAD_PATH",
+  "evidenceCommits": ["2004b0c179c9566c476721e79f4a67b69332baf7", "87ae3b81bf3baab9f1d8ce664e493dd3598e232e"],
+  "originalArtifactsPreserved": true,
+  "originalArtifactHashErrors": 0
+}

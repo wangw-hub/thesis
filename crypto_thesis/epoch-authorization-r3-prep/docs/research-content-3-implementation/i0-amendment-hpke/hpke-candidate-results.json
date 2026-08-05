@@ -1,0 +1,10 @@
+{
+  "evaluated": 5,
+  "results": [
+    {"candidate": "pyhpke", "version": "0.6.4", "status": "QUALIFIED"},
+    {"candidate": "PyCryptodome", "version": "3.23.0", "status": "PARTIALLY_QUALIFIED", "role": "INTEROPERABILITY_SECONDARY_ONLY"},
+    {"candidate": "hpke.py", "version": "0.3.2", "status": "REJECTED", "reason": "NO_PUBLIC_TARGET_X25519_SUITE"},
+    {"candidate": "rfc9180", "version": "0.3.0", "status": "FUTURE_ONLY", "reason": "ALPHA_RELEASE"},
+    {"candidate": "cryptography", "version": "49.0.0", "status": "REJECTED", "role": "LOW_LEVEL_CRYPTO_PROVIDER_ONLY"}
+  ]
+}
