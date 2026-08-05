@@ -8,8 +8,6 @@
 | PostgreSQL shared Nonce | VALIDATED | security evidence | 50/100/500, one success each | Stage B reports |
 | Formal authorization chain | VALIDATED | system evidence | chainId 2026072901 | formal-chain F5-F10 evidence |
 | PILOT_ONLY authorization run | PILOT_ONLY | no | 108 configs / 3,780 records | `experiments\runs\pilot_multihost_20260729_990acbe` |
-| Formal performance experiment | NOT_STARTED | no | 0 | admission approved; separate execution required |
-| Research Content 3 experiments | NOT_STARTED | no | 0 | none |
 | I9 accepted Pilot baseline | COMPLETED_PILOT_ONLY | no | 93 RUNs | `experiments/r3/i9-pilot/final-analysis/i9-run-index.json`; not formal evidence |
 | I10 formal design/preregistration | DESIGN_FROZEN | no | 29 configs / 145 measured planned RUNs | `docs/research-content-3-implementation/i10/`; frozen protocol |
 | I11 formal experiment (Research Content 3) | COMPLETED | yes | E1-E5, 29 configs, 35 warmups + 145 measured RUNs (180 total), seed 20260802 | `docs/research-content-3-implementation/i11/`; `experiments/r3/formal/raw` (180 sealed RUNs, FORMAL_EXPERIMENT) |
@@ -29,3 +27,11 @@ PILOT_ONLY raw SHA-256: `a4d0fcb12de587afe31e8af49854a9db7bcc40a04e5ef2a38865cd1
 The row above is superseded by strict review: status is
 `INVALIDATED_MATERIAL_PROTOCOL_DEVIATION`; the immutable data are retained for audit
 but are not thesis-formal performance evidence.
+
+> Updated 2026-08-05：
+> - RC2 正式性能实验已由 epoch-authorization 项目的 **V13 有效复跑** 完成
+>   （108 因子 / 324 种子 / 9,720 blocks / 77,760 请求 / 233,280 链读）；
+>   本表旧行“Formal performance experiment NOT_STARTED”与“R2 formal performance … 103,680
+>   记录”为 **SUPERSEDED/HISTORICAL**（后者 INVALIDATED，仅审计）。
+> - RC3 实验已由 I9 Pilot（93/93）与 I11 Formal（35 warmup + 145 measured）完成；
+>   旧行“Research Content 3 experiments NOT_STARTED”为 **SUPERSEDED**。

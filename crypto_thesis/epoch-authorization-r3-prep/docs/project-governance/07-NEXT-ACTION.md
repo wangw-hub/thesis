@@ -1,19 +1,16 @@
 # Next Action
 
-For Research Content 3, the immutable I9 baseline, I10 design package, I11
-experiment, I12 review, I13 writeback, I14 full-thesis final review, and I15
-final literature verification are all COMPLETE, and I16 assembled the final
-manuscript format candidate (V1). I17 then reconstructed the academic prose and
-applied the official UESTC cover/flyleaf template and writing specification,
-producing `docs/final-manuscript/output/THESIS-FORMAT-CANDIDATE-V2.docx` /
-`.pdf` (state `I17_ACADEMIC_PROSE_RECONSTRUCTION_COMPLETED_WITH_OFFICIAL_TEMPLATE_APPLIED`).
+Updated 2026-08-05。
 
-The current task is M2 (full-scale midterm report reconstruction), completed as
-`M2_FULL_MIDTERM_REPORT_COMPLETED_AWAITING_USER_REVIEW`. The next action
-requires user input: review the M2 candidate
-(`docs/midterm-report/m2/output/王威-专业学位研究生学位论文中期考评表-M2候选稿.docx`,
-30 pages / ~2.2 万字), confirm the opening date (2025-12-24), the form date and
-plan timeline, and the stage-result statuses; adjust wording per the
-supervisor's style; then use it for the midterm assessment. After M2, the
-thesis finalization track resumes on request. Research Content 2's separate
-formal-rerun requirement remains unchanged.
+I9–I17、M1–M7 均已完结；中期报告已冻结为 **FINAL-CLEAN 最终固化版**
+（`MIDTERM_REPORT_FINAL_FROZEN_READY_FOR_ADVISOR_REVIEW`，37 页，路径
+`docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md`）。
+
+**CURRENT NEXT ACTION（唯一）：**
+
+> 用户审阅中期考评表最终固化版，确认“阶段性论文题目”（当前与本地两篇草稿标题不一致），
+> 提交导师/专家组评审；评审通过后恢复学位论文定稿
+> （V2 候选稿 → 提交版：关闭 I17 遗留 MINOR 与封面/致谢/成果确认）。
+
+不再将 M2/M7 修订、I11 等待、RC2 formal rerun 作为当前动作（均已完结）。
+小论文（拟投《软件学报》）仅为中期表内计划，未开始仓库内工作。

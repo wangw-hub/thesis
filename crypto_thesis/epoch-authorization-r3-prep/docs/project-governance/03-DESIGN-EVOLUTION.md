@@ -9,7 +9,11 @@
 7. **Security remediation and PostgreSQL nonce backend (CURRENT):** a legacy local-only rpc-1 identity was retired; reachable local Git history was sanitized; shared replay and transaction nonce controls were validated on PostgreSQL.
 8. **Funding hard stop (CURRENT):** formal roles and AuthorizationState deployment cannot proceed honestly because the frozen chain has no fundable sender. No later R2 result may be claimed until this is resolved by an approved, evidence-preserving path.
 
-The final thesis storyline is therefore not a cosmetic repair: R1 establishes semantic determinism and boundaries; R2 must establish real authorization-state execution; R3 remains future work. Earlier ideas remain available for historical audit but cannot override current evidence.
+The final thesis storyline is therefore not a cosmetic repair: R1 establishes semantic
+determinism and boundaries; R2 establishes real authorization-state execution; R3
+implements the versioned ciphertext header and forward-looking revocation closure.
+Earlier ideas remain available for historical audit but cannot override current
+evidence.
 
 ## Independent formal authorization chain
 
@@ -17,4 +21,18 @@ The empty-alloc infrastructure chain remains preserved. A separately keyed and p
 
 ## Formal Research Content 2 evidence
 
-The preregistered 103,680-record formal run confirms the system contribution while retaining `C(P)_DEMOTED_CONFIRMED`.
+The first 103,680-record run was invalidated (protocol deviation). The corrected
+V13 rerun (77,760 requests / 233,280 chain reads) is the sole valid formal
+evidence and confirms `C(P)_DEMOTED_CONFIRMED_BY_VALID_RERUN`.
+
+## Research Content 3 completion (2026-08-02)
+
+I9 Pilot (93/93) → I10 preregistration → I11 Formal (145/145 valid) → I12 results
+review → I13 chapter writeback. RC3 is no longer future work; its formal scope is
+limited to a single-node chain and C-07 (QBFT consensus performance) is forbidden.
+
+## Midterm and thesis finalization (2026-08-03/04)
+
+M1–M7 rebuilt the midterm assessment form; FINAL-CLEAN (37 pages) is frozen for
+advisor review. I14 integrated master, I15 literature verification, I16/I17 format
+candidates complete; thesis is NOT SUBMISSION_READY pending user confirmation.

@@ -14,3 +14,8 @@
 | X-10 | Broad deployment reports | Current hard-stop report | Infrastructure completion can imply R2 completion. | Infrastructure/Stage B are VALIDATED; R2 is HARD_STOP at formal funding. | Stage-A/B and Stage-C reports. | Current state is authoritative. | Prevents overstatement. |
 
 No historic source is edited to conceal these differences. Each conflict is retained with its current classification.
+
+> Updated 2026-08-05：X-04/X-06/X-07/X-09/X-10 中“RC3 未实现”“RC2 HARD_STOP/形式角色
+> 未生成”等表述属于 2026-07-29/30 状态，现均被后续证据取代（RC2 V13 有效复跑完成、
+> RC3 在 r3-prep 工作树 I11 Formal 完成），相关行标记为 **HISTORICAL/SUPERSEDED**，
+> 保留用于审计，不再代表 CURRENT。

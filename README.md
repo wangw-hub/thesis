@@ -1,32 +1,79 @@
-# 面向非连续时间约束的区块链数据共享关键技术研究及实现 — 研究工作存档
+# Thesis Repository
 
-本仓库是学位论文《面向非连续时间约束的区块链数据共享关键技术研究及实现》全部研究工作的存档，目的是让任何后续大模型或智能体在克隆本仓库后，能够完整了解已经完成的工作：研究问题、技术方案、工程实现、实验验证与论文写作状态。
+## 论文题目
 
-## 仓库结构
+**面向非连续时间约束的区块链数据共享关键技术研究及实现**
 
-| 路径 | 内容 |
+学位类型：计算机技术专业硕士（电子科技大学）
+
+本仓库是论文全部研究工作的存档，目标是让**任何没有聊天历史的新 AI 会话**只读本仓库即可准确恢复研究状态、成果、证据边界与下一步。
+
+## Current Status（2026-08-05）
+
+| 项目 | 状态 |
 |---|---|
-| `crypto_thesis/论文实施蓝图V1.0.md` | 论文总体实施蓝图：研究定位、三部分贡献、环境冻结（Besu QBFT、Solidity、Web3.py）、实验设计 |
-| `crypto_thesis/开题报告系统级审查与重构报告.md` | 开题报告严格审查结论与重构方案 |
-| `crypto_thesis/中期答辩与投稿执行蓝图.md` | 中期答辩范围、可主张贡献与投稿执行计划 |
-| `crypto_thesis/研究内容一技术设计V1.0.md` | 研究内容一（非连续时间策略编译）技术设计 |
-| `crypto_thesis/time-policy/` | 研究内容一（论文第四章）工程原型：时间区间规范化、层次覆盖、NTP1 编码、策略摘要 |
-| `crypto_thesis/epoch-authorization/` | 研究内容二（论文第五章）工程原型：Epoch 驱动的授权状态管理、Besu QBFT 真实链后端、CAP1/CAP2 编码 |
-| `crypto_thesis/epoch-authorization-r3-prep/` | 研究内容三准备与实现（版本化密文头部、HPKE、前瞻性撤销），并含中期答辩报告与最终手稿文档 |
-| `crypto_thesis/artifacts/` | 开题报告等已解包文档 |
-| `thesis_literature_verified_2026-07-30/` | 文献核验清单、阅读报告与参考文献库 |
-| `academic-research-suite-usage-guide.md` | 研究流水线（ARS）使用说明 |
+| RC1 非连续时间策略编译 | COMPLETED_WITH_SCOPE_ADJUSTMENT（`I*` 主表示，`C(P)` 派生 IR；E1 正式实验 168 配置/15,120 记录） |
+| RC2 许可联盟链授权执行 | COMPLETED_WITH_VALID_RERUN_EVIDENCE（V13：77,760 请求/233,280 链读；第 5 章定稿） |
+| RC3 版本化密文头部/前瞻撤销 | FORMAL_COMPLETED（I11：145/145 有效 RUNs；章节已写入集成母本） |
+| Thesis | I14 集成母本 + I15 文献核验完成；I17 V2 格式候选（官方模板已应用），**NOT SUBMISSION_READY** |
+| Midterm | FINAL-CLEAN 最终固化版（37 页），待导师评审 |
+| Small Paper | 计划拟投《软件学报》（未开始仓库内工作） |
 
-## 建议阅读顺序
+## Start Here（强制阅读顺序）
 
-1. 先读顶层三份蓝图/审查文档（`论文实施蓝图V1.0.md`、`开题报告系统级审查与重构报告.md`、`中期答辩与投稿执行蓝图.md`），建立总体认知。
-2. 再进入各子项目，读各自的 `README.md` 与 `AGENTS.md`，了解工程边界与运行方式。
-3. 需要核实结论时，读各项目根目录的验收/审稿报告（如“研究内容二”系列报告、“第四章”系列修订稿）与 `docs/` 下的写作文档。
+1. [docs/project-governance/CURRENT-SNAPSHOT.md](docs/project-governance/CURRENT-SNAPSHOT.md) — 当前状态唯一入口
+2. [docs/project-governance/AUTHORITY-MAP.md](docs/project-governance/AUTHORITY-MAP.md) — 每类事实的唯一权威来源
+3. [docs/project-governance/00-PROJECT-CONSTITUTION.md](docs/project-governance/00-PROJECT-CONSTITUTION.md) — 项目宪法与禁止主张
+4. 具体研究内容（见 Repository Structure）
+5. 历史材料仅在需要审计时按需读取
 
-## 上传范围与排除说明
+> **Any new AI session must read CURRENT-SNAPSHOT.md first.**
 
-- 原始实验数据（各 `experiments/` 目录，约 1.6 GB，含超过 GitHub 单文件 100 MB 上限的数据）未上传；如有需要可后续通过 Git LFS 单独加入。
-- 区块链运行时（`blockchain/` 下的 Besu、JDK 与安装包，约 950 MB）未上传，可按各项目文档自行下载。
-- 密钥与敏感目录（`.funding-review-secrets/`、`crypto_thesis/secrets/`、`security-quarantine/`）一律不上传。
-- 临时与缓存目录（`.codex-temp/`、`tmp/`、虚拟环境、缓存等）不上传。
-- 三个子项目原有的 git 历史已安全移至本地 `D:\Research\.git-backups\`（未上传，如需恢复可移回）。
+## Repository Structure
+
+```
+crypto_thesis/
+├── time-policy/                    # RC1：时间策略编译（第四章）
+├── epoch-authorization/            # RC2：授权状态执行（第五章）
+├── epoch-authorization-r3-prep/    # RC3：密文头部/撤销 + 中期报告 + 论文母本（第六章等）
+├── artifacts/                      # 开题报告等文档
+├── 论文实施蓝图V1.0.md              # 历史蓝图（PLAN，不代表 CURRENT）
+└── 开题报告系统级审查与重构报告.md
+docs/project-governance/            # 治理层：状态快照、权威映射、索引、清单（本仓库第一入口）
+thesis_literature_verified_2026-07-30/  # 早期文献包（HISTORICAL，论文以 I15 为准）
+academic-research-suite-usage-guide.md  # ARS 研究流水线使用说明
+```
+
+各子项目内先读 `README.md` 与 `AGENTS.md`，再按 AUTHORITY-MAP 读取报告/证据。
+
+## Formal Evidence
+
+| 正式实验 | 位置（本地） | 规模 |
+|---|---|---|
+| RC1 E1 | `crypto_thesis/time-policy/experiments/runs/e1_20260727_ec8b193_r3/` | 168 配置 / 15,120 记录 |
+| RC2 V13 | `crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795/` | 77,760 请求 / 233,280 链读 |
+| RC3 I11 | `crypto_thesis/epoch-authorization-r3-prep/experiments/r3/formal/` | 35 warmup + 145 measured（145/145 有效） |
+
+Pilot（I9、RC2 pilot）不是 Formal。RC2 首轮 103,680 记录运行已 INVALIDATED，禁止引用为性能证据。
+
+## Large Data
+
+正式实验 raw 未进入公开 GitHub（单文件超限/体积考虑）。本地完整位置见
+[EXPERIMENT-DATA-MANIFEST.md](docs/project-governance/EXPERIMENT-DATA-MANIFEST.md)；
+本地 vs 公开资产区别见 [LOCAL-VS-PUBLIC-ASSETS.md](docs/project-governance/LOCAL-VS-PUBLIC-ASSETS.md)。
+区块链运行时（Besu/JDK）与依赖、虚拟环境、密钥目录均不版本化。
+
+## Historical Materials
+
+旧文档（早期蓝图、技术设计 V1.0、审稿前版本、M1–M7 中期稿等）保留用于**审计与方案演变**，
+不代表 CURRENT。废弃方案清单见 [SUPERSEDED-DESIGNS.md](docs/project-governance/SUPERSEDED-DESIGNS.md)。
+
+## AI Continuation
+
+任何新 AI 会话必须：
+
+1. 先读 `docs/project-governance/CURRENT-SNAPSHOT.md`；
+2. 按 `AUTHORITY-MAP.md` 定位权威源（详细步骤见 `AI-CONTEXT-RECOVERY.md`）；
+3. 不修改正式实验 raw/预注册/结果包；
+4. 不恢复 SUPERSEDED-DESIGNS 中的废弃方案；
+5. 不把 Pilot 当 Formal；不产生 Forbidden Claims。

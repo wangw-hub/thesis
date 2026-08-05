@@ -9,7 +9,6 @@
 | Formal authorization chain | VALIDATED | system evidence | chainId 2026072901 | formal-chain F5-F10 evidence |
 | PILOT_ONLY authorization run | PILOT_ONLY | no | 108 configs / 3,780 records | `experiments\runs\pilot_multihost_20260729_990acbe` |
 | Formal performance experiment V13 | COMPLETED | yes | 108 factors / 324 seeded / 9,720 runs / 77,760 requests / 233,280 reads | `experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795` |
-| Research Content 3 experiments | NOT_STARTED | no | 0 | none |
 
 PILOT_ONLY raw SHA-256: `a4d0fcb12de587afe31e8af49854a9db7bcc40a04e5ef2a38865cd1c7d4d27b3`.
 
@@ -26,3 +25,7 @@ its raw artifact index is
 
 Chapter 5 is finalized from this V13 evidence. No additional experiment was run
 for chapter finalization, and no V13 raw record was changed.
+
+> Updated 2026-08-05：RC3 实验（I9 Pilot 93/93、I11 Formal 180 RUNs）在
+> `epoch-authorization-r3-prep` 工作树完成；旧行“Research Content 3 experiments
+> NOT_STARTED”标记为 **SUPERSEDED（本仓库范围）**。

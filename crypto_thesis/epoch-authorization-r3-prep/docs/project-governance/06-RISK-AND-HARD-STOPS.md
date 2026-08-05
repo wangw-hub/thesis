@@ -11,7 +11,8 @@
 - Python timing constants do not establish language-independent complexity.
 - PILOT_ONLY observations are excluded from formal performance claims.
 - Formal results confirm that C(P) remains an optional derived IR rather than a core performance contribution.
-- Research Content 3 is not implemented.
+- Research Content 3 formal conclusions are limited to a single-node Formal chain;
+  C-07 (QBFT consensus performance) is FORBIDDEN.
 
 ## Active controls
 
@@ -19,8 +20,8 @@
 - Never mix the two chains' evidence or PILOT_ONLY/formal data.
 - Formal performance collection requires the admitted, frozen configuration and a separate authorized run.
 
-## Active hard stop
+## Resolved review stop
 
-- `HS-R2-FORMAL-REVIEW-001`: the first formal benchmark has material protocol
-  deviations. Existing raw data remain immutable, but a corrected preregistration
-  and complete rerun are required.
+- `HS-R2-FORMAL-REVIEW-001`: `RESOLVED_BY_CORRECTED_V13_RERUN`（epoch-authorization 项目）。
+
+> Updated 2026-08-05：无活动硬停止。

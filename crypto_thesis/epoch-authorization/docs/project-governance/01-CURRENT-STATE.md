@@ -59,8 +59,9 @@ contract or formal chain.
 
 ## Research Content 3
 
-Status: `PREPARATION_COMPLETE_AWAITING_ENTRY_DECISION`. No RC3 implementation is
-authorized by the RC2 freeze.
+Status（2026-08-05 同步）：`FORMAL_COMPLETED`（在 `epoch-authorization-r3-prep`
+工作树完成：I9 Pilot 93/93、I10 预注册、I11 Formal 145/145 有效、I12-I17 完成）。
+本仓库范围至 RC2；RC3 权威入口见根 `docs/project-governance/CURRENT-SNAPSHOT.md`。
 
 ## Hard Stops
 

@@ -17,7 +17,8 @@
   strict JSON as a whole; its immutable bytes and index remain authoritative.
 - `contracts/interfaces/IAuthorizationState.sol` is a superseded historical
   stub. RC3 must use the deployed ABI and interface manifest.
-- Research Content 3 implementation is not authorized.
+- Research Content 3 implementation is completed in the `epoch-authorization-r3-prep`
+  worktree (I11 Formal 145/145 valid); this repository remains RC2-scoped.
 
 ## Active controls
 
@@ -33,6 +34,5 @@
 
 ## Active hard stop
 
-None for RC2. RC3 remains outside the current authorization boundary pending
-read-only interface reconciliation, the KeyStore decision, and explicit I0
-approval.
+None for RC2. RC3 (r3-prep worktree) has no active hard stop either;
+`HS-R2-FORMAL-REVIEW-001` was resolved by the corrected V13 rerun.

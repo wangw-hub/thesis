@@ -1,7 +1,11 @@
 # Next Action
 
-在 `research-content-3-preparation` 独立 worktree 中，依据
-`docs/reviews/research-content-2/v13-final/rc2-interface-manifest.json`
-执行 V13 只读接口对账；完成 KeyStore 用户决策后，决定是否批准研究内容三 I0。
+Updated 2026-08-05：RC3 已在 `epoch-authorization-r3-prep` 工作树完成（I11 Formal
+145/145 valid），“批准 RC3 I0”不再是当前动作。
 
-该动作不授权研究内容三实现。研究内容二第5章已经定稿，不需要再次运行正式实验。
+**CURRENT NEXT ACTION（唯一，与根治理一致）：**
+
+> 用户审阅中期考评表最终固化版（FINAL-CLEAN，37 页），确认阶段性论文题目并提交
+> 导师/专家组评审；随后恢复学位论文定稿（V2 → 提交版）。
+
+研究内容二第 5 章已经定稿，不需要再次运行正式实验。

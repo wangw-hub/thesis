@@ -14,3 +14,17 @@
 | Admission decision | `infra/besu-qbft-multihost/formal-authorization-chain/evidence/f12/formal-experiment-admission.json` |
 | Formal R2 raw data and analysis | `experiments/runs/formal_auth_multihost_20260729_34af4ff/` |
 | PILOT raw SHA-256 | `a4d0fcb12de587afe31e8af49854a9db7bcc40a04e5ef2a38865cd1c7d4d27b3` |
+
+> Updated 2026-08-05（RC3 与写作权威补充）：
+
+| Fact | Authority |
+|---|---|
+| 仓库当前状态唯一入口 | `D:\Research\docs\project-governance\CURRENT-SNAPSHOT.md`（根） |
+| RC3 正式预注册 | `docs/research-content-3-implementation/i10/` |
+| RC3 Formal raw | `experiments/r3/formal/raw/`（180 sealed RUNs） |
+| RC3 正式结果/负结果/限制 | `docs/research-content-3-implementation/i11/` + `i12/` |
+| RC3 章节 | `docs/research-content-3-implementation/i13/THESIS-RC3-WRITEBACK-FINAL.md` |
+| 全论文集成母本 | `docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md` |
+| 文献核验 | `docs/final-literature-verification/`（I15） |
+| 格式化状态 | `docs/final-manuscript/i17/i17-state.json` |
+| 中期最终版 | `docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md` + `final-midterm-state.json` |

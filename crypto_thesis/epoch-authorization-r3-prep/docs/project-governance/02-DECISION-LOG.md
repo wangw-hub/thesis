@@ -10,8 +10,8 @@
 | D-006 | R2 protocol | Use CAP2 chain/contract/state/user-version binding. | CAP1 is rejected in chain mode because it lacks formal chain-state binding. | `src/epoch_auth/serialization.py`; CAP2 attack tests. | No without security review | CURRENT |
 | D-007 | R2 replay control | Use PostgreSQL atomic shared nonce consumption and transaction nonce reservation. | Per-process nonce state and raw pending-count allocation are insufficient for concurrent services. | Stage B reports and implementations. | No without equivalent audited backend | CURRENT |
 | D-008 | Security remediation | Retire a LOCAL_ONLY legacy rpc-1 P2P identity, rewrite local reachable history, and require external secret-file paths. | A tracked historical script contained a real legacy node key. | Security remediation reports, `prepare.ps1`, commits listed in source index. | Archive retained; active identity cannot be restored | CURRENT |
-| D-009 | R2 Stage C | Stop formal role deployment for funding review. | Empty alloc, no funded account, zero validator balances, and nonzero base fee prevent truthful deployment. | Stage-C funding hard-stop evidence. | Yes after approved funding solution | CURRENT_HARD_STOP |
-| D-010 | Funding review | Reject in-place QBFT reward transition; recommend separate preallocated formal chain. | Besu transition scope and isolated probe reject reward transition configuration. | `docs/funding-review/`; preserves present infrastructure chain. | Requires explicit user approval | HARD_STOP_AWAITING_USER_DECISION |
+| D-009 | R2 Stage C | Stop formal role deployment for funding review. | Empty alloc, no funded account, zero validator balances, and nonzero base fee prevent truthful deployment. | Stage-C funding hard-stop evidence. | Resolved by DEC-B1-20260729 | SUPERSEDED |
+| D-010 | Funding review | Reject in-place QBFT reward transition; recommend separate preallocated formal chain. | Besu transition scope and isolated probe reject reward transition configuration. | `docs/funding-review/`; preserves present infrastructure chain. | Resolved by DEC-B1-20260729 | SUPERSEDED |
 
 Superseded decisions remain recorded rather than deleted. Every future material design decision must add a row here and update the claim and experiment registries.
 
@@ -55,3 +55,20 @@ Formal evidence confirms `C(P)_DEMOTED_CONFIRMED`; Research Content 2 contributi
 - Reason: material deviations in live-chain access, locality generation, throughput,
   cache-hit measurement, and statistical unit handling.
 - Evidence: `docs/reviews/research-content-2/01-PREREGISTRATION-COMPLIANCE-AUDIT.md`.
+
+## DEC-R3-I11-FORMAL-20260802
+
+- Status: `CURRENT`
+- Decision: accept the Minimum Sufficient Formal Plan attempt
+  `FORMAL_20260802T095534Z_4d12daf` as the RC3 formal result: 35 warmups + 145 measured
+  RUNs, 145/145 valid (120 VALID_SUCCESS + 25 VALID_EXPECTED_FAIL_CLOSED), wrong
+  material release 0, state-consistency violations 0, raw/mirror SHA errors 0.
+- Evidence: `docs/research-content-3-implementation/i11/` + `i12/` +
+  `experiments/r3/formal/`.
+
+## DEC-MIDTERM-FINAL-20260804
+
+- Status: `CURRENT`
+- Decision: freeze the midterm report as FINAL-CLEAN (37 pages; 16 eqs / 8 algos /
+  20 figs / 8 tables / 34 refs), ready for advisor review.
+- Evidence: `docs/midterm-report/final/final-midterm-state.json`.

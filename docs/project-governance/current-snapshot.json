@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "CurrentSnapshotV1",
+  "snapshotDate": "2026-08-05",
+  "thesis": {
+    "title": "面向非连续时间约束的区块链数据共享关键技术研究及实现",
+    "degreeType": "计算机技术专业硕士",
+    "university": "电子科技大学"
+  },
+  "git": {
+    "repoRoot": "D:\\Research",
+    "branch": "main",
+    "head": "ded7b32",
+    "publicRemote": "https://github.com/wangw-hub/thesis.git",
+    "pushed": false
+  },
+  "research": {
+    "rc1": {
+      "status": "COMPLETED_WITH_SCOPE_ADJUSTMENT",
+      "primaryRepresentation": "I*",
+      "derivedRepresentation": "C(P)",
+      "formalExperiment": "E1 (168 configs, 15120 records)",
+      "negativeResults": ["C(P) not a universal compression win", "no O(log U) claim"],
+      "authority": "crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md"
+    },
+    "rc2": {
+      "status": "COMPLETED_WITH_VALID_RERUN_EVIDENCE",
+      "formalRun": "formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795",
+      "formalRecords": 77760,
+      "chainReadRecords": 233280,
+      "negativeResults": ["no stable cache benefit", "C(P) no demonstrated advantage"],
+      "authority": "crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795"
+    },
+    "rc3": {
+      "status": "FORMAL_COMPLETED",
+      "formalAttempt": "FORMAL_20260802T095534Z_4d12daf",
+      "measuredRuns": 145,
+      "warmupRuns": 35,
+      "validDispositions": {"VALID_SUCCESS": 120, "VALID_EXPECTED_FAIL_CLOSED": 25},
+      "forbiddenClaim": "C-07 (QBFT consensus performance)",
+      "authority": "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11"
+    }
+  },
+  "writing": {
+    "integratedThesis": "docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md (I14)",
+    "literature": "I15 COMPLETED (16 refs verified)",
+    "formatting": "I17 V2 candidate applied official UESTC template; NOT SUBMISSION_READY"
+  },
+  "midterm": {
+    "state": "MIDTERM_REPORT_FINAL_FROZEN_READY_FOR_ADVISOR_REVIEW",
+    "version": "FINAL-CLEAN",
+    "path": "crypto_thesis/epoch-authorization-r3-prep/docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md"
+  },
+  "smallPaper": {
+    "state": "NOT_STARTED_AS_REPO_WORK",
+    "declaredTarget": "《软件学报》 (per midterm stage results, draft not started)"
+  },
+  "nextAction": "User reviews frozen midterm report (FINAL-CLEAN), confirms stage-result paper title, then submits to advisor; afterwards resume thesis finalization toward submission-ready V2."
+}

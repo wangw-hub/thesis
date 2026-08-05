@@ -40,7 +40,9 @@
       "formal_tables": 6
     },
     "content_3": {
-      "status": "PREPARATION_COMPLETE_AWAITING_ENTRY_DECISION"
+      "status": "FORMAL_COMPLETED",
+      "note": "Implemented in the epoch-authorization-r3-prep worktree (I11 Formal 145/145 valid); this repository scope ends at Research Content 2.",
+      "source": "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/ + i12/"
     }
   },
   "current_hard_stop": {
@@ -50,7 +52,8 @@
   },
   "formal_performance_data_collected": true,
   "additional_formal_performance_run_required": false,
-  "next_action": "In the research-content-3-preparation worktree, perform a read-only V13 reconciliation against rc2-interface-manifest.json; after the KeyStore user decision, decide whether to approve RC3 I0.",
+  "next_action": "User reviews frozen midterm report (FINAL-CLEAN, 37 pages), confirms stage-result paper title, submits to advisor; then resume thesis finalization toward submission-ready.",
+  "updated_at_utc": "2026-08-05T00:00:00Z",
   "source_files": [
     "docs/reviews/research-content-2/v13-final/rc2-interface-manifest.json",
     "docs/reviews/research-content-2/v13-final/rc2-claim-manifest.json",

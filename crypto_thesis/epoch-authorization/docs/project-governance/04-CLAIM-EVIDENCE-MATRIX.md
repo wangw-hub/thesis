@@ -17,7 +17,10 @@
 | C(P) advantage | C(P) has no demonstrated Baseline-I-unavailable performance or protocol advantage | V13 paired evidence | REFUTED_AS_ADVANTAGE |
 | RC2 interface | The deployed contract, CAP2, gateway, issuer/verifier and PostgreSQL boundary is uniquely frozen | `v13-final/rc2-interface-manifest.json` | SUPPORTED |
 | RC2 thesis wording | Chapter 5 reports V13 run-level evidence without using the invalidated run or overstating C(P) | `docs/thesis-drafts/第5章_链上状态驱动的可信授权执行机制_最终定稿.md` | FROZEN |
-| Versioned ciphertext and forward revocation | Not implemented or experimentally validated | none | NOT_YET_SUPPORTED |
 
 The earlier 103,680-record performance row is superseded because its collector
 protocol materially deviated from the intended request boundary.
+
+> Updated 2026-08-05：RC3（versioned ciphertext / forward revocation）已在
+> `epoch-authorization-r3-prep` 工作树实现并通过 I11 Formal（145/145 valid）；
+> 旧行“RC3 未实现/未验证”标记为 **SUPERSEDED（本仓库范围）**，保留供审计。

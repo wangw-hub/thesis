@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "ThesisProjectStateV1",
+  "generatedAt": "2026-08-05T00:00:00+08:00",
+  "generator": "Codex governance sync task (2026-08-05)",
+  "git": {
+    "repoRoot": "D:\\Research",
+    "branch": "main",
+    "startHead": "ded7b32",
+    "endHead": "ded7b32",
+    "worktreeStatus": "CLEAN_AT_START",
+    "pushPerformed": false,
+    "source": "git status/log on 2026-08-05"
+  },
+  "thesis": {
+    "title": "面向非连续时间约束的区块链数据共享关键技术研究及实现",
+    "degreeType": "计算机技术专业硕士",
+    "university": "电子科技大学",
+    "integratedDraft": {
+      "status": "I14_INTEGRATED_MASTER_CANDIDATE_FROZEN",
+      "path": "docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md",
+      "source": "I14 state + docs/full-thesis-final-review/"
+    },
+    "literature": {
+      "status": "I15_FINAL_LITERATURE_VERIFICATION_COMPLETED",
+      "verifiedReferences": 16,
+      "coverage": "MINIMALLY_SUFFICIENT",
+      "source": "docs/final-literature-verification/i15-state.json"
+    },
+    "formatting": {
+      "status": "I17_ACADEMIC_PROSE_RECONSTRUCTION_COMPLETED_WITH_OFFICIAL_TEMPLATE_APPLIED",
+      "submissionReady": false,
+      "candidate": "docs/final-manuscript/output/THESIS-FORMAT-CANDIDATE-V2.docx/.pdf",
+      "minor": 3,
+      "source": "docs/final-manuscript/i17/i17-state.json"
+    }
+  },
+  "research": {
+    "rc1": {
+      "status": "COMPLETED_WITH_SCOPE_ADJUSTMENT",
+      "primaryRepresentation": "I*",
+      "derivedRepresentation": "C(P)",
+      "claimStatus": "C(P)_DEMOTED",
+      "formalExperiment": {
+        "name": "E1",
+        "configs": 168,
+        "records": 15120,
+        "acceptance": "PASS",
+        "source": "crypto_thesis/time-policy/E1_experiment_acceptance.md + 研究内容一E1正式实验报告V1.0.md"
+      },
+      "negativeResults": [
+        "C(P) smaller than I* in 0/108, equal 36/108, larger 72/108",
+        "no universal O(log U) claim"
+      ],
+      "source": "crypto_thesis/time-policy/"
+    },
+    "rc2": {
+      "status": "COMPLETED_WITH_VALID_RERUN_EVIDENCE",
+      "formalRun": "formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795",
+      "chainId": 2026072901,
+      "validators": 4,
+      "rpcNodes": 1,
+      "contract": "0x9ef44cf538d0df457ba77c556d8785e48bfc436d",
+      "formalRecords": 77760,
+      "chainReadRecords": 233280,
+      "requestsSha256": "00dbdc62c21a7c12143394118df5dc00bbe7108d822a4af41bd6a96aa89cc4ce",
+      "cpPosition": "C(P)_DEMOTED_CONFIRMED_BY_VALID_RERUN",
+      "invalidatedRun": "formal_auth_multihost_20260729_34af4ff",
+      "chapterStatus": "CHAPTER_FINALIZED_FROM_VALID_V13_EVIDENCE",
+      "negativeResults": ["no stable cache benefit", "C(P) no demonstrated advantage"],
+      "source": "crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/rc2-interface-manifest.json + v13 run manifests"
+    },
+    "rc3": {
+      "status": "FORMAL_COMPLETED",
+      "formalAttempt": "FORMAL_20260802T095534Z_4d12daf",
+      "executionGitSha": "4d12daf",
+      "measuredConfigs": 29,
+      "warmupRuns": 35,
+      "measuredRuns": 145,
+      "validRuns": 145,
+      "dispositions": {"VALID_SUCCESS": 120, "VALID_EXPECTED_FAIL_CLOSED": 25},
+      "wrongMaterialRelease": 0,
+      "stateConsistencyViolations": 0,
+      "forbiddenClaims": ["C-07 QBFT consensus performance"],
+      "source": "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/i12/i12-state.json"
+    }
+  },
+  "experiments": {
+    "formal": {
+      "rc1E1": "crypto_thesis/time-policy/experiments/runs/e1_20260727_ec8b193_r3/",
+      "rc2V13": "crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795/",
+      "rc3I11": "crypto_thesis/epoch-authorization-r3-prep/experiments/r3/formal/"
+    },
+    "invalidated": ["crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_20260729_34af4ff/ (RC2 first run)"],
+    "pilotOnly": [
+      "crypto_thesis/epoch-authorization/experiments/runs/pilot_multihost_20260729_990acbe/ (RC2)",
+      "crypto_thesis/epoch-authorization-r3-prep/experiments/r3/i9-pilot/ (RC3, 93 RUNs)"
+    ]
+  },
+  "writing": {
+    "integratedThesis": "I14 integrated master draft frozen",
+    "literature": "I15 completed",
+    "formatting": "I17 candidate V2, NOT SUBMISSION_READY"
+  },
+  "midterm": {
+    "state": "MIDTERM_REPORT_FINAL_FROZEN_READY_FOR_ADVISOR_REVIEW",
+    "version": "FINAL-CLEAN",
+    "path": "crypto_thesis/epoch-authorization-r3-prep/docs/midterm-report/final/",
+    "source": "final-midterm-state.json"
+  },
+  "smallPaper": {
+    "state": "NOT_STARTED_AS_REPO_WORK",
+    "declared": "拟投稿《软件学报》+ 2 patents planned (midterm stage results)",
+    "source": "midterm final stage-result truth audit (no repo artifacts)"
+  },
+  "negativeResults": [
+    "C(P) universal compression advantage: REFUTED",
+    "cache stable performance gain: REFUTED",
+    "C(P) end-to-end advantage over Baseline-I: REFUTED",
+    "E5 LOCAL vs KUBO recovery duration: NO_CLEAR_EFFECT",
+    "retroactive revocation / recovering released CK: IMPOSSIBLE_BY_DESIGN"
+  ],
+  "forbiddenClaims": [
+    "C(P) universal compression advantage",
+    "cache stable performance gain",
+    "QBFT consensus throughput/latency/scalability (C-07)",
+    "retroactive revocation",
+    "recovery of already released CK/plaintext",
+    "blockchain as trusted clock",
+    "experimental verification as formal proof"
+  ],
+  "authorities": {
+    "rc1": "crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md",
+    "rc2": "crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/",
+    "rc3": "crypto_thesis/epoch-authorization-r3-prep/docs/research-content-3-implementation/i11/ + i12/",
+    "thesis": "docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md",
+    "literature": "docs/final-literature-verification/",
+    "midterm": "docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md"
+  },
+  "nextAction": {
+    "id": "NA-2026-08-05-01",
+    "action": "User reviews frozen midterm report (FINAL-CLEAN), confirms stage-result paper title, submits to advisor; then resume thesis finalization toward submission-ready.",
+    "source": "final-midterm-state.json + i17-state.json"
+  }
+}

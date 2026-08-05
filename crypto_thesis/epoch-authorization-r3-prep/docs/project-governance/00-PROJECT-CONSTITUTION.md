@@ -9,14 +9,18 @@ This repository supports the computer-technology professional master's thesis **
 | ID | Current scope | Status |
 | --- | --- | --- |
 | R1 | Deterministic normalization, semantic representation, compilation, and boundary experiments for non-continuous time policies. | COMPLETED_WITH_SCOPE_ADJUSTMENT |
-| R2 | Trusted authorization-state execution on a real Besu QBFT consortium chain, CAP2 binding, shared nonce control, and identity/state consistency. | HARD_STOP |
-| R3 | Versioned ciphertext headers, standard hybrid encryption, forward-looking revocation, on-chain/off-chain state closure, and recovery. | NOT_STARTED |
+| R2 | Trusted authorization-state execution on a real Besu QBFT consortium chain, CAP2 binding, shared nonce control, and identity/state consistency. | COMPLETED_WITH_VALID_RERUN_EVIDENCE |
+| R3 | Versioned ciphertext headers, standard hybrid encryption, forward-looking revocation, on-chain/off-chain state closure, and recovery. | FORMAL_COMPLETED |
 
 ## Frozen Method Positioning
 
 `I*` is the sole semantic primary representation. It is the basis for canonical NTP1 serialization, `policyDigest`, and ordinary interval membership matching. `C(P)` is deterministically derived from `I*` and is an optional, hierarchical execution IR. It is retained for ablation/falsification and potential later protocol consumption; it is not a universally better compression or one-dimensional query structure.
 
 The R2 mainline is Baseline-I and Baseline-I-Cache. Proposed-C and Proposed-C-Cache are comparison and falsification variants only.
+
+> Updated 2026-08-05: R2 closes with valid V13 rerun evidence (see `01-CURRENT-STATE.md`);
+> R3 formal experiment (I11) is complete with 145/145 valid RUNs. RC3's C-07 (QBFT
+> consensus performance) remains FORBIDDEN.
 
 ## Explicit Non-Goals And Claim Limits
 

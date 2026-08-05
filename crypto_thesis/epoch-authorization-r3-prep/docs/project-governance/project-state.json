@@ -1,48 +1,90 @@
-﻿{
-    "schema_version":  1,
-    "updated_at_utc":  "2026-07-29T05:44:58.653197+00:00",
-    "project_title":  "面向非连续时间约束的区块链数据共享关键技术研究及实现",
-    "degree_type":  "计算机技术专业硕士",
-    "git":  {
-                "head_before_f13":  "990acbef09bba40251fbd46031cad19b9e3868dc",
-                "dirty":  true
-            },
-    "research":  {
-                     "content_1":  {
-                                       "status":  "COMPLETED_WITH_SCOPE_ADJUSTMENT",
-                                       "primary_representation":  "I*",
-                                       "derived_representation":  "C(P)",
-                                       "claim_status":  "C(P)_DEMOTED"
-                                   },
-                     "content_2":  {
-                                       "status":  "FORMAL_EVIDENCE_REQUIRES_RERUN",
-                                       "infrastructure_validation_chain_id":  2026072801,
-                                       "formal_authorization_chain_id":  2026072901,
-                                       "formal_genesis_sha256":  "7d431f01aab7d0c55c58c09346ee1f9a43475322a4aca304cfbb172b9b32add4",
-                                       "validators":  4,
-                                       "rpc_nodes":  1,
-                                       "postgresql":  "16.14",
-                                       "contract":  "0x9ef44cf538d0df457ba77c556d8785e48bfc436d",
-                                       "formal_experiment_admission":  "FORMAL_EXPERIMENT_ADMISSION_APPROVED",
-                                       "formal_run":  "formal_auth_multihost_20260729_34af4ff",
-                                       "formal_records":  103680,
-                                       "formal_raw_sha256":  "64cc50e3a3495e04460040fbf6d9ae8b3459948c3fe2ccd24618f391b47e9e6e",
-                                       "cp_position":  "C(P)_DEMOTED_CONFIRMED"
-                                   },
-                     "content_3":  {
-                                       "status":  "NOT_STARTED"
-                                   }
-                 },
-    "current_hard_stop":  {
-                              "id":  "HS-R2-FORMAL-REVIEW-001",
-                              "reason":  "material protocol deviations in live-chain access, locality generation, throughput, and cache metrics",
-                              "active":  true
-                          },
-    "formal_performance_data_allowed":  true,
-    "formal_performance_data_collected":  false,
-    "next_action":  "Correct, preregister, and completely rerun the Research Content 2 formal benchmark.",
-    "source_files":  [
-                         "infra\\besu-qbft-multihost\\formal-authorization-chain\\evidence\\f12\\formal-experiment-admission.json",
-                         "experiments\\runs\\pilot_multihost_20260729_990acbe\\processed\\audit.json"
-                     ]
+{
+  "schema_version": 2,
+  "updated_at_utc": "2026-08-05T00:00:00+00:00",
+  "project_title": "面向非连续时间约束的区块链数据共享关键技术研究及实现",
+  "degree_type": "计算机技术专业硕士",
+  "git": {
+    "note": "Working tree of this project is a linked worktree of the epoch-authorization repo; full history preserved under D:\\Research\\.git-backups\\ (see COMMIT-LINEAGE.md).",
+    "worktree_head": "29d822f",
+    "i11_execution_git_sha": "4d12daf",
+    "dirty": false,
+    "pushed": false
+  },
+  "research": {
+    "rc1": {
+      "status": "COMPLETED_WITH_SCOPE_ADJUSTMENT",
+      "primary_representation": "I*",
+      "derived_representation": "C(P)",
+      "claim_status": "C(P)_DEMOTED",
+      "source": "crypto_thesis/time-policy/研究内容一E1正式实验报告V1.0.md"
+    },
+    "rc2": {
+      "status": "COMPLETED_WITH_VALID_RERUN_EVIDENCE",
+      "formal_run": "formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795",
+      "formal_records": 77760,
+      "chain_read_records": 233280,
+      "chain_id": 2026072901,
+      "contract": "0x9ef44cf538d0df457ba77c556d8785e48bfc436d",
+      "cp_position": "C(P)_DEMOTED_CONFIRMED_BY_VALID_RERUN",
+      "invalidated_first_run": "formal_auth_multihost_20260729_34af4ff",
+      "source": "crypto_thesis/epoch-authorization/docs/reviews/research-content-2/v13-final/rc2-interface-manifest.json"
+    },
+    "rc3": {
+      "status": "FORMAL_COMPLETED",
+      "pilot": "I9 Pilot 93/93 (IMMUTABLE_PILOT_BASELINE)",
+      "preregistration": "I10 (29 configs / 145 planned measured)",
+      "formal": {
+        "attempt": "FORMAL_20260802T095534Z_4d12daf",
+        "warmup_runs": 35,
+        "measured_runs": 145,
+        "valid_runs": 145,
+        "dispositions": {
+          "VALID_SUCCESS": 120,
+          "VALID_EXPECTED_FAIL_CLOSED": 25
+        },
+        "wrong_material_release": 0,
+        "state_consistency_violations": 0
+      },
+      "thesis_chapter": "I13 writeback + integrated master (第六章)",
+      "source": "docs/research-content-3-implementation/i11/ + i12/"
+    }
+  },
+  "experiments": {
+    "formal": {
+      "rc1_e1": "crypto_thesis/time-policy/experiments/runs/e1_20260727_ec8b193_r3/ (168 configs / 15120 records)",
+      "rc2_v13": "crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_rerun_v13_20260729T073007Z_8a3d795/",
+      "rc3_i11": "experiments/r3/formal/ (180 sealed RUNs)"
+    },
+    "pilot_only": [
+      "experiments/r3/i9-pilot/ (93 RUNs)",
+      "crypto_thesis/epoch-authorization/experiments/runs/pilot_multihost_20260729_990acbe/"
+    ],
+    "invalidated": [
+      "crypto_thesis/epoch-authorization/experiments/runs/formal_auth_multihost_20260729_34af4ff/"
+    ]
+  },
+  "thesis": {
+    "integrated_draft": "docs/thesis-integration/THESIS-INTEGRATED-MASTER-DRAFT-V1.md (I14)",
+    "master_source": "docs/final-manuscript/MASTER-SOURCE.md",
+    "format_candidate": "docs/final-manuscript/output/THESIS-FORMAT-CANDIDATE-V2.docx/.pdf (I17)",
+    "submission_ready": false,
+    "literature": "I15 COMPLETED (16 refs verified)",
+    "source": "docs/final-manuscript/i17/i17-state.json"
+  },
+  "midterm": {
+    "status": "MIDTERM_REPORT_FINAL_FROZEN_READY_FOR_ADVISOR_REVIEW",
+    "version": "FINAL-CLEAN",
+    "path": "docs/midterm-report/final/FINAL-MIDTERM-SOURCE.md",
+    "source": "docs/midterm-report/final/final-midterm-state.json"
+  },
+  "small_paper": {
+    "status": "NOT_STARTED_AS_REPO_WORK",
+    "declared_plan": "拟投稿《软件学报》+ 2 patents (per midterm stage results)",
+    "source": "midterm final stage-result truth audit"
+  },
+  "next_action": {
+    "id": "NA-2026-08-05-01",
+    "action": "User reviews frozen midterm report (FINAL-CLEAN, 37 pages), confirms stage-result paper title, submits to advisor; then resume thesis finalization toward submission-ready.",
+    "source": "final-midterm-state.json + i17-state.json"
+  }
 }

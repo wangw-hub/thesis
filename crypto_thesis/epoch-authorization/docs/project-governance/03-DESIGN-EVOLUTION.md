@@ -15,9 +15,10 @@
 
 The final thesis storyline is therefore not a cosmetic repair: R1 establishes
 semantic determinism and boundaries; R2 establishes real authorization-state
-execution and its measured limits; R3 remains an independently gated next
-stage. Earlier ideas remain available for historical audit but cannot override
-current evidence.
+execution and its measured limits; R3 (implemented in the r3-prep worktree)
+closes the versioned ciphertext header and forward-looking revocation loop.
+Earlier ideas remain available for historical audit but cannot override current
+evidence.
 
 ## Independent formal authorization chain
 
